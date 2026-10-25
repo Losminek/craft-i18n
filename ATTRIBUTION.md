@@ -60,3 +60,13 @@ storytold/wordcraft#3570) in `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`, `hr`, `hu
 `ko`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans` and
 `zh-hant`, AI-assisted with Claude Code and written from the English meaning. `ro` is by a native
 speaker; no native-speaker review is recorded for the other 25.
+
+## WordCraft: Czech rows for strings added since the cutover
+
+@Losminek added 70 `cs` rows to `locales/cs/wordcraft.tsv` for WordCraft strings the code looks up
+that the Czech catalog was missing, and a `Border` override (`Ohraničení`, as in the other border labels): document recovery, bookmarks and Go To, cross-reference
+insert options, citation style names, picture corrections, colour, transparency, frames and
+borders, source import, the spelling-dictionary messages and a few status messages. AI-assisted
+with Claude Code, written from the English meaning and the call sites, with an independent AI
+review pass; not yet proofread by another native speaker. Keys that other open pull requests add
+are left to them.

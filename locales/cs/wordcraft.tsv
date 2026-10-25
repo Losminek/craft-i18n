@@ -2358,3 +2358,74 @@ preview	Title	Ukázka
 	✓ None	✓ Žádné
 	➕ New comment	➕ Nový komentář
 	📂  Browse…	📂  Procházet…
+	APA	APA
+	Above/below	Výše/níže
+	Automatically add words to list (First Letter)	Automaticky přidávat slova do seznamu (velké první písmeno)
+	Automatically add words to list (INitial CAps)	Automaticky přidávat slova do seznamu (DVě POčáteční VElká písmena)
+	Bookmark text	Text záložky
+	Bookmarks	Záložky
+	Brighter +20%	Světlejší +20 %
+	Brightness, contrast and sharpness	Jas, kontrast a ostrost
+	Chicago	Chicago
+	Continue without restoring	Pokračovat bez obnovení
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	Dokument {name} se nepodařilo uložit, proto zůstává otevřený a nic se neztratilo: {error}
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Oříznutí na stránce funguje jen u neotočených obrázků: nejdřív nastavte otočení na 0° nebo použijte pole pro oříznutí
+	Current Document	Aktuální dokument
+	Darker −20%	Tmavší −20 %
+	Discard the recovery copy of {name}?	Zahodit kopii pro obnovení dokumentu {name}?
+	Discard…	Zahodit…
+	Enter bookmark name:	Zadejte název záložky:
+	Entire caption	Celý titulek
+	Find “{text}” in the document	Najít „{text}“ v dokumentu
+	Frames and effects	Rámy a efekty
+	Full Saturation 100%	Plná sytost 100 %
+	GB/T 7714	GB/T 7714
+	GOST (name sort)	GOST (řazení podle autora)
+	GOST (title sort)	GOST (řazení podle názvu)
+	Gray 0%	Šedé 0 %
+	Harvard (Anglia)	Harvard (Anglia)
+	IEEE	IEEE
+	ISO 690 (author-date)	ISO 690 (autor–datum)
+	ISO 690 (numerical)	ISO 690 (číselný)
+	Imported 1 source	Importován 1 pramen
+	Imported {n} sources	Importované prameny: {n}
+	Journal article	Článek v odborném časopise
+	Less Contrast −20%	Nižší kontrast −20 %
+	Local recovery is unavailable or still loading.	Místní obnovení není k dispozici nebo se ještě načítá.
+	MLA	MLA
+	More Contrast +20%	Vyšší kontrast +20 %
+	Muted 50%	Tlumené 50 %
+	No new sources in that file	V tom souboru nejsou žádné nové prameny
+	No recovery copies.	Žádné kopie pro obnovení.
+	Nothing of this type in the document.	V dokumentu není nic tohoto typu.
+	Only label and number	Pouze popisek a číslo
+	Page number	Číslo stránky
+	Picture border	Ohraničení obrázku
+	Picture transparency	Průhlednost obrázku
+	Recover documents	Obnovit dokumenty
+	Recovery copy	Kopie pro obnovení
+	Recovery is disabled while this document has a password.	Dokud má tento dokument heslo, obnovení je vypnuté.
+	Restore opens an unsaved copy. Your original file stays unchanged.	Obnovení otevře neuloženou kopii. Původní soubor zůstane beze změny.
+	Rounded	Zaoblené rohy
+	SIST02	SIST02
+	Saturation and recolor	Sytost a přebarvení
+	Select a place in this document:	Vyberte místo v tomto dokumentu:
+	Sepia	Sépie
+	Simple Frame	Jednoduchý rám
+	Soft Edge	Měkký okraj
+	The number must be a divisor of {max}.	Číslo musí být dělitelem čísla {max}.
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	Pravopisný slovník pro jazyk {language} nelze přečíst, proto se nekontroluje. Soubor: {file}. Důvod: {reason}
+	Thick Frame	Silný rám
+	Thin	Tenké
+	This cannot be undone. Your original file stays unchanged.	Tuto akci nelze vrátit zpět. Původní soubor zůstane beze změny.
+	Top of the Document	Začátek dokumentu
+	Turabian	Turabian
+	Type a page number, or +2 / -1.	Zadejte číslo stránky nebo +2 / -1.
+	Vivid 200%	Živé 200 %
+	Wait for the print job to finish submitting before closing.	Před zavřením počkejte, až se dokončí odesílání tiskové úlohy.
+	Washout	Vybledlé
+	Word sources	Prameny Word
+	{language} (dictionary unreadable)	{language} (slovník nelze přečíst)
+	{language}: {file} (unreadable: {reason})	{language}: {file} (nelze přečíst: {reason})
+	{paper}   {width} × {height}	{paper}   {width} × {height}
+	Border	Ohraničení
