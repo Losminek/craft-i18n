@@ -1432,7 +1432,7 @@ template	Letter	წერილი
 	lowercase	პატარა ასოები
 	Lum:	სიკაშკ.:
 	Macros	მაკროსები
-	Made from the author and year when empty	ცარიელის შემთხვევაში იქმნება ავტორისა და წლისგან
+	Made from the author and year when empty	ცარიელისას — ავტორი და წელი
 	Magazine or newspaper article	ჟურნალის ან გაზეთის სტატია
 	Mail Merge	წერილების შერწყმა
 	Mailings	დაგზავნა
@@ -1602,7 +1602,7 @@ template	Letter	წერილი
 	No Shadow	ჩრდილის გარეშე
 	No Soft Edges	რბილი კიდეების გარეშე
 	No sources yet.	წყაროები ჯერ არ არის.
-	No Spacing	უინტერვალოდ
+	No Spacing	მჭიდრო
 	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	მართლწერის ლექსიკონი ({language}) დაყენებული არ არის, ამიტომ ტექსტი არ მოწმდება. WordCraft Hunspell-ის ლექსიკონს {name} ეძებს WORDCRAFT_DICTIONARIES საქაღალდეში და სისტემის ჩვეულებრივ მდებარეობებში.
 	No templates match your search.	ძიების შესაბამისი შაბლონი არ მოიძებნა.
 	No Transform	გარდაქმნის გარეშე
@@ -1612,13 +1612,13 @@ template	Letter	წერილი
 	Nonbreaking Hyphen	უწყვეტი დეფისი
 	Nonbreaking Space	უწყვეტი შორისი
 	None	არცერთი
-	Normal	ჩვეულებრივი
+	Normal	ძირითადი
 	Normal  {size} all	ჩვეულებრივი  {size} ყოველ მხარეს
-	Normal Indent	ჩვეულებრივი შეწევა
+	Normal Indent	ძირითადი შეწევა
 	Normal probability density	ნორმალური განაწილების სიმკვრივე
 	Normal speed	ჩვეულებრივი სიჩქარე
-	Normal Style	ჩვეულებრივი სტილი
-	Normal Table	ჩვეულებრივი ცხრილი
+	Normal Style	ძირითადი სტილი
+	Normal Table	ძირითადი ცხრილი
 	Normal Text	ჩვეულებრივი ტექსტი
 	Normal Word Document	ჩვეულებრივი Word დოკუმენტი
 	North	ჩრდილოეთი
@@ -1631,7 +1631,7 @@ template	Letter	წერილი
 	Not saved	არ არის შენახული
 	Not saved yet	ჯერ არ არის შენახული
 	Not set	არ არის დაყენებული
-	Not set: the system's usual places	არ არის მითითებული: სისტემის ჩვეულებრივი მდებარეობები
+	Not set: the system's usual places	მითითებული არ არის (სისტემური ადგილები)
 	Not used by any command	არცერთი ბრძანება არ იყენებს
 	Not {name}	არა {name}
 	Nothing	არაფერი
@@ -1746,6 +1746,7 @@ template	Letter	წერილი
 	Page break before	გვერდის გამყოფი წინ
 	Page Breaks	გვერდის გამყოფები
 	Page Color	გვერდის ფერი
+	Page color	გვერდის ფერი
 	Page display	გვერდების ჩვენება
 	Page Down	გვერდით ქვემოთ
 	Page image (*.png)	გვერდის სურათი (*.png)
@@ -1926,6 +1927,7 @@ template	Letter	წერილი
 	Reading Highlight	წაკითხვისას გამოკვეთა
 	Reading Line Spacing	კითხვისას სტრიქონთა დაშორება
 	Reading Mode	კითხვის რეჟიმი
+	Reading Page Color	კითხვის გვერდის ფერი
 	Reading Speed	კითხვის სიჩქარე
 	Reading Text Size	კითხვისას ტექსტის ზომა
 	Reads the clipboard's rich text and keeps its formatting.	კითხულობს ბუფერის ფორმატირებულ ტექსტს (RTF) და ინარჩუნებს მის ფორმატირებას.
@@ -2124,7 +2126,7 @@ template	Letter	წერილი
 	select a chart first	ჯერ მონიშნეთ დიაგრამა
 	select a connector first	ჯერ მონიშნეთ შემაერთებელი
 	select a drawing canvas first	ჯერ მონიშნეთ სახატავი ტილო
-	select a floating picture or shape first	ჯერ მონიშნეთ მცურავი სურათი ან ფიგურა
+	select a floating picture or shape first	ჯერ მონიშნეთ თავისუფლად განთავსებული სურათი ან ფიგურა
 	select a group first	ჯერ მონიშნეთ ჯგუფი
 	select a picture first	ჯერ მონიშნეთ სურათი
 	select a picture or shape first	ჯერ მონიშნეთ სურათი ან ფიგურა
@@ -2322,8 +2324,10 @@ template	Letter	წერილი
 	Spacing	ინტერვალი
 	Spacing (pt):	ინტერვალი (პტ):
 	Spacing:	ინტერვალი:
+	Spanish (Latin America)	ესპანური (ლათინური ამერიკა)
 	Spanish (Mexico)	ესპანური (მექსიკა)
 	Spanish (Spain)	ესპანური (ესპანეთი)
+	Spanish (Uruguay)	ესპანური (ურუგვაი)
 	Sparse Matrices	იშვიათი მატრიცები
 	Special	სპეციალური
 	Special Characters	სპეციალური სიმბოლოები
@@ -2512,7 +2516,7 @@ template	Letter	წერილი
 	The spelling and grammar check is complete.	მართლწერისა და გრამატიკის შემოწმება დასრულდა.
 	the Spike is empty	კრებული ცარიელია
 	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	სისტემის ფაილის ფანჯარა მიუწვდომელია, ამიტომ WordCraft საკუთარს აჩვენებს. სისტემის ფანჯრისთვის დააინსტალირეთ ფაილის არჩევის პორტალი (მაგალითად, xdg-desktop-portal-gtk) ან zenity.
-	The text at the insertion point is marked Do not check spelling or grammar.	კურსორთან მდებარე ტექსტზე ჩართულია „მართლწერისა და გრამატიკის შემოწმების გარეშე“.
+	The text at the insertion point is marked Do not check spelling or grammar.	კურსორთან მდებარე ტექსტი მონიშნულია, როგორც „მართლწერისა და გრამატიკის შემოწმების გარეშე“.
 	The time right now	მიმდინარე დრო
 	Theme Colors	თემის ფერები
 	Theme Fonts	თემის შრიფტები

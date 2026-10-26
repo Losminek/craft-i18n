@@ -114,6 +114,9 @@
 	Advanced Find…	Avancerad sökning…
 	After:	Efter:
 	Agents	Agenter
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenter som är anslutna till WordCraft kan visa dig meddelanden via assistenten. När de är avstängda får de veta att du inte vill det.
+	Ah, Latin. The language of deadlines.	Ah, latin. Deadlinernas officiella språk.
+	Ah, the editing phase. My favourite. Very decisive.	Ah, redigeringsfasen. Min favorit. Mycket beslutsamt.
 	Align Bottom Center	Justera nere i mitten
 	Align Bottom Left	Justera nere till vänster
 	Align Bottom Right	Justera nere till höger
@@ -145,6 +148,7 @@
 	Alt Text Pane	Alternativtextpanel
 	Alt:	Alt-text:
 	Alt\nText	Alternativ-\ntext
+	an agent	en agent
 	And	Och
 	Angle Brackets	Vinkelparenteser
 	Angle Brackets with Separator	Vinkelparenteser med avgränsare
@@ -154,6 +158,7 @@
 	Annotation Reference	Kommentarsreferens
 	Annotation Subject	Kommentarsämne
 	Annotation Text	Kommentarstext
+	Annoying	Irriterande
 	Another file	En annan fil
 	Any Character	Valfritt tecken
 	Any Digit	Valfri siffra
@@ -178,6 +183,8 @@
 	ASAP	SNARAST
 	Asian text font:	Typsnitt för asiatisk text:
 	Asian Typography	Asiatisk typografi
+	Assistant	Assistent
+	Assistant Suggestions	Assistentens förslag
 	At least	Minst
 	At least {n}	Minst {n}
 	Atelier	Ateljé
@@ -248,6 +255,7 @@
 	Blue:	Blå:
 	Body Text	Brödtext
 	Body text in a short paragraph to show spacing.	Brödtext i ett kort stycke som visar avståndet.
+	Bold choice. Ctrl+Z is right there if you need it.	Modigt val. Ctrl+Z finns precis här om du behöver det.
 	Book	Bok
 	Book Title	Boktitel
 	Book title	Boktitel
@@ -285,6 +293,7 @@
 	By author	Efter författare
 	Calendar	Kalender
 	Can't be deleted	Kan inte tas bort
+	Can't find a command? Press Alt+Q and type what you want to do.	Hittar du inte ett kommando? Tryck på Alt+Q och skriv vad du vill göra.
 	can't split at the first row	kan inte dela vid första raden
 	Canvas Member	Del av ritytan
 	Capitalize Each Word	Stor Bokstav I Varje Ord
@@ -296,6 +305,7 @@
 	Caption text	Bildtext
 	Caption:	Bildtext:
 	Captions	Bildtexter
+	Careful, any further back and we'll undo the invention of paper.	Försiktigt, lite längre bak så ångrar vi uppfinningen av papperet.
 	Caret Character	Cirkumflex
 	Case changes	Ändrat skiftläge
 	Cases (Three Conditions)	Fall (tre villkor)
@@ -501,6 +511,10 @@
 	Croatian	Kroatiska
 	Cross-reference	Korsreferens
 	Cross-reference:	Korsreferens:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter börjar en ny sida. Mycket snyggare än att trycka på Enter tills det händer.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H söker och ersätter text, formatering och specialtecken.
+	Ctrl+K turns the selected text into a link.	Ctrl+K gör den markerade texten till en länk.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G räknar dina ord, tecken och stycken.
 	Cube Root	Kubikrot
 	Current - Linear	Aktuell – linjär
 	Current - Professional	Aktuell – professionell
@@ -625,6 +639,7 @@
 	Don't capitalize after:	Ingen versal efter:
 	Don't hyphenate	Avstava inte
 	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Läs inte upp källhänvisningar och källförteckningar från Zotero, Mendeley eller EndNote
+	Don't show me this tip again	Visa inte det här tipset igen
 	Dot dash	Punkt-streck
 	Dot-dash	Punkt-streck
 	Dot-dot-dash	Punkt-punkt-streck
@@ -761,6 +776,9 @@
 	Extend Selection	Utöka markeringen
 	Extend Selection by Units	Utöka markeringen med enheter
 	Extra space	Extra blanksteg
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 upprepar din senaste åtgärd. Att formatera tio rubriker blir plötsligt ett klick och nio tryck.
+	F7 checks the spelling and grammar of the whole document.	F7 kontrollerar stavning och grammatik i hela dokumentet.
+	Faster: {command} is {key} on the keyboard.	Snabbare: {command} är {key} på tangentbordet.
 	Field code:	Fältkod:
 	Field Codes	Fältkoder
 	Field codes:	Fältkoder:
@@ -842,10 +860,12 @@
 	From Top Left Corner	Från övre vänstra hörnet
 	From Top Right Corner	Från övre högra hörnet
 	from Unicode (hex)	från Unicode (hex)
+	From {name}	Från {name}
 	From:	Från:
 	Full page of the same label	Hel sida med samma etikett
 	Full Screen View	Helskärmsvisning
 	Full\nScreen	Hel-\nskärm
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Kul fakta: en tom sida är bara ett utkast som ingen har berättat det för än.
 	Function	Funktion
 	Gallery	Galleri
 	GB/T 7714	GB/T 7714
@@ -859,6 +879,7 @@
 	Go to Record	Gå till post
 	Go to what:	Gå till:
 	Go To…	Gå till…
+	Gone! Like it was never written. Mostly because it now wasn't.	Borta! Som om det aldrig skrivits. Mest för att det nu faktiskt aldrig har det.
 	Good afternoon	God eftermiddag
 	Good evening	God kväll
 	Good morning	God morgon
@@ -904,6 +925,7 @@
 	Heading {n}	Rubrik {n}
 	Hebrew	Hebreiska
 	Hex:	Hex:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Hej! Jag är Nib, din skrivassistent. Jag bjuder på tips, kortkommandon och en och annan oombedd åsikt. Ska jag hänga kvar?
 	Hidden bookmarks	Dolda bokmärken
 	Hide Codes	Dölj koder
 	Hide from style lists	Dölj i stillistor
@@ -938,6 +960,8 @@
 	Hyphenation zone:	Avstavningszon:
 	Hyphens (--) as dashes (—)	Bindestreck (--) som tankstreck (—)
 	Hypotenuse	Hypotenusa
+	I promise it's saved. I checked. Twice.	Jag lovar att det är sparat. Jag kollade. Två gånger.
+	I'd write something myself, but I'm all nib and no ink.	Jag skulle skriva något själv, men jag är mycket spets och lite bläck.
 	I, II, III, …	I, II, III, …
 	i, ii, iii, …	i, ii, iii, …
 	Icon Color	Ikonfärg
@@ -1068,6 +1092,7 @@
 	ISO 690 (author-date)	ISO 690 (författare–år)
 	ISO 690 (numerical)	ISO 690 (numerisk)
 	Issue	Nummer
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	Det ser ut som att du skriver ett brev. Vill du ha ett kuvert till det, eller en brevmall att utgå från?
 	Join the ArtCraft community on Discord	Gå med i ArtCrafts community på Discord
 	Join us on Discord: discord.gg/artcraft	Gå med i ArtCrafts community på Discord: discord.gg/artcraft
 	Journal	Tidskrift
@@ -1075,6 +1100,7 @@
 	Justified	Marginaljusterad
 	Keep Lines Together	Håll ihop raderna
 	Keep lines together	Håll ihop raderna
+	Keep me around	Häng kvar
 	Keep Text Only	Behåll bara texten
 	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Förvara lösenordet på ett säkert ställe: utan det kan ingen, inte heller WordCraft, öppna dokumentet. Lämna båda rutorna tomma för att ta bort lösenordet.
 	Keep with Next	Håll ihop med nästa
@@ -1127,6 +1153,7 @@
 template	Letter	Brev
 	Letter   8.50" × 11.00"	Letter   8,50" × 11,00"
 	Letter headings	Bokstavsrubriker
+	Letter template	Brevmall
 	Letter-Like Symbols	Bokstavsliknande symboler
 	Letters	Brev
 	Level 5	Nivå 5
@@ -1201,6 +1228,7 @@ template	Letter	Brev
 	Logical AND with Limits	Logiskt OCH med gränser
 	Logical OR	Logiskt ELLER
 	Logical OR with Limits	Logiskt ELLER med gränser
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: för att de riktiga orden fortfarande sitter och fikar.
 	Lum:	Ljush.:
 	Macros	Makron
 	Made from the author and year when empty	Skapas från författare och år om fältet är tomt
@@ -1289,6 +1317,7 @@ template	Letter	Brev
 	Multilevel List	Lista med flera nivåer
 	Multilevel List Library	Bibliotek med listor med flera nivåer
 	Multiple Pages	Flera sidor
+	Mute agent messages	Stäng av agentmeddelanden
 	My list has	Min lista har
 	Name of the file this document is saved as	Namnet på filen som dokumentet är sparat som
 	Narrow	Smal
@@ -1318,6 +1347,8 @@ template	Letter	Brev
 	Next Section	Nästa avsnitt
 	Next Sentence	Nästa mening
 	Next sentence	Nästa mening
+	Nib floats over the window with tips and the occasional remark.	Nib svävar över fönstret med tips och en och annan kommentar.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, din assistent. Dra för att flytta; högerklicka för alternativ.
 	No accessibility issues found.	Inga tillgänglighetsproblem hittades.
 	No Border	Ingen kantlinje
 	No changes (read only)	Inga ändringar (skrivskyddat)
@@ -1365,6 +1396,7 @@ template	Letter	Brev
 	not editing an equation	ingen ekvation redigeras
 	Not equal to	Inte lika med
 	Not linked: click a text box	Inte länkad: klicka på en textruta
+	Not now	Inte nu
 	Not saved	Inte sparat
 	Not saved yet	Inte sparat än
 	Not set	Inte angivet
@@ -1689,6 +1721,7 @@ template	Letter	Brev
 	Reset Graphic	Återställ grafik
 	Reset Paragraph Formatting	Återställ styckeformatering
 	Reset Picture	Återställ bild
+	Reset tips	Återställ tips
 	Reset to Normal	Återställ till Normal
 	Reset\nGraphic	Återställ\ngrafik
 	Resize Table by Dragging	Ändra tabellens storlek genom att dra
@@ -1708,6 +1741,7 @@ template	Letter	Brev
 	Reviewing — edits become suggestions	Granskning – ändringar blir förslag
 	Revised document	Reviderat dokument
 	Rewind	Spola tillbaka
+	Rewinding. Tell me when to stop.	Spolar tillbaka. Säg till när jag ska stanna.
 	Ribbon	Verktygspanel
 	Ribbon and Quick Access Toolbar:	Verktygspanel och snabbverktygsfält:
 	Ribbon tabs	Verktygspanelens flikar
@@ -1751,8 +1785,11 @@ template	Letter	Brev
 	Save the document to turn on AutoSave	Spara dokumentet för att slå på Autospara
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Spara dokumentet för att slå på Autospara (en fil som du bara har öppnat skrivs inte om förrän du sparar den)
 	Save these pages as PDF…	Spara de här sidorna som PDF…
+	Saved. Saved again. Still saved. It's very saved.	Sparat. Sparat igen. Fortfarande sparat. Det är väldigt sparat.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Sparar en .dotx-mall i din mallmapp. Den visas i Arkiv › Ny under Personliga.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	Sparandet av {name} avbröts, så dokumentet är fortfarande öppet och inget gick förlorat.
+	Sayings	Kvickheter
+	Sayings:	Repliker:
 	Scale Drawing	Skala ritningen
 	Scatter	Punktdiagram
 	Script	Index
@@ -1839,6 +1876,7 @@ template	Letter	Brev
 	Shape Outline	Figurkontur
 	Shape Styles	Figurstilar
 	Shapes	Figurer
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter börjar en ny rad utan att börja ett nytt stycke.
 	Shift+Tab	Shift+Tab
 	Shipping labels	Fraktetiketter
 	Shortcut key:	Kortkommando:
@@ -1875,13 +1913,16 @@ template	Letter	Brev
 	Show Quick Access Toolbar	Visa snabbverktygsfältet
 	Show revisions in balloons	Visa ändringar i pratbubblor
 	Show Text Formatting	Visa textformatering
+	Show the Assistant	Visa assistenten
 	Show the community button in the title bar	Visa community-knappen i namnlisten
 	Show the equation in the line of text	Visa ekvationen på textraden
 	Show the equation on a line of its own	Visa ekvationen på en egen rad
 	Show the mini toolbar when text is selected	Visa miniverktygsfältet när text är markerad
 	Show the ribbon	Visa menyfliksområdet
 	Show the Start screen when WordCraft starts	Visa startskärmen när WordCraft startar
+	Show the tips you asked not to see again.	Visa tipsen du bett att inte se igen.
 	Show/Hide ¶	Visa/dölj ¶
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	Visa/dölj ¶ (Ctrl+Shift+8) visar mellanslag, tabbar och brytningar som gömmer sig i texten.
 	Show\nComments	Visa\nkommentarer
 	Showing the first {count} items.	Visar de första {count} objekten.
 	Shows a tree: each item below the item it belongs to.	Visar ett träd: varje objekt under det objekt det hör till.
@@ -1938,6 +1979,7 @@ template	Letter	Brev
 	Soft Glow	Mjuk glöd
 	Solid Accent	Fylld accent
 	Solid fill	Heldragen fyllning
+	Sometimes	Ibland
 	Sort by:	Sortera efter:
 	Sort order:	Sorteringsordning:
 	Sort Recipients	Sortera mottagare
@@ -1983,6 +2025,7 @@ template	Letter	Brev
 	Start-up	Start
 	State	Region
 	Statement   5.50" × 8.50"	Statement   5,50" × 8,50"
+	Still there? I can hear you thinking.	Är du kvar? Jag hör dig tänka.
 	Stop Protection	Avsluta skyddet
 	Stop Reading	Sluta läsa
 	Stopped	Stoppad
@@ -2059,6 +2102,7 @@ template	Letter	Brev
 	Tabular List	Lista i tabellform
 	Tag	Tagg
 	Take the last match on the page	Använd den sista träffen på sidan
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Ta den tid du behöver. Sidan går ingenstans. Inte jag heller. Någonsin.
 	Tangent formula	Tangensformel
 	Tangent Function	Tangensfunktion
 	TC entry fields	TC-fält (innehållsposter)
@@ -2142,6 +2186,7 @@ template	Letter	Brev
 	Through	Genom
 	Tight	Tät
 	Tilde	Tilde
+	Tip	Tips
 	Tips ({n})	Tips ({n})
 preview	Title	Titel
 	Title Bar	Namnlist
@@ -2220,6 +2265,7 @@ preview	Title	Titel
 	Undo Actions	Ångra åtgärder
 	Undo History	Ångrahistorik
 	Undo {n} Actions	Ångra {n} åtgärder
+	Undo, undo, undo… we're time travelling now.	Ångra, ångra, ångra… nu tidsreser vi.
 	Unformatted Text	Oformaterad text
 	Union of intersections	Union av snitt
 	Union with Limits	Union med gränser
@@ -2263,6 +2309,7 @@ preview	Title	Titel
 	View Alt Text…	Visa alternativtext…
 	View Gridlines	Visa stödlinjer
 	View State	Visningstillstånd
+	View › Focus hides everything but your words. I'll wait outside.	Visa › Fokus döljer allt utom dina ord. Jag väntar utanför.
 	Views	Vyer
 	Visual effects	Visuella effekter
 	Volume	Volym
@@ -2314,9 +2361,13 @@ preview	Title	Titel
 	Wrap\nText	Text-\nombrytning
 	Write & Insert Fields	Skriv och infoga fält
 	Write a reply	Skriv ett svar
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Skrivkramp? Jag brukar stirra på markören. Den har blinkat åt mig i åratal.
 	x bar	x streck
 	Year	År
 	Yields	Ger
+	You haven't saved in a while, and AutoSave is off. Save now?	Du har inte sparat på ett tag, och Autospara är av. Spara nu?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Du har påbörjat en lista. Tryck på Enter två gånger för att avsluta den, eller på Backspace i början av en punkt för att göra den till vanlig text igen.
+	Your document is now the most saved document in history.	Ditt dokument är nu historiens mest sparade dokument.
 	Your system doesn't report an animation setting, so animation effects stay on.	Systemet anger ingen inställning för animering, så animeringseffekterna är fortsatt på.
 	Your system has animation effects turned off.	Animeringseffekter är avstängda i systemet.
 	Your system has animation effects turned on.	Animeringseffekter är påslagna i systemet.
@@ -2353,6 +2404,9 @@ preview	Title	Titel
 	{width} × {height} mm	{width} × {height} mm
 	{width} × {height} pixels	{width} × {height} pixlar
 	{words} words	{words} ord
+	{words} words and counting. Literally. I'm counting.	{words} ord och fler blir det. Bokstavligen. Jag räknar.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} ord! Jag skulle kasta konfetti, men då måste jag städa upp efteråt.
+	{words} words. That's {words} more than I've written today.	{words} ord. Det är {words} fler än jag har skrivit i dag.
 	“{text}” ({row}, {series}) isn't a number.	”{text}” ({row}, {series}) är inget tal.
 	✓ None	✓ Ingen
 	➕ New comment	➕ Ny kommentar

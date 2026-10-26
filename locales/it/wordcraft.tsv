@@ -114,6 +114,9 @@
 	Advanced Find…	Ricerca avanzata…
 	After:	Dopo:
 	Agents	Agenti
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Gli agenti collegati a WordCraft possono mostrarti messaggi tramite l'assistente. Se disattivati, viene comunicato loro che preferisci di no.
+	Ah, Latin. The language of deadlines.	Ah, il latino. La lingua ufficiale delle scadenze.
+	Ah, the editing phase. My favourite. Very decisive.	Ah, la fase di revisione. La mia preferita. Molto decisa.
 	Align Bottom Center	Allinea in basso al centro
 	Align Bottom Left	Allinea in basso a sinistra
 	Align Bottom Right	Allinea in basso a destra
@@ -146,6 +149,7 @@
 	Alt Text Pane	Riquadro Testo alternativo
 	Alt:	Alt:
 	Alt\nText	Testo\nalternativo
+	an agent	un agente
 	And	E
 	Angle Brackets	Parentesi angolari
 	Angle Brackets with Separator	Parentesi angolari con separatore
@@ -155,6 +159,7 @@
 	Annotation Reference	Rimando commento
 	Annotation Subject	Oggetto commento
 	Annotation Text	Testo commento
+	Annoying	Assillante
 	Another file	Un altro file
 	Any Character	Qualsiasi carattere
 	Any Digit	Qualsiasi cifra
@@ -179,6 +184,8 @@
 	ASAP	QUANTO PRIMA
 	Asian text font:	Carattere testo asiatico:
 	Asian Typography	Tipografia asiatica
+	Assistant	Assistente
+	Assistant Suggestions	Suggerimenti dell'assistente
 	At least	Almeno
 	At least {n}	Almeno {n}
 	Atelier	Atelier
@@ -249,6 +256,7 @@
 	Blue:	Blu:
 	Body Text	Corpo del testo
 	Body text in a short paragraph to show spacing.	Testo del corpo in un breve paragrafo per mostrare la spaziatura.
+	Bold choice. Ctrl+Z is right there if you need it.	Scelta audace. Ctrl+Z è lì, se serve.
 	Book	Libro
 	Book Title	Titolo del libro
 	Book title	Titolo del libro
@@ -287,6 +295,7 @@
 	By author	Per autore
 	Calendar	Calendario
 	Can't be deleted	Non può essere eliminato
+	Can't find a command? Press Alt+Q and type what you want to do.	Non trovi un comando? Premi Alt+Q e scrivi cosa vuoi fare.
 	can't split at the first row	impossibile dividere la tabella alla prima riga
 	Canvas Member	Elemento dell'area di disegno
 	Capitalize Each Word	Iniziali maiuscole
@@ -298,6 +307,7 @@
 	Caption text	Testo della didascalia
 	Caption:	Didascalia:
 	Captions	Didascalie
+	Careful, any further back and we'll undo the invention of paper.	Attenzione, ancora un po' e annulliamo l'invenzione della carta.
 	Caret Character	Accento circonflesso
 	Case changes	Modifiche maiuscole/minuscole
 	Cases (Three Conditions)	Casi (tre condizioni)
@@ -505,6 +515,10 @@
 	Croatian	Croato
 	Cross-reference	Riferimento incrociato
 	Cross-reference:	Riferimento incrociato:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter inizia una nuova pagina. Molto più ordinato che premere Invio finché non succede.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H trova e sostituisce testo, formattazione e caratteri speciali.
+	Ctrl+K turns the selected text into a link.	Ctrl+K trasforma il testo selezionato in un collegamento.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G conta parole, caratteri e paragrafi.
 	Cube Root	Radice cubica
 	Current - Linear	Corrente - Lineare
 	Current - Professional	Corrente - Professionale
@@ -631,6 +645,7 @@
 	Don't capitalize after:	Non usare la maiuscola dopo:
 	Don't hyphenate	Non sillabare
 	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Non leggere citazioni e bibliografie di Zotero, Mendeley o EndNote
+	Don't show me this tip again	Non mostrare più questo suggerimento
 	Dot dash	Punto linea
 	Dot-dash	Punto linea
 	Dot-dot-dash	Punto punto linea
@@ -770,6 +785,9 @@
 	Extend Selection	Estendi selezione
 	Extend Selection by Units	Estendi selezione per unità
 	Extra space	Spazio in più
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 ripete l'ultima azione. Formattare dieci titoli diventa all'improvviso un clic e nove tasti.
+	F7 checks the spelling and grammar of the whole document.	F7 controlla l'ortografia e la grammatica dell'intero documento.
+	Faster: {command} is {key} on the keyboard.	Più veloce: {command} è {key} sulla tastiera.
 	Field code:	Codice di campo:
 	Field Codes	Codici di campo
 	Field codes:	Codici di campo:
@@ -855,10 +873,12 @@
 	From Top Left Corner	Dall'angolo in alto a sinistra
 	From Top Right Corner	Dall'angolo in alto a destra
 	from Unicode (hex)	da Unicode (esad.)
+	From {name}	Da {name}
 	From:	Da:
 	Full page of the same label	Pagina intera con la stessa etichetta
 	Full Screen View	Visualizzazione a schermo intero
 	Full\nScreen	Schermo\nintero
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Curiosità: una pagina bianca è solo una bozza a cui nessuno l'ha ancora detto.
 	Function	Funzione
 	Gallery	Galleria
 	GB/T 7714	GB/T 7714
@@ -872,6 +892,7 @@
 	Go to Record	Vai al record
 	Go to what:	Vai a:
 	Go To…	Vai a…
+	Gone! Like it was never written. Mostly because it now wasn't.	Sparito! Come se non fosse mai stato scritto. Soprattutto perché ora, in effetti, non lo è mai stato.
 	Good afternoon	Buon pomeriggio
 	Good evening	Buonasera
 	Good morning	Buongiorno
@@ -918,6 +939,7 @@
 	Hebrew	Ebraico
 	Help	Guida
 	Hex:	Esad.:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Ciao! Sono Nib, il tuo assistente di scrittura. Offro consigli, scorciatoie e, ogni tanto, un'opinione non richiesta. Resto nei paraggi?
 	Hidden bookmarks	Segnalibri nascosti
 	Hide Codes	Nascondi codici
 	Hide from style lists	Nascondi dagli elenchi di stili
@@ -952,6 +974,8 @@
 	Hyphenation zone:	Area di sillabazione:
 	Hyphens (--) as dashes (—)	Trattini (--) con lineette (—)
 	Hypotenuse	Ipotenusa
+	I promise it's saved. I checked. Twice.	Giuro che è salvato. Ho controllato. Due volte.
+	I'd write something myself, but I'm all nib and no ink.	Scriverei qualcosa anch'io, ma sono tanto pennino e poco inchiostro.
 	I, II, III, …	I, II, III, …
 	i, ii, iii, …	i, ii, iii, …
 	Icon Color	Colore icona
@@ -1084,6 +1108,7 @@
 	ISO 690 (author-date)	ISO 690 (autore-data)
 	ISO 690 (numerical)	ISO 690 (numerico)
 	Issue	Fascicolo
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	Sembra che tu stia scrivendo una lettera. Vuoi una busta, o un modello di lettera da cui partire?
 	Join the ArtCraft community on Discord	Unisciti alla community di ArtCraft su Discord
 	Join us on Discord: discord.gg/artcraft	Unisciti a noi su Discord: discord.gg/artcraft
 	Journal	Rivista scientifica
@@ -1092,6 +1117,7 @@
 	Justified	Giustificato
 	Keep Lines Together	Mantieni righe insieme
 	Keep lines together	Mantieni righe insieme
+	Keep me around	Resta nei paraggi
 	Keep Text Only	Mantieni solo testo
 	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Conserva la password in un luogo sicuro: senza di essa nessuno, nemmeno WordCraft, può aprire il documento. Lascia vuote entrambe le caselle per rimuovere la password.
 	Keep with Next	Mantieni con il successivo
@@ -1145,6 +1171,7 @@
 template	Letter	Lettera
 	Letter   8.50" × 11.00"	Letter   8,50" × 11,00"
 	Letter headings	Intestazioni per lettera
+	Letter template	Modello di lettera
 	Letter-Like Symbols	Simboli simili a lettere
 	Letters	Lettere
 	Level 5	Livello 5
@@ -1219,6 +1246,7 @@ template	Letter	Lettera
 	Logical AND with Limits	AND logico con limiti
 	Logical OR	OR logico
 	Logical OR with Limits	OR logico con limiti
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: perché le parole vere sono ancora al bar.
 	Lum:	Lum.:
 	Macros	Macro
 	Made from the author and year when empty	Se vuoto, viene composto da autore e anno
@@ -1309,6 +1337,7 @@ template	Letter	Lettera
 	Multilevel List	Elenco a più livelli
 	Multilevel List Library	Raccolta elenchi a più livelli
 	Multiple Pages	Più pagine
+	Mute agent messages	Disattiva i messaggi degli agenti
 	My list has	L’elenco ha
 	Name of the file this document is saved as	Nome del file con cui è salvato il documento
 	Narrow	Stretta
@@ -1339,6 +1368,8 @@ template	Letter	Lettera
 	Next Section	Sezione successiva
 	Next Sentence	Frase successiva
 	Next sentence	Frase successiva
+	Nib floats over the window with tips and the occasional remark.	Nib fluttua sopra la finestra con suggerimenti e qualche commento occasionale.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, il tuo assistente. Trascina per spostarlo; clic destro per le opzioni.
 	No accessibility issues found.	Nessun problema di accessibilità trovato.
 	No Border	Nessun bordo
 	No changes (read only)	Nessuna modifica (sola lettura)
@@ -1387,6 +1418,7 @@ template	Letter	Lettera
 	not editing an equation	nessuna equazione in modifica
 	Not equal to	Diverso da
 	Not linked: click a text box	Non collegata: fai clic su una casella di testo
+	Not now	Non ora
 	Not saved	Non salvato
 	Not saved yet	Non ancora salvato
 	Not set	Non impostato
@@ -1716,6 +1748,7 @@ template	Letter	Lettera
 	Reset Graphic	Reimposta elemento grafico
 	Reset Paragraph Formatting	Reimposta formattazione paragrafo
 	Reset Picture	Reimposta immagine
+	Reset tips	Reimposta suggerimenti
 	Reset to Normal	Ripristina Normale
 	Reset\nGraphic	Reimposta\nelemento grafico
 	Resize Table by Dragging	Ridimensiona la tabella trascinando
@@ -1735,6 +1768,7 @@ template	Letter	Lettera
 	Reviewing — edits become suggestions	Revisione: le modifiche diventano suggerimenti
 	Revised document	Documento revisionato
 	Rewind	Riavvolgi
+	Rewinding. Tell me when to stop.	Riavvolgo. Dimmi quando fermarmi.
 	Ribbon	Barra multifunzione
 	Ribbon and Quick Access Toolbar:	Barra multifunzione e barra di accesso rapido:
 	Ribbon tabs	Schede della barra multifunzione
@@ -1779,8 +1813,11 @@ template	Letter	Lettera
 	Save the document to turn on AutoSave	Salva il documento per attivare il salvataggio automatico
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Salva il documento per attivare il salvataggio automatico (un file solo aperto non viene riscritto finché non lo salvi)
 	Save these pages as PDF…	Salva queste pagine come PDF…
+	Saved. Saved again. Still saved. It's very saved.	Salvato. Salvato di nuovo. Ancora salvato. È salvatissimo.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Salva un modello .dotx nella cartella dei modelli. Compare in File › Nuovo, in Personali.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	Il salvataggio di {name} è stato annullato: il documento è ancora aperto e non è andato perso nulla.
+	Sayings	Battute
+	Sayings:	Battute:
 	Scale Drawing	Ridimensiona disegno
 	Scatter	Dispersione
 	Script	Indice
@@ -1867,6 +1904,7 @@ template	Letter	Lettera
 	Shape Format	Formato forma
 	Shape Outline	Contorno forma
 	Shape Styles	Stili forma
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter inizia una nuova riga senza iniziare un nuovo paragrafo.
 	Shift+Tab	Maiusc+Tab
 	Shipping labels	Etichette di spedizione
 	Shortcut key:	Tasto di scelta rapida:
@@ -1903,13 +1941,16 @@ template	Letter	Lettera
 	Show Quick Access Toolbar	Mostra barra di accesso rapido
 	Show revisions in balloons	Mostra revisioni nei fumetti
 	Show Text Formatting	Mostra formattazione testo
+	Show the Assistant	Mostra l'assistente
 	Show the community button in the title bar	Mostra il pulsante della community nella barra del titolo
 	Show the equation in the line of text	Mostra l'equazione nella riga di testo
 	Show the equation on a line of its own	Mostra l'equazione su una riga propria
 	Show the mini toolbar when text is selected	Mostra la barra di formattazione rapida quando selezioni il testo
 	Show the ribbon	Mostra la barra multifunzione
 	Show the Start screen when WordCraft starts	Mostra la schermata iniziale all'avvio di WordCraft
+	Show the tips you asked not to see again.	Mostra di nuovo i suggerimenti che hai chiesto di non vedere.
 	Show/Hide ¶	Mostra tutto
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	Mostra tutto (Ctrl+Shift+8) rivela gli spazi, le tabulazioni e le interruzioni nascosti nel testo.
 	Show\nComments	Mostra\ncommenti
 	Showing the first {count} items.	Sono mostrati i primi {count} elementi.
 	Shows a tree: each item below the item it belongs to.	Mostra un albero: ogni elemento sta sotto quello a cui appartiene.
@@ -1968,6 +2009,7 @@ template	Letter	Lettera
 	Soft Glow	Bagliore tenue
 	Solid Accent	Colore pieno
 	Solid fill	Riempimento a tinta unita
+	Sometimes	A volte
 	Sort by:	Ordina per:
 	Sort order:	Ordinamento:
 	Sort Recipients	Ordina destinatari
@@ -2014,6 +2056,7 @@ template	Letter	Lettera
 	Start-up	Avvio
 	State	Stato/Provincia
 	Statement   5.50" × 8.50"	Statement   5,50" × 8,50"
+	Still there? I can hear you thinking.	Ci sei ancora? Ti sento pensare.
 	Stop Protection	Interrompi protezione
 	Stop Reading	Interrompi lettura
 	Stopped	Interrotto
@@ -2090,6 +2133,7 @@ template	Letter	Lettera
 	Tabular List	Elenco tabulare
 	Tag	Tag
 	Take the last match on the page	Prendi l'ultima corrispondenza della pagina
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Prenditi il tuo tempo. La pagina non scappa. E nemmeno io. Mai.
 	Tangent formula	Formula della tangente
 	Tangent Function	Funzione tangente
 	TC entry fields	Campi voce TC
@@ -2173,6 +2217,7 @@ template	Letter	Lettera
 	Through	Passante
 	Tight	Ravvicinato
 	Tilde	Tilde
+	Tip	Suggerimento
 	Tips ({n})	Suggerimenti ({n})
 preview	Title	Esempio
 	Title Bar	Barra del titolo
@@ -2251,6 +2296,7 @@ preview	Title	Esempio
 	Undo Actions	Annulla azioni
 	Undo History	Cronologia annullamenti
 	Undo {n} Actions	Annulla {n} azioni
+	Undo, undo, undo… we're time travelling now.	Annulla, annulla, annulla… ora stiamo viaggiando nel tempo.
 	Unformatted Text	Testo non formattato
 	Union of intersections	Unione di intersezioni
 	Union with Limits	Unione con limiti
@@ -2295,6 +2341,7 @@ preview	Title	Esempio
 	View Alt Text…	Visualizza testo alternativo…
 	View Gridlines	Visualizza griglia
 	View State	Stato visualizzazione
+	View › Focus hides everything but your words. I'll wait outside.	Visualizza › Concentrazione nasconde tutto tranne le tue parole. Ti aspetto fuori.
 	Views	Visualizzazioni
 	Visual effects	Effetti visivi
 	Volume	Volume
@@ -2346,10 +2393,14 @@ preview	Title	Esempio
 	Wrap\nText	Disponi\ntesto
 	Write & Insert Fields	Composizione e inserimento campi
 	Write a reply	Scrivi una risposta
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Blocco dello scrittore? A me aiuta fissare il cursore. Mi fa l'occhiolino da anni.
 	x bar	x segnato
 	Year	Anno
 	Yields	Produce
+	You haven't saved in a while, and AutoSave is off. Save now?	Non salvi da un po' e il salvataggio automatico è disattivato. Salvare ora?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Hai iniziato un elenco. Premi Invio due volte per terminarlo, o Backspace all'inizio di una voce per trasformarla di nuovo in testo.
 	Your changes will be lost if you don't save them.	Se non salvi le modifiche, andranno perse.
+	Your document is now the most saved document in history.	Il tuo documento è ora il documento più salvato della storia.
 	Your system doesn't report an animation setting, so animation effects stay on.	Il sistema non indica un'impostazione per le animazioni, quindi gli effetti di animazione restano attivi.
 	Your system has animation effects turned off.	Nel sistema gli effetti di animazione sono disattivati.
 	Your system has animation effects turned on.	Nel sistema gli effetti di animazione sono attivati.
@@ -2387,6 +2438,9 @@ preview	Title	Esempio
 	{width} × {height} mm	{width} × {height} mm
 	{width} × {height} pixels	{width} × {height} pixel
 	{words} words	Parole: {words}
+	{words} words and counting. Literally. I'm counting.	{words} parole e si continua. Letteralmente. Sto contando.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} parole! Lancerei coriandoli, ma poi toccherebbe a me raccoglierli.
+	{words} words. That's {words} more than I've written today.	{words} parole. Sono {words} più di quante ne abbia scritte io oggi.
 	“{text}” ({row}, {series}) isn't a number.	“{text}” ({row}, {series}) non è un numero.
 	✓ None	✓ Nessuno
 	➕ New comment	➕ Nuovo commento

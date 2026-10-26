@@ -114,6 +114,9 @@
 	Advanced Find…	Rozšířené hledání…
 	After:	Za:
 	Agents	Agenti
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenti připojení k WordCraftu vám mohou přes asistenta zobrazovat zprávy. Když je ztlumíte, dozvědí se, že o ně nestojíte.
+	Ah, Latin. The language of deadlines.	Á, latina. Jazyk mrtvý jako včerejší uzávěrka.
+	Ah, the editing phase. My favourite. Very decisive.	Á, fáze úprav. Moje oblíbená. Velmi rázná.
 	Align Bottom Center	Zarovnat dolů na střed
 	Align Bottom Left	Zarovnat dolů vlevo
 	Align Bottom Right	Zarovnat dolů vpravo
@@ -146,6 +149,7 @@
 	Alt Text Pane	Podokno alternativního textu
 	Alt:	Alt. text:
 	Alt\nText	Alternativní\ntext
+	an agent	agent
 	And	A
 	Angle Brackets	Lomené závorky
 	Angle Brackets with Separator	Lomené závorky s oddělovačem
@@ -155,6 +159,7 @@
 	Annotation Reference	Odkaz na komentář
 	Annotation Subject	Předmět komentáře
 	Annotation Text	Text komentáře
+	Annoying	Otravně
 	Another file	Jiný soubor
 	Any Character	Libovolný znak
 	Any Digit	Libovolná číslice
@@ -180,6 +185,8 @@
 	ASAP	CO NEJDŘÍVE
 	Asian text font:	Písmo pro asijský text:
 	Asian Typography	Asijská typografie
+	Assistant	Asistent
+	Assistant Suggestions	Návrhy asistenta
 	At least	Nejméně
 	At least {n}	Nejméně {n}
 	Atelier	Ateliér
@@ -249,6 +256,7 @@
 	Blue:	Modrá:
 	Body Text	Základní text
 	Body text in a short paragraph to show spacing.	Základní text ukazuje mezery v odstavci.
+	Bold choice. Ctrl+Z is right there if you need it.	Odvážná volba. Ctrl+Z je hned po ruce, kdybyste ho potřebovali.
 	Book	Kniha
 	Book Title	Název knihy
 	Book title	Název knihy
@@ -286,6 +294,7 @@
 	By author	Podle autora
 	Calendar	Kalendář
 	Can't be deleted	Nelze odstranit
+	Can't find a command? Press Alt+Q and type what you want to do.	Nemůžete najít příkaz? Stiskněte Alt+Q a napište, co chcete udělat.
 	can't split at the first row	tabulku nelze rozdělit na prvním řádku
 	Canvas Member	Prvek plátna
 	Capitalize Each Word	Velká Počáteční Písmena Slov
@@ -298,6 +307,7 @@
 	Caption text	Text titulku
 	Caption:	Titulek:
 	Captions	Titulky
+	Careful, any further back and we'll undo the invention of paper.	Opatrně, ještě kousek zpátky a vrátíme i vynález papíru.
 	Caret Character	Znak stříšky
 	Case changes	Změny velikosti písmen
 	Cases (Three Conditions)	Rozlišení případů (tři podmínky)
@@ -502,6 +512,10 @@
 	Croatian	Chorvatština
 	Cross-reference	Křížový odkaz
 	Cross-reference:	Křížový odkaz:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter začne novou stránku. Mnohem úhlednější než mačkat Enter, dokud se to nestane.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H najde a nahradí text, formátování a speciální znaky.
+	Ctrl+K turns the selected text into a link.	Ctrl+K udělá z vybraného textu odkaz.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G spočítá vaše slova, znaky a odstavce.
 	Cube Root	Třetí odmocnina
 	Current - Linear	Aktuální – lineární
 	Current - Professional	Aktuální – profesionální
@@ -625,6 +639,7 @@
 	Don't capitalize after:	Nepsat velké písmeno po:
 	Don't hyphenate	Nedělit slova
 	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Nečíst citace a bibliografie Zotero, Mendeley ani EndNote
+	Don't show me this tip again	Tento tip už nezobrazovat
 	Dot dash	Čerchované
 	Dot-dash	Čerchované
 	Dot-dot-dash	Dvojitě čerchované
@@ -759,6 +774,9 @@
 	Extend Selection	Rozšířit výběr
 	Extend Selection by Units	Rozšířit výběr po jednotkách
 	Extra space	Nadbytečná mezera
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 zopakuje poslední akci. Formátování deseti nadpisů je najednou jedno kliknutí a devět ťuknutí.
+	F7 checks the spelling and grammar of the whole document.	F7 zkontroluje pravopis a gramatiku celého dokumentu.
+	Faster: {command} is {key} on the keyboard.	Rychleji: {command} je na klávesnici {key}.
 	Field code:	Kód pole:
 	Field Codes	Kódy polí
 	Field codes:	Kódy polí:
@@ -840,10 +858,12 @@
 	From Top Left Corner	Z rohu vlevo nahoře
 	From Top Right Corner	Z rohu vpravo nahoře
 	from Unicode (hex)	z Unicode (hex)
+	From {name}	Od: {name}
 	From:	Od:
 	Full page of the same label	Celá stránka stejných štítků
 	Full Screen View	Zobrazení na celou obrazovku
 	Full\nScreen	Celá\nobrazovka
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Zajímavost: prázdná stránka je jen koncept, který ještě neví, o čem bude.
 	Function	Funkce
 	Gallery	Galerie
 	German (Germany)	Němčina (Německo)
@@ -856,6 +876,7 @@
 	Go to Record	Přejít na záznam
 	Go to what:	Přejít na:
 	Go To…	Přejít na…
+	Gone! Like it was never written. Mostly because it now wasn't.	Pryč! Jako by to nikdy nebylo napsáno. Hlavně proto, že teď už není.
 	Good afternoon	Dobré odpoledne
 	Good evening	Dobrý večer
 	Good morning	Dobré ráno
@@ -897,6 +918,7 @@
 	Heading {n}	Nadpis {n}
 	Hebrew	Hebrejština
 	Hex:	Hex:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Ahoj! Jsem Nib, váš pomocník při psaní. Nabízím tipy, zkratky a občas i nevyžádaný názor. Mám tu zůstat?
 	Hidden bookmarks	Skryté záložky
 	Hide Codes	Skrýt kódy
 	Hide from style lists	Skrýt v seznamech stylů
@@ -932,6 +954,8 @@
 	Hyphenation zone:	Pásmo dělení slov:
 	Hyphens (--) as dashes (—)	Spojovníky (--) jako pomlčky (—)
 	Hypotenuse	Přepona
+	I promise it's saved. I checked. Twice.	Slibuju, že je to uložené. Kontroloval jsem to. Dvakrát.
+	I'd write something myself, but I'm all nib and no ink.	Napsal bych něco sám, ale jsem jen hrot bez inkoustu. Hodně špičatý, málo platný.
 	I, II, III, …	I, II, III, …
 	i, ii, iii, …	i, ii, iii, …
 	Icon Color	Barva ikony
@@ -1061,6 +1085,7 @@
 	Is blank	Je prázdné
 	Is not blank	Není prázdné
 	Issue	Číslo
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	Vypadá to, že píšete dopis. Chcete k němu obálku, nebo šablonu dopisu, ze které začnete?
 	Join the ArtCraft community on Discord	Připojte se ke komunitě ArtCraft na Discordu
 	Join us on Discord: discord.gg/artcraft	Připojte se k nám na Discordu: discord.gg/artcraft
 	Journal	Časopis
@@ -1069,6 +1094,7 @@
 	Justified	Do bloku
 	Keep Lines Together	Svázat řádky
 	Keep lines together	Svázat řádky
+	Keep me around	Zůstaň tu
 	Keep Text Only	Zachovat pouze text
 	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Heslo si bezpečně uložte: bez něj dokument nikdo (včetně aplikace WordCraft) neotevře. Chcete-li heslo odebrat, ponechte obě pole prázdná.
 	Keep with Next	Svázat s následujícím
@@ -1119,6 +1145,7 @@
 	Less than or equal	Menší nebo rovno
 	Letter	Dopis
 	Letter headings	Abecední nadpisy
+	Letter template	Šablona dopisu
 	Letter-Like Symbols	Symboly podobné písmenům
 	Letters	Dopisy
 	Level 5	Úroveň 5
@@ -1193,6 +1220,7 @@
 	Logical AND with Limits	Logické A s mezemi
 	Logical OR	Logické NEBO
 	Logical OR with Limits	Logické NEBO s mezemi
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: protože skutečná slova ještě sedí v kavárně.
 	Lum:	Jas:
 	Macros	Makra
 	Made from the author and year when empty	Pokud zůstane pole prázdné, vytvoří se z autora a roku
@@ -1284,6 +1312,7 @@
 	Multilevel List	Víceúrovňový seznam
 	Multilevel List Library	Knihovna víceúrovňových seznamů
 	Multiple Pages	Více stránek
+	Mute agent messages	Ztlumit zprávy agentů
 	My list has	Můj seznam má
 	Name of the file this document is saved as	Název souboru dokumentu
 	Narrow	Úzká
@@ -1313,6 +1342,8 @@
 	Next Section	Další oddíl
 	Next Sentence	Další věta
 	Next sentence	Další věta
+	Nib floats over the window with tips and the occasional remark.	Nib se vznáší nad oknem s tipy a občasnou poznámkou.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, váš asistent. Přetažením přesunete; pravým tlačítkem otevřete možnosti.
 	No accessibility issues found.	Nebyly nalezeny žádné problémy s přístupností.
 	No Border	Bez ohraničení
 	No changes (read only)	Žádné změny (jen pro čtení)
@@ -1361,6 +1392,7 @@
 	not editing an equation	neupravuje se žádná rovnice
 	Not equal to	Nerovná se
 	Not linked: click a text box	Nepropojeno: klikněte na textové pole
+	Not now	Teď ne
 	Not saved	Neuloženo
 	Not saved yet	Dosud neuloženo
 	Not set	Nenastaveno
@@ -1690,6 +1722,7 @@
 	Reset Graphic	Obnovit grafiku
 	Reset Paragraph Formatting	Obnovit formátování odstavce
 	Reset Picture	Obnovit obrázek
+	Reset tips	Obnovit tipy
 	Reset to Normal	Obnovit normální styl
 	Reset\nGraphic	Obnovit\ngrafiku
 	Resize Table by Dragging	Změnit velikost tabulky přetažením
@@ -1709,6 +1742,7 @@
 	Reviewing — edits become suggestions	Revize — úpravy se ukládají jako návrhy
 	Revised document	Upravený dokument
 	Rewind	Přetočit zpět
+	Rewinding. Tell me when to stop.	Přetáčím. Řekněte, kdy přestat.
 	Ribbon	Pás karet
 	Ribbon and Quick Access Toolbar:	Pás karet a panel nástrojů Rychlý přístup:
 	Ribbon tabs	Karty pásu karet
@@ -1753,8 +1787,11 @@
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Pro zapnutí automatického ukládání dokument uložte (pouze otevřený soubor se nepřepisuje, dokud jej sami neuložíte)
 	Save these pages as PDF…	Uložit tyto stránky jako PDF…
 	Saved	Uloženo
+	Saved. Saved again. Still saved. It's very saved.	Uloženo. Zase uloženo. Pořád uloženo. Je to hodně uložené.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Uloží šablonu .dotx do vaší složky šablon. Zobrazí se v nabídce Soubor › Nový v části Osobní.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	Ukládání {name} bylo zrušeno, dokument zůstává otevřený a nic se neztratilo.
+	Sayings	Hlášky
+	Sayings:	Hlášky:
 	Scale Drawing	Škálovat kresbu
 	Scatter	Bodový
 	Script	Index
@@ -1843,6 +1880,7 @@
 	Shape Format	Formát tvaru
 	Shape Outline	Obrys tvaru
 	Shape Styles	Styly tvarů
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter začne nový řádek, aniž by začal nový odstavec.
 	Shift+Tab	Shift+Tab
 	Shipping labels	Přepravní štítky
 	Shortcut key:	Klávesová zkratka:
@@ -1879,13 +1917,16 @@
 	Show Quick Access Toolbar	Zobrazit panel nástrojů Rychlý přístup
 	Show revisions in balloons	Zobrazit revize v bublinách
 	Show Text Formatting	Zobrazit formátování textu
+	Show the Assistant	Zobrazit asistenta
 	Show the community button in the title bar	Zobrazit tlačítko komunity v záhlaví okna
 	Show the equation in the line of text	Zobrazit rovnici v řádku textu
 	Show the equation on a line of its own	Zobrazit rovnici na samostatném řádku
 	Show the mini toolbar when text is selected	Při výběru textu zobrazit miniaturní panel nástrojů
 	Show the ribbon	Zobrazit pás karet
 	Show the Start screen when WordCraft starts	Při spuštění WordCraftu zobrazit úvodní obrazovku
+	Show the tips you asked not to see again.	Znovu zobrazí tipy, které jste skryli.
 	Show/Hide ¶	Zobrazit/skrýt ¶
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	Zobrazit/skrýt ¶ (Ctrl+Shift+8) ukáže mezery, tabulátory a konce schované ve vašem textu.
 	Show\nComments	Zobrazit\nkomentáře
 	Showing the first {count} items.	Zobrazuje se prvních {count} položek.
 	Shows a tree: each item below the item it belongs to.	Zobrazí strom: každá položka je pod položkou, ke které patří.
@@ -1942,6 +1983,7 @@
 	Soft Glow	Jemná záře
 	Solid Accent	Plná barva zvýraznění
 	Solid fill	Plná výplň
+	Sometimes	Občas
 	Sort by:	Seřadit podle:
 	Sort order:	Pořadí řazení:
 	Sort Recipients	Seřadit příjemce
@@ -1989,6 +2031,7 @@
 	Start Mail\nMerge	Spustit hromadnou\nkorespondenci
 	Start-up	Spuštění
 	State	Stát/kraj
+	Still there? I can hear you thinking.	Jste tam ještě? Slyším vás přemýšlet.
 	Stop Protection	Ukončit ochranu
 	Stop Reading	Zastavit čtení
 	Stopped	Zastaveno
@@ -2063,6 +2106,7 @@
 	Tabular List	Tabulkový seznam
 	Tag	Značka
 	Take the last match on the page	Vzít poslední shodu na stránce
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Nespěchejte. Stránka nikam neuteče. Já taky ne. Nikdy.
 	Tangent formula	Vzorec pro tangens
 	Tangent Function	Tangens
 	TC entry fields	Pole položek obsahu (TC)
@@ -2146,6 +2190,7 @@
 	Through	Průchozí
 	Tight	Těsné
 	Tilde	Vlnovka
+	Tip	Tip
 	Tips ({n})	Tipy ({n})
 preview	Title	Ukázka
 	Title Bar	Záhlaví okna
@@ -2221,6 +2266,7 @@ preview	Title	Ukázka
 	Undo Actions	Vrátit více akcí
 	Undo History	Historie vrácení
 	Undo {n} Actions	Vrátit akce: {n}
+	Undo, undo, undo… we're time travelling now.	Zpět, zpět, zpět… teď cestujeme časem.
 	Unformatted Text	Neformátovaný text
 	Union of intersections	Sjednocení průniků
 	Union with Limits	Sjednocení s mezemi
@@ -2264,6 +2310,7 @@ preview	Title	Ukázka
 	View Alt Text…	Zobrazit alternativní text…
 	View Gridlines	Zobrazit mřížku
 	View State	Stav zobrazení
+	View › Focus hides everything but your words. I'll wait outside.	Zobrazení › Soustředění skryje všechno kromě vašich slov. Počkám venku.
 	Views	Zobrazení
 	Visual effects	Vizuální efekty
 	Volume	Ročník
@@ -2315,9 +2362,13 @@ preview	Title	Ukázka
 	Wrap\nText	Obtékání\ntextu
 	Write & Insert Fields	Psaní a vkládání polí
 	Write a reply	Napište odpověď
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Tvůrčí blok? Mně pomáhá zírat na kurzor. Mrká na mě už léta.
 	x bar	x s čárou nad
 	Year	Rok
 	Yields	Dává
+	You haven't saved in a while, and AutoSave is off. Save now?	Dlouho jste neukládali a Automatické ukládání je vypnuté. Uložit teď?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Začali jste seznam. Dvojím stisknutím Enter ho ukončíte, Backspace na začátku položky ji změní zpět na text.
+	Your document is now the most saved document in history.	Váš dokument je teď nejuloženější dokument v dějinách.
 	Your system doesn't report an animation setting, so animation effects stay on.	Systém neuvádí žádné nastavení animací, proto efekty animace zůstávají zapnuté.
 	Your system has animation effects turned off.	Efekty animace jsou v systému vypnuté.
 	Your system has animation effects turned on.	Efekty animace jsou v systému zapnuté.
@@ -2354,6 +2405,9 @@ preview	Title	Ukázka
 	{width} × {height} mm	{width} × {height} mm
 	{width} × {height} pixels	{width} × {height} pixelů
 	{words} words	Počet slov: {words}
+	{words} words and counting. Literally. I'm counting.	Slov: {words} a pořád přibývají. Doslova. Počítám je.
+	{words} words! I'd throw confetti but I'd have to clean it up.	Slov: {words}! Házel bych konfety, ale pak bych je musel uklízet.
+	{words} words. That's {words} more than I've written today.	Slov: {words}. To je o {words} víc, než jsem dnes napsal já.
 	“{text}” ({row}, {series}) isn't a number.	„{text}“ ({row}, {series}) není číslo.
 	✓ None	✓ Žádné
 	➕ New comment	➕ Nový komentář

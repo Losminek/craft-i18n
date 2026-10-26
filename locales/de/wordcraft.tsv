@@ -94,6 +94,9 @@
 	Advanced Find…	Erweiterte Suche…
 	After:	Nach:
 	Agents	Agenten
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Mit WordCraft verbundene Agenten können Ihnen über den Assistenten Nachrichten zeigen. Stummgeschaltet erfahren sie, dass Sie das nicht möchten.
+	Ah, Latin. The language of deadlines.	Ah, Latein. Die Amtssprache aller Abgabetermine.
+	Ah, the editing phase. My favourite. Very decisive.	Ah, die Überarbeitungsphase. Meine liebste. Sehr entschlossen.
 	Align Bottom Center	Unten mittig ausrichten
 	Align Bottom Left	Unten links ausrichten
 	Align Bottom Right	Unten rechts ausrichten
@@ -124,9 +127,11 @@
 	Alt Text Pane	Bereich „Alternativtext“
 	Alt:	Alt:
 	Alt\nText	Alternativ-\ntext
+	an agent	ein Agent
 	And	Und
 	Animate the caret (it glides and fades)	Einfügemarke animieren (sie gleitet und blendet aus)
 	Animation effects:	Animationseffekte:
+	Annoying	Nervig
 	Another file	Andere Datei
 	Any Character	Beliebiges Zeichen
 	Any Digit	Beliebige Ziffer
@@ -151,6 +156,8 @@
 	As you type	Während der Eingabe
 	Asian text font:	Schriftart für asiatischen Text:
 	Asian Typography	Asiatische Typografie
+	Assistant	Assistent
+	Assistant Suggestions	Vorschläge des Assistenten
 	At least	Mindestens
 	At least {n}	Mindestens {n}
 	Atelier	Atelier
@@ -215,6 +222,7 @@
 	Block\nAuthors	Block-\nAutoren
 	Blue:	Blau:
 	Body Text	Textkörper
+	Bold choice. Ctrl+Z is right there if you need it.	Mutige Wahl. Ctrl+Z ist gleich da, falls Sie es brauchen.
 	Book	Buch
 	Book title	Buchtitel
 	Bookmark	Textmarke
@@ -244,6 +252,7 @@
 	By author	Nach Autor
 	Calendar	Kalender
 	Can't be deleted	Kann nicht gelöscht werden
+	Can't find a command? Press Alt+Q and type what you want to do.	Befehl nicht gefunden? Drücken Sie Alt+Q und tippen Sie ein, was Sie tun möchten.
 	can't split at the first row	die Tabelle kann nicht an der ersten Zeile geteilt werden
 	Canvas Member	Element der Zeichenfläche
 	Capitalize Each Word	Jedes Wort großschreiben
@@ -254,6 +263,7 @@
 	Caption text	Beschriftungstext
 	Caption:	Beschriftung:
 	Captions	Beschriftungen
+	Careful, any further back and we'll undo the invention of paper.	Vorsicht, noch weiter zurück und wir machen die Erfindung des Papiers rückgängig.
 	Caret Character	Zirkumflex-Zeichen
 	Case changes	Groß-/Kleinschreibung
 	Categories	Kategorien
@@ -420,6 +430,10 @@
 	Crop	Zuschneiden
 	Cross-reference	Querverweis
 	Cross-reference:	Querverweis:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter beginnt eine neue Seite. Viel ordentlicher, als so lange die Eingabetaste zu drücken, bis es passiert.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H sucht und ersetzt Text, Formatierungen und Sonderzeichen.
+	Ctrl+K turns the selected text into a link.	Ctrl+K macht aus dem markierten Text einen Link.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G zählt Ihre Wörter, Zeichen und Absätze.
 	Current Position	Aktuelle Position
 	Current record	Aktueller Datensatz
 	Current style: {style}	Aktuelle Formatvorlage: {style}
@@ -530,6 +544,7 @@
 	Don't capitalize after:	Kein Großbuchstabe nach:
 	Don't hyphenate	Nicht trennen
 	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Zitate und Literaturverzeichnisse aus Zotero, Mendeley oder EndNote nicht vorlesen
+	Don't show me this tip again	Diesen Tipp nicht mehr anzeigen
 	Dot dash	Punkt-Strich
 	Dot-dash	Punkt-Strich
 	Dot-dot-dash	Punkt-Punkt-Strich
@@ -639,6 +654,9 @@
 	Exported {path}	Exportiert: {path}
 	Extend Selection	Auswahl erweitern
 	Extend Selection by Units	Auswahl einheitenweise erweitern
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 wiederholt Ihre letzte Aktion. Zehn Überschriften formatieren? Plötzlich nur noch ein Klick und neun Tastendrücke.
+	F7 checks the spelling and grammar of the whole document.	F7 prüft Rechtschreibung und Grammatik im ganzen Dokument.
+	Faster: {command} is {key} on the keyboard.	Schneller: {command} geht auch mit {key} auf der Tastatur.
 	Field code:	Feldfunktion:
 	Field Codes	Feldfunktionen
 	Field codes:	Feldfunktionen:
@@ -718,10 +736,12 @@
 	From Top Left Corner	Aus Ecke oben links
 	From Top Right Corner	Aus Ecke oben rechts
 	from Unicode (hex)	von Unicode (hexadezimal)
+	From {name}	Von {name}
 	From:	Von:
 	Full page of the same label	Ganze Seite mit demselben Etikett
 	Full Screen View	Vollbildansicht
 	Full\nScreen	Voll-\nbild
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Fun Fact: Eine leere Seite ist nur ein Entwurf, dem es noch keiner gesagt hat.
 	Function	Funktion
 	Gallery	Gallery
 	German (Germany)	Deutsch (Deutschland)
@@ -735,6 +755,7 @@
 	Go to Record	Gehe zu Datensatz
 	Go to what:	Gehe zu:
 	Go To…	Gehe zu…
+	Gone! Like it was never written. Mostly because it now wasn't.	Weg! Als wäre es nie geschrieben worden. Vor allem, weil es jetzt tatsächlich nie geschrieben wurde.
 	Good afternoon	Guten Tag
 	Good evening	Guten Abend
 	Good morning	Guten Morgen
@@ -765,6 +786,7 @@
 	Heading {n}	Überschrift {n}
 	Hebrew	Hebräisch
 	Hex:	Hex:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Hallo! Ich bin Nib, Ihr Schreibassistent. Ich biete Tipps, Tastenkürzel und gelegentlich eine ungefragte Meinung. Soll ich in der Nähe bleiben?
 	Hidden bookmarks	Ausgeblendete Textmarken
 	Hide Codes	Funktionen ausblenden
 	Hide from style lists	Aus Formatvorlagenlisten ausblenden
@@ -790,6 +812,8 @@
 	Hyphenation Options…	Silbentrennungsoptionen…
 	Hyphenation zone:	Silbentrennzone:
 	Hyphens (--) as dashes (—)	Bindestriche (--) als Gedankenstriche (—)
+	I promise it's saved. I checked. Twice.	Versprochen, es ist gespeichert. Ich habe nachgesehen. Zweimal.
+	I'd write something myself, but I'm all nib and no ink.	Ich würde ja selbst etwas schreiben, aber ich bin zwar spitze, habe nur leider keine Tinte.
 	I, II, III, …	I, II, III, …
 	i, ii, iii, …	i, ii, iii, …
 	Icon Color	Symbolfarbe
@@ -894,6 +918,7 @@
 	Is blank	Ist leer
 	Is not blank	Ist nicht leer
 	Issue	Ausgabe
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	Sieht ganz so aus, als schrieben Sie einen Brief. Brauchen Sie einen Umschlag dafür oder eine Briefvorlage als Start?
 	Join the ArtCraft community on Discord	Treten Sie der ArtCraft-Community auf Discord bei
 	Join us on Discord: discord.gg/artcraft	Besuchen Sie uns auf Discord: discord.gg/artcraft
 	Journal	Fachzeitschrift
@@ -901,6 +926,7 @@
 	Justified	Blocksatz
 	Keep Lines Together	Zeilen nicht trennen
 	Keep lines together	Zeilen nicht trennen
+	Keep me around	Bleib ruhig da
 	Keep Text Only	Nur Text übernehmen
 	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Bewahren Sie das Kennwort an einem sicheren Ort auf: Ohne es kann niemand das Dokument öffnen, auch WordCraft nicht. Lassen Sie beide Felder leer, um das Kennwort zu entfernen.
 	Keep with Next	Mit nächstem Absatz zusammenhalten
@@ -943,6 +969,7 @@
 	Less than or equal	Kleiner oder gleich
 	Letter	Brief
 	Letter headings	Buchstabenüberschriften
+	Letter template	Briefvorlage
 	Letters	Buchstaben
 	Level {n}	Ebene {n}
 	Levels:	Ebenen:
@@ -999,6 +1026,7 @@
 	Location: {path}	Speicherort: {path}
 	Lock aspect ratio	Seitenverhältnis sperren
 	Lock Fields	Felder sperren
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: weil die echten Wörter noch im Café sitzen.
 	Lum:	Hell.:
 	Macros	Makros
 	Made from the author and year when empty	Wird bei leerem Feld aus Autor und Jahr gebildet
@@ -1086,6 +1114,7 @@
 	Multilevel List	Mehrstufige Liste
 	Multilevel List Library	Bibliothek mehrstufiger Listen
 	Multiple Pages	Mehrere Seiten
+	Mute agent messages	Agentennachrichten stummschalten
 	My list has	Meine Liste hat
 	Name of the file this document is saved as	Name der Datei, unter der dieses Dokument gespeichert ist
 	Narrow	Schmal
@@ -1114,6 +1143,8 @@
 	Next Section	Nächster Abschnitt
 	Next Sentence	Nächster Satz
 	Next sentence	Nächster Satz
+	Nib floats over the window with tips and the occasional remark.	Nib schwebt mit Tipps und gelegentlichen Bemerkungen über dem Fenster.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, Ihr Assistent. Zum Verschieben ziehen; Rechtsklick für Optionen.
 	No accessibility issues found.	Keine Probleme mit der Barrierefreiheit gefunden.
 	No Border	Keine Rahmenlinie
 	No changes (read only)	Keine Änderungen (schreibgeschützt)
@@ -1158,6 +1189,7 @@
 	not editing an equation	es wird keine Formel bearbeitet
 	Not equal to	Ungleich
 	Not linked: click a text box	Nicht verknüpft: Klicken Sie auf ein Textfeld
+	Not now	Jetzt nicht
 	Not saved	Nicht gespeichert
 	Not saved yet	Noch nicht gespeichert
 	Not set	Nicht festgelegt
@@ -1462,6 +1494,7 @@
 	Reset Graphic	Grafik zurücksetzen
 	Reset Paragraph Formatting	Absatzformatierung zurücksetzen
 	Reset Picture	Bild zurücksetzen
+	Reset tips	Tipps zurücksetzen
 	Reset to Normal	Auf Standard zurücksetzen
 	Reset\nGraphic	Grafik\nzurücksetzen
 	Resize Table by Dragging	Tabellengröße durch Ziehen ändern
@@ -1482,6 +1515,7 @@
 	Reviewing — edits become suggestions	Überprüfung — Bearbeitungen werden zu Vorschlägen
 	Revised document	Überarbeitetes Dokument
 	Rewind	Zurückspulen
+	Rewinding. Tell me when to stop.	Ich spule zurück. Sagen Sie Bescheid, wann ich anhalten soll.
 	Ribbon	Menüband
 	Ribbon and Quick Access Toolbar:	Menüband und Symbolleiste für den Schnellzugriff:
 	Ribbon tabs	Registerkarten des Menübands
@@ -1518,8 +1552,11 @@
 	Save the document to turn on AutoSave	Speichern Sie das Dokument, um AutoSpeichern zu aktivieren
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Speichern Sie das Dokument, um AutoSpeichern zu aktivieren (eine nur geöffnete Datei wird erst beim Speichern neu geschrieben)
 	Save these pages as PDF…	Diese Seiten als PDF speichern…
+	Saved. Saved again. Still saved. It's very saved.	Gespeichert. Wieder gespeichert. Immer noch gespeichert. Sehr, sehr gespeichert.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Speichert eine .dotx-Vorlage in Ihrem Vorlagenordner. Sie erscheint unter Datei › Neu bei Persönlich.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	Das Speichern von {name} wurde abgebrochen. Das Dokument ist weiterhin geöffnet und nichts ist verloren gegangen.
+	Sayings	Sprüche
+	Sayings:	Sprüche:
 	Scale	Skalierung
 	Scale Drawing	Zeichnung skalieren
 	Scatter	Punkt (XY)
@@ -1606,6 +1643,7 @@
 	Shape Format	Formformat
 	Shape Outline	Formkontur
 	Shape Styles	Formformate
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter beginnt eine neue Zeile, ohne einen neuen Absatz zu beginnen.
 	Shift+Tab	Shift+Tab
 	Shipping labels	Versandetiketten
 	Shortcut key:	Tastenkombination:
@@ -1644,11 +1682,14 @@
 	Show revisions in balloons	Änderungen in Sprechblasen anzeigen
 	Show rulers	Lineale einblenden
 	Show Text Formatting	Textformatierung anzeigen
+	Show the Assistant	Assistenten anzeigen
 	Show the community button in the title bar	Die Community-Schaltfläche in der Titelleiste anzeigen
 	Show the mini toolbar when text is selected	Minisymbolleiste bei Textauswahl anzeigen
 	Show the ribbon	Menüband anzeigen
 	Show the Start screen when WordCraft starts	Startbildschirm beim Start von WordCraft anzeigen
+	Show the tips you asked not to see again.	Zeigt die Tipps wieder an, die Sie ausgeblendet haben.
 	Show/Hide ¶	¶ ein-/ausblenden
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	¶ ein-/ausblenden (Ctrl+Shift+8) zeigt die Leerzeichen, Tabstopps und Umbrüche, die sich in Ihrem Text verstecken.
 	Show\nComments	Kommentare\neinblenden
 	Showing the first {count} items.	Die ersten {count} Elemente werden angezeigt.
 	Shows a tree: each item below the item it belongs to.	Zeigt einen Baum: jedes Element unter dem Element, zu dem es gehört.
@@ -1690,6 +1731,7 @@
 	Soft Glow	Weiches Leuchten
 	Solid Accent	Akzentfarbe, gefüllt
 	Solid fill	Einfarbige Füllung
+	Sometimes	Manchmal
 	Sort by:	Sortieren nach:
 	Sort order:	Sortierreihenfolge:
 	Sort Recipients	Empfänger sortieren
@@ -1727,6 +1769,7 @@
 	Start Mail\nMerge	Seriendruck\nstarten
 	Start-up	Programmstart
 	State	Bundesland
+	Still there? I can hear you thinking.	Noch da? Ich höre Sie denken.
 	Stop	Stopp
 	Stop Protection	Schutz aufheben
 	Stop Reading	Vorlesen beenden
@@ -1788,6 +1831,7 @@
 	Tabular List	Tabellarische Liste
 	Tag	Tag
 	Take the last match on the page	Letzten Treffer auf der Seite nehmen
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Lassen Sie sich Zeit. Die Seite läuft nicht weg. Ich auch nicht. Niemals.
 	TC entry fields	TC-Eintragsfelder
 	Technology	Technik
 	Templates and Add-ins	Vorlagen und Add-Ins
@@ -1866,6 +1910,7 @@
 	Three	Drei
 	Through	Durchgehend
 	Tight	Eng
+	Tip	Tipp
 	Tips ({n})	Tipps ({n})
 	Title Bar	Titelleiste
 	Title from the document properties	Titel aus den Dokumenteigenschaften
@@ -1927,6 +1972,7 @@
 	Undo History	Rückgängig-Verlauf
 	Undo {action}	{action} rückgängig
 	Undo {n} Actions	{n} Aktionen rückgängig
+	Undo, undo, undo… we're time travelling now.	Rückgängig, rückgängig, rückgängig… jetzt reisen wir durch die Zeit.
 	Unformatted Text	Unformatierter Text
 	Unlink Fields	Feldverknüpfungen aufheben
 	Unlink\nCitations	Verknüpfung der\nZitate lösen
@@ -1956,6 +2002,7 @@
 	View Alt Text…	Alternativtext anzeigen…
 	View Gridlines	Rasterlinien anzeigen
 	View State	Ansichtszustand
+	View › Focus hides everything but your words. I'll wait outside.	Ansicht › Fokus blendet alles außer Ihren Worten aus. Ich warte draußen.
 	Views	Ansichten
 	Visual effects	Visuelle Effekte
 	Volume	Band
@@ -2003,7 +2050,11 @@
 	Wrap\nText	Text\numbrechen
 	Write & Insert Fields	Felder schreiben und einfügen
 	Write a reply	Antwort schreiben
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Schreibblockade? Mir hilft es, den Cursor anzustarren. Der blinzelt mich schon seit Jahren an.
 	Year	Jahr
+	You haven't saved in a while, and AutoSave is off. Save now?	Sie haben schon länger nicht gespeichert, und AutoSpeichern ist aus. Jetzt speichern?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Sie haben eine Liste begonnen. Drücken Sie zweimal die Eingabetaste, um sie zu beenden, oder die Rücktaste am Anfang eines Eintrags, um ihn wieder in Text zu verwandeln.
+	Your document is now the most saved document in history.	Ihr Dokument ist jetzt das meistgespeicherte Dokument der Geschichte.
 	Your system doesn't report an animation setting, so animation effects stay on.	Ihr System meldet keine Animationseinstellung, daher bleiben Animationseffekte aktiviert.
 	Your system has animation effects turned off.	Auf Ihrem System sind Animationseffekte deaktiviert.
 	Your system has animation effects turned on.	Auf Ihrem System sind Animationseffekte aktiviert.
@@ -2039,4 +2090,7 @@
 	{width} × {height} mm	{width} × {height} mm
 	{width} × {height} pixels	{width} × {height} Pixel
 	{words} words	Wörter: {words}
+	{words} words and counting. Literally. I'm counting.	{words} Wörter, und es werden mehr. Wörtlich. Ich zähle mit.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} Wörter! Ich würde ja Konfetti werfen, aber dann müsste ich hinterher aufräumen.
+	{words} words. That's {words} more than I've written today.	{words} Wörter. Das sind {words} mehr, als ich heute geschrieben habe.
 	“{text}” ({row}, {series}) isn't a number.	„{text}“ ({row}, {series}) ist keine Zahl.
