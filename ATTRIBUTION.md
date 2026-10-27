@@ -84,3 +84,10 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`, AI-assisted with Claude Code and written from the
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
+
+## WordCraft: Swedish catch-up for newer interface rows
+
+Patrik Lermon (@kler) contributed the 25 `sv` rows WordCraft's i18n report listed as missing
+(pane docking and placement, Track Changes accept/reject-and-move, update checks, window switching,
+reading page colour, two Spanish variants and a few others), AI-assisted with Claude Code and written
+from the English meaning. No native-speaker review is recorded.

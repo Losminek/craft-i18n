@@ -67,6 +67,8 @@
 	Accents	Accenter
 	Accept	Acceptera
 	Accept All Changes	Acceptera alla ändringar
+	Accept All Changes and Stop Tracking	Acceptera alla ändringar och sluta spåra
+	Accept and Move to Next	Acceptera och gå till nästa
 	Accept This Change	Acceptera den här ändringen
 	Accessed on	Hämtad den
 	Accessibility Pane	Tillgänglighetspanel
@@ -112,6 +114,7 @@
 	Address\nBlock	Adress-\nblock
 	Advanced Find	Avancerad sökning
 	Advanced Find…	Avancerad sökning…
+	Advanced Properties…	Avancerade egenskaper…
 	After:	Efter:
 	Agents	Agenter
 	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenter som är anslutna till WordCraft kan visa dig meddelanden via assistenten. När de är avstängda får de veta att du inte vill det.
@@ -373,11 +376,14 @@
 	Check Box Content Control	Innehållskontroll för kryssruta
 	Check Compatibility	Kontrollera kompatibilitet
 	Check for Errors	Sök efter fel
+	Check for Updates	Sök efter uppdateringar
+	Check for\nUpdates…	Sök efter\nuppdateringar…
 	Check Spelling as You Type	Kontrollera stavningen medan du skriver
 	Check spelling as you type	Kontrollera stavningen medan du skriver
 	Check\nAccessibility	Kontrollera\ntillgänglighet
 	Checked styles are allowed:	Ikryssade stilar är tillåtna:
 	Checked symbol	Symbol för ikryssad
+	Checking for updates…	Söker efter uppdateringar…
 	Chevron Down	Vinkel nedåt
 	Chevron Up	Vinkel uppåt
 	Chicago	Chicago
@@ -407,6 +413,7 @@
 	Clipboard Contents	Innehållet i Urklipp
 	Clipboard Items	Objekt i Urklipp
 	Clipboard Pane	Urklippspanel
+	Close Document	Stäng dokumentet
 	Close Equation	Stäng ekvation
 	Close Header and Footer	Stäng sidhuvud och sidfot
 	Close Outline View	Stäng dispositionsvyn
@@ -623,6 +630,8 @@
 	DO NOT COPY	KOPIERA INTE
 	Do Not Show in TOC	Visa inte i innehållsförteckningen
 	Do you want to save changes to {name}?	Vill du spara ändringarna i {name}?
+	Dock Left	Docka till vänster
+	Dock Right	Docka till höger
 	Document End	Dokumentets slut
 	Document Formatting	Dokumentformatering
 	Document Grid	Dokumentrutnät
@@ -820,6 +829,7 @@
 	First row of data contains column headers	Första dataraden innehåller kolumnrubriker
 	Fix Position on Page	Fast position på sidan
 	Fixed Column Width	Fast kolumnbredd
+	Float	Gör flytande
 	Floor	Golvfunktion
 	Follow number with:	Efter numret:
 	Font Color	Teckenfärg
@@ -1304,6 +1314,7 @@ template	Letter	Brev
 	More Underlines…	Fler understrykningar…
 	Move in Equation	Flytta i ekvation
 	Move or Resize	Flytta eller ändra storlek
+	Move Pane: {title}	Flytta panelen: {title}
 	Move Paragraph Down	Flytta stycket nedåt
 	Move Paragraph Up	Flytta stycket uppåt
 	Move Past Citation	Hoppa förbi källhänvisning
@@ -1512,6 +1523,7 @@ template	Letter	Brev
 	Page break before	Sidbrytning före
 	Page Breaks	Sidbrytningar
 	Page Color	Sidfärg
+	Page color	Sidfärg
 	Page display	Sidvisning
 	Page Down	Sida nedåt
 	Page image (*.png)	Sidbild (*.png)
@@ -1534,6 +1546,7 @@ template	Letter	Brev
 	Page\nNumber	Sid-\nnummer
 	Pages like 1-3, 5	Sidor som 1-3, 5
 	Pages of bookmark:	Bokmärkets sidor:
+	Pane Options	Panelalternativ
 	Paper size:	Pappersstorlek:
 	Paragraph Character	Stycketecken
 	Paragraph Details	Styckedetaljer
@@ -1662,6 +1675,7 @@ template	Letter	Brev
 	Reading Highlight	Framhäv träffar
 	Reading Line Spacing	Radavstånd vid läsning
 	Reading Mode	Läsläge
+	Reading Page Color	Sidfärg vid läsning
 	Reading Speed	Läshastighet
 	Reading Text Size	Textstorlek vid läsning
 	Reads the clipboard's rich text and keeps its formatting.	Läser formaterad text från Urklipp och behåller formateringen.
@@ -1688,6 +1702,8 @@ template	Letter	Brev
 	Regular expressions	Reguljära uttryck
 	Reject	Avvisa
 	Reject All Changes	Avvisa alla ändringar
+	Reject All Changes and Stop Tracking	Avvisa alla ändringar och sluta spåra
+	Reject and Move to Next	Avvisa och gå till nästa
 	Reject Change	Avvisa ändring
 	Relationship	Relation
 	Relative to original picture size	I förhållande till bildens ursprungliga storlek
@@ -1737,6 +1753,7 @@ template	Letter	Brev
 	Reset tips	Återställ tips
 	Reset to Normal	Återställ till Normal
 	Reset\nGraphic	Återställ\ngrafik
+	Resize Pane	Ändra panelens storlek
 	Resize Table by Dragging	Ändra tabellens storlek genom att dra
 	Resolve	Lös
 	Resolved	Löst
@@ -1804,6 +1821,7 @@ template	Letter	Brev
 	Sayings	Kvickheter
 	Sayings:	Repliker:
 	Scale Drawing	Skala ritningen
+	Scale Font Sizes	Skala teckenstorlekarna
 	Scatter	Punktdiagram
 	Script	Index
 	Scripts	Index och exponenter
@@ -1867,6 +1885,7 @@ template	Letter	Brev
 	Sentence	Mening
 	Sentence case.	Som i en mening.
 	Separate text at	Avgränsa text vid
+	Separate text with	Avgränsa text med
 	Separator:	Avgränsare:
 	Sequence name:	Serienamn:
 	Serbian (Cyrillic)	Serbiska (kyrilliska)
@@ -2011,8 +2030,10 @@ template	Letter	Brev
 	Space before/after:	Avstånd före/efter:
 	Space before: {pt} pt	Avstånd före: {pt} pt
 	Spacing (pt):	Avstånd (pt):
+	Spanish (Latin America)	Spanska (Latinamerika)
 	Spanish (Mexico)	Spanska (Mexiko)
 	Spanish (Spain)	Spanska (Spanien)
+	Spanish (Uruguay)	Spanska (Uruguay)
 	Sparse Matrices	Glesa matriser
 	Special Characters	Specialtecken
 	Specify height:	Ange höjd:
@@ -2060,6 +2081,7 @@ template	Letter	Brev
 	Style: APA	Stil: APA
 	Style: {style}	Stil: {style}
 	Styles Pane	Stilpanel
+	Styles Pane Position	Stilpanelens placering
 	Styles:	Stilar:
 	Subentry:	Underpost:
 	Submit print job	Skicka utskrift
@@ -2088,7 +2110,9 @@ template	Letter	Brev
 	Swap footnotes and endnotes	Byt plats på fotnoter och slutnoter
 	Swedish	Svenska
 	Switch Modes	Byt läge
+	Switch Windows	Växla fönster
 	Switch\nModes	Byt\nläge
+	Switch\nWindows	Växla\nfönster
 	Synonyms	Synonymer
 	Tab Character	Tabbtecken
 	Tab character	Tabbtecken
@@ -2329,6 +2353,7 @@ preview	Title	Titel
 	Vertical Bars	Lodstreck
 	Vertical Dots	Lodräta punkter
 	View Alt Text…	Visa alternativtext…
+	View and edit the document's custom properties.	Visa och redigera dokumentets anpassade egenskaper.
 	View Gridlines	Visa stödlinjer
 	View State	Visningstillstånd
 	View › Focus hides everything but your words. I'll wait outside.	Visa › Fokus döljer allt utom dina ord. Jag väntar utanför.
