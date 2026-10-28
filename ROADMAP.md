@@ -15,7 +15,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 3a | Migrate WordCraft and PdfCraft (proves the runtime on the largest catalogs; seeds the shared catalog) | apps | catalogs moved here; app wiring next |
 | 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); app wiring next |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
-| 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
+| 3d | Add translation to DeckCraft and SoundCraft | apps | DeckCraft in progress: wiring and German (`locales/de/deckcraft.tsv`); SoundCraft not started |
 
 Each app migration: confirm the app is MIT OR Apache-2.0, move its catalogs here (lowercase BCP 47
 names, origin recorded in `ATTRIBUTION.md`), add the `build.rs` recipe from
@@ -69,7 +69,7 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | DesignCraft | Rust tables | 11 | own rules | no |
 | GridCraft | Rust `match` | 9 | none | no |
 | EffectCraft | Rust tables | 10 | none | no |
-| DeckCraft | none | 0 | – | no |
+| DeckCraft | craft-i18n (wiring in review) | 1 | none | written here |
 | SoundCraft | none | 0 | – | no |
 
 ## Open decisions
