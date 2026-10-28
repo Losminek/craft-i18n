@@ -59,7 +59,7 @@ cadcraft	Computer-aided design and drafting	Računarski potpomognuto projektovan
 	Couldn't check for updates: {f}	Nije moguće provjeriti ažuriranja: {f}
 @msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	nije moguće premjestiti {path} u Smeće ({reason}). Uklonite ga u Finderu.
 @msg	couldn't use install folder {path}: {reason}	nije moguće koristiti folder za instalaciju {path}: {reason}
-	Craft App Suite	Paket aplikacija Craft
+	Craft App Suite	Craft App Suite
 	Custom folders use AppImage on Linux.	Prilagođeni folderi na Linuxu koriste AppImage.
 @msg	custom install folders aren't supported on this system	prilagođeni folderi za instalaciju nisu podržani na ovom sistemu
 	Debian package (.deb)	Debian paket (.deb)
@@ -128,7 +128,7 @@ month	Jun	jun
 column	Latest	Najnovije
 	Latest release	Najnovije izdanje
 	Latest version	Najnovija verzija
-	Launcher	Pokretač
+	Launcher	Launcher
 @id	launcher.dismiss	Odbaci
 @id	launcher.download	Preuzmi
 @id	launcher.notes	Šta je novo
