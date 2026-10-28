@@ -21,7 +21,7 @@
 	 · password-protected	 · zaštićeno lozinkom
 	+Bin	+Bin
 	+LOC	+LOC
-	, Expires: 	, Ističe:
+	, Expires: 	, Ističe: 
 	1 difference found	Pronađena 1 razlika
 	1 file done	1 datoteka završena
 	1 file needs attention	1 datoteka zahtijeva pažnju
@@ -534,7 +534,7 @@ key	Ctrl	Ctrl
 	Dark theme	Tamna tema
 	Data Encipherment	Šifrovanje podataka
 	Date field	Polje datuma
-	Date: 	Datum:
+	Date: 	Datum: 
 	December	Decembar
 calendar date	December	decembar
 	Decimal places:	Decimalna mjesta:
@@ -601,7 +601,7 @@ key	Delete	Delete
 	Display theme	Tema prikaza
 	Distinguished name	Razlikovno ime
 	Distribute fields	Rasporedi polja
-	DN: 	DN:
+	DN: 	DN: 
 	Document actions	Akcije dokumenta
 	Document and markups	Dokument i oznake
 	Document and stamps	Dokument i pečati
@@ -974,7 +974,7 @@ certificate	Intended usage	Namjena
 	is not available yet	još nije dostupno
 	Issued by	Izdao
 certificate	Issued by	Izdao
-	Issued by: 	Izdao:
+	Issued by: 	Izdao: 
 	Issued to	Izdano za
 certificate	Issued to	Izdano za
 	Issuer	Izdavalac
@@ -1005,7 +1005,7 @@ calendar date	June	juni
 	Key usage	Upotreba ključa
 certificate	Key usage	Upotreba ključa
 	Keyboard shortcuts	Prečice na tastaturi
-	Keychain  ·  	Privjesak ključeva  ·
+	Keychain  ·  	Privjesak ključeva  ·  
 	Labels: {preview}. Later pages keep their labels.	Oznake: {preview}. Kasnije stranice zadržavaju svoje oznake.
 	Landscape and Portrait Pages	Položene i uspravne stranice
 	Landscape Pages	Položene stranice
@@ -1045,7 +1045,7 @@ certificate	Key usage	Upotreba ključa
 	Load font…	Učitaj font…
 	Loading…	Učitavanje…
 	Local cross-PDF links require the desktop app	Lokalne veze između PDF-ova zahtijevaju desktop aplikaciju
-	Location: 	Lokacija:
+	Location: 	Lokacija: 
 	Lock comment	Zaključaj komentar
 	Logical Reading Order	Logičan redoslijed čitanja
 	Looking for PDFs…	Traženje PDF-ova…
@@ -1461,7 +1461,7 @@ certificate	Public key	Javni ključ
 	Read Only	Samo za čitanje
 	Reading colours	Boje za čitanje
 	Reason	Razlog
-	Reason: 	Razlog:
+	Reason: 	Razlog: 
 	Recent colours	Nedavne boje
 	Recognize Text	Prepoznaj tekst
 	Recognize text	Prepoznaj tekst
@@ -2177,7 +2177,7 @@ calendar weekday	We	Sr
 	White on black	Bijelo na crnom
 	Whole words only	Samo cijele riječi
 	Window Options	Opcije prozora
-	Windows store  ·  	Windows skladište  ·
+	Windows store  ·  	Windows skladište  ·  
 	Word count	Broj riječi
 	Word counting stopped unexpectedly.	Brojanje riječi se neočekivano zaustavilo.
 	Word count…	Broj riječi…
