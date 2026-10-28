@@ -314,7 +314,7 @@
 	By author	حسب المؤلف
 	Calendar	التقويم
 	Can't be deleted	لا يمكن حذفه
-	Can't find a command? Press Alt+Q and type what you want to do.	لا تجد أمرًا؟ اضغط Alt+Q واكتب ما تريد فعله.
+	Can't find a command? Press {key} and type what you want to do.	لا تجد أمرًا؟ اضغط {key} واكتب ما تريد فعله.
 	can't split at the first row	لا يمكن التقسيم عند الصف الأول
 	Canvas Member	عضو اللوحة
 	Capitalize Each Word	تكبير أول حرف من كل كلمة
@@ -551,10 +551,6 @@
 	Crop	اقتصاص
 	Cross-reference	إحالة مرجعية
 	Cross-reference:	إحالة مرجعية:
-	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	يبدأ Ctrl+Enter صفحة جديدة. أرتب بكثير من الضغط على Enter حتى تظهر.
-	Ctrl+H finds and replaces text, formatting and special characters.	يبحث Ctrl+H عن النص والتنسيق والأحرف الخاصة ويستبدلها.
-	Ctrl+K turns the selected text into a link.	يحوّل Ctrl+K النص المحدد إلى ارتباط.
-	Ctrl+Shift+G counts your words, characters and paragraphs.	يعدّ Ctrl+Shift+G كلماتك وأحرفك وفقراتك.
 	Cube Root	جذر تكعيبي
 	Current	الحالي
 	Current - Linear	الحالي - خطي
@@ -841,8 +837,6 @@
 	Extend Selection	توسيع التحديد
 	Extend Selection by Units	توسيع التحديد بالوحدات
 	Extra space	مسافة إضافية
-	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	يكرر F4 آخر إجراء قمت به. فيصبح تنسيق عشرة عناوين نقرةً واحدة وتسع ضغطات.
-	F7 checks the spelling and grammar of the whole document.	يدقق F7 الإملاء والقواعد في المستند كله.
 	Faster: {command} is {key} on the keyboard.	أسرع: {command} هو {key} على لوحة المفاتيح.
 	Field code:	رمز الحقل:
 	Field Codes	رموز الحقول
@@ -2047,7 +2041,6 @@ template	Letter	رسالة
 	Shape Outline	حد الشكل الخارجي
 	Shape Styles	أنماط الأشكال
 	Shapes	الأشكال
-	Shift+Enter starts a new line without starting a new paragraph.	يبدأ Shift+Enter سطرًا جديدًا دون أن يبدأ فقرة جديدة.
 	Shift+Tab	Shift+Tab
 	Shipping labels	ملصقات الشحن
 	Shortcut key:	مفتاح الاختصار:
@@ -2094,7 +2087,7 @@ template	Letter	رسالة
 	Show the Start screen when WordCraft starts	إظهار شاشة البدء عند تشغيل WordCraft
 	Show the tips you asked not to see again.	يُظهر التلميحات التي طلبت عدم إظهارها مرة أخرى.
 	Show/Hide ¶	إظهار/إخفاء ¶
-	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	يُظهر إظهار/إخفاء ¶ (Ctrl+Shift+8) المسافات وعلامات الجدولة والفواصل المختبئة في نصك.
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	يُظهر إظهار/إخفاء ¶ ({key}) المسافات وعلامات الجدولة والفواصل المختبئة في نصك.
 	Show\nComments	إظهار\nالتعليقات
 	Showing the first {count} items.	عرض أول {count} عنصر.
 	Shows a tree: each item below the item it belongs to.	يعرض شجرة: كل عنصر تحت العنصر الذي ينتمي إليه.
@@ -2596,6 +2589,13 @@ preview	Title	العنوان
 	{count} of {total} pages will print	ستُطبع {count} من {total} صفحة
 	{count} of {total} recipients will be merged.	سيُدمج {count} من {total} مستلم.
 	{group} settings	إعدادات {group}
+	{key} checks the spelling and grammar of the whole document.	يدقق {key} الإملاء والقواعد في المستند كله.
+	{key} counts your words, characters and paragraphs.	يعدّ {key} كلماتك وأحرفك وفقراتك.
+	{key} finds and replaces text, formatting and special characters.	يبحث {key} عن النص والتنسيق والأحرف الخاصة ويستبدلها.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	يكرر {key} آخر إجراء قمت به. فيصبح تنسيق عشرة عناوين نقرةً واحدة وتسع ضغطات.
+	{key} starts a new line without starting a new paragraph.	يبدأ {key} سطرًا جديدًا دون أن يبدأ فقرة جديدة.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	يبدأ {key} صفحة جديدة. أرتب بكثير من الضغط على Enter حتى تظهر.
+	{key} turns the selected text into a link.	يحوّل {key} النص المحدد إلى رابط.
 	{key}+Click to follow link	{key}+نقر لفتح الارتباط
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}، {columns} × {rows}، {size} ({paper})
 	{language} (no dictionary)	{language} (بلا قاموس)
