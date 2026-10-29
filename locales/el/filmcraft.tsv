@@ -205,8 +205,8 @@
 	Audio Clip Mixer	Μείκτης κλιπ ήχου
 	Audio Codec	Codec ήχου
 	Audio Duration	Διάρκεια ήχου
-	Audio effects	Εφέ ήχου
 	Audio Effects	Εφέ ήχου
+	Audio effects	Εφέ ήχου
 	Audio File Format:	Μορφή αρχείου ήχου:
 	Audio Format	Μορφή ήχου
 	Audio Gain	Ενίσχυση ήχου
@@ -259,8 +259,8 @@
 	Auto-transcribe all imported clips	Αυτόματη απομαγνητοφώνηση όλων των εισαγόμενων κλιπ
 	Auto-transcribe only clips in sequences	Αυτόματη απομαγνητοφώνηση μόνο των κλιπ σε ακολουθίες
 	Automatch Time	Χρόνος αυτόματης αντιστοίχισης
-	Automate to Sequence	Αυτοματοποίηση σε ακολουθία
 	Automate To Sequence	Αυτοματοποίηση σε ακολουθία
+	Automate to Sequence	Αυτοματοποίηση σε ακολουθία
 	Automate to Sequence…	Αυτοματοποίηση σε ακολουθία…
 	Automatic Click Remover	Αυτόματη αφαίρεση κλικ
 	Automatically delete cache files older than	Αυτόματη διαγραφή αρχείων cache παλαιότερων από
@@ -351,8 +351,8 @@
 	Box Color	Χρώμα πλαισίου
 	Box Opacity	Αδιαφάνεια πλαισίου
 	Branching	Διακλάδωση
-	Breakout to mono	Διαχωρισμός σε μονοφωνικά
 	Breakout to Mono	Διαχωρισμός σε μονοφωνικά
+	Breakout to mono	Διαχωρισμός σε μονοφωνικά
 	Bright	Φωτεινό
 	Bright Air	Φωτεινός αέρας
 	Bright Studio	Φωτεινό στούντιο
@@ -698,10 +698,10 @@
 	Delete Video Tracks	Διαγραφή τροχιών βίντεο
 	Deleted preset “{active}”	Διαγράφηκε η προκαθορισμένη ρύθμιση «{active}»
 	Deleted {n} file(s), {size}.	Διαγράφηκαν {n} αρχεία, {size}.
-	Demo footage	Υλικό επίδειξης
 	Demo Footage	Υλικό επίδειξης
-	Demo project	Έργο επίδειξης
+	Demo footage	Υλικό επίδειξης
 	Demo Project	Έργο επίδειξης
+	Demo project	Έργο επίδειξης
 	DeNoise	Μείωση θορύβου
 	Denoise	Μείωση θορύβου
 	DeReverb	Μείωση αντήχησης
@@ -1003,8 +1003,8 @@
 	Frame Size / Rate	Μέγεθος / ρυθμός καρέ
 	Frame Size:	Μέγεθος καρέ:
 	Frame Width	Πλάτος κάδρου
-	frames	καρέ
 	Frames	Καρέ
+	frames	καρέ
 	Frames per Still:	Καρέ ανά ακίνητη εικόνα:
 	Framing	Καδράρισμα
 	Free draw bezier	Ελεύθερη σχεδίαση Bezier
@@ -1214,8 +1214,8 @@
 	Import: no file chosen (agents: shortcuts.import {path})	Εισαγωγή: δεν επιλέχθηκε αρχείο (agents: shortcuts.import {path})
 	Imported “{name}”	Εισήχθη το «{name}»
 	Impulse	Κρουστική απόκριση
-	in	σε
 	In	Είσοδος
+	in	σε
 	In a Room	Σε δωμάτιο
 	In Point	Σημείο εισόδου
 	In Points	Σημεία εισόδου
@@ -1753,8 +1753,8 @@
 	Open in New Tab	Άνοιγμα σε νέα καρτέλα
 	Open in New Window	Άνοιγμα σε νέο παράθυρο
 	Open in new window	Άνοιγμα σε νέο παράθυρο
-	Open in place	Άνοιγμα στη θέση του
 	Open in Place	Άνοιγμα στη θέση του
+	Open in place	Άνοιγμα στη θέση του
 	Open In Source Monitor	Άνοιγμα στην οθόνη πηγής
 	Open in Source Monitor	Άνοιγμα στην οθόνη πηγής
 	Open in Timeline	Άνοιγμα στο χρονολόγιο
@@ -2194,8 +2194,8 @@
 	Search templates	Αναζήτηση προτύπων
 	Search:	Αναζήτηση:
 	second(s)	δευτερόλεπτα
-	seconds	δευτερόλεπτα
 	Seconds	Δευτερόλεπτα
+	seconds	δευτερόλεπτα
 	Segments:	Τμήματα:
 	Select a clip to grade	Επιλέξτε ένα κλιπ για χρωματική διόρθωση
 	Select a clip to see its properties	Επιλέξτε ένα κλιπ για να δείτε τις ιδιότητές του
@@ -2250,8 +2250,8 @@
 	Sequence	Ακολουθία
 	Sequence Color Management	Διαχείριση χρώματος ακολουθίας
 	Sequence From Clip	Ακολουθία από κλιπ
-	Sequence name	Όνομα ακολουθίας
 	Sequence Name	Όνομα ακολουθίας
+	Sequence name	Όνομα ακολουθίας
 	Sequence Name:	Όνομα ακολουθίας:
 	Sequence Settings	Ρυθμίσεις ακολουθίας
 	Sequence Settings…	Ρυθμίσεις ακολουθίας…
@@ -2659,8 +2659,8 @@
 	Track selected mask forward 1 frame	Παρακολούθηση επιλεγμένης μάσκας ένα καρέ μπροστά
 	Track type	Τύπος τροχιάς
 	Tracking method: {method}	Μέθοδος παρακολούθησης: {method}
-	tracks	τροχιές
 	Tracks	Τροχιές
+	tracks	τροχιές
 	Transcode	Διακωδικοποίηση
 	Transcribe	Απομαγνητοφώνηση
 	Transcribe Sequence	Απομαγνητοφώνηση ακολουθίας
@@ -2724,8 +2724,8 @@
 	Unstack Clips	Αποστοίβαξη κλιπ
 	Untagged	Χωρίς ετικέτα
 	Untitled Workspace	Χώρος εργασίας χωρίς τίτλο
-	Up one level	Ένα επίπεδο πάνω
 	Up One Level	Ένα επίπεδο πάνω
+	Up one level	Ένα επίπεδο πάνω
 	Update it at least every	Ενημέρωσή του τουλάχιστον κάθε
 	Update Metadata	Ενημέρωση μεταδεδομένων
 	Update Metadata…	Ενημέρωση μεταδεδομένων…
