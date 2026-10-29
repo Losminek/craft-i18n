@@ -131,8 +131,8 @@
 	All media is online.	Όλα τα πολυμέσα είναι συνδεδεμένα.
 	All Panels	Όλα τα πλαίσια
 	Allow current tool to change trim type of previously selected edit point	Να επιτρέπεται στο τρέχον εργαλείο να αλλάζει τον τύπο περικοπής του σημείου τομής που επιλέχθηκε προηγουμένως
-	Allow duplicate media during project import	Να επιτρέπονται διπλά πολυμέσα κατά την εισαγωγή έργου
 	Allow Duplicate Media During Project Import	Να επιτρέπονται διπλά πολυμέσα κατά την εισαγωγή έργου
+	Allow duplicate media during project import	Να επιτρέπονται διπλά πολυμέσα κατά την εισαγωγή έργου
 	Allow Selection tool to choose Roll and Ripple trims without modifier key	Να επιτρέπεται στο εργαλείο επιλογής να επιλέγει περικοπές Roll και Ripple χωρίς πλήκτρο τροποποίησης
 	Alpha Adjust	Προσαρμογή άλφα
 	Alpha Blurriness	Θόλωμα άλφα
@@ -205,8 +205,8 @@
 	Audio Clip Mixer	Μείκτης κλιπ ήχου
 	Audio Codec	Codec ήχου
 	Audio Duration	Διάρκεια ήχου
-	Audio Effects	Εφέ ήχου
 	Audio effects	Εφέ ήχου
+	Audio Effects	Εφέ ήχου
 	Audio File Format:	Μορφή αρχείου ήχου:
 	Audio Format	Μορφή ήχου
 	Audio Gain	Ενίσχυση ήχου
@@ -405,8 +405,8 @@
 	Case Sensitive	Διάκριση πεζών-κεφαλαίων
 	Cathedral	Καθεδρικός ναός
 	Cell Pattern	Μοτίβο κελιών
-	Center align text	Στοίχιση κειμένου στο κέντρο
 	Center Align Text	Στοίχιση κειμένου στο κέντρο
+	Center align text	Στοίχιση κειμένου στο κέντρο
 	Center Channel Pan	Πανοραμική θέση κεντρικού καναλιού
 	Center Gradient	Κεντρική διαβάθμιση
 	Center Horizontally	Οριζόντια στο κέντρο
@@ -584,8 +584,8 @@
 	Create captions	Δημιουργία υποτίτλων
 	Create Captions from Transcript…	Δημιουργία υποτίτλων από απομαγνητοφώνηση…
 	Create ellipse mask	Δημιουργία ελλειπτικής μάσκας
-	Create folder for imported projects	Δημιουργία φακέλου για εισαγόμενα έργα
 	Create Folder For Imported Projects	Δημιουργία φακέλου για εισαγόμενα έργα
+	Create folder for imported projects	Δημιουργία φακέλου για εισαγόμενα έργα
 	Create Multi-Camera Source Sequence	Δημιουργία ακολουθίας πηγής πολυκάμερας
 	Create Multi-Camera Source Sequence…	Δημιουργία ακολουθίας πηγής πολυκάμερας…
 	Create new caption track	Δημιουργία νέας τροχιάς υποτίτλων
@@ -698,10 +698,10 @@
 	Delete Video Tracks	Διαγραφή τροχιών βίντεο
 	Deleted preset “{active}”	Διαγράφηκε η προκαθορισμένη ρύθμιση «{active}»
 	Deleted {n} file(s), {size}.	Διαγράφηκαν {n} αρχεία, {size}.
-	Demo Footage	Υλικό επίδειξης
 	Demo footage	Υλικό επίδειξης
-	Demo Project	Έργο επίδειξης
+	Demo Footage	Υλικό επίδειξης
 	Demo project	Έργο επίδειξης
+	Demo Project	Έργο επίδειξης
 	DeNoise	Μείωση θορύβου
 	Denoise	Μείωση θορύβου
 	DeReverb	Μείωση αντήχησης
@@ -1003,8 +1003,8 @@
 	Frame Size / Rate	Μέγεθος / ρυθμός καρέ
 	Frame Size:	Μέγεθος καρέ:
 	Frame Width	Πλάτος κάδρου
-	Frames	Καρέ
 	frames	καρέ
+	Frames	Καρέ
 	Frames per Still:	Καρέ ανά ακίνητη εικόνα:
 	Framing	Καδράρισμα
 	Free draw bezier	Ελεύθερη σχεδίαση Bezier
@@ -1123,7 +1123,7 @@
 	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 στο μέγεθος και τον ρυθμό καρέ της ακολουθίας· 0.05 bit ανά pixel
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 στο μέγεθος και τον ρυθμό καρέ της ακολουθίας· 0.1 bit ανά pixel
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 στο μέγεθος και τον ρυθμό καρέ της ακολουθίας· ο ρυθμός bit προσαρμόζεται στο μέγεθος καρέ (0.2 bit ανά pixel)
-	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	Το H.265 (HEVC) χρειάζεται κωδικοποιητή υλικού (NVENC σε GPU της NVIDIA, VideoToolbox στο macOS)· δεν βρέθηκε κανένας σε αυτόν τον υπολογιστή και το FilmCraft δεν έχει ακόμη κωδικοποιητή H.265 λογισμικού. Επιλέξτε H.264 ή ProRes.
+	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	Το H.265 (HEVC) χρειάζεται κωδικοποιητή υλικού (NVENC σε GPU της NVIDIA, VideoToolbox στο macOS), δεν βρέθηκε κανένας σε αυτόν τον υπολογιστή και το FilmCraft δεν έχει ακόμη κωδικοποιητή H.265 λογισμικού. Επιλέξτε H.264 ή ProRes.
 	Half Saturation	Μισός κορεσμός
 	Handle Frames:	Καρέ περιθωρίου:
 	Hard Clip	Σκληρός ψαλιδισμός
@@ -1311,8 +1311,8 @@
 	Leave Color	Διατήρηση χρώματος
 	Left - Left	Αριστερό - Αριστερό
 	Left - Right	Αριστερό - Δεξί
-	Left align text	Στοίχιση κειμένου αριστερά
 	Left Align Text	Στοίχιση κειμένου αριστερά
+	Left align text	Στοίχιση κειμένου αριστερά
 	Left channel to device output	Αριστερό κανάλι στην έξοδο της συσκευής
 	Left to right	Από αριστερά προς τα δεξιά
 	Legacy	Παλαιού τύπου
@@ -1751,10 +1751,10 @@
 	Open Bin	Άνοιγμα φακέλου υλικού
 	Open Demo Project	Άνοιγμα έργου επίδειξης
 	Open in New Tab	Άνοιγμα σε νέα καρτέλα
-	Open in new window	Άνοιγμα σε νέο παράθυρο
 	Open in New Window	Άνοιγμα σε νέο παράθυρο
-	Open in Place	Άνοιγμα στη θέση του
+	Open in new window	Άνοιγμα σε νέο παράθυρο
 	Open in place	Άνοιγμα στη θέση του
+	Open in Place	Άνοιγμα στη θέση του
 	Open In Source Monitor	Άνοιγμα στην οθόνη πηγής
 	Open in Source Monitor	Άνοιγμα στην οθόνη πηγής
 	Open in Timeline	Άνοιγμα στο χρονολόγιο
@@ -1771,8 +1771,8 @@
 	Optical Flow	Οπτική ροή
 	Order	Σειρά
 	Ordering:	Ταξινόμηση:
-	out	έξοδος
 	Out	Έξοδος
+	out	έξοδος
 	Out Point	Σημείο εξόδου
 	Out Points	Σημεία εξόδου
 	Out: {name}	Έξοδος: {name}
@@ -2032,8 +2032,8 @@
 	Remove Attributes…	Αφαίρεση χαρακτηριστικών…
 	Remove Audio from AV Clip	Αφαίρεση ήχου από κλιπ ήχου/βίντεο
 	Remove Effect	Αφαίρεση εφέ
-	Remove filler words	Αφαίρεση λέξεων παραγεμίσματος
 	Remove Filler Words	Αφαίρεση λέξεων παραγεμίσματος
+	Remove filler words	Αφαίρεση λέξεων παραγεμίσματος
 	Remove Fringe	Αφαίρεση περιθωρίου
 	Remove from Favorites	Αφαίρεση από τα αγαπημένα
 	Remove keyframe	Αφαίρεση καρέ-κλειδιού
@@ -2250,8 +2250,8 @@
 	Sequence	Ακολουθία
 	Sequence Color Management	Διαχείριση χρώματος ακολουθίας
 	Sequence From Clip	Ακολουθία από κλιπ
-	Sequence Name	Όνομα ακολουθίας
 	Sequence name	Όνομα ακολουθίας
+	Sequence Name	Όνομα ακολουθίας
 	Sequence Name:	Όνομα ακολουθίας:
 	Sequence Settings	Ρυθμίσεις ακολουθίας
 	Sequence Settings…	Ρυθμίσεις ακολουθίας…
@@ -2788,8 +2788,8 @@
 	Video Attributes	Χαρακτηριστικά βίντεο
 	Video Codec	Codec βίντεο
 	Video Duration	Διάρκεια βίντεο
-	Video effects	Εφέ βίντεο
 	Video Effects	Εφέ βίντεο
+	Video effects	Εφέ βίντεο
 	Video Frame	Καρέ βίντεο
 	Video In	Είσοδος βίντεο
 	Video In Point	Σημείο εισόδου βίντεο
