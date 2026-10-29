@@ -556,7 +556,7 @@
 	Create Source	إنشاء مصدر
 	Croatian	الكرواتية
 	Crop	اقتصاص
-	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	يعمل القص على الصفحة مع الصور غير المدارة: اضبط التدوير على 0° أولًا، أو استخدم مربعات القص
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	يعمل القص على الصفحة مع الصور غير المدوَّرة: اضبط التدوير على 0° أولًا، أو استخدم مربعات القص
 	Cross-reference	إحالة مرجعية
 	Cross-reference:	إحالة مرجعية:
 	Cube Root	جذر تكعيبي
@@ -659,8 +659,8 @@
 	Direct formatting	تنسيق مباشر
 	Direction	الاتجاه
 	Directory	دليل
-	Discard the recovery copy of {name}?	هل تريد تجاهل نسخة الاستعادة الخاصة بـ {name}؟
-	Discard…	تجاهل…
+	Discard the recovery copy of {name}?	هل تريد حذف نسخة الاستعادة الخاصة بـ{name}؟
+	Discard…	حذف…
 	Discord	Discord
 	Discord community	مجتمع Discord
 	Display for Review	العرض للمراجعة
@@ -2047,7 +2047,7 @@ template	Letter	رسالة
 	Set Character Formatting	تعيين تنسيق الأحرف
 	Set Date	تعيين التاريخ
 	Set Equation	تعيين المعادلة
-	Set left- and first-indent with tabs and backspaces	ضبط المسافة البادئة الأولى واليسرى بعلامات التبويب والمسح للخلف
+	Set left- and first-indent with tabs and backspaces	ضبط المسافة البادئة اليسرى والأولى بالمفتاحين Tab وBackspace
 	Set Numbering Value	تعيين قيمة الترقيم
 	Set Paragraph Formatting	تعيين تنسيق الفقرة
 	Set Proofing Language…	تعيين لغة التدقيق…
