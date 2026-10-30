@@ -2115,3 +2115,28 @@
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} Wörter! Ich würde ja Konfetti werfen, aber dann müsste ich hinterher aufräumen.
 	{words} words. That's {words} more than I've written today.	{words} Wörter. Das sind {words} mehr, als ich heute geschrieben habe.
 	“{text}” ({row}, {series}) isn't a number.	„{text}“ ({row}, {series}) ist keine Zahl.
+	tOGGLE cASE	gROSS-/kLEINSCHREIBUNG UMKEHREN
+	Normal	Standard
+	Book Title	Buchtitel
+	Emphasis	Betonung
+	Endnote Reference	Endnotenverweis
+	Endnote Text	Endnotentext
+	Footnote Reference	Fußnotenverweis
+	Footnote Text	Fußnotentext
+	Intense Emphasis	Intensive Betonung
+	Intense Quote	Intensives Zitat
+	Intense Reference	Intensiver Verweis
+	List Paragraph	Listenabsatz
+	No Spacing	Kein Abstand
+	Quote	Zitat
+	Strong	Kräftig
+	Subtitle	Untertitel
+	Subtle Emphasis	Subtile Betonung
+	Subtle Reference	Subtiler Verweis
+	TOC Heading	Inhaltsverzeichnisüberschrift
+	TOC {n}	Inhaltsverzeichnis {n}
+	Reference type:	Verweistyp:
+	Insert reference to:	Verweis einfügen auf:
+	For which item:	Für welches Element:
+	Heading	Überschrift
+	Heading text	Überschriftstext
