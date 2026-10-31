@@ -110,7 +110,7 @@
 	Add\nShape	إضافة\nشكل
 	Added 1 font	أُضيف خط واحد
 	Added Fonts	الخطوط المضافة
-	Added {n} fonts	أُضيف {n} خط
+	Added {n} fonts	أُضيف {n} من الخطوط
 	Address	العنوان
 	Address Block	كتلة العنوان
 	Address labels	ملصقات العناوين
@@ -496,7 +496,7 @@
 	Compact	مضغوط
 	Compare Documents	مقارنة المستندات
 	Compare to	مقارنة مع
-	Compared: {changes} changes	تمت المقارنة: {changes} تغيير
+	Compared: {changes} changes	تمت المقارنة: {changes} من التغييرات
 	Comparing with another file needs the desktop app.	المقارنة مع ملف آخر تحتاج إلى تطبيق سطح المكتب.
 	Comparison	مقارنة
 	Comparison settings	إعدادات المقارنة
@@ -1776,7 +1776,7 @@ template	Letter	رسالة
 	Print failed: the printing worker stopped.	فشلت الطباعة: توقفت عملية الطباعة.
 	Print failed: {error}	فشلت الطباعة: {error}
 	Print job submitted.	أُرسلت مهمة الطباعة.
-	Print job submitted: spooled {count} sheet(s)	أُرسلت مهمة الطباعة: جُهّزت {count} ورقة للطباعة
+	Print job submitted: spooled {count} sheet(s)	أُرسلت مهمة الطباعة: جُهّز للطباعة {count} من الأوراق
 	Print job submitted: {receipt}	أُرسلت مهمة الطباعة: {receipt}
 	Print Layout	تخطيط الطباعة
 	Print Markup	طباعة العلامات
@@ -2142,7 +2142,7 @@ template	Letter	رسالة
 	Show/Hide ¶	إظهار/إخفاء ¶
 	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	يُظهر إظهار/إخفاء ¶ ({key}) المسافات وعلامات الجدولة والفواصل المختبئة في نصك.
 	Show\nComments	إظهار\nالتعليقات
-	Showing the first {count} items.	عرض أول {count} عنصر.
+	Showing the first {count} items.	عرض أول {count} من العناصر.
 	Shows a tree: each item below the item it belongs to.	يعرض شجرة: كل عنصر تحت العنصر الذي ينتمي إليه.
 	Shows items around a central idea: the first item is the centre.	يعرض العناصر حول فكرة مركزية: العنصر الأول هو المركز.
 	Shows items of equal weight as blocks in rows.	يعرض العناصر المتساوية في الأهمية كتلًا في صفوف.
@@ -2526,7 +2526,7 @@ preview	Title	العنوان
 	Undo 1 Action	التراجع عن إجراء واحد
 	Undo Actions	التراجع عن إجراءات
 	Undo History	سجل التراجع
-	Undo {n} Actions	التراجع عن {n} إجراء
+	Undo {n} Actions	التراجع عن {n} من الإجراءات
 	Undo, undo, undo… we're time travelling now.	تراجع، تراجع، تراجع… نحن نسافر عبر الزمن الآن.
 	Unformatted Text	نص غير منسق
 	Union of intersections	اتحاد التقاطعات
@@ -2651,10 +2651,10 @@ preview	Title	العنوان
 	{added}; {count} couldn't be read: {names}	{added}؛ تعذّرت قراءة {count}: {names}
 	{added}; {n} skipped (limit {max})	{added}؛ تُخطّي {n} (الحد {max})
 	{cols}×{rows} Table	جدول {cols}×{rows}
-	{contributors} contributors · {commits} commits	{contributors} مساهمًا · {commits} إيداعًا
-	{count} items highlighted	تم تمييز {count} عنصر
-	{count} of {total} pages will print	ستُطبع {count} من {total} صفحة
-	{count} of {total} recipients will be merged.	سيُدمج {count} من {total} مستلم.
+	{contributors} contributors · {commits} commits	المساهمون: {contributors} · الإيداعات: {commits}
+	{count} items highlighted	تم تمييز {count} من العناصر
+	{count} of {total} pages will print	الصفحات التي ستُطبع: {count} من {total}
+	{count} of {total} recipients will be merged.	المستلمون الذين سيُدمجون: {count} من {total}.
 	{field}, record {n}	{field}، السجل {n}
 	{group} settings	إعدادات {group}
 	{key} checks the spelling and grammar of the whole document.	يدقق {key} الإملاء والقواعد في المستند كله.
@@ -2680,14 +2680,14 @@ preview	Title	العنوان
 	{name} is protected with a password.	{name} محمي بكلمة مرور.
 	{name} options	خيارات {name}
 	{name} wasn't found.	لم يُعثر على {name}.
-	{n} entries marked.	وُضعت علامة على {n} إدخال.
+	{n} entries marked.	وُضعت علامة على {n} من الإدخالات.
 	{n} lines	{n} سطر
 	{n} pt	{n} نقطة
-	{selected} of {words} words	{selected} من {words} كلمة
+	{selected} of {words} words	الكلمات: {selected} من {words}
 	{size} pt	{size} نقطة
 	{width} × {height} mm	{width} × {height} مم
 	{width} × {height} pixels	{width} × {height} بكسل
-	{words} words	{words} كلمة
+	{words} words	الكلمات: {words}
 	{words} words and counting. Literally. I'm counting.	{words} كلمة والعدد مستمر. حرفيًا. أنا أعدّ.
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} كلمة! كنت سأنثر قصاصات الاحتفال، لكن عليّ أن أنظفها بعدها.
 	{words} words. That's {words} more than I've written today.	{words} كلمة. أي أكثر بـ{words} مما كتبته أنا اليوم.

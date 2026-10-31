@@ -4,6 +4,10 @@ use intl_pluralrules::{PluralCategory, PluralRuleType, PluralRules};
 use unic_langid::LanguageIdentifier;
 
 /// Ok when `name` is a BCP 47 tag written in lowercase (`pt-br`, `zh-hans`).
+///
+/// # Errors
+///
+/// Returns an error when `name` is not a valid BCP 47 tag or is not written in lowercase.
 pub fn check_locale_name(name: &str) -> Result<(), String> {
     let id: LanguageIdentifier = name
         .parse()
@@ -21,6 +25,11 @@ pub fn check_locale_name(name: &str) -> Result<(), String> {
 /// count, as in the apps. CLDR's `pt` is Brazilian, so Portuguese other than `pt-br` takes
 /// `pt-PT`'s rules, as craft-libs' `craft-i18n` does. Hebrew has 3 (one, two, other), as the apps
 /// count it.
+///
+/// # Errors
+///
+/// Returns an error when `locale` is not a valid BCP 47 tag, no plural rules are available, or
+/// evaluating a rule fails.
 pub fn plural_forms(locale: &str) -> Result<usize, String> {
     let rules_for = if locale == "pt" || (locale.starts_with("pt-") && locale != "pt-br") {
         "pt-pt"

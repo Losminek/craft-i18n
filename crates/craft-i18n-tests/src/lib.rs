@@ -15,6 +15,7 @@ pub mod locale;
 pub mod tree;
 
 /// The repository root (where `locales/` lives).
+#[must_use]
 pub fn repo_root() -> std::path::PathBuf {
     std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../..")
 }
