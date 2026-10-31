@@ -23,6 +23,11 @@ shared one, in that locale only.
 
 **Translation**: a locale's text for a source text (and context).
 
+**Correction**: a change to a shared string's translation that fixes an error, wrong in every app
+that uses it: a wrong meaning, a misspelling, broken grammar, English left untranslated, or the
+wrong script. A different but valid wording is a preference, not a correction, and goes in an
+override.
+
 **Plural forms**: the variants of one translation chosen by a count (e.g. "1 page" / "2 pages");
 each locale has as many as its language's plural rules need.
 
