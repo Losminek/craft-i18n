@@ -1,9 +1,6 @@
 # AGENTS.md
 
-Shared translations for the Craft Apps: TSV catalogs in `locales/` and the checker CI runs. The
-shared standards live in [craftrules](https://github.com/storytold/craftrules) (`../../craftrules`
-on a dev machine): read its `AGENTS.md`, then `standards/never-crash.md`,
-`standards/engineering.md` and `standards/licensing.md`.
+Shared translations for the Craft Apps: TSV catalogs in `locales/` and the checker CI runs.
 
 - **Data, not code.** The lookup code is the `craft-i18n` crate in craft-libs
   ([ADR 0002](docs/adr/0002-runtime-in-craft-libs-data-in-craft-i18n.md)). This repo holds only
