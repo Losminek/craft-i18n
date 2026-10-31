@@ -187,13 +187,12 @@
 	Automatically hyphenate document	Silbentrennung im Dokument automatisch durchführen
 	Automatically Update Document Styles	Formatvorlagen des Dokuments automatisch aktualisieren
 	Automatically update document styles	Formatvorlagen des Dokuments automatisch aktualisieren
-	AutoSave	AutoSpeichern
 	AutoSave documents you have saved in WordCraft	In WordCraft gespeicherte Dokumente automatisch speichern
-	AutoSave failed: {error}. Save the document to turn AutoSave back on.	AutoSpeichern fehlgeschlagen: {error}. Speichern Sie das Dokument, um AutoSpeichern wieder zu aktivieren.
-	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	AutoSpeichern ist im Browser nicht verfügbar: Es kann nicht in Ihre Dateien schreiben. „Speichern“ lädt eine Kopie herunter.
-	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	AutoSpeichern behält nur .docx-, .odt- und .rtf-Dateien; {name} kann nicht die gesamte Formatierung bewahren. Speichern Sie als .docx, um AutoSpeichern zu aktivieren.
-	AutoSave saves every change to the file (needs a saved document)	AutoSpeichern speichert jede Änderung in der Datei (erfordert ein gespeichertes Dokument)
-	AutoSave writes your changes to the file a moment after you stop typing.	AutoSpeichern schreibt Ihre Änderungen kurz nach dem Ende der Eingabe in die Datei.
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Automatisches Speichern fehlgeschlagen: {error}. Speichern Sie das Dokument, um automatisches Speichern wieder zu aktivieren.
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	Automatisches Speichern ist im Browser nicht verfügbar: Es kann nicht in Ihre Dateien schreiben. „Speichern“ lädt eine Kopie herunter.
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	Automatisches Speichern unterstützt nur .docx-, .odt- und .rtf-Dateien; {name} kann nicht die gesamte Formatierung bewahren. Speichern Sie als .docx, um automatisches Speichern zu aktivieren.
+	AutoSave saves every change to the file (needs a saved document)	Automatisches Speichern sichert jede Änderung in der Datei (erfordert ein gespeichertes Dokument)
+	AutoSave writes your changes to the file a moment after you stop typing.	Automatisches Speichern schreibt Ihre Änderungen kurz nach dem Ende der Eingabe in die Datei.
 	AutoText	Textbausteine
 	Balloons	Sprechblasen
 	Banded Columns	Gestreifte Spalten
@@ -256,7 +255,7 @@
 	Can't find a command? Press {key} and type what you want to do.	Befehl nicht gefunden? Drücken Sie {key} und tippen Sie ein, was Sie tun möchten.
 	can't split at the first row	die Tabelle kann nicht an der ersten Zeile geteilt werden
 	Canvas Member	Element der Zeichenfläche
-	Capitalize Each Word	Jedes Wort großschreiben
+	Capitalize Each Word	Jedes Wort Großschreiben
 	Capitalize first letter of sentences	Jeden Satz mit einem Großbuchstaben beginnen
 	Capitalize first letter of table cells	Jede Tabellenzelle mit einem Großbuchstaben beginnen
 	Capitalize names of days	Wochentage großschreiben
@@ -537,7 +536,7 @@
 	Document Start	Dokumentanfang
 	Document template:	Dokumentvorlage:
 	Document Text	Dokumenttext
-	Document1	Document1
+	Document1	Dokument1
 	Document\nPreferences	Dokument-\neinstellungen
 	Documents you open will show up here.	Geöffnete Dokumente werden hier angezeigt.
 	Does not contain	Enthält nicht
@@ -973,7 +972,7 @@
 	Letter	Brief
 	Letter headings	Buchstabenüberschriften
 	Letter template	Briefvorlage
-	Letters	Buchstaben
+	Letters	Briefe
 	Level {n}	Ebene {n}
 	Levels:	Ebenen:
 	Light Variations	Helle Varianten
@@ -1562,8 +1561,8 @@
 	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	Eine Kopie in einem anderen Format speichern. Gedruckt wird über ein PDF, das sich aus jedem Betrachter drucken lässt.
 	Save as Word Template…	Als Word-Vorlage speichern…
 	Save documents	Dokumente speichern
-	Save the document to turn on AutoSave	Speichern Sie das Dokument, um AutoSpeichern zu aktivieren
-	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Speichern Sie das Dokument, um AutoSpeichern zu aktivieren (eine nur geöffnete Datei wird erst beim Speichern neu geschrieben)
+	Save the document to turn on AutoSave	Speichern Sie das Dokument, um automatisches Speichern zu aktivieren
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Speichern Sie das Dokument, um automatisches Speichern zu aktivieren (eine nur geöffnete Datei wird erst beim Speichern neu geschrieben)
 	Save these pages as PDF…	Diese Seiten als PDF speichern…
 	Saved. Saved again. Still saved. It's very saved.	Gespeichert. Wieder gespeichert. Immer noch gespeichert. Sehr, sehr gespeichert.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Speichert eine .dotx-Vorlage in Ihrem Vorlagenordner. Sie erscheint unter Datei › Neu bei Persönlich.
@@ -2074,7 +2073,7 @@
 	Write a reply	Antwort schreiben
 	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Schreibblockade? Mir hilft es, den Cursor anzustarren. Der blinzelt mich schon seit Jahren an.
 	Year	Jahr
-	You haven't saved in a while, and AutoSave is off. Save now?	Sie haben schon länger nicht gespeichert, und AutoSpeichern ist aus. Jetzt speichern?
+	You haven't saved in a while, and AutoSave is off. Save now?	Sie haben schon länger nicht gespeichert, und automatisches Speichern ist deaktiviert. Jetzt speichern?
 	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Sie haben eine Liste begonnen. Drücken Sie zweimal die Eingabetaste, um sie zu beenden, oder die Rücktaste am Anfang eines Eintrags, um ihn wieder in Text zu verwandeln.
 	Your document is now the most saved document in history.	Ihr Dokument ist jetzt das meistgespeicherte Dokument der Geschichte.
 	Your system doesn't report an animation setting, so animation effects stay on.	Ihr System meldet keine Animationseinstellung, daher bleiben Animationseffekte aktiviert.
@@ -2116,3 +2115,24 @@
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} Wörter! Ich würde ja Konfetti werfen, aber dann müsste ich hinterher aufräumen.
 	{words} words. That's {words} more than I've written today.	{words} Wörter. Das sind {words} mehr, als ich heute geschrieben habe.
 	“{text}” ({row}, {series}) isn't a number.	„{text}“ ({row}, {series}) ist keine Zahl.
+	tOGGLE cASE	gROSS-/kLEINSCHREIBUNG UMKEHREN
+	Normal	Standard
+	Emphasis	Betonung
+	Intense Emphasis	Intensive Betonung
+	No Spacing	Kein Abstand
+	Strong	Kräftig
+	Subtle Emphasis	Dezente Betonung
+	Subtle Reference	Dezenter Verweis
+	TOC {n}	Inhaltsverzeichnis {n}
+	Insert reference to:	Verweis einfügen auf:
+	Nothing of this type in the document.	Keine Elemente dieses Typs im Dokument vorhanden.
+	Above/below	Oben/Unten
+	East	Ost
+	Bright Green	Hellgrün
+	Turquoise	Türkis
+	Dark Blue	Dunkelblau
+	Teal	Petrol
+	Dark Red	Dunkelrot
+	Dark Yellow	Dunkelgelb
+	Gray-50%	Grau-50%
+	Gray-25%	Grau-25%
