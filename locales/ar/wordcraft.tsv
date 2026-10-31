@@ -1338,7 +1338,7 @@ template	Letter	رسالة
 	Loaded {count} system fonts.	تم تحميل {count} من خطوط النظام.
 	Local font access is not supported by your browser.	متصفحك لا يدعم الوصول إلى الخطوط المحلية.
 	Local font access was denied.	تم رفض الوصول إلى الخطوط المحلية.
-	Local recovery is unavailable or still loading.	الاسترداد المحلي غير متاح أو ما زالت قيد التحميل.
+	Local recovery is unavailable or still loading.	الاسترداد المحلي غير متاح أو ما زال قيد التحميل.
 	Location: {path}	الموقع: {path}
 	Lock aspect ratio	تأمين نسبة العرض إلى الارتفاع
 	Lock Fields	تأمين الحقول
