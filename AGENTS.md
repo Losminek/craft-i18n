@@ -9,9 +9,9 @@ on a dev machine): read its `AGENTS.md`, then `standards/never-crash.md`,
   ([ADR 0002](docs/adr/0002-runtime-in-craft-libs-data-in-craft-i18n.md)). This repo holds only
   the catalogs and the checker (`crates/craft-i18n-tests`).
 - **Catalogs:** the format and every rule CI checks are in `docs/catalog-format.md`; the words in
-  `GLOSSARY.md`. Shared rows in `common.tsv` only grow
-  ([ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); an app changes one with an
-  override in its own `<app>.tsv`.
+  `GLOSSARY.md`. Shared rows in `common.tsv` only grow, except for a correction
+  ([ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); an app changes one's wording with
+  an override in its own `<app>.tsv`.
 - **Clean room:** every translation is written from the plain meaning of the English. Never consult
   or copy another product's localisation, string table or translated interface.
 - **Credit:** new translations and migrated catalogs are recorded in `ATTRIBUTION.md`, including
