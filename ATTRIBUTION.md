@@ -95,4 +95,4 @@ template, default and Reset). No native-speaker review is recorded.
 Saleh Hassan Alnemari (@salehnemari-max), AI-assisted with Claude Code (Opus 5.5), reworded 12
 Arabic (`ar`) rows in `locales/ar/wordcraft.tsv` whose counted noun had one form for every number
 (the status bar read "4 من 4 كلمة"), so they read correctly for any count: the noun first as a
-label, or the partitive `{n} من …`. No native-speaker review of the reworded rows is recorded yet.
+label, or the partitive `{n} من …`. The translator, a native speaker, read the 12 reworded rows and approved them.
