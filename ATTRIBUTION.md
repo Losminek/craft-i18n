@@ -89,3 +89,10 @@ template, default and Reset). No native-speaker review is recorded.
 ## WordCraft: Arabic rows for newer interface strings
 
 @tlomts-dev contributed 70 Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` for strings in current WordCraft code that had no row yet (recovery copies, update check, custom document properties, pane menu, spelling-dictionary messages, Print page choices, tracked-change shortcuts and similar), AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology already used by the file. No other product's localisation was consulted. No native-speaker review is recorded for these rows.
+
+## WordCraft: Romanian wording corrections
+
+Bogdan Claudiu Petanec (@multipointmaster-glitch) contributed ten Romanian wording corrections
+with OpenAI Codex (AI-assisted), written from the plain meaning of the English. The contributor
+approved the ten revised entries; this is not a review of the complete catalog. No in-app
+native-speaker review is recorded. The original translator credits above are unchanged.
