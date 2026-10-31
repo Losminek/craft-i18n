@@ -117,6 +117,9 @@
 	Advanced Find…	بحث متقدم…
 	After:	بعد:
 	Agents	الوكلاء
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	يمكن للوكلاء المتصلين بـ WordCraft أن يعرضوا لك رسائل عبر المساعد. وإذا كتمتها، يُبلَّغون بأنك لا ترغب فيها.
+	Ah, Latin. The language of deadlines.	آه، اللاتينية. لغة المواعيد النهائية.
+	Ah, the editing phase. My favourite. Very decisive.	آه، مرحلة التحرير. مرحلتي المفضلة. حاسمة جدًا.
 	Align Bottom Center	محاذاة للأسفل في الوسط
 	Align Bottom Left	محاذاة للأسفل يسارًا
 	Align Bottom Right	محاذاة للأسفل يمينًا
@@ -153,6 +156,7 @@
 	Alt Text Pane	جزء النص البديل
 	Alt:	بديل:
 	Alt\nText	نص\nبديل
+	an agent	وكيل
 	And	و
 	Angle Brackets	أقواس زاوية
 	Angle Brackets with Separator	أقواس زاوية مع فاصل
@@ -163,6 +167,7 @@
 	Annotation Reference	مرجع التعليق التوضيحي
 	Annotation Subject	موضوع التعليق التوضيحي
 	Annotation Text	نص التعليق التوضيحي
+	Annoying	مزعج
 	Another file	ملف آخر
 	Any Character	أي حرف
 	Any Digit	أي رقم
@@ -192,6 +197,8 @@
 	Asian text font:	خط النص الآسيوي:
 	Asian Typography	الطباعة الآسيوية
 	Assign	تعيين
+	Assistant	المساعد
+	Assistant Suggestions	اقتراحات المساعد
 	At least	على الأقل
 	At least {n}	{n} على الأقل
 	Atelier	المرسم
@@ -265,6 +272,7 @@
 	Blue:	الأزرق:
 	Body Text	نص أساسي
 	Body text in a short paragraph to show spacing.	نص أساسي في فقرة قصيرة لعرض التباعد.
+	Bold choice. Ctrl+Z is right there if you need it.	اختيار جريء. Ctrl+Z في متناولك إن احتجت إليه.
 	Book	كتاب
 	Book Title	عنوان كتاب
 	Book title	عنوان الكتاب
@@ -306,6 +314,7 @@
 	By author	حسب المؤلف
 	Calendar	التقويم
 	Can't be deleted	لا يمكن حذفه
+	Can't find a command? Press {key} and type what you want to do.	لا تجد أمرًا؟ اضغط {key} واكتب ما تريد فعله.
 	can't split at the first row	لا يمكن التقسيم عند الصف الأول
 	Canvas Member	عضو اللوحة
 	Capitalize Each Word	تكبير أول حرف من كل كلمة
@@ -318,6 +327,7 @@
 	Caption text	نص التسمية التوضيحية
 	Caption:	التسمية التوضيحية:
 	Captions	التسميات التوضيحية
+	Careful, any further back and we'll undo the invention of paper.	انتبه، خطوة أخرى إلى الوراء ونتراجع عن اختراع الورق.
 	Caret Character	حرف ^
 	Case changes	تغييرات حالة الأحرف
 	Cases (Three Conditions)	حالات (ثلاثة شروط)
@@ -676,6 +686,7 @@
 	Don't hyphenate	عدم تقسيم الكلمات
 	Don't read Zotero, Mendeley or EndNote citations and bibliographies	عدم قراءة استشهادات Zotero أو Mendeley أو EndNote وقوائم مراجعها
 	Don't Save	عدم الحفظ
+	Don't show me this tip again	لا تُظهر هذا التلميح مرة أخرى
 	Dot dash	نقطة وشرطة
 	Dot-dash	نقطة وشرطة
 	Dot-dot-dash	نقطة نقطة شرطة
@@ -826,6 +837,7 @@
 	Extend Selection	توسيع التحديد
 	Extend Selection by Units	توسيع التحديد بالوحدات
 	Extra space	مسافة إضافية
+	Faster: {command} is {key} on the keyboard.	أسرع: {command} هو {key} على لوحة المفاتيح.
 	Field code:	رمز الحقل:
 	Field Codes	رموز الحقول
 	Field codes:	رموز الحقول:
@@ -915,10 +927,12 @@
 	From Top Left Corner	من الزاوية العلوية اليسرى
 	From Top Right Corner	من الزاوية العلوية اليمنى
 	from Unicode (hex)	من Unicode (ست عشري)
+	From {name}	من {name}
 	From:	من:
 	Full page of the same label	صفحة كاملة من الملصق نفسه
 	Full Screen View	عرض ملء الشاشة
 	Full\nScreen	ملء\nالشاشة
+	Fun fact: a blank page is just a draft that hasn't been told yet.	معلومة طريفة: الصفحة الفارغة مسودة لم يخبرها أحد بعد.
 	Function	دالة
 	Functions	الدوال
 	Gallery	المعرض
@@ -934,6 +948,7 @@
 	Go to Record	الانتقال إلى السجل
 	Go to what:	الانتقال إلى:
 	Go To…	انتقال إلى…
+	Gone! Like it was never written. Mostly because it now wasn't.	اختفى! كأنه لم يُكتب قط. والسبب في الغالب أنه لم يعد مكتوبًا.
 	Good afternoon	نهارك سعيد
 	Good evening	مساء الخير
 	Good morning	صباح الخير
@@ -979,6 +994,7 @@
 	Heart	قلب
 	Hebrew	العبرية
 	Hex:	ست عشري:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	مرحبًا! أنا Nib، مساعدك في الكتابة. أقدّم تلميحات واختصارات، ورأيًا لم يطلبه أحد بين حين وآخر. هل أبقى معك؟
 	Hidden	مخفي
 	Hidden bookmarks	إشارات مرجعية مخفية
 	Hide Codes	إخفاء الرموز
@@ -1017,6 +1033,8 @@
 	Hyphenation zone:	منطقة تقسيم الكلمات:
 	Hyphens (--) as dashes (—)	الشرطات (--) كشرطات طويلة (—)
 	Hypotenuse	الوتر
+	I promise it's saved. I checked. Twice.	أعدك أنه محفوظ. تحققت بنفسي. مرتين.
+	I'd write something myself, but I'm all nib and no ink.	كنت سأكتب شيئًا بنفسي، لكنني سنّ قلم بلا حبر.
 	I, II, III, …	I، II، III، …
 	i, ii, iii, …	i، ii، iii، …
 	Icon Color	لون الأيقونة
@@ -1155,6 +1173,7 @@
 	ISO 690 (author-date)	ISO 690 (المؤلف والتاريخ)
 	ISO 690 (numerical)	ISO 690 (رقمي)
 	Issue	العدد
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	يبدو أنك تكتب رسالة. أتريد ظرفًا لها، أم قالب رسالة تبدأ منه؟
 	Italian	الإيطالية
 	Japanese	اليابانية
 	Join the ArtCraft community on Discord	انضم إلى مجتمع ArtCraft على Discord
@@ -1166,6 +1185,7 @@
 	Justified	مضبوط
 	Keep Lines Together	إبقاء الأسطر معًا
 	Keep lines together	إبقاء الأسطر معًا
+	Keep me around	ابقَ معي
 	Keep Text Only	الاحتفاظ بالنص فقط
 	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	احفظ كلمة المرور في مكان آمن: لا يستطيع أحد فتح المستند بدونها، ولا WordCraft نفسه. اترك المربعين فارغين لإزالة كلمة المرور.
 	Keep with Next	الربط مع التالي
@@ -1222,6 +1242,7 @@
 template	Letter	رسالة
 	Letter   8.50" × 11.00"	Letter   8.50" × 11.00"
 	Letter headings	عناوين الحروف
+	Letter template	قالب رسالة
 	Letter-Like Symbols	رموز شبيهة بالحروف
 	Letters	الرسائل
 	Level 1	المستوى 1
@@ -1301,6 +1322,7 @@ template	Letter	رسالة
 	Logical AND with Limits	AND منطقي بحدود
 	Logical OR	OR منطقي
 	Logical OR with Limits	OR منطقي بحدود
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: لأن الكلمات الحقيقية ما زالت في المقهى.
 	lowercase	أحرف صغيرة
 	Lum:	الإضاءة:
 	Macros	وحدات الماكرو
@@ -1395,6 +1417,7 @@ template	Letter	رسالة
 	Multilevel List	قائمة متعددة المستويات
 	Multilevel List Library	مكتبة القوائم متعددة المستويات
 	Multiple Pages	صفحات متعددة
+	Mute agent messages	كتم رسائل الوكلاء
 	My list has	قائمتي تحتوي على
 	Name of the file this document is saved as	اسم الملف المحفوظ به هذا المستند
 	Narrow	ضيق
@@ -1441,6 +1464,8 @@ template	Letter	رسالة
 	Next Section	القسم التالي
 	Next Sentence	الجملة التالية
 	Next sentence	الجملة التالية
+	Nib floats over the window with tips and the occasional remark.	يطفو Nib فوق النافذة بتلميحات وتعليق بين حين وآخر.
+	Nib, your assistant. Drag to move; right-click for options.	Nib، مساعدك. اسحبه لتحريكه، وانقر بزر الماوس الأيمن لعرض الخيارات.
 	No accessibility issues found.	لم يُعثر على مشكلات في إمكانية الوصول.
 	No Border	بلا حدود
 	No changes (read only)	لا تغييرات (للقراءة فقط)
@@ -1491,6 +1516,7 @@ template	Letter	رسالة
 	not editing an equation	لا يجري تحرير معادلة
 	Not equal to	لا يساوي
 	Not linked: click a text box	غير مرتبط: انقر مربع نص
+	Not now	ليس الآن
 	Not saved	غير محفوظ
 	Not saved yet	لم يُحفظ بعد
 	Not set	غير محدد
@@ -1843,6 +1869,7 @@ template	Letter	رسالة
 	Reset Graphic	إعادة تعيين الرسم
 	Reset Paragraph Formatting	إعادة تعيين تنسيق الفقرة
 	Reset Picture	إعادة تعيين الصورة
+	Reset tips	إعادة تعيين التلميحات
 	Reset to Normal	إعادة التعيين إلى عادي
 	Reset\nGraphic	إعادة تعيين\nالرسم
 	Reset…	إعادة تعيين…
@@ -1864,6 +1891,7 @@ template	Letter	رسالة
 	Reviewing — edits become suggestions	المراجعة — تصبح التعديلات اقتراحات
 	Revised document	المستند المعدَّل
 	Rewind	ترجيع
+	Rewinding. Tell me when to stop.	أُرجع الشريط. أخبرني متى أتوقف.
 	Ribbon	الشريط
 	Ribbon and Quick Access Toolbar:	الشريط وشريط أدوات الوصول السريع:
 	Ribbon tabs	علامات تبويب الشريط
@@ -1886,6 +1914,7 @@ template	Letter	رسالة
 	Right:	اليمين:
 	Rightwards Arrow Above	سهم لليمين فوق
 	Rightwards Harpoon Above	حربة لليمين فوق
+	Romanian	الرومانية
 	Roots of ax²+bx+c	جذور ax²+bx+c
 	Rotate all text 270°	تدوير النص كله 270°
 	Rotate all text 90°	تدوير النص كله 90°
@@ -1912,8 +1941,11 @@ template	Letter	رسالة
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	احفظ المستند لتشغيل الحفظ التلقائي (الملف الذي فتحته فقط لا يُعاد كتابته حتى تحفظه)
 	Save these pages as PDF…	حفظ هذه الصفحات كملف PDF…
 	Saved	محفوظ
+	Saved. Saved again. Still saved. It's very saved.	حُفظ. حُفظ مرة أخرى. ما زال محفوظًا. إنه محفوظ جدًا.
 	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	يحفظ قالب .dotx في مجلد قوالبك. ويظهر في ملف › جديد تحت «شخصي».
 	Saving {name} was cancelled, so it is still open and nothing was lost.	أُلغي حفظ {name}، لذا ما زال مفتوحًا ولم يُفقد شيء.
+	Sayings	العبارات
+	Sayings:	العبارات:
 	Scale Drawing	تحجيم الرسم
 	Scatter	مبعثر
 	Script	الخط الكتابي
@@ -2046,13 +2078,16 @@ template	Letter	رسالة
 	Show revisions in balloons	إظهار المراجعات في البالونات
 	Show rulers	إظهار المساطر
 	Show Text Formatting	إظهار تنسيق النص
+	Show the Assistant	إظهار المساعد
 	Show the community button in the title bar	إظهار زر المجتمع في شريط العنوان
 	Show the equation in the line of text	إظهار المعادلة ضمن سطر النص
 	Show the equation on a line of its own	إظهار المعادلة في سطر مستقل
 	Show the mini toolbar when text is selected	إظهار شريط الأدوات المصغّر عند تحديد نص
 	Show the ribbon	إظهار الشريط
 	Show the Start screen when WordCraft starts	إظهار شاشة البدء عند تشغيل WordCraft
+	Show the tips you asked not to see again.	يُظهر التلميحات التي طلبت عدم إظهارها مرة أخرى.
 	Show/Hide ¶	إظهار/إخفاء ¶
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	يُظهر إظهار/إخفاء ¶ ({key}) المسافات وعلامات الجدولة والفواصل المختبئة في نصك.
 	Show\nComments	إظهار\nالتعليقات
 	Showing the first {count} items.	عرض أول {count} عنصر.
 	Shows a tree: each item below the item it belongs to.	يعرض شجرة: كل عنصر تحت العنصر الذي ينتمي إليه.
@@ -2112,6 +2147,7 @@ template	Letter	رسالة
 	Soft Glow	توهج ناعم
 	Solid Accent	لون تمييز مصمت
 	Solid fill	تعبئة مصمتة
+	Sometimes	أحيانًا
 	Sort by:	الفرز حسب:
 	Sort order:	ترتيب الفرز:
 	Sort Recipients	فرز المستلمين
@@ -2165,6 +2201,7 @@ template	Letter	رسالة
 	State	الولاية
 	Statement   5.50" × 8.50"	Statement   5.50" × 8.50"
 	Statistics	الإحصائيات
+	Still there? I can hear you thinking.	ما زلت هنا؟ أكاد أسمعك تفكر.
 	Stop	إيقاف
 	Stop Protection	إيقاف الحماية
 	Stop Reading	إيقاف القراءة
@@ -2252,6 +2289,7 @@ template	Letter	رسالة
 	Tabular List	قائمة جدولية
 	Tag	العلامة
 	Take the last match on the page	أخذ آخر تطابق في الصفحة
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	خذ وقتك. الصفحة لن تذهب إلى أي مكان. ولا أنا. أبدًا.
 	Tangent formula	صيغة الظل
 	Tangent Function	دالة الظل
 	TC entry fields	حقول إدخال TC
@@ -2341,6 +2379,7 @@ template	Letter	رسالة
 	Through	خلال
 	Tight	متقارب
 	Tilde	علامة التلدة
+	Tip	تلميح
 	Tips ({n})	تلميحات ({n})
 preview	Title	العنوان
 	Title Bar	شريط العنوان
@@ -2424,6 +2463,7 @@ preview	Title	العنوان
 	Undo Actions	التراجع عن إجراءات
 	Undo History	سجل التراجع
 	Undo {n} Actions	التراجع عن {n} إجراء
+	Undo, undo, undo… we're time travelling now.	تراجع، تراجع، تراجع… نحن نسافر عبر الزمن الآن.
 	Unformatted Text	نص غير منسق
 	Union of intersections	اتحاد التقاطعات
 	Union with Limits	اتحاد بحدود
@@ -2471,6 +2511,7 @@ preview	Title	العنوان
 	View Alt Text…	عرض النص البديل…
 	View Gridlines	عرض خطوط الشبكة
 	View State	حالة العرض
+	View › Focus hides everything but your words. I'll wait outside.	يُخفي عرض › التركيز كل شيء ما عدا كلماتك. سأنتظر في الخارج.
 	Views	طرق العرض
 	Visual effects	التأثيرات المرئية
 	Voice	الصوت
@@ -2527,9 +2568,13 @@ preview	Title	العنوان
 	Wrap\nText	التفاف\nالنص
 	Write & Insert Fields	كتابة الحقول وإدراجها
 	Write a reply	اكتب ردًا
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	حُبسة الكاتب؟ أجد أن التحديق في المؤشر يساعد. فهو يغمز لي منذ سنوات.
 	x bar	x بشرطة علوية
 	Year	السنة
 	Yields	ينتج
+	You haven't saved in a while, and AutoSave is off. Save now?	لم تحفظ منذ مدة، والحفظ التلقائي متوقف. أتحفظ الآن؟
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	بدأت قائمة. اضغط Enter مرتين لإنهائها، أو Backspace في بداية العنصر لإعادته نصًا عاديًا.
+	Your document is now the most saved document in history.	أصبح مستندك الآن أكثر مستند حُفظ في التاريخ.
 	Your system doesn't report an animation setting, so animation effects stay on.	نظامك لا يحدد إعدادًا للحركة، لذا تبقى تأثيرات الحركة مشغَّلة.
 	Your system has animation effects turned off.	تأثيرات الحركة متوقفة في نظامك.
 	Your system has animation effects turned on.	تأثيرات الحركة مشغَّلة في نظامك.
@@ -2544,6 +2589,13 @@ preview	Title	العنوان
 	{count} of {total} pages will print	ستُطبع {count} من {total} صفحة
 	{count} of {total} recipients will be merged.	سيُدمج {count} من {total} مستلم.
 	{group} settings	إعدادات {group}
+	{key} checks the spelling and grammar of the whole document.	يدقق {key} الإملاء والقواعد في المستند كله.
+	{key} counts your words, characters and paragraphs.	يعدّ {key} كلماتك وأحرفك وفقراتك.
+	{key} finds and replaces text, formatting and special characters.	يبحث {key} عن النص والتنسيق والأحرف الخاصة ويستبدلها.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	يكرر {key} آخر إجراء قمت به. فيصبح تنسيق عشرة عناوين نقرةً واحدة وتسع ضغطات.
+	{key} starts a new line without starting a new paragraph.	يبدأ {key} سطرًا جديدًا دون أن يبدأ فقرة جديدة.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	يبدأ {key} صفحة جديدة. أرتب بكثير من الضغط على Enter حتى تظهر.
+	{key} turns the selected text into a link.	يحوّل {key} النص المحدد إلى رابط.
 	{key}+Click to follow link	{key}+نقر لفتح الارتباط
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}، {columns} × {rows}، {size} ({paper})
 	{language} (no dictionary)	{language} (بلا قاموس)
@@ -2566,6 +2618,9 @@ preview	Title	العنوان
 	{width} × {height} mm	{width} × {height} مم
 	{width} × {height} pixels	{width} × {height} بكسل
 	{words} words	{words} كلمة
+	{words} words and counting. Literally. I'm counting.	{words} كلمة والعدد مستمر. حرفيًا. أنا أعدّ.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} كلمة! كنت سأنثر قصاصات الاحتفال، لكن عليّ أن أنظفها بعدها.
+	{words} words. That's {words} more than I've written today.	{words} كلمة. أي أكثر بـ{words} مما كتبته أنا اليوم.
 	“{text}” ({row}, {series}) isn't a number.	«{text}» ({row}، {series}) ليس رقمًا.
 	✓ None	✓ بلا
 	➕ New comment	➕ تعليق جديد
