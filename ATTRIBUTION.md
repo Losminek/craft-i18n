@@ -103,3 +103,10 @@ Saleh Hassan Alnemari (@salehnemari-max), AI-assisted with Claude Code (Opus 5.5
 Arabic (`ar`) rows in `locales/ar/wordcraft.tsv` whose counted noun had one form for every number
 (the status bar read "4 من 4 كلمة"), so they read correctly for any count: the noun first as a
 label, or the partitive `{n} من …`. The translator, a native speaker, read the 12 reworded rows and approved them.
+
+## WordCraft: Romanian wording corrections
+
+Bogdan Claudiu Petanec (@multipointmaster-glitch) contributed ten Romanian wording corrections
+with OpenAI Codex (AI-assisted), written from the plain meaning of the English. The contributor
+approved the ten revised entries; this is not a review of the complete catalog. No in-app
+native-speaker review is recorded. The original translator credits above are unchanged.
