@@ -762,7 +762,7 @@
 	Drag a clip to slip its source in/out without moving it.	Σύρετε ένα κλιπ για να μετατοπίσετε την είσοδο/έξοδο της πηγής του χωρίς να το μετακινήσετε.
 	Drag an edge to change the clip's speed so it fills the new duration.	Σύρετε μια άκρη για να αλλάξετε την ταχύτητα του κλιπ ώστε να γεμίζει τη νέα διάρκεια.
 	Drag an edit point to ripple trim; later clips move to keep the gap closed.	Σύρετε ένα σημείο τομής για περικοπή ripple· τα επόμενα κλιπ μετακινούνται ώστε να μη μένει κενό.
-	Drag an edit point to roll it: the out of one clip and the in of the next move together.	Σύρετε ένα σημείο τομής για κύλισή του: η έξοδος του ενός κλιπ και η είσοδος του επόμενου μετακινούνται μαζί.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	Σύρετε ένα σημείο τομής για επεξεργασία roll: η έξοδος του ενός κλιπ και η είσοδος του επόμενου μετακινούνται μαζί.
 	Drag inward to round the corners	Σύρετε προς τα μέσα για στρογγύλεμα των γωνιών
 	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	Σύρετε την άκρη ενός μουσικού κλιπ για να το αναμείξετε ξανά στη νέα διάρκεια, σε μουσικά ταιριαστούς χτύπους.
 	Drag to scroll the timeline.	Σύρετε για κύλιση του χρονολογίου.
@@ -1347,7 +1347,7 @@
 	Limiter Release	Αποδέσμευση περιοριστή
 	Limiter Threshold	Κατώφλι περιοριστή
 	Line Thickness	Πάχος γραμμής
-	Linear Dodge (Add)	Γραμμική υποφωτοσκίαση (Πρόσθεση)
+	Linear Dodge (Add)	Γραμμική υπερέκθεση (προσθήκη)
 	Linear keyframe thinning	Γραμμική αραίωση καρέ-κλειδιών
 	Linear Ramp	Γραμμική κλίση
 	Linear to Log	Γραμμικό σε log
@@ -2121,8 +2121,8 @@
 	Role	Ρόλος
 	Roll	Κύλιση
 	Roll (Z Axis)	Κύλιση (άξονας Z)
-	Roll Edit	Τομή κύλισης
-	Rolling Edit Tool	Εργαλείο τομής κύλισης
+	Roll Edit	Επεξεργασία roll
+	Rolling Edit Tool	Εργαλείο επεξεργασίας roll
 	Room Size	Μέγεθος δωματίου
 	Rose	Ροζ
 	Rotation Amount	Ποσότητα περιστροφής
