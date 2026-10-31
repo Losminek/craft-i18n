@@ -2117,30 +2117,22 @@
 	“{text}” ({row}, {series}) isn't a number.	„{text}“ ({row}, {series}) ist keine Zahl.
 	tOGGLE cASE	gROSS-/kLEINSCHREIBUNG UMKEHREN
 	Normal	Standard
-	Book Title	Buchtitel
 	Emphasis	Betonung
-	Endnote Reference	Endnotenverweis
-	Endnote Text	Endnotentext
-	Footnote Reference	Fußnotenverweis
-	Footnote Text	Fußnotentext
 	Intense Emphasis	Intensive Betonung
-	Intense Quote	Intensives Zitat
-	Intense Reference	Intensiver Verweis
-	List Paragraph	Listenabsatz
 	No Spacing	Kein Abstand
-	Quote	Zitat
 	Strong	Kräftig
-	Subtitle	Untertitel
-	Subtle Emphasis	Subtile Betonung
-	Subtle Reference	Subtiler Verweis
-	TOC Heading	Inhaltsverzeichnisüberschrift
+	Subtle Emphasis	Dezente Betonung
+	Subtle Reference	Dezenter Verweis
 	TOC {n}	Inhaltsverzeichnis {n}
-	Reference type:	Verweistyp:
 	Insert reference to:	Verweis einfügen auf:
-	For which item:	Für welches Element:
-	Heading	Überschrift
-	Heading text	Überschriftstext
-	Change to Level {n}	Zu Ebene {n} wechseln
 	Nothing of this type in the document.	Keine Elemente dieses Typs im Dokument vorhanden.
-	page number	Seitenzahl
 	Above/below	Oben/Unten
+	East	Ost
+	Bright Green	Hellgrün
+	Turquoise	Türkis
+	Dark Blue	Dunkelblau
+	Teal	Petrol
+	Dark Red	Dunkelrot
+	Dark Yellow	Dunkelgelb
+	Gray-50%	Grau-50%
+	Gray-25%	Grau-25%
