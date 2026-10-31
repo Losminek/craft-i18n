@@ -180,7 +180,6 @@
 	Apply Style	Använd stil
 	Apply Styles	Använd stilar
 	Arabic	Arabiska
-numerals	Arabic	Arabiska
 	Arch Down	Båge nedåt
 	Arch Up	Båge uppåt
 	Arrange\nAll	Ordna\nalla
@@ -310,7 +309,6 @@ numerals	Arabic	Arabiska
 	By author	Efter författare
 	Calendar	Kalender
 	Can't be deleted	Kan inte tas bort
-	Can't find a command? Press Alt+Q and type what you want to do.	Hittar du inte ett kommando? Tryck på Alt+Q och skriv vad du vill göra.
 	Can't find a command? Press {key} and type what you want to do.	Hittar du inte ett kommando? Tryck på {key} och skriv vad du vill göra.
 	can't split at the first row	kan inte dela vid första raden
 	Canvas Member	Del av ritytan
@@ -484,7 +482,6 @@ numerals	Arabic	Arabiska
 	Content Control Properties	Egenskaper för innehållskontroll
 	Contents can't be edited	Innehållet kan inte redigeras
 	Context	Efter sammanhang
-numerals	Context	Efter sammanhang
 	Continue from previous section	Fortsätt från föregående avsnitt
 	Continue without restoring	Fortsätt utan att återställa
 	Continuous	Löpande
@@ -539,21 +536,10 @@ numerals	Context	Efter sammanhang
 	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Beskärning på sidan fungerar bara på bilder som inte är roterade: ställ först in Rotation på 0° eller använd beskärningsrutorna
 	Cross-reference	Korsreferens
 	Cross-reference:	Korsreferens:
-	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter börjar på en ny sida. Mycket snyggare än att trycka på Enter tills det händer.
-	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H söker efter och ersätter text, formatering och specialtecken.
-	Ctrl+K turns the selected text into a link.	Ctrl+K gör den markerade texten till en länk.
-	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G räknar ord, tecken och stycken.
-	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 upprepar den senaste åtgärden. Att formatera tio rubriker blir plötsligt ett klick och nio tangenttryck.
-	F7 checks the spelling and grammar of the whole document.	F7 kontrollerar stavning och grammatik i hela dokumentet.
-numerals	Hindi	Hindi
 spacing	Open	Öppen
 	Page number	Sidnummer
 	Picture border	Bildkantlinje
-	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter börjar på en ny rad utan att starta ett nytt stycke.
-	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	Visa/dölj ¶ (Ctrl+Shift+8) visar blanksteg, tabbtecken och brytningar som döljer sig i texten.
 	Soft Edge	Mjuk kant
-	Spelling and grammar are checked in English (United States).	Stavning och grammatik kontrolleras på engelska (USA).
-numerals	System	Enligt systemet
 	{field}, record {n}	{field}, post {n}
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} börjar en ny sida. Mycket snyggare än att trycka på Enter tills det händer.
 	{key} finds and replaces text, formatting and special characters.	{key} söker och ersätter text, formatering och specialtecken.
