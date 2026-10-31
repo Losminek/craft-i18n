@@ -86,6 +86,9 @@ commit that has their translations.
 - **After cutover** (the app has no `i18n/*.tsv`): add rows straight to
   `locales/<locale>/<app>.tsv`. The app's stale and missing report, run with `CRAFT_I18N_DIR`
   set, lists the source texts with no translation (its missing bucket).
+  When the app only fixes its English (a typo, punctuation, casing), `tools/rekey.py <app> <old>
+  <new>` moves every locale's translation to the new text in one go; a changed meaning needs new
+  translations instead.
 
 The cutover itself: a final sync against the app's `main`, that craft-i18n PR merges, the app's
 wiring PR merges (deleting `i18n/*.tsv` and pinning a craft-i18n SHA that holds the sync), then the
