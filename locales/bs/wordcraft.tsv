@@ -253,8 +253,8 @@ numerals	Arabic	Arapski
 	Between	Između
 	Bibliography	Bibliografija
 	Binomial Coefficient	Binomni koeficijent
-	Binomial Coefficient (angle)	Binomni koeficijent (šiljaste)
-	Binomial Coefficient with Angle Brackets	Binomni koeficijent sa šiljastim zagradama
+	Binomial Coefficient (angle)	Binomni koeficijent (ugaone zagrade)
+	Binomial Coefficient with Angle Brackets	Binomni koeficijent s ugaonim zagradama
 	Binomial expansion of (x+a)ⁿ	Binomni razvoj (x+a)ⁿ
 	Blank	Prazno
 	Blank (Three Columns)	Prazno (tri kolone)
@@ -2022,7 +2022,7 @@ spacing	Open	Otvoreno
 	Single Brackets	Jednostruke zagrade
 	Single Closing Quote	Jednostruki zatvarajući navodnik
 	Single label	Jedna naljepnica
-	Single Left Angle	Jednostruka lijeva šiljasta zagrada
+	Single Left Angle	Jednostruka lijeva ugaona zagrada
 	Single Left Bar	Jednostruka lijeva crta
 	Single Left Brace	Jednostruka lijeva vitičasta zagrada
 	Single Left Bracket	Jednostruka lijeva uglasta zagrada
@@ -2088,7 +2088,7 @@ spacing	Open	Otvoreno
 	Spike	Sakupljač
 	Split Cells	Razdvoji ćelije
 	Split Table	Razdvoji tabelu
-	Spreadsheet Table	Tabela proračunske tablice
+	Spreadsheet Table	Tabela iz proračunske tabele
 	Square Root	Kvadratni korijen
 	Square Root with Degree	Korijen sa stepenom
 	Square Union	Kvadratna unija

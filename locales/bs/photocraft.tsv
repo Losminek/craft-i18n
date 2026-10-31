@@ -995,8 +995,8 @@ cameraRaw	Detail	Detalji
 	Drag to move the active layer	Prevucite da pomjerite aktivni sloj
 	Drag to move the active shape's path or the Work Path	Prevucite da pomjerite putanju aktivnog oblika ili radnu putanju
 	Drag to move the layer	Prevucite da pomjerite sloj
-	Drag to pan  ·  hold Space with any tool	Prevucite za pomicanje  ·  držite Razmak s bilo kojim alatom
-	Drag to pan · Scroll to zoom · Double-click to fit	Prevucite za pomicanje · Pomjerite točkić za zumiranje · Dvostruki klik za uklapanje
+	Drag to pan  ·  hold Space with any tool	Prevucite za pomjeranje  ·  držite Razmak s bilo kojim alatom
+	Drag to pan · Scroll to zoom · Double-click to fit	Prevucite za pomjeranje · Pomjerite točkić za zumiranje · Dvostruki klik za uklapanje
 	Drag: draw freehand · Release on the start point: close	Prevlačenje: crtaj prostoručno · Otpuštanje na početnoj tački: zatvori
 	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	Prevlačenje: crtaj prostoručno · {alt}-klik: ravan segment · Otpuštanje na početnoj tački: zatvori
 	Draw to modify the curve	Crtajte da izmijenite krivu
@@ -1056,7 +1056,7 @@ cameraRaw	Effects	Efekti
 	Enable airbrush-style build-up effects	Omogući efekte nanošenja poput zračnog kista
 	Enable animations	Omogući animacije
 	Enable Crop Shield	Omogući štit izrezivanja
-	Enable flick panning	Omogući pomicanje zamahom
+	Enable flick panning	Omogući pomjeranje zamahom
 	Enable floating document window docking	Omogući sidrenje plutajućih prozora dokumenata
 	Enable Layer Mask	Omogući masku sloja
 	Enable Mask	Omogući masku
