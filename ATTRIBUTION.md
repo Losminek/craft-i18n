@@ -113,3 +113,12 @@ native-speaker review is recorded. The original translator credits above are unc
 
 The same contributor also corrected the Romanian `Choose List Item` label in a follow-up,
 with OpenAI Codex assistance; that revised entry was explicitly approved by the contributor.
+
+## WordCraft: Arabic rows for picture, cross-reference and recovery strings
+
+37 Arabic (`ar`) rows for current WordCraft strings that had no Arabic row yet (Picture Format
+corrections, colour and border menus, Cross-reference "Insert reference to" choices, Recover
+documents, digit-shape choices, paragraph-spacing "Open", paper names and the Symbol subset Basic
+Latin), requested by Nasser (@nasserfq) and written with Claude Code (AI-assisted) from the plain
+meaning of the English, in the terminology already used by the file. No other product's
+localisation was consulted. No native-speaker review is recorded for these rows.
