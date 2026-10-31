@@ -417,7 +417,6 @@
 	Check\nAccessibility	فحص إمكانية\nالوصول
 	Checked styles are allowed:	الأنماط المحددة مسموح بها:
 	Checked symbol	رمز التحديد
-	Checking for updates…	جارٍ البحث عن تحديثات…
 	Chevron Down	شيفرون للأسفل
 	Chevron Up	شيفرون للأعلى
 	Chicago	Chicago
@@ -547,7 +546,6 @@
 	Cosine 2x	جيب تمام 2x
 	Cosine Function	دالة جيب التمام
 	Cotangent Function	دالة ظل التمام
-	Could not check for updates:\n{error}	تعذّر البحث عن تحديثات:\n{error}
 	Couldn't download {name}: {error}	تعذّر تنزيل {name}: {error}
 	Couldn't make WordCraft the default: {error}	تعذّر جعل WordCraft التطبيق الافتراضي: {error}
 	Couldn't open {path}: {error}	تعذّر فتح {path}: {error}
@@ -669,7 +667,7 @@
 	Direct formatting	تنسيق مباشر
 	Direction	الاتجاه
 	Directory	دليل
-	Discard the recovery copy of {name}?	هل تريد حذف نسخة الاستعادة الخاصة بـ{name}؟
+	Discard the recovery copy of {name}?	هل تريد حذف نسخة الاسترداد الخاصة بـ{name}؟
 	Discard…	حذف…
 	Discord	Discord
 	Discord community	مجتمع Discord
@@ -1340,7 +1338,7 @@ template	Letter	رسالة
 	Loaded {count} system fonts.	تم تحميل {count} من خطوط النظام.
 	Local font access is not supported by your browser.	متصفحك لا يدعم الوصول إلى الخطوط المحلية.
 	Local font access was denied.	تم رفض الوصول إلى الخطوط المحلية.
-	Local recovery is unavailable or still loading.	الاستعادة المحلية غير متاحة أو ما زالت قيد التحميل.
+	Local recovery is unavailable or still loading.	الاسترداد المحلي غير متاح أو ما زال قيد التحميل.
 	Location: {path}	الموقع: {path}
 	Lock aspect ratio	تأمين نسبة العرض إلى الارتفاع
 	Lock Fields	تأمين الحقول
@@ -1354,6 +1352,7 @@ template	Letter	رسالة
 	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: لأن الكلمات الحقيقية ما زالت في المقهى.
 	lowercase	أحرف صغيرة
 	Lum:	الإضاءة:
+	Macro name:	اسم الماكرو:
 	Macros	وحدات الماكرو
 	Made from the author and year when empty	يُنشأ من المؤلف والسنة عندما يكون فارغًا
 	Magazine or newspaper article	مقال في مجلة أو صحيفة
@@ -1519,9 +1518,9 @@ template	Letter	رسالة
 	No Outline	بلا حد خارجي
 	No Paragraph Space	بلا تباعد بين الفقرات
 	No printers found. Configure a system printer or export a PDF.	لم يُعثر على طابعات. اضبط طابعة في النظام أو صدّر ملف PDF.
-	No recovery copies.	لا توجد نسخ استعادة.
+	No recovery copies.	لا توجد نسخ استرداد.
 	No Reflection	بلا انعكاس
-	No Scaling	بلا ملاءمة
+	No Scaling	بلا تحجيم
 	No Shadow	بلا ظل
 	No Soft Edges	بلا حواف ناعمة
 	No sources yet.	لا توجد مصادر بعد.
@@ -1845,9 +1844,10 @@ template	Letter	رسالة
 	Recolor a one-color picture, such as an icon	إعادة تلوين صورة ذات لون واحد، مثل أيقونة
 	Recolor Selected Ink	إعادة تلوين الحبر المحدد
 	Record Macro	تسجيل ماكرو
+	Record…	تسجيل…
 	Recover Unsaved Documents	استرداد المستندات غير المحفوظة
-	Recovery copy	نسخة الاستعادة
-	Recovery is disabled while this document has a password.	الاستعادة معطّلة ما دام للمستند كلمة مرور.
+	Recovery copy	نسخة الاسترداد
+	Recovery is disabled while this document has a password.	الاسترداد معطّل ما دام للمستند كلمة مرور.
 	Red:	الأحمر:
 	Reduce Hanging Indent	تقليل المسافة البادئة المعلّقة
 	Reference type:	نوع المرجع:
@@ -1996,7 +1996,7 @@ template	Letter	رسالة
 	Sayings:	العبارات:
 	Scale Drawing	تحجيم الرسم
 	Scale Font Sizes	تحجيم أحجام الخطوط
-	Scale to paper size	ملاءمة حجم الورق
+	Scale to paper size	تحجيم إلى حجم الورق
 	Scatter	مبعثر
 	Script	الخط الكتابي
 	Scroll ribbon left	تمرير الشريط لليسار
@@ -2260,6 +2260,7 @@ template	Letter	رسالة
 	Stop	إيقاف
 	Stop Protection	إيقاف الحماية
 	Stop Reading	إيقاف القراءة
+	Stop Recording	إيقاف التسجيل
 	Stopped	متوقف
 	Straight Arrow Connector	موصل سهم مستقيم
 	Straight Connector	موصل مستقيم
@@ -2414,6 +2415,7 @@ template	Letter	رسالة
 	Themes	السمات
 	Then by	ثم حسب
 	Then insert:	ثم أدرج:
+	There are no macros yet. Record one to add it here.	لا توجد وحدات ماكرو بعد. سجّل وحدة لإضافتها هنا.
 	there is no ink to replay	لا يوجد حبر لإعادة تشغيله
 	there is nothing to undo	لا يوجد ما يُتراجع عنه
 	there's no citation after the caret	لا يوجد استشهاد بعد مؤشر الكتابة
@@ -2628,7 +2630,6 @@ preview	Title	العنوان
 	WordArt Styles	أنماط WordArt
 	WordCraft	WordCraft
 	WordCraft is now the default app for Word documents.	أصبح WordCraft التطبيق الافتراضي لمستندات Word.
-	WordCraft {version} is currently the newest version available.	WordCraft {version} هو أحدث إصدار متاح حاليًا.
 	Words only	الكلمات فقط
 	Wrap Text	التفاف النص
 	Wrap Text Sides	جوانب التفاف النص
