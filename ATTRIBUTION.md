@@ -87,6 +87,12 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
 
+## WordCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
+with Claude Code (craft-sv-translate) and written from the English meaning. Terms follow the
+existing Swedish rows. No native-speaker review is recorded.
+
 ## WordCraft: Arabic rows for newer interface strings
 
 @tlomts-dev contributed 70 Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` for strings in current WordCraft code that had no row yet (recovery copies, update check, custom document properties, pane menu, spelling-dictionary messages, Print page choices, tracked-change shortcuts and similar), AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology already used by the file. No other product's localisation was consulted. No native-speaker review is recorded for these rows.
