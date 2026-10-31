@@ -90,3 +90,10 @@ template, default and Reset). No native-speaker review is recorded.
 ## WordCraft: Arabic rows for newer interface strings
 
 @tlomts-dev contributed 70 Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` for strings in current WordCraft code that had no row yet (recovery copies, update check, custom document properties, pane menu, spelling-dictionary messages, Print page choices, tracked-change shortcuts and similar), AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology already used by the file. No other product's localisation was consulted. No native-speaker review is recorded for these rows.
+
+## WordCraft: Arabic number agreement
+
+Saleh Hassan Alnemari (@salehnemari-max), AI-assisted with Claude Code (Opus 5.5), reworded 12
+Arabic (`ar`) rows in `locales/ar/wordcraft.tsv` whose counted noun had one form for every number
+(the status bar read "4 من 4 كلمة"), so they read correctly for any count: the noun first as a
+label, or the partitive `{n} من …`. The translator, a native speaker, read the 12 reworded rows and approved them.
