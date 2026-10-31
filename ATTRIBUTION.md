@@ -110,3 +110,6 @@ Bogdan Claudiu Petanec (@multipointmaster-glitch) contributed ten Romanian wordi
 with OpenAI Codex (AI-assisted), written from the plain meaning of the English. The contributor
 approved the ten revised entries; this is not a review of the complete catalog. No in-app
 native-speaker review is recorded. The original translator credits above are unchanged.
+
+The same contributor also corrected the Romanian `Choose List Item` label in a follow-up,
+with OpenAI Codex assistance; that revised entry was explicitly approved by the contributor.
