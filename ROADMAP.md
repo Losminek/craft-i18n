@@ -78,8 +78,6 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
   craft-i18n at a pinned ref and sets `CRAFT_I18N_DIR` and `CRAFT_I18N_REQUIRED=1`, as it does for
   craft-fonts. Until then, releases are English-only unless an app sets them itself.
 - **Repository home**: transferred to storytold/craft-i18n (2026-10-21).
-- **Progress-docs shape**: align this page with the craftrules progress-docs standard once it is
-  available to this repository.
 
 ## Change log
 
