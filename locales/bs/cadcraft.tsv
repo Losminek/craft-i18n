@@ -500,7 +500,7 @@ menu	Draw	Crtaj
 	Modeling	Modeliranje
 menu	Modify	Izmijeni
 	More toolbar commands	Više naredbi trake s alatima
-	Move sideways to pan; push/pull or twist to zoom.	Pomjerite postrance za pomicanje pogleda; gurnite/povucite ili zakrenite za zumiranje.
+	Move sideways to pan; push/pull or twist to zoom.	Pomjerite postrance za pomjeranje pogleda; gurnite/povucite ili zakrenite za zumiranje.
 	MText	MText
 	Multileader	Višestruka pokazna linija
 	Multileader style	Stil višestruke pokazne linije
@@ -588,11 +588,11 @@ menu	Modify	Izmijeni
 	Override	Zamjena
 	Page Setup Manager	Upravitelj postavki stranice
 	Page Setup Manager...	Upravitelj postavki stranice...
-	Pan	Pomicanje pogleda
+	Pan	Pomjeranje pogleda
 	Pan Down	Pomakni pogled dolje
 	Pan Left	Pomakni pogled lijevo
 	Pan Right	Pomakni pogled desno
-	Pan sensitivity	Osjetljivost pomicanja pogleda
+	Pan sensitivity	Osjetljivost pomjeranja pogleda
 	Pan Up	Pomakni pogled gore
 	PAPER	PAPIR
 	Paper Space	Prostor papira
@@ -850,7 +850,7 @@ menu	Modify	Izmijeni
 	Specify base diameter	Navedite prečnik baze
 	Specify base point	Navedite baznu tačku
 	Specify base point or	Navedite baznu tačku ili
-	Specify base point or displacement (drag with the middle mouse button for realtime pan)	Navedite baznu tačku ili pomak (prevucite srednjim dugmetom miša za pomicanje pogleda u stvarnom vremenu)
+	Specify base point or displacement (drag with the middle mouse button for realtime pan)	Navedite baznu tačku ili pomak (prevucite srednjim dugmetom miša za pomjeranje pogleda u stvarnom vremenu)
 	Specify base radius or	Navedite poluprečnik baze ili
 	Specify center of donut	Navedite središte prstena
 	Specify center of ellipse	Navedite središte elipse
