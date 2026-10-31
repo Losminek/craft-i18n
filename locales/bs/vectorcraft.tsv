@@ -56,7 +56,7 @@
 	 to keep zooming	 za nastavak zumiranja
 	 to move  |  	 za pomjeranje  |  
 	 to move in perspective  |  	 za pomjeranje u perspektivi  |  
-	 to pan the view	 za pomicanje prikaza
+	 to pan the view	 za pomjeranje prikaza
 	 to remove pins	 za uklanjanje pribadača
 	 to remove points	 za uklanjanje tačaka
 	 to sample a color	 za uzimanje uzorka boje
@@ -717,7 +717,7 @@ swatch	Chocolate	Čokoladna
 	Click to place each file at 100%, or drag to size it; arrow keys switch files, Esc skips one.	Kliknite da postavite svaku datoteku na 100% ili prevucite da odredite veličinu; tipke sa strelicama mijenjaju datoteke, Esc preskače jednu.
 	Click to select, double-click to edit	Kliknite za odabir, dvostruki klik za uređivanje
 	Click to toggle visibility	Kliknite za promjenu vidljivosti
-	Click to zoom in, Alt-click to zoom out, drag to pan, double-click to fit	Kliknite za uvećanje, Alt-klik za umanjenje, prevucite za pomicanje, dvostruki klik za uklapanje
+	Click to zoom in, Alt-click to zoom out, drag to pan, double-click to fit	Kliknite za uvećanje, Alt-klik za umanjenje, prevucite za pomjeranje, dvostruki klik za uklapanje
 	Click, then press the key this code stands for (Esc cancels)	Kliknite, zatim pritisnite tipku koju ovaj kod predstavlja (Esc otkazuje)
 	Click, then press the new shortcut (Esc cancels)	Kliknite, zatim pritisnite novu prečicu (Esc otkazuje)
 	Client-side (.html)	Na strani klijenta (.html)
@@ -1649,7 +1649,7 @@ file-filter	Flattener presets	Predlošci spljoštavanja
 swatch	Grays	Sive
 	Grays and Neutrals	Sive i neutralne
 	Grayscale images	Slike u nijansama sive
-	Greek & Cyrillic	Grčko i ćirilica
+	Greek & Cyrillic	Grčko pismo i ćirilica
 swatch	Green	Zelena
 	Greeting Card	Čestitka
 	Grey	Siva

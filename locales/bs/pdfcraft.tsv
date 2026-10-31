@@ -1089,7 +1089,7 @@ calendar date	May	maj
 	Measurement snapping	Hvatanje pri mjerenju
 	Measuring tool	Alat za mjerenje
 	Menu	Meni
-	Merge data files into spreadsheet…	Spoji datoteke podataka u proračunsku tablicu…
+	Merge data files into spreadsheet…	Spoji datoteke podataka u proračunsku tabelu…
 	Merge image fragments	Spoji fragmente slika
 	Merged 1 file into {path}	Spojena 1 datoteka u {path}
 	Merged {n} files into {path}	Spojeno datoteka u {path}: {n}
@@ -1636,7 +1636,7 @@ calendar weekday	Sa	Su
 	Save the accessibility report	Sačuvaj izvještaj o pristupačnosti
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Nakon toga sačuvajte dokument: čuvanje ponovo zapisuje cijelu datoteku tako da u njoj ne ostane trag uklonjenog sadržaja.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Nakon toga sačuvajte dokument; čuvanje ponovo zapisuje cijelu datoteku tako da ništa uklonjeno ne ostane u njoj.
-	Save the spreadsheet	Sačuvaj proračunsku tablicu
+	Save the spreadsheet	Sačuvaj proračunsku tabelu
 	Save these pages as one PDF	Sačuvaj ove stranice kao jedan PDF
 	Saved measurements	Sačuvana mjerenja
 	Saved measurements.	Mjerenja sačuvana.
@@ -1805,7 +1805,7 @@ key	Space	Razmak
 	Split document	Razdvoji dokument
 	Split document…	Razdvoji dokument…
 	Split into files…	Razdvoji u datoteke…
-	Spreadsheet (.xlsx)	Proračunska tablica (.xlsx)
+	Spreadsheet (.xlsx)	Proračunska tabela (.xlsx)
 	Squiggly	Valovito
 	Squiggly underline	Valovito podvlačenje
 	Squiggly underline text	Valovito podvuci tekst
