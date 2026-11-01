@@ -1,5 +1,5 @@
 ---
-status: proposed
+status: accepted
 ---
 
 # Third-party Language data is allowed; translations stay clean room

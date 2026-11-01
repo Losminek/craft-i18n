@@ -1,5 +1,5 @@
 ---
-status: proposed
+status: accepted
 ---
 
 # Language data lives here, pinned to upstream; English is embedded, the rest is downloaded
