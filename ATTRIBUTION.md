@@ -70,12 +70,13 @@ speaker; no native-speaker review is recorded for the other 25.
 ## WordCraft: Czech rows for strings added since the cutover
 
 @Losminek added 70 `cs` rows to `locales/cs/wordcraft.tsv` for WordCraft strings the code looks up
-that the Czech catalog was missing, and a `Border` override (`Ohraničení`, as in the other border labels): document recovery, bookmarks and Go To, cross-reference
-insert options, citation style names, picture corrections, colour, transparency, frames and
-borders, source import, the spelling-dictionary messages and a few status messages. AI-assisted
-with Claude Code, written from the English meaning and the call sites, with an independent AI
-review pass; not yet proofread by another native speaker. Keys that other open pull requests add
-are left to them.
+that the Czech catalog was missing, and a `Border` override (`Ohraničení`, as in the other border
+labels): document recovery, bookmarks and Go To, cross-reference insert options, citation style
+names, picture corrections, colour, transparency, frames and borders, source import, the
+spelling-dictionary messages and a few status messages. AI-assisted with Claude Code, written from
+the English meaning and the call sites, with an independent AI review pass; @Losminek is a native
+Czech speaker and made the final call on the wording. Not yet proofread by another native speaker.
+Keys that other open pull requests add are left to them.
 
 ## WordCraft: the Assistant, Nib
 
