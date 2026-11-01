@@ -14,7 +14,9 @@ language.
 - Data sits in `language-data/<locale>/` (lowercase BCP 47, regional falling back to its
   language). Upstream files are published with their contents unchanged (`.aff`/`.dic`, TeX
   patterns), under fixed names (`spelling.aff`, `spelling.dic`, `hyphenation.pat`); compiling
-  them is the runtime's job. The suite word list is `language-data/words.txt`, with optional
+  them is the runtime's job. Until the SCOWL files land, English is WordCraft's Moby list
+  (`en-us/en-us.dic`) and our own word lists under their current names; `hyphenation.pat` is
+  already final. The suite word list is `language-data/words.txt`, with optional
   `<locale>/words.txt`; it is written here, committed and embedded with English, and a locale's
   list goes in its Language pack.
 - English (en-US and en-GB, from SCOWL) is committed and embedded in every build that

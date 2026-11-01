@@ -96,11 +96,11 @@ sync runs again against the merge's first parent for rows that landed in between
 
 ## Language data
 
-The same variable also feeds `craft-proof` (craft-libs): its own `build.rs` embeds
-`$CRAFT_I18N_DIR/language-data/` (spelling word lists and hyphenation patterns; layout in
+The same variable also feeds `craft-proof` (craft-libs): its own `build.rs` embeds the files
+it names from `$CRAFT_I18N_DIR/language-data/` (spelling word lists and hyphenation patterns; layout in
 [`language-data/README.md`](../language-data/README.md)), with the same rules: unset or missing
-data is a warning and an empty embedding (no English spell-checking, hyphenation that needs data is
-off), and `CRAFT_I18N_REQUIRED=1` makes it an error. An app that uses `craft-proof` needs nothing
+data is a warning and an empty embedding (English spelling falls back to the system's Hunspell
+dictionaries, hyphenation that needs data is off), and `CRAFT_I18N_REQUIRED=1` makes it an error. An app that uses `craft-proof` needs nothing
 more than the `CRAFT_I18N_DIR` it already sets for the catalogs, at a pin that has `language-data/`.
 
 ## Release builds
