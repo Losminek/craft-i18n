@@ -2875,3 +2875,8 @@ preview	Title	Titlu
 	✓ None	✓ Niciunul
 	➕ New comment	➕ Comentariu nou
 	📂  Browse…	📂  Răsfoire…
+
+# Manual Viewing interaction mode (WordCraft companion change).
+	Viewing	Vizualizare
+	Viewing — view the file but make no changes	Vizualizare — vezi documentul cu editarea blocată
+	Editing is blocked in Viewing mode.	Editarea este blocată în modul Vizualizare.

@@ -33,7 +33,7 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 | `nb` | Shared catalog and WordCraft: @alehel with Claude Code (Opus 5.5), AI-translated from the English meaning; not yet reviewed line by line by a native speaker | — (written here) |
 | `nl` | WordCraft: @pechnikov2026-star (commits as sanches), not recorded as native-reviewed; wording fixes by jvspier (@jvspier), a native speaker, with Claude; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed | `wordcraft@67a0e72`, `photocraft@8d2e615`, `vectorcraft@73f40e3` |
 | `pl` | WordCraft: Konrad Witkowski with Claude (AI agent); PdfCraft: PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed, drafted with Claude; ArtCraft Launcher: no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `craft-launcher@ad7f24a` |
-| `pt-br` | WordCraft: @edurbs with ZCode; PdfCraft: André Cardoso (andrecards), PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @WladmirJunior; ArtCraft Launcher: no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
+| `pt-br` | WordCraft: @edurbs with ZCode; PdfCraft: André Cardoso (andrecards), PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @WladmirJunior; ArtCraft Launcher: no individual credit recorded upstream; 20 WordCraft rows added in place (2026-10-31, @RicSchonfelder): highlight colour names, style names (Ênfase, Forte, Ênfase sutil), the Cross-reference dialog, `TOC {n}` and `tOGGLE cASE`, AI-assisted and written from the English meaning, not recorded as native-reviewed | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
 | `ro` | WordCraft: Viorel Toader (@vioreltus) with Claude Code (Opus 5.5), AI-assisted, not yet reviewed line by line by a native speaker (a few dozen short labels reused from PdfCraft's Romanian catalog) | `wordcraft@67a0e72` |
 | `ru` | WordCraft: Dmitrii Khlapov with Claude; PdfCraft: PdfCraft contributors; PhotoCraft: no individual credit recorded upstream; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by grib_job); CADCraft: @pechnikov2026-star; ArtCraft Launcher: no individual credit recorded upstream; 41 shared rows and 30 WordCraft rows added in place (2026-10-27): Kirill M. (@JaffarSk24), a native speaker, AI-assisted, written from the English meaning | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
 | `sk` | WordCraft: vangel76 (@vangel76), translated with OpenAI Codex (AI-generated, not reviewed by a native speaker; written from the plain meaning of the English); 35 added rows and 9 wording corrections from iM3SK (@iM3SK), WordCraft PR #4033 (a draft pending native-speaker and in-app review, as stated in that PR) | `wordcraft@08df5b6`, `wordcraft@844e052` |
@@ -123,6 +123,16 @@ documents, digit-shape choices, paragraph-spacing "Open", paper names and the Sy
 Latin), requested by Nasser (@nasserfq) and written with Claude Code (AI-assisted) from the plain
 meaning of the English, in the terminology already used by the file. No other product's
 localisation was consulted. No native-speaker review is recorded for these rows.
+
+## WordCraft manual Viewing mode (Romanian)
+
+Bogdan Claudiu Petanec (@multipointmaster-glitch), with Codex assistance,
+contributed the three Romanian Viewing-mode rows in `locales/ro/wordcraft.tsv`.
+The label and hint were supplied by the contributor; the status message was
+AI-assisted. The contributor, a native Romanian speaker, reviewed and approved
+all three rows on 1 November 2026. This credit and review cover these additions
+only, not the whole Romanian catalog. No in-app review is recorded. All wording
+was prepared from the English meaning without consulting another product’s localization.
 
 ## Language data
 
