@@ -123,3 +123,13 @@ documents, digit-shape choices, paragraph-spacing "Open", paper names and the Sy
 Latin), requested by Nasser (@nasserfq) and written with Claude Code (AI-assisted) from the plain
 meaning of the English, in the terminology already used by the file. No other product's
 localisation was consulted. No native-speaker review is recorded for these rows.
+
+## WordCraft manual Viewing mode (Romanian)
+
+Bogdan Claudiu Petanec (@multipointmaster-glitch), with Codex assistance,
+contributed the three Romanian Viewing-mode rows in `locales/ro/wordcraft.tsv`.
+The label and hint were supplied by the contributor; the status message was
+AI-assisted. The contributor, a native Romanian speaker, reviewed and approved
+all three rows on 1 November 2026. This credit and review cover these additions
+only, not the whole Romanian catalog. No in-app review is recorded. All wording
+was prepared from the English meaning without consulting another product’s localization.
