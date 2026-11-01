@@ -1,0 +1,5 @@
+# Words the de-at pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support CHECKSHARPS yet (and the frami .aff compounds)"
+correct = ["haus", "buch", "schule", "wasser", "straße", "jänner"]
+incorrect = ["buchh", "schuule", "wassser"]

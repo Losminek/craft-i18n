@@ -1,12 +1,13 @@
 //! `language-data/`: every file has exactly one row in `ATTRIBUTION.md`, with a licence and an
-//! Embeddable Licence class (ADR 0004). The table stands in for the manifest until it lands.
+//! Embeddable Licence class (ADR 0004). Committed files are embedded; Language packs are checked
+//! from the manifest (`tests/packs.rs`).
 
 use std::path::Path;
 
-/// Licences that need the licence-table sign-off before they ship (ADR 0004). `GPL` also
-/// matches LGPL and AGPL. ponytail: substring deny-list on a prose cell; SPDX allow-lists
-/// replace it with the manifest.
-const GATED: [&str; 4] = ["GPL", "MPL", "LPPL", "CC-BY-SA"];
+/// Licences that are Download-only, so never in a committed (embedded) file (ADR 0004, signed off
+/// 2026-11-01; MPL and LPPL are Embeddable unmodified). `GPL` also matches LGPL and AGPL.
+/// ponytail: substring deny-list on a prose cell; the manifest uses SPDX allow-lists.
+const DOWNLOAD_ONLY: [&str; 2] = ["GPL", "CC-BY-SA"];
 
 /// Every file under `dir`, dotfiles included, as a path relative to `root` with `/` separators.
 fn files(root: &Path, dir: &Path, out: &mut Vec<String>) {
@@ -24,6 +25,17 @@ fn files(root: &Path, dir: &Path, out: &mut Vec<String>) {
             out.push(parts.join("/"));
         }
     }
+}
+
+/// Files under `language-data/` that aren't upstream data (`tests/packs.rs` checks them): the
+/// README, the Language pack manifest and check words (this repository's licence), and the
+/// standard licence texts packs carry (`licences/<SPDX id>.txt`, from spdx/license-list-data; each
+/// licence permits verbatim copies of itself).
+fn ours(path: &str) -> bool {
+    path == "language-data/README.md"
+        || path == "language-data/manifest.toml"
+        || (path.starts_with("language-data/checks/") && path.ends_with(".toml"))
+        || (path.starts_with("language-data/licences/") && path.ends_with(".txt"))
 }
 
 /// The problems with `files` (paths under `language-data/`) against `attribution`'s rows.
@@ -55,9 +67,9 @@ fn check(files: &[String], attribution: &str) -> Vec<String> {
         }
         // Only the licence used, not the alternatives the notes in brackets mention.
         let used = licence.split(" (").next().unwrap_or("");
-        if let Some(g) = GATED.iter().find(|g| used.contains(*g)) {
+        if let Some(g) = DOWNLOAD_ONLY.iter().find(|g| used.contains(*g)) {
             errors.push(format!(
-                "{path}: {g} needs the ADR 0004 licence-table sign-off"
+                "{path}: {g} is Download-only and can't be committed (ADR 0004)"
             ));
         }
         if *class != "Embeddable" {
@@ -66,7 +78,7 @@ fn check(files: &[String], attribution: &str) -> Vec<String> {
             ));
         }
     }
-    for f in files.iter().filter(|f| *f != "language-data/README.md") {
+    for f in files.iter().filter(|f| !ours(f)) {
         match rows.iter().filter(|r| r.0 == f).count() {
             0 => errors.push(format!("{f}: no ATTRIBUTION.md row")),
             1 => {}
@@ -114,12 +126,26 @@ mod fixtures {
             run(
                 &[
                     "language-data/README.md",
+                    "language-data/manifest.toml",
+                    "language-data/checks/nl.toml",
                     "language-data/de/hyphenation.pat"
                 ],
                 &[&r]
             )
             .is_empty()
         );
+    }
+
+    /// Signed off (ADR 0004, 2026-11-01): MPL and LPPL files are Embeddable when unmodified.
+    #[test]
+    fn mpl_and_lppl_are_embeddable() {
+        for licence in ["MPL-2.0", "LPPL-1.3c"] {
+            let r = row("language-data/fr/x.dic", licence, "Embeddable");
+            assert!(
+                run(&["language-data/fr/x.dic"], &[&r]).is_empty(),
+                "{licence}"
+            );
+        }
     }
 
     #[test]
@@ -143,12 +169,12 @@ mod fixtures {
             (
                 vec!["language-data/fr/x.dic"],
                 vec![row("language-data/fr/x.dic", "LGPL-2.1-only", "Embeddable")],
-                "GPL needs",
+                "GPL is Download-only",
             ),
             (
                 vec!["language-data/fr/x.dic"],
-                vec![row("language-data/fr/x.dic", "MPL-2.0", "Embeddable")],
-                "MPL needs",
+                vec![row("language-data/fr/x.dic", "CC-BY-SA-4.0", "Embeddable")],
+                "CC-BY-SA is Download-only",
             ),
             (
                 vec!["language-data/fr/x.dic"],

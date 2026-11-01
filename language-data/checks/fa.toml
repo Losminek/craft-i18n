@@ -1,0 +1,5 @@
+# Words the fa pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read two-character flags yet (FLAG long)"
+correct = ["کتاب", "مدرسه", "خانه", "آب", "شهر"]
+incorrect = ["کتابببب", "مدرسههههه", "شهرررر"]

@@ -1,6 +1,7 @@
 //! Test-only crate: checks the TSV catalogs in `locales/` ([`tree::check_tree`]), so a malformed
 //! row, a placeholder that differs from the English source text or a wrong plural form count fails
-//! CI here, not in an app. The format is in `docs/catalog-format.md`.
+//! CI here, not in an app. The format is in `docs/catalog-format.md`. [`packs`] checks the
+//! Language pack manifest and builds the release assets (`docs/language-data-format.md`).
 #![deny(
     clippy::unwrap_used,
     clippy::expect_used,
@@ -12,6 +13,7 @@
 
 pub mod catalog;
 pub mod locale;
+pub mod packs;
 pub mod tree;
 
 /// The repository root (where `locales/` lives).

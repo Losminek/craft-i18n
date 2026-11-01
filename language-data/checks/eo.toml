@@ -1,0 +1,5 @@
+# Words the eo pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support NEEDAFFIX yet"
+correct = ["domo", "libro", "lernejo", "akvo", "urbo"]
+incorrect = ["librro", "lernnejo", "urrbo"]

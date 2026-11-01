@@ -1,0 +1,5 @@
+# Words the cy pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support NEEDAFFIX yet"
+correct = ["tŷ", "llyfr", "ysgol", "dŵr", "dinas"]
+incorrect = ["llyfrr", "ysggol", "dinass"]
