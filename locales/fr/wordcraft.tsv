@@ -135,6 +135,7 @@
 	All Caps	Majuscules
 	All caps	Majuscules
 	All Commands	Toutes les commandes
+	All documents based on the Normal template?	Tous les documents basés sur le modèle Normal ?
 	All Fonts	Toutes les polices
 	All Levels	Tous les niveaux
 	All Markup	Toutes les marques
@@ -302,7 +303,7 @@
 	By author	Par auteur
 	Calendar	Calendrier
 	Can't be deleted	Suppression impossible
-	Can't find a command? Press Alt+Q and type what you want to do.	Vous ne trouvez pas une commande ? Appuyez sur Alt+Q et tapez ce que vous voulez faire.
+	Can't find a command? Press {key} and type what you want to do.	Vous ne trouvez pas une commande ? Appuyez sur {key} et tapez ce que vous voulez faire.
 	can't split at the first row	impossible de fractionner le tableau à la première ligne
 	Canvas Member	Élément de la zone de dessin
 	Capitalize Each Word	Première lettre des mots en majuscule
@@ -524,10 +525,10 @@
 	Crop	Rogner
 	Cross-reference	Renvoi
 	Cross-reference:	Référence croisée :
-	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter commence une nouvelle page. Bien plus propre que d’appuyer sur Entrée jusqu’à ce que ça arrive.
-	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H recherche et remplace du texte, des mises en forme et des caractères spéciaux.
-	Ctrl+K turns the selected text into a link.	Ctrl+K transforme le texte sélectionné en lien.
-	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G compte vos mots, caractères et paragraphes.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} commence une nouvelle page. Bien plus propre que d’appuyer sur Entrée jusqu’à ce que ça arrive.
+	{key} finds and replaces text, formatting and special characters.	{key} recherche et remplace du texte, des mises en forme et des caractères spéciaux.
+	{key} turns the selected text into a link.	{key} transforme le texte sélectionné en lien.
+	{key} counts your words, characters and paragraphs.	{key} compte vos mots, caractères et paragraphes.
 	Cube Root	Racine cubique
 	Current	Actuelle
 	Current - Linear	Sélection - Linéaire
@@ -569,6 +570,7 @@
 	Decrease Font Size	Réduire la taille de la police
 	Decrease Indent	Diminuer le retrait
 	Deep	Profond
+	Default formatting	Mise en forme par défaut
 	Default Paragraph Font	Police par défaut
 	Default tab stops:	Taquets de tabulation par défaut :
 	Define New Bullet	Définir une nouvelle puce
@@ -795,8 +797,8 @@
 	Extend Selection	Étendre la sélection
 	Extend Selection by Units	Étendre la sélection par unités
 	Extra space	Espace en trop
-	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 répète votre dernière action. Mettre en forme dix titres ? Soudain, c’est un clic et neuf touches.
-	F7 checks the spelling and grammar of the whole document.	F7 vérifie l’orthographe et la grammaire de tout le document.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} répète votre dernière action. Mettre en forme dix titres ? Soudain, c’est un clic et neuf touches.
+	{key} checks the spelling and grammar of the whole document.	{key} vérifie l’orthographe et la grammaire de tout le document.
 	Faster: {command} is {key} on the keyboard.	Plus rapide : {command}, c’est {key} au clavier.
 	Field code:	Code de champ :
 	Field Codes	Codes de champ
@@ -869,6 +871,7 @@
 	Formatting at Selection	Mise en forme de la sélection
 	Formatting exceptions	Exceptions de mise en forme
 	Formatting marks	Marques de mise en forme
+	Formatting saved for new documents:	Mise en forme enregistrée pour les nouveaux documents :
 	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	La mise en forme, les modifications de casse, les espaces et les tableaux sont comparés ; les autres paramètres sont conservés pour une utilisation ultérieure.
 	Formula	Formule
 	Formula:	Formule :
@@ -1360,6 +1363,14 @@ template	Letter	Lettre
 	Negated Relations	Relations niées
 	New Comment	Nouveau commentaire
 	New comments and tracked changes are recorded under this name and these initials.	Les nouveaux commentaires et les modifications suivies sont enregistrés sous ce nom et ces initiales.
+	New Documents Based on This Template	Nouveaux documents basés sur ce modèle
+	New documents based on this template	Nouveaux documents basés sur ce modèle
+	New documents will use this font.	Les nouveaux documents utiliseront cette police.
+	New documents will use this page setup.	Les nouveaux documents utiliseront cette mise en page.
+	New documents will use this paragraph formatting.	Les nouveaux documents utiliseront cette mise en forme de paragraphe.
+	New documents will use this style.	Les nouveaux documents utiliseront ce style.
+	New documents will use WordCraft's built-in formatting.	Les nouveaux documents utiliseront la mise en forme intégrée de WordCraft.
+	New documents will use WordCraft's built-in formatting. Your saved defaults can't be recovered. Reset?	Les nouveaux documents utiliseront la mise en forme intégrée de WordCraft. Vos paramètres par défaut enregistrés ne pourront pas être récupérés. Réinitialiser ?
 	New Drawing Canvas	Nouvelle zone de dessin
 	New Entry	Nouvelle entrée
 	New from Template	Nouveau à partir d’un modèle
@@ -1491,6 +1502,7 @@ template	Letter	Lettre
 	Only for the selected text	Uniquement pour le texte sélectionné
 	Only form fields can be filled in.	Seuls les champs de formulaire peuvent être remplis.
 	only in Outline view	uniquement en mode Plan
+	Only in this document	Uniquement dans ce document
 	Only the allowed styles can be applied.	Seuls les styles autorisés peuvent être appliqués.
 	Only web (http, https) and email (mailto) links can be followed	Seuls les liens Web (http, https) et les liens de messagerie (mailto) peuvent être suivis
 	Open a document first	Ouvrez d'abord un document
@@ -1761,6 +1773,7 @@ template	Letter	Lettre
 	Reset All…	Tout réinitialiser…
 	Reset Character Formatting	Réinitialiser la mise en forme des caractères
 	Reset Crop	Réinitialiser le rognage
+	Reset Default Formatting	Réinitialiser la mise en forme par défaut
 	Reset Graphic	Rétablir le graphique
 	Reset Paragraph Formatting	Réinitialiser la mise en forme des paragraphes
 	Reset Picture	Réinitialiser l’image
@@ -1908,6 +1921,9 @@ template	Letter	Lettre
 	Series name	Nom de la série
 	Series {n}	Série {n}
 	Set As Default	Définir par défaut
+	Set As Default (Font)	Définir par défaut (Police)
+	Set As Default (Page Setup)	Définir par défaut (Mise en page)
+	Set As Default (Paragraph)	Définir par défaut (Paragraphe)
 	Set Caret	Placer le point d’insertion
 	Set Character Formatting	Définir la mise en forme des caractères
 	Set Date	Définir la date
@@ -1923,7 +1939,7 @@ template	Letter	Lettre
 	Shape Format	Format de la forme
 	Shape Outline	Contour de forme
 	Shape Styles	Styles de formes
-	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter commence une nouvelle ligne sans commencer de nouveau paragraphe.
+	{key} starts a new line without starting a new paragraph.	{key} commence une nouvelle ligne sans commencer de nouveau paragraphe.
 	Shift+Tab	Shift+Tab
 	Shipping labels	Étiquettes d’expédition
 	Shortcut key:	Touche de raccourci :
@@ -1969,7 +1985,7 @@ template	Letter	Lettre
 	Show the Start screen when WordCraft starts	Afficher l'écran d'accueil au démarrage de WordCraft
 	Show the tips you asked not to see again.	Affiche de nouveau les conseils que vous avez masqués.
 	Show/Hide ¶	Afficher/Masquer ¶
-	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	Afficher/Masquer ¶ (Ctrl+Shift+8) révèle les espaces, tabulations et sauts cachés dans votre texte.
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	Afficher/Masquer ¶ ({key}) révèle les espaces, tabulations et sauts cachés dans votre texte.
 	Show\nComments	Afficher\nles commentaires
 	Showing the first {count} items.	Affichage des {count} premiers éléments.
 	Shows a tree: each item below the item it belongs to.	Affiche une arborescence : chaque élément sous celui auquel il appartient.
@@ -2196,6 +2212,7 @@ template	Letter	Lettre
 	The margins don't fit on a page this size; make the margins smaller first.	Les marges ne tiennent pas sur une page de cette taille ; réduisez d’abord les marges.
 	The measurement must be between {min} and {max}.	La mesure doit être comprise entre {min} et {max}.
 	The new style takes the formatting of the current paragraph.	Le nouveau style reprend la mise en forme du paragraphe actuel.
+	The Normal template couldn't be read, so this document uses WordCraft's built-in formatting.	Impossible de lire le modèle Normal : ce document utilise donc la mise en forme intégrée de WordCraft.
 	The number must be between 1 and {max}.	Le nombre doit être compris entre 1 et {max}.
 	the paragraph is empty	le paragraphe est vide
 	the paragraph starts with a space	le paragraphe commence par une espace
@@ -2224,6 +2241,7 @@ template	Letter	Lettre
 	Thick	Épaisse
 	this chart was made in another program: WordCraft shows it but can't edit it	ce graphique a été créé dans un autre programme : WordCraft l’affiche mais ne peut pas le modifier
 	This document	Ce document
+	This document only?	Ce document uniquement ?
 	This field has no options.	Ce champ n’a pas d’options.
 	This folder can't be read: {error}	Impossible de lire ce dossier : {error}
 	This font has no characters to show.	Cette police ne contient aucun caractère à afficher.
@@ -2232,6 +2250,8 @@ template	Letter	Lettre
 	This password type isn't supported.	Ce type de mot de passe n’est pas pris en charge.
 	This point forward	À partir de ce point
 	This section	Cette section
+	this session has no Normal template (headless or without preferences)	cette session n’a pas de modèle Normal (sans interface ou sans préférences)
+	this session has no Normal template (headless or without preferences): use "scope": "document"	cette session n’a pas de modèle Normal (sans interface ou sans préférences) : utilisez "scope": "document"
 	this SmartArt was made in another program: WordCraft shows it but can't edit it	ce SmartArt a été créé dans un autre programme : WordCraft l’affiche mais ne peut pas le modifier
 	this text box is already linked: break the link first	cette zone de texte est déjà liée : rompez d’abord le lien
 	Three	Trois
@@ -2348,7 +2368,9 @@ preview	Title	Titre
 	Use an Existing List…	Utiliser une liste existante…
 	Use system setting	Utiliser le paramètre système
 	Use the browser's full screen (F11)	Utilisez le plein écran du navigateur (F11)
+	Use the current style set and theme for all new documents?	Utiliser le jeu de styles et le thème actuels pour tous les nouveaux documents ?
 	Use the Insert key to switch overtype on and off	Utiliser la touche Inser pour activer ou désactiver le mode Refrappe
+	Use this formatting as the default for:	Utiliser cette mise en forme par défaut pour :
 	Use wildcards	Utiliser les caractères génériques
 	User Name	Nom d’utilisateur
 	User name:	Nom d’utilisateur :

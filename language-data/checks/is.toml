@@ -1,0 +1,5 @@
+# Words the is pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read numeric flags yet (FLAG num)"
+correct = ["hús", "bók", "skóli", "vatn", "borg"]
+incorrect = ["bókk", "skóoli", "borgg"]

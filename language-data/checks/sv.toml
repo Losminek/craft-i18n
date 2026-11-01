@@ -1,0 +1,5 @@
+# Words the sv pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support NEEDAFFIX yet (and COMPOUNDRULE)"
+correct = ["hus", "bok", "skola", "vatten", "stad", "arbeta"]
+incorrect = ["bokk", "skolla", "arbetta"]

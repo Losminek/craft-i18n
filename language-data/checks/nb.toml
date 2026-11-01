@@ -1,0 +1,5 @@
+# Words the nb pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support compounding yet (COMPOUNDFLAG)"
+correct = ["hus", "bok", "skole", "vann", "by"]
+incorrect = ["bokk", "skoole", "vannn"]

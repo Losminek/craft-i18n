@@ -1,0 +1,5 @@
+# Words the he pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support NEEDAFFIX yet"
+correct = ["ספר", "בית", "מים", "עיר", "ילד"]
+incorrect = ["ספרררר", "ביתתתת", "מיםםםם"]

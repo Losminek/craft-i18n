@@ -1,0 +1,5 @@
+# Words the fr pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support OCONV yet"
+correct = ["maison", "livre", "école", "eau", "ville", "travailler"]
+incorrect = ["livrre", "écolle", "travaillerr"]

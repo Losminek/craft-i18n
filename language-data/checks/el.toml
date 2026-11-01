@@ -1,0 +1,5 @@
+# Words the el pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't decode ISO 8859-7 yet"
+correct = ["σπίτι", "βιβλίο", "σχολείο", "νερό", "πόλη"]
+incorrect = ["βιβλλίο", "σχολλείο", "νερρό"]

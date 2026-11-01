@@ -1,0 +1,5 @@
+# Words the tr pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read numeric flags yet (FLAG num)"
+correct = ["ev", "kitap", "okul", "su", "şehir", "çalışmak"]
+incorrect = ["kitapp", "okkul", "şehirr"]

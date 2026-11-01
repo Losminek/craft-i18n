@@ -23,6 +23,11 @@ shared one, in that locale only.
 
 **Translation**: a locale's text for a source text (and context).
 
+**Correction**: a change to a shared string's translation that fixes an error, wrong in every app
+that uses it: a wrong meaning, a misspelling, broken grammar, English left untranslated, or the
+wrong script. A different but valid wording is a preference, not a correction, and goes in an
+override.
+
 **Plural forms**: the variants of one translation chosen by a count (e.g. "1 page" / "2 pages");
 each locale has as many as its language's plural rules need.
 
@@ -38,3 +43,30 @@ users see even when the pin stays put.
 
 **Offered locale**: a locale a Crafting App lets its users choose. A locale the app has catalogs
 for but doesn't offer (one its interface isn't ready for) still serves as a fallback.
+
+**Language data**: the per-locale data that checks and breaks text, as opposed to translating the
+interface: spelling dictionaries, hyphenation patterns and the suite word list. Never just
+"dictionary", which is ambiguous.
+
+**Spelling dictionary**: a locale's list of correct words and the rules that inflect them, taken
+unchanged from an open-licensed upstream project.
+
+**Hyphenation patterns**: a locale's rules for where a word may break at the end of a line, taken
+unchanged from an open-licensed upstream project.
+
+**Suite word list**: words every Crafting App accepts as correctly spelled (product names, units,
+trade terms), written by the suite itself.
+
+**User word**: a word a user or a document adds as correct. It belongs to the app it was added in,
+not to Language data.
+
+**Language build**: a release of a Crafting App that embeds the Language data of chosen locales
+besides English, so those locales never need a download.
+
+**Language pack**: one locale's Language data as a single download (its spelling dictionary,
+hyphenation patterns and their licences), installed and removed together.
+_Avoid_: dictionary download, language download
+
+**Licence class**: how an upstream file's licence lets the suite ship it: **Embeddable** (may be
+built into a release), **Download-only** (only as a separate, unmodified file in a Language pack)
+or **Excluded** (never shipped).

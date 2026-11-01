@@ -1,0 +1,5 @@
+# Words the sk pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support CIRCUMFIX yet"
+correct = ["dom", "kniha", "škola", "voda", "mesto", "pracovať"]
+incorrect = ["knihha", "škoola", "mestto"]
