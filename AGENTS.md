@@ -10,7 +10,9 @@ Shared translations for the Craft Apps: TSV catalogs in `locales/` and the check
   ([ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); an app changes one's wording with
   an override in its own `<app>.tsv`.
 - **Clean room:** every translation is written from the plain meaning of the English. Never consult
-  or copy another product's localisation, string table or translated interface.
+  or copy another product's localisation, string table or translated interface. Language data
+  (spelling dictionaries, hyphenation patterns) is the exception: unchanged open-licensed upstream
+  files ([ADR 0004](docs/adr/0004-third-party-language-data.md)).
 - **Credit:** new translations and migrated catalogs are recorded in `ATTRIBUTION.md`, including
   AI assistance and whether a native speaker reviewed them.
 - **Never crash.** The checker's `lib.rs` denies `unwrap`, `expect`, `panic` and friends; the
