@@ -16,7 +16,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); app wiring next |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
 | 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
-| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | accepted; phase 1 next (waits on licence sign-off for non-English) |
+| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 3 (pack manifest, checks, release workflow) in review |
 
 Each app migration: confirm the app is MIT OR Apache-2.0, move its catalogs here (lowercase BCP 47
 names, origin recorded in `ATTRIBUTION.md`), add the `build.rs` recipe from
@@ -93,3 +93,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-10-22 | patch | Repository transferred to storytold/craft-i18n |
 | 2026-10-22 | minor | Related work: storytold/craft-libs#198; PdfCraft and CADCraft wired last; plural engine follow-up; DesignCraft clash noted for 3c |
 | 2026-11-01 | minor | Milestone 4 phase 3: Language pack manifest (80 locales), checks, load-and-check per pack with craft-proof, release workflow (`docs/language-data-format.md`) |
+| 2026-11-01 | patch | ADR 0004 licence table signed off (Martin Ball, 2026-11-01): the LGPL/MPL/LPPL/GPL switch is retired; uk Excluded pending its NC source data |

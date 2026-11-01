@@ -141,9 +141,13 @@ Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language
 Licence class. Upstream files are kept unmodified. These rows moved here with the files from
 WordCraft (`wordcraft@a88e00525`, `assets/hyphenation/` and `assets/spelling/`), byte for byte.
 The checker (`crates/craft-i18n-tests/tests/language_data.rs`) fails when a file has no row or
-more than one, a row has no file, the licence is empty or not yet signed off (LGPL, MPL, LPPL,
-GPL, CC-BY-SA), or the class isn't Embeddable. This table stands in for the manifest
-([ADR 0005](docs/adr/0005-language-data-lives-here.md)) until it lands.
+more than one, a row has no file, the licence is empty or copyleft that can't be embedded (LGPL,
+GPL, AGPL, CC-BY-SA), or the class isn't Embeddable. The licence table was signed off on
+2026-11-01 ([ADR 0004](docs/adr/0004-third-party-language-data.md)). Language packs aren't
+committed: `language-data/manifest.toml` records each pack file's source, licence and class
+([format](docs/language-data-format.md)). `language-data/licences/<SPDX id>.txt` are the standard
+licence texts from [spdx/license-list-data](https://github.com/spdx/license-list-data) @
+`31846481de7ea17d92f2f46fad76abe58b2e9bb0`, copied verbatim as each licence permits.
 
 | File | Author | Source | Licence | Licence class | Notes |
 |---|---|---|---|---|---|

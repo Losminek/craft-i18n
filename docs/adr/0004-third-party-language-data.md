@@ -1,5 +1,6 @@
 ---
 status: accepted
+signed-off: Martin Ball (benandez), craft-i18n maintainer, 2026-11-01
 ---
 
 # Third-party Language data is allowed; translations stay clean room
@@ -27,18 +28,21 @@ class decides where the file may go:
 - A file whose licence evidence is weak or contradictory (say a README saying GPL and an `.aff`
   header saying LGPL) is **Download-only** until its author confirms otherwise, unless one of the
   statements is non-commercial or no-derivatives, which makes it **Excluded**.
-- CI will hold the table as SPDX allow-lists in the manifest, so a licence with no SPDX id gets a
-  `LicenseRef-` entry before it qualifies. Until the manifest lands, the checker reads the
-  licence and class from `ATTRIBUTION.md`'s Language data table.
+- CI holds the table as an SPDX allow-list (`crates/craft-i18n-tests/src/packs.rs`), so a licence
+  with no SPDX id gets a `LicenseRef-` entry before it qualifies. Packs are described by
+  `language-data/manifest.toml` ([format](../language-data-format.md)); committed files keep their
+  licence and class in `ATTRIBUTION.md`'s Language data table.
 - The licence name and source link show in the app's language list before install, and the full
   licence text of everything embedded or installed shows in About › Language data. No separate
   licence prompt.
-- CI rejects a file with no recorded licence or class and any Excluded file; once packs exist, a
-  Language build naming a pack that isn't Embeddable. Until then it accepts only Embeddable.
+- CI rejects a file with no recorded licence or class. **Excluded entries are recorded** in the
+  manifest, with the evidence, so the decision stays visible, **and never published**; no
+  committed file may be anything but Embeddable. A Language build naming a pack that isn't
+  Embeddable is rejected once Language builds exist.
 
-"Accepted" means the classes; the table itself is provisional until a maintainer signs it off. It
-is not legal advice. Until then CI fails every LGPL, MPL, LPPL and GPL file, so the only data that
-ships is permissive; the sign-off removes that switch. The one exception to "no language beyond
+**Signed off** by Martin Ball (GitHub benandez), craft-i18n maintainer, on 2026-11-01: the
+table above holds, and the switch that failed every LGPL, MPL, LPPL and GPL file until then is
+retired. It is not legal advice. The one exception to "no language beyond
 English" is the carry-over: the permissive (MIT, BSD, public-domain) data WordCraft embedded
 before the move (Moby English, de/pl/pt/it hyphenation, Russian extra words) stays embedded until
 the release that ships downloads ([ADR 0005](0005-language-data-lives-here.md)).
@@ -50,7 +54,7 @@ licence quoted) is the starting manifest.
 - The repository is no longer one licence: files under `language-data/` keep their upstream
   licences, next to them as `LICENSE-<source>.txt` (until the manifest lands, the notice in each
   file's header and its `ATTRIBUTION.md` row). README and `ATTRIBUTION.md` say so.
-- No language beyond English ships until the table is signed off, apart from the carry-over.
+- Languages beyond English ship as Language packs (downloads), apart from the carry-over.
 - Every new dictionary needs its licence quoted and classed in the manifest; CI does the rest.
 
 ## Considered options

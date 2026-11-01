@@ -43,9 +43,11 @@ workflow downloads, checks and publishes them. Format, checks and the release la
   corrections go in our own files (`*-extra.txt`), under this repository's licence.
 - **Every file has a row in [`ATTRIBUTION.md`](../ATTRIBUTION.md)** (Language data section): author,
   source (with the upstream SHA-256 where there is one), licence and Licence class. The checker
-  (`crates/craft-i18n-tests/tests/language_data.rs`) fails otherwise, and, until the licence table
-  is signed off, on any class but Embeddable or a licence it gates (LGPL, MPL, LPPL, GPL, CC-BY-SA).
-  Dotfiles count.
+  (`crates/craft-i18n-tests/tests/language_data.rs`) fails otherwise, and on any class but
+  Embeddable or a copyleft licence that can't be embedded (LGPL, GPL, AGPL, CC-BY-SA): committed
+  files are embedded. Dotfiles count. The licence table was signed off on 2026-11-01 (ADR 0004).
+- **Licence texts.** `licences/<SPDX id>.txt` are the standard texts (spdx/license-list-data) the
+  packs carry; they need no row.
 - **Bytes are kept.** `.gitattributes` marks `language-data/**` as `-text`, so no line-ending
   conversion touches the files.
 
