@@ -26,6 +26,14 @@ fn files(root: &Path, dir: &Path, out: &mut Vec<String>) {
     }
 }
 
+/// Our own files under `language-data/` (this repository's licence, no upstream): the README, the
+/// Language pack manifest and the pack check words (`tests/packs.rs` checks those).
+fn ours(path: &str) -> bool {
+    path == "language-data/README.md"
+        || path == "language-data/manifest.toml"
+        || (path.starts_with("language-data/checks/") && path.ends_with(".toml"))
+}
+
 /// The problems with `files` (paths under `language-data/`) against `attribution`'s rows.
 fn check(files: &[String], attribution: &str) -> Vec<String> {
     let mut errors = Vec::new();
@@ -66,7 +74,7 @@ fn check(files: &[String], attribution: &str) -> Vec<String> {
             ));
         }
     }
-    for f in files.iter().filter(|f| *f != "language-data/README.md") {
+    for f in files.iter().filter(|f| !ours(f)) {
         match rows.iter().filter(|r| r.0 == f).count() {
             0 => errors.push(format!("{f}: no ATTRIBUTION.md row")),
             1 => {}
@@ -114,6 +122,8 @@ mod fixtures {
             run(
                 &[
                     "language-data/README.md",
+                    "language-data/manifest.toml",
+                    "language-data/checks/nl.toml",
                     "language-data/de/hyphenation.pat"
                 ],
                 &[&r]

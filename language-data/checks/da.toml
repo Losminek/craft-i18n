@@ -1,0 +1,5 @@
+# Words the da pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support compounding yet (COMPOUNDMIN, COMPOUNDBEGIN)"
+correct = ["hus", "bog", "skole", "vand", "by", "arbejde"]
+incorrect = ["bogg", "skoole", "arbejjde"]

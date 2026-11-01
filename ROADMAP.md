@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-01 · **Change:** minor (stage 4, Language data)
+> **Last updated:** 2026-11-01 · **Change:** minor (stage 4, Language packs: manifest, checks, release workflow)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -92,3 +92,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-10-18 | patch | Milestone 2 done: storytold/craft-libs#167 merged after review; app wiring unblocked |
 | 2026-10-22 | patch | Repository transferred to storytold/craft-i18n |
 | 2026-10-22 | minor | Related work: storytold/craft-libs#198; PdfCraft and CADCraft wired last; plural engine follow-up; DesignCraft clash noted for 3c |
+| 2026-11-01 | minor | Milestone 4 phase 3: Language pack manifest (80 locales), checks, load-and-check per pack with craft-proof, release workflow (`docs/language-data-format.md`) |

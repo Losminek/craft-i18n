@@ -1,0 +1,5 @@
+# Words the af pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof doesn't support compounding yet (COMPOUNDMIN, COMPOUNDRULE)"
+correct = ["huis", "water", "skool", "boek", "kinders", "werk"]
+incorrect = ["huiss", "skoool", "boekk"]

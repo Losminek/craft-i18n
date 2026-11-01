@@ -1,0 +1,5 @@
+# Words the hr pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read two-character flags yet (FLAG long)"
+correct = ["kuća", "knjiga", "škola", "voda", "grad"]
+incorrect = ["knjigga", "škkola", "graddd"]

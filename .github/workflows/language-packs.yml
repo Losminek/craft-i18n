@@ -1,0 +1,73 @@
+name: Language packs
+
+# Downloads every file in language-data/manifest.toml, checks its sha256 and size, loads every
+# pack through craft-proof against its check words, and (on a tag or a manual release run)
+# publishes one <locale>.tar.zst per published pack plus index.json as release assets.
+# Format: docs/language-data-format.md.
+
+on:
+  push:
+    tags: ["language-packs-*"]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Release to publish (language-packs-<n>); leave empty to only verify"
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 4 * * 1" # weekly: upstream pins still download and match
+
+permissions:
+  contents: read
+
+env:
+  CRAFT_I18N_FETCH: "1"
+  CRAFT_I18N_CACHE: ${{ github.workspace }}/target/language-data-cache
+
+jobs:
+  packs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d # stable
+      - uses: actions/cache@v4
+        with:
+          path: target/language-data-cache
+          key: language-data-${{ hashFiles('language-data/manifest.toml') }}
+          restore-keys: language-data-
+      - name: fetch and verify every file
+        run: cargo run --release --locked --bin language-packs -- fetch
+      - name: offline checks, sha256 and size, load-and-check per pack
+        run: cargo test --release --locked -p craft-i18n-tests --test packs -- --nocapture
+      - name: release name
+        id: rel
+        env:
+          INPUT: ${{ github.event.inputs.release }}
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = tag ]; then name="${GITHUB_REF_NAME}"; else name="${INPUT}"; fi
+          case "$name" in
+            "") ;;
+            language-packs-*) ;;
+            *) echo "release must be language-packs-<n>, got $name" >&2; exit 1 ;;
+          esac
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+      - name: build packs and index.json
+        if: steps.rel.outputs.name != ''
+        run: >
+          cargo run --release --locked --bin language-packs -- build
+          --out dist --release "${{ steps.rel.outputs.name }}" --version "${GITHUB_SHA}"
+          --no-download
+      - name: publish release assets
+        if: steps.rel.outputs.name != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NAME: ${{ steps.rel.outputs.name }}
+        run: |
+          if ! gh release view "$NAME" >/dev/null 2>&1; then
+            gh release create "$NAME" --target "${GITHUB_SHA}" --title "$NAME" \
+              --notes "Language packs built from ${GITHUB_SHA}. Format: docs/language-data-format.md."
+          fi
+          gh release upload "$NAME" dist/*.tar.zst dist/index.json --clobber

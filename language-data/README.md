@@ -25,9 +25,17 @@ to `hyphenation.pat`, contents unchanged). It is the carry-over ADR 0004 and ADR
 non-English files leave the default build in the release that ships Language packs.
 
 **Interim.** `en-us.dic` (Moby), `en-extra.txt` and `en-variants.txt` stay under these names until
-the SCOWL-based `spelling.aff`/`spelling.dic` for en-us and en-gb replace the Moby list, and the
-Licence class lives in `ATTRIBUTION.md` until `manifest.tsv` lands. `hyphenation.pat` is the
+the SCOWL-based `spelling.aff`/`spelling.dic` for en-us and en-gb replace the Moby list. The
+committed files' Licence class lives in `ATTRIBUTION.md`. `hyphenation.pat` is the
 final name.
+
+## Language packs
+
+Every other locale is a Language pack: `manifest.toml` pins each upstream file (URL at a commit,
+sha256, size, SPDX licence, Licence class) and `checks/<locale>.toml` holds the words its
+load-and-check test uses, or why the pack is hidden. Nothing in a pack is committed; a release
+workflow downloads, checks and publishes them. Format, checks and the release layout:
+[`docs/language-data-format.md`](../docs/language-data-format.md).
 
 ## Rules
 

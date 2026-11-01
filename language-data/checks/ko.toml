@@ -1,0 +1,5 @@
+# Words the ko pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read numeric flags (FLAG num), OCONV or compound rules yet; the .aff is 11 MB of ICONV/OCONV"
+correct = ["학교", "사람", "물", "도시", "책"]
+incorrect = ["학교교교", "사람람람", "도시시시"]

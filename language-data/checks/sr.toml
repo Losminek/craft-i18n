@@ -1,0 +1,5 @@
+# Words the sr pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read numeric flags yet (FLAG num)"
+correct = ["кућа", "књига", "школа", "вода", "град"]
+incorrect = ["књигга", "шкколла", "граддд"]

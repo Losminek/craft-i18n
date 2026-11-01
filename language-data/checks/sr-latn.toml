@@ -1,0 +1,5 @@
+# Words the sr-latn pack must accept and reject (common words; written for this check).
+hidden = true
+reason = "craft-proof can't read numeric flags yet (FLAG num)"
+correct = ["kuća", "knjiga", "škola", "voda", "grad"]
+incorrect = ["knjigga", "škkolla", "graddd"]
