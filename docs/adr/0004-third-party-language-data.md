@@ -39,8 +39,7 @@ class decides where the file may go:
 is not legal advice. Until then CI fails every LGPL, MPL, LPPL and GPL file, so the only data that
 ships is permissive (the English SCOWL and CC0 files); the sign-off removes that switch.
 The audit behind it (2026-10-31, 66 spelling and 88 hyphenation rows, each with the
-licence quoted) is the starting
-manifest.
+licence quoted) is the starting manifest.
 
 ## Consequences
 
