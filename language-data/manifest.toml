@@ -129,9 +129,10 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "cb6bfc56d6b1e70c812061086d7ec5ad6aaf6d35acd927a035f1cee0188ea477"
 size = 58189
-licence = "GPL-2.0-only"
+licence = "GPL-2.0-or-later OR LGPL-2.0-or-later OR MPL-1.1"
 class = "Download-only"
 name = "Български"
+note = "No licence in the .aff/.dic. LibreOffice ships only bg_BG/COPYING (GPL-2.0). bgOffice (bgoffice.sourceforge.net, 2010 news) says the packages are 'GPLv2 or later, LGPLv2 or later and MPLv1.1', but the same page says the source code and words 'remain under GPL'. Download-only until bgOffice confirms MPL in writing."
 
 [[file]]
 locale = "bg"
@@ -140,8 +141,9 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "416f956a6e8f607565113eafc8bd35a4a5720df28c100b20e023845868b963cb"
 size = 1566331
-licence = "GPL-2.0-only"
+licence = "GPL-2.0-or-later OR LGPL-2.0-or-later OR MPL-1.1"
 class = "Download-only"
+note = "No licence in the .aff/.dic. LibreOffice ships only bg_BG/COPYING (GPL-2.0). bgOffice (bgoffice.sourceforge.net, 2010 news) says the packages are 'GPLv2 or later, LGPLv2 or later and MPLv1.1', but the same page says the source code and words 'remain under GPL'. Download-only until bgOffice confirms MPL in writing."
 
 [[file]]
 locale = "bg"
@@ -160,8 +162,19 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "100035c1d3964e5528165e539619e2c5c01a421771daa43329809e06d779d692"
 size = 17979
-licence = "GPL-2.0-only"
+licence = "GPL-2.0-or-later OR LGPL-2.0-or-later OR MPL-1.1"
 class = "Download-only"
+note = "No licence in the .aff/.dic. LibreOffice ships only bg_BG/COPYING (GPL-2.0). bgOffice (bgoffice.sourceforge.net, 2010 news) says the packages are 'GPLv2 or later, LGPLv2 or later and MPLv1.1', but the same page says the source code and words 'remain under GPL'. Download-only until bgOffice confirms MPL in writing."
+
+[[file]]
+locale = "bg"
+kind = "licence"
+url = "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-bg.tex"
+commit = "5684c0f51c0b81133db2efbe60a408b4155a3ff5"
+sha256 = "d37886f8cecea60bf829e4dd9dc1107aea8e8ee3eb92425423534bafac5f59b0"
+size = 106100
+licence = "LicenseRef-hyph-bg"
+class = "Embeddable"
 
 
 # bs
@@ -2030,6 +2043,7 @@ size = 2729393
 licence = "LGPL-3.0-only"
 class = "Excluded"
 name = "Euskara"
+note = "The xuxen.eus zip ships only an LGPL-3.0 text with no copyright line; xuxen.eus/lege-oharra says Elhuyar content is CC BY-NC-ND; wooorm's readme says GPL-2.0. A non-commercial, no-derivatives statement makes it Excluded until Elhuyar confirms."
 
 [[file]]
 locale = "eu"
@@ -2040,6 +2054,7 @@ sha256 = "2f046ed070c11f9dc6f502577462bdc11a0966be50e0d9750823922a22d9e948"
 size = 2303418
 licence = "LGPL-3.0-only"
 class = "Excluded"
+note = "The xuxen.eus zip ships only an LGPL-3.0 text with no copyright line; xuxen.eus/lege-oharra says Elhuyar content is CC BY-NC-ND; wooorm's readme says GPL-2.0. A non-commercial, no-derivatives statement makes it Excluded until Elhuyar confirms."
 
 [[file]]
 locale = "eu"
@@ -2050,6 +2065,7 @@ sha256 = "f2fb6de196e25ae7ce894d8d989263dae3718e9736c7ebd165cea5c4f7b7d762"
 size = 2885
 licence = "LGPL-3.0-only"
 class = "Excluded"
+note = "The xuxen.eus zip ships only an LGPL-3.0 text with no copyright line; xuxen.eus/lege-oharra says Elhuyar content is CC BY-NC-ND; wooorm's readme says GPL-2.0. A non-commercial, no-derivatives statement makes it Excluded until Elhuyar confirms."
 
 
 # fa
@@ -2321,6 +2337,7 @@ size = 95802
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
 name = "Hrvatski"
+note = "LibreOffice hr_HR/README_hr_HR.txt (v2.1.1, these files): 'GPL 2.0/LGPL 2.1/MPL 1.1 tri-license'. The current upstream (krunose/hr-hunspell) README says 'LGPL/SISSL license, 2003'. Download-only until the conflict is resolved."
 
 [[file]]
 locale = "hr"
@@ -2331,6 +2348,7 @@ sha256 = "9c517653968a69389ee240b658b12c9db3ea00ce5415086ab76ade5a725e469d"
 size = 731819
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
+note = "LibreOffice hr_HR/README_hr_HR.txt (v2.1.1, these files): 'GPL 2.0/LGPL 2.1/MPL 1.1 tri-license'. The current upstream (krunose/hr-hunspell) README says 'LGPL/SISSL license, 2003'. Download-only until the conflict is resolved."
 
 [[file]]
 locale = "hr"
@@ -2351,6 +2369,7 @@ sha256 = "b850923a46efe6acb7d7fa5c314e9d413bcf0b039c67168266351936aa2d976f"
 size = 464
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
+note = "LibreOffice hr_HR/README_hr_HR.txt (v2.1.1, these files): 'GPL 2.0/LGPL 2.1/MPL 1.1 tri-license'. The current upstream (krunose/hr-hunspell) README says 'LGPL/SISSL license, 2003'. Download-only until the conflict is resolved."
 
 
 # hu
@@ -3102,6 +3121,7 @@ size = 95089
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
 name = "Português (Portugal)"
+note = "Three statements: pt_PT/README_pt_PT.txt 'covered by the (GPL/LGPL/MPL), by this order: GPL 2, LGPL 2.1, MPL 1.1'; pt_PT/LICENSES.txt 'covered by the GPL and BSD licence'; natura.di.uminho.pt 'GPL, LGPL, e MPL (ou pela menos uma delas)'. Download-only until resolved."
 
 [[file]]
 locale = "pt-pt"
@@ -3112,6 +3132,7 @@ sha256 = "e29ba2d7aa8a2ad43e9cb46ac6473064b661545c87002aea90e18899d98d3cc9"
 size = 1485977
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
+note = "Three statements: pt_PT/README_pt_PT.txt 'covered by the (GPL/LGPL/MPL), by this order: GPL 2, LGPL 2.1, MPL 1.1'; pt_PT/LICENSES.txt 'covered by the GPL and BSD licence'; natura.di.uminho.pt 'GPL, LGPL, e MPL (ou pela menos uma delas)'. Download-only until resolved."
 
 [[file]]
 locale = "pt-pt"
@@ -3132,6 +3153,7 @@ sha256 = "36de7d88a406a4947bf646a64145f00827566808988632e3df969aa95776060c"
 size = 1106
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
+note = "Three statements: pt_PT/README_pt_PT.txt 'covered by the (GPL/LGPL/MPL), by this order: GPL 2, LGPL 2.1, MPL 1.1'; pt_PT/LICENSES.txt 'covered by the GPL and BSD licence'; natura.di.uminho.pt 'GPL, LGPL, e MPL (ou pela menos uma delas)'. Download-only until resolved."
 
 [[file]]
 locale = "pt-pt"
@@ -3142,6 +3164,7 @@ sha256 = "d2c1cfe2e2dd81c651aec3fda5d1b4b4e7679b9e04f8cdc37586e521837384d1"
 size = 1830
 licence = "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1"
 class = "Download-only"
+note = "Three statements: pt_PT/README_pt_PT.txt 'covered by the (GPL/LGPL/MPL), by this order: GPL 2, LGPL 2.1, MPL 1.1'; pt_PT/LICENSES.txt 'covered by the GPL and BSD licence'; natura.di.uminho.pt 'GPL, LGPL, e MPL (ou pela menos uma delas)'. Download-only until resolved."
 
 
 # ro
@@ -3585,6 +3608,7 @@ size = 12114
 licence = "MPL-1.1"
 class = "Download-only"
 name = "தமிழ்"
+note = "ta_IN/COPYING is the bare MPL 1.1 text, added four months after the files, naming no rights holder (LibreOffice gerrit change 184956); the older NRCFOSS Tamil dictionary was GPLv2+. Download-only until the provenance is confirmed."
 
 [[file]]
 locale = "ta"
@@ -3595,6 +3619,7 @@ sha256 = "4c079bde24d3232d4195e78bd33bbe5fcb887ceb6363065574cec048d04bc756"
 size = 2422307
 licence = "MPL-1.1"
 class = "Download-only"
+note = "ta_IN/COPYING is the bare MPL 1.1 text, added four months after the files, naming no rights holder (LibreOffice gerrit change 184956); the older NRCFOSS Tamil dictionary was GPLv2+. Download-only until the provenance is confirmed."
 
 [[file]]
 locale = "ta"
@@ -3615,6 +3640,7 @@ sha256 = "9fec7edfc79e99b210d43413ac1f309654c8c4c622ee8f51a24a3eb693f92a4e"
 size = 25754
 licence = "MPL-1.1"
 class = "Download-only"
+note = "ta_IN/COPYING is the bare MPL 1.1 text, added four months after the files, naming no rights holder (LibreOffice gerrit change 184956); the older NRCFOSS Tamil dictionary was GPLv2+. Download-only until the provenance is confirmed."
 
 
 # th
@@ -3714,6 +3740,7 @@ size = 1568222
 licence = "GPL-2.0-only"
 class = "Excluded"
 name = "ئۇيغۇرچە"
+note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
 
 [[file]]
 locale = "ug"
@@ -3724,6 +3751,7 @@ sha256 = "8578f136c34c171349d74eac65f9b064c98908b79ae5cd6180600072df514088"
 size = 1568222
 licence = "GPL-2.0-only"
 class = "Excluded"
+note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
 
 [[file]]
 locale = "ug"
@@ -3734,6 +3762,7 @@ sha256 = "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
 size = 18092
 licence = "GPL-2.0-only"
 class = "Excluded"
+note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
 
 
 # uk
@@ -3744,9 +3773,10 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "2219dd15e9802adebc45722c60943b1472640260491af38dd3e43b07e75585e6"
 size = 211759
-licence = "MPL-1.1"
-class = "Download-only"
+licence = "MPL-1.1 AND CC-BY-NC-SA-4.0"
+class = "Excluded"
 name = "Українська"
+note = "LibreOffice uk_UA/README_uk_UA.txt and dict_uk distr/hunspell/README.md: 'licensed under MPL (Mozilla Public License) 1.1'. The dict_uk source data the dictionary is generated from is CC BY-NC-SA 4.0 (non-commercial), and wooorm lists GPL-3.0. Excluded until Andriy Rysin confirms the MPL grant covers it."
 
 [[file]]
 locale = "uk"
@@ -3755,8 +3785,9 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "2e5a9e67be63bdb089b3459addb5d71113319d13768e277bcae20f3cc1ad5a93"
 size = 8919324
-licence = "MPL-1.1"
-class = "Download-only"
+licence = "MPL-1.1 AND CC-BY-NC-SA-4.0"
+class = "Excluded"
+note = "LibreOffice uk_UA/README_uk_UA.txt and dict_uk distr/hunspell/README.md: 'licensed under MPL (Mozilla Public License) 1.1'. The dict_uk source data the dictionary is generated from is CC BY-NC-SA 4.0 (non-commercial), and wooorm lists GPL-3.0. Excluded until Andriy Rysin confirms the MPL grant covers it."
 
 [[file]]
 locale = "uk"
@@ -3775,8 +3806,9 @@ url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14
 commit = "4f1df64b2e8e14751aa7c2205d170ca016071315"
 sha256 = "664436fee625b4a3e712483947d1711a2f467670f4c389bcf10abca2a564e1dc"
 size = 362
-licence = "MPL-1.1"
-class = "Download-only"
+licence = "MPL-1.1 AND CC-BY-NC-SA-4.0"
+class = "Excluded"
+note = "LibreOffice uk_UA/README_uk_UA.txt and dict_uk distr/hunspell/README.md: 'licensed under MPL (Mozilla Public License) 1.1'. The dict_uk source data the dictionary is generated from is CC BY-NC-SA 4.0 (non-commercial), and wooorm lists GPL-3.0. Excluded until Andriy Rysin confirms the MPL grant covers it."
 
 
 # vi
