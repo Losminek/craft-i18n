@@ -27,25 +27,30 @@ class decides where the file may go:
 - A file whose licence evidence is weak or contradictory (say a README saying GPL and an `.aff`
   header saying LGPL) is **Download-only** until its author confirms otherwise, unless one of the
   statements is non-commercial or no-derivatives, which makes it **Excluded**.
-- CI holds the table as SPDX allow-lists, so a licence with no SPDX id gets a `LicenseRef-` entry
-  in the manifest before it qualifies.
+- CI will hold the table as SPDX allow-lists in the manifest, so a licence with no SPDX id gets a
+  `LicenseRef-` entry before it qualifies. Until the manifest lands, the checker reads the
+  licence and class from `ATTRIBUTION.md`'s Language data table.
 - The licence name and source link show in the app's language list before install, and the full
   licence text of everything embedded or installed shows in About › Language data. No separate
   licence prompt.
-- CI rejects a file with no recorded licence or class, any Excluded file, and a Language build
-  naming a pack that isn't Embeddable.
+- CI rejects a file with no recorded licence or class and any Excluded file; once packs exist, a
+  Language build naming a pack that isn't Embeddable. Until then it accepts only Embeddable.
 
 "Accepted" means the classes; the table itself is provisional until a maintainer signs it off. It
 is not legal advice. Until then CI fails every LGPL, MPL, LPPL and GPL file, so the only data that
-ships is permissive (the English SCOWL and CC0 files); the sign-off removes that switch.
+ships is permissive; the sign-off removes that switch. The one exception to "no language beyond
+English" is the carry-over: the permissive (MIT, BSD, public-domain) data WordCraft embedded
+before the move (Moby English, de/pl/pt/it hyphenation, Russian extra words) stays embedded until
+the release that ships downloads ([ADR 0005](0005-language-data-lives-here.md)).
 The audit behind it (2026-10-31, 66 spelling and 88 hyphenation rows, each with the
 licence quoted) is the starting manifest.
 
 ## Consequences
 
 - The repository is no longer one licence: files under `language-data/` keep their upstream
-  licences, next to them as `LICENSE-<source>.txt`. README and `ATTRIBUTION.md` say so.
-- No language beyond English ships until the table is signed off.
+  licences, next to them as `LICENSE-<source>.txt` (until the manifest lands, the notice in each
+  file's header and its `ATTRIBUTION.md` row). README and `ATTRIBUTION.md` say so.
+- No language beyond English ships until the table is signed off, apart from the carry-over.
 - Every new dictionary needs its licence quoted and classed in the manifest; CI does the rest.
 
 ## Considered options
