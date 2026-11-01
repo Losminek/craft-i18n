@@ -107,7 +107,10 @@ Files are cached by sha256 in `$CRAFT_I18N_CACHE` (default `target/language-data
 A craft-i18n GitHub release `language-packs-<n>` (pushed tag, or the workflow run by hand with a
 release name) holds the assets below. A release is never modified: the workflow refuses a name
 that already exists, creates the release as a draft, uploads every asset, then publishes it. A
-fix is a new `language-packs-<n+1>`.
+fix is a new `language-packs-<n+1>`. A manual run must be on `main` and refuses a tag that
+already exists; runs for the same release name never overlap. If an upload fails, the run
+leaves a **draft** release behind: delete it before running again, or the rerun refuses
+the name.
 
 - **`<locale>.tar.zst`** per published pack (no Excluded entry, not hidden, checks passed). At
   the archive root: `spelling.aff`, `spelling.dic`, `hyphenation.pat` (any may be absent),

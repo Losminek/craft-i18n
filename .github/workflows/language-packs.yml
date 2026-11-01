@@ -21,6 +21,12 @@ on:
 permissions:
   contents: read
 
+# One run per release name at a time (scheduled verify runs share one group); never cancelled
+# half way, so a publish can't be interrupted by a second run.
+concurrency:
+  group: language-packs-${{ github.ref_type == 'tag' && github.ref_name || inputs.release || 'verify' }}
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -46,11 +52,19 @@ jobs:
         id: rel
         env:
           INPUT: ${{ github.event.inputs.release }}
+        shell: bash
         run: |
-          if [ "${GITHUB_REF_TYPE}" = tag ]; then name="${GITHUB_REF_NAME}"; else name="${INPUT}"; fi
-          if [ -n "$name" ] && ! printf '%s' "$name" | grep -Eq '^language-packs-[0-9]+$'; then
-            echo "release must be language-packs-<n>" >&2
-            exit 1
+          if [[ "$GITHUB_REF_TYPE" == tag ]]; then name="$GITHUB_REF_NAME"; else name="$INPUT"; fi
+          if [[ -n "$name" ]]; then
+            # [[ =~ ]] matches the whole string, so a newline in the input can't sneak through.
+            if ! [[ "$name" =~ ^language-packs-[0-9]+$ ]]; then
+              echo "release must be language-packs-<n>" >&2
+              exit 1
+            fi
+            if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch && "$GITHUB_REF" != refs/heads/main ]]; then
+              echo "a manual release must run on main, not $GITHUB_REF" >&2
+              exit 1
+            fi
           fi
           echo "name=$name" >> "$GITHUB_OUTPUT"
       - name: fetch and verify every file
@@ -88,7 +102,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE: ${{ needs.build.outputs.release }}
+        shell: bash
         run: |
+          # A manual run creates the tag at $GITHUB_SHA; an existing tag would make --target
+          # ignored, so the release could point at other code than the packs were built from.
+          if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]] &&
+            gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$RELEASE" >/dev/null 2>&1; then
+            echo "tag $RELEASE already exists; pick a new language-packs-<n>" >&2
+            exit 1
+          fi
           if gh release view "$RELEASE" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             echo "$RELEASE already exists; releases are never modified: use a new language-packs-<n>" >&2
             exit 1
