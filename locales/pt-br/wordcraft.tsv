@@ -41,6 +41,7 @@
 	About WordCraft	Sobre o WordCraft
 	Above Chart	Acima do gráfico
 	Above the item	Acima do item
+	Above/below	Acima/abaixo
 	Accent	Acento
 	Accent Gradient	Gradiente de destaque
 	Accent with Reflection	Destaque com reflexo
@@ -240,6 +241,7 @@
 	Bracket	Colchete
 	Break Link	Quebrar link
 	Breaks	Quebras
+	Bright Green	Verde-vivo
 	Bring Forward	Trazer para frente
 	Browse in WordCraft…	Procurar no WordCraft…
 	Building Block Gallery Content Control	Controle de conteúdo da galeria de blocos de construção
@@ -424,6 +426,24 @@
 	Croatian	Croata
 	Cross-reference	Referência cruzada
 	Cross-reference:	Referência cruzada:
+	Dark Blue	Azul-escuro
+	Dark Red	Vermelho-escuro
+	Dark Yellow	Amarelo-escuro
+	East	Leste
+	Emphasis	Ênfase
+	Gray-25%	Cinza-25%
+	Gray-50%	Cinza-50%
+	Insert reference to:	Inserir referência a:
+	Intense Emphasis	Ênfase intensa
+	No Spacing	Sem espaçamento
+	Nothing of this type in the document.	Nenhum item deste tipo no documento.
+	Strong	Forte
+	Subtle Emphasis	Ênfase sutil
+	Subtle Reference	Referência sutil
+	Teal	Verde-azulado
+	TOC {n}	Sumário {n}
+	tOGGLE cASE	aLTERNAR mAIÚSCULAS/mINÚSCULAS
+	Turquoise	Turquesa
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} inicia uma nova página. Bem mais organizado do que apertar Enter até acontecer.
 	{key} finds and replaces text, formatting and special characters.	{key} localiza e substitui texto, formatação e caracteres especiais.
 	{key} turns the selected text into a link.	{key} transforma o texto selecionado em um link.
