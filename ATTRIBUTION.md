@@ -129,6 +129,7 @@ localisation was consulted. No native-speaker review is recorded for these rows.
 Bogdan Claudiu Petanec (@multipointmaster-glitch), with Codex assistance,
 contributed the three Romanian Viewing-mode rows in `locales/ro/wordcraft.tsv`.
 The label and hint were supplied by the contributor; the status message was
-AI-assisted and is awaiting human review. This credit covers these additions
-only, not a review of the whole Romanian catalog. All wording was prepared
-from the English meaning without consulting another product’s localization.
+AI-assisted. The contributor, a native Romanian speaker, reviewed and approved
+all three rows on 1 November 2026. This credit and review cover these additions
+only, not the whole Romanian catalog. No in-app review is recorded. All wording
+was prepared from the English meaning without consulting another product’s localization.
