@@ -14,12 +14,13 @@ app picks it up. An app can still override a shared string, or add its own, in i
 |---|---|
 | `locales/<locale>/common.tsv` | Shared strings: those two or more apps use. |
 | `locales/<locale>/<app>.tsv` | One app's strings, and its overrides of shared ones. |
+| `language-data/<locale>/` | Spelling word lists and hyphenation patterns (Language data); see [`language-data/README.md`](language-data/README.md). |
 | `docs/catalog-format.md` | The catalog format, the rules CI checks, and the header every catalog starts with. |
 | `docs/integration.md` | How an app embeds the catalogs as a fully optional build input. |
 | `docs/adr/` | Decisions: TSV keyed by English, lookup code in craft-libs, the shared catalog, Language data and its licences. |
 | `GLOSSARY.md` | The words this project uses: source text, context, catalog, override… |
 | `ROADMAP.md` | Milestones and which apps have moved here. |
-| `ATTRIBUTION.md` | Translators, and where migrated catalogs came from. |
+| `ATTRIBUTION.md` | Translators, where migrated catalogs came from, and the source and licence of every Language data file. |
 | `AGENTS.md` | Instructions for coding agents. |
 | `crates/craft-i18n-tests` | The catalog checker CI runs. |
 
