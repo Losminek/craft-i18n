@@ -17,7 +17,7 @@ language.
   them is the runtime's job. The suite word list is `language-data/words.txt`, with optional
   `<locale>/words.txt`; it is written here, committed and embedded with English, and a locale's
   list goes in its Language pack.
-- English (en-US, en-GB, en-CA, en-AU, from SCOWL) is committed and embedded in every build that
+- English (en-US and en-GB, from SCOWL) is committed and embedded in every build that
   has `CRAFT_I18N_DIR`. A build without it (a fork, docs.rs, offline) still builds, with no
   embedded Language data: spelling falls back to the system's Hunspell dictionaries, hyphenation
   is off. Other languages are a **manifest** pinning each file's upstream URL, commit, sha256 and
