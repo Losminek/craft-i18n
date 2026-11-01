@@ -71,13 +71,14 @@ fn run(argv: Vec<String>) -> Result<(), String> {
         return Err(USAGE.into());
     };
     let args = Args(rest.to_vec());
-    let (manifest, checks) = packs::load_repo()?;
+    let repo = packs::load_repo()?;
+    let (manifest, checks, texts) = (&repo.manifest, &repo.checks, &repo.texts);
     let cache = args
         .value("--cache")?
         .map_or_else(packs::default_cache, PathBuf::from);
     match cmd.as_str() {
         "check" => {
-            let errors = packs::check(&manifest, &checks);
+            let errors = packs::check(manifest, checks, texts);
             if errors.is_empty() {
                 println!(
                     "{} entries, {} locales: ok",
@@ -123,11 +124,11 @@ fn run(argv: Vec<String>) -> Result<(), String> {
                     .unwrap_or_default(),
                 download: !args.flag("--no-download"),
             };
-            let errors = packs::check(&manifest, &checks);
+            let errors = packs::check(manifest, checks, texts);
             if !errors.is_empty() {
                 return Err(errors.join("\n"));
             }
-            let index = packs::build(&manifest, &checks, &opts)?;
+            let index = packs::build(manifest, checks, texts, &opts)?;
             for p in &index.packs {
                 println!("{} {} bytes {}", p.locale, p.size, p.class);
             }

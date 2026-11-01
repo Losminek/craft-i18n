@@ -9,15 +9,20 @@ use craft_i18n_tests::packs::{self, Checks, Class, Entry, Kind, Manifest};
 
 #[test]
 fn manifest_and_checks_are_valid() {
-    let (manifest, checks) = packs::load_repo().unwrap();
-    assert!(manifest.file.len() > 10, "manifest.toml is nearly empty");
-    let errors = packs::check(&manifest, &checks);
+    let repo = packs::load_repo().unwrap();
+    assert!(
+        repo.manifest.file.len() > 10,
+        "manifest.toml is nearly empty"
+    );
+    let errors = packs::check(&repo.manifest, &repo.checks, &repo.texts);
     assert!(errors.is_empty(), "language packs:\n{}", errors.join("\n"));
 }
 
 #[test]
 fn excluded_locales_are_never_published() {
-    let (manifest, checks) = packs::load_repo().unwrap();
+    let packs::Repo {
+        manifest, checks, ..
+    } = packs::load_repo().unwrap();
     for e in manifest.file.iter().filter(|e| e.class == Class::Excluded) {
         assert!(
             !packs::published(&manifest, &checks, &e.locale),
@@ -42,7 +47,7 @@ fn every_file_matches_its_pin() {
     if !fetching() {
         return;
     }
-    let (manifest, _) = packs::load_repo().unwrap();
+    let manifest = packs::load_repo().unwrap().manifest;
     let cache = packs::default_cache();
     let errors: Vec<String> = manifest
         .file
@@ -83,7 +88,9 @@ fn packs_load_and_check() {
     if !fetching() {
         return;
     }
-    let (manifest, checks) = packs::load_repo().unwrap();
+    let packs::Repo {
+        manifest, checks, ..
+    } = packs::load_repo().unwrap();
     let mut errors = Vec::new();
     for locale in manifest.locales() {
         if manifest.class(locale) == Class::Excluded {
@@ -136,6 +143,7 @@ mod fixtures {
             licence: licence.into(),
             class,
             name: Some("Nederlands".into()),
+            note: None,
         }
     }
 
@@ -174,8 +182,16 @@ mod fixtures {
         BTreeMap::from([("nl".to_owned(), c)])
     }
 
+    /// Standard licence texts the fixtures have: BSD-3-Clause and MIT only.
+    fn texts() -> BTreeMap<String, Vec<u8>> {
+        BTreeMap::from([
+            ("BSD-3-Clause".to_owned(), b"BSD text\n".to_vec()),
+            ("MIT".to_owned(), b"MIT text\n".to_vec()),
+        ])
+    }
+
     fn errors(file: Vec<Entry>, checks: &BTreeMap<String, Checks>) -> Vec<String> {
-        packs::check(&Manifest { file }, checks)
+        packs::check(&Manifest { file }, checks, &texts())
     }
 
     #[test]
@@ -186,7 +202,7 @@ mod fixtures {
     #[test]
     fn each_failure() {
         type Edit = fn(&mut Vec<Entry>, &mut BTreeMap<String, Checks>);
-        let cases: [(Edit, &str); 17] = [
+        let cases: [(Edit, &str); 27] = [
             (|f, _| f[0].licence.clear(), "no licence"),
             (
                 |f, _| f[0].licence = "BSD-3-Clause OR".into(),
@@ -228,7 +244,74 @@ mod fixtures {
                 |f, _| {
                     f.remove(2);
                 },
-                "licence text entry",
+                "needs a licence entry",
+            ),
+            // The commit only in a query string, not as the third path segment.
+            (
+                |f, _| {
+                    f[0].url = format!(
+                        "https://raw.githubusercontent.com/LibreOffice/dictionaries/main/x.aff?/{COMMIT}/"
+                    );
+                },
+                "query",
+            ),
+            (
+                |f, _| {
+                    f[0].url = format!("https://raw.githubusercontent.com/a/b/main/{COMMIT}/x.aff");
+                },
+                "not pinned to commit",
+            ),
+            (
+                |f, _| f[0].url = f[0].url.replace("nl_NL/", "../"),
+                "dot segments",
+            ),
+            (
+                |f, _| {
+                    f[0].url =
+                        format!("https://raw.githubusercontent.com.evil.example/a/b/{COMMIT}/x")
+                },
+                "pinned raw file",
+            ),
+            (
+                |f, _| f[2].url = f[2].url.replace("LICENSE.txt", "LICENSE%20x.txt"),
+                "[A-Za-z0-9._-]",
+            ),
+            (
+                |f, _| f[2].url = f[2].url.replace("LICENSE.txt", ".hidden"),
+                "[A-Za-z0-9._-]",
+            ),
+            (
+                |_, c| {
+                    if let Some(nl) = c.get_mut("nl") {
+                        nl.correct[0] = " ".into();
+                    }
+                },
+                "check word is empty",
+            ),
+            // GPL data with only an MIT text: GPL is not covered.
+            (
+                |f, _| {
+                    for e in f.iter_mut() {
+                        e.class = Class::DownloadOnly;
+                        e.licence = "GPL-2.0-only".into();
+                    }
+                    f[2].licence = "MIT".into();
+                },
+                "no full text of GPL-2.0-only",
+            ),
+            // Weak evidence: a stricter class than the licence needs must say why.
+            (
+                |f, _| {
+                    f[0].class = Class::DownloadOnly;
+                },
+                "quote the evidence in `note`",
+            ),
+            // A LicenseRef needs a licence entry naming it.
+            (
+                |f, _| {
+                    f[0].licence = "LicenseRef-BSD-Lebedev".into();
+                },
+                "no full text of LicenseRef-BSD-Lebedev",
             ),
             (|_, c| c.clear(), "no language-data/checks/nl.toml"),
             (
@@ -262,6 +345,27 @@ mod fixtures {
         for e in &mut en {
             e.locale = "en-gb".into();
         }
+        // A hyphenation-only GPL pack with no licence entry fails.
+        let mut hyph = entry(
+            "nl",
+            Kind::Hyphenation,
+            "x/hyph-nl.tex",
+            "GPL-2.0-only",
+            Class::DownloadOnly,
+        );
+        hyph.url = format!(
+            "https://raw.githubusercontent.com/hyphenation/tex-hyphen/{COMMIT}/hyph-nl.tex"
+        );
+        let got = errors(vec![hyph], &BTreeMap::new());
+        assert!(
+            got.iter().any(|e| e.contains("needs a licence entry")),
+            "{got:?}"
+        );
+        assert!(
+            got.iter()
+                .any(|e| e.contains("no full text of GPL-2.0-only")),
+            "{got:?}"
+        );
         assert!(
             errors(en, &BTreeMap::new())
                 .iter()
@@ -386,11 +490,17 @@ mod fixtures {
             only: vec![],
             download: false,
         };
-        let index = packs::build(&m, &words(), &opts).unwrap();
+        let index = packs::build(&m, &words(), &texts(), &opts).unwrap();
         let [p] = index.packs.as_slice() else {
             panic!("{index:?}")
         };
         assert_eq!(p.url, "http://127.0.0.1:8765/nl.tar.zst");
+        assert_eq!(
+            p.source.as_deref(),
+            Some(
+                format!("https://github.com/LibreOffice/dictionaries/tree/{COMMIT}/nl_NL").as_str()
+            )
+        );
         assert!(p.spelling && p.hyphenation);
         assert_eq!(
             (p.class.as_str(), p.licence.as_str()),
@@ -406,7 +516,7 @@ mod fixtures {
                 .unwrap();
         assert_eq!(json, index);
         // Deterministic.
-        packs::build(&m, &words(), &opts).unwrap();
+        packs::build(&m, &words(), &texts(), &opts).unwrap();
         assert_eq!(std::fs::read(dir.join("out/nl.tar.zst")).unwrap(), bytes);
         // Layout.
         let raw = zstd::decode_all(bytes.as_slice()).unwrap();
@@ -422,6 +532,7 @@ mod fixtures {
         assert_eq!(
             keys,
             [
+                "LICENCES/BSD-3-Clause.txt",
                 "LICENCES/LICENSE.txt",
                 "hyphenation.pat",
                 "pack.toml",
@@ -435,10 +546,32 @@ mod fixtures {
             "{pack}"
         );
         assert!(pack.contains("nl_NL/nl_NL.dic"), "{pack}");
+        assert!(
+            pack.contains("upstream = \"https://github.com/LibreOffice/"),
+            "{pack}"
+        );
+        assert_eq!(names["LICENCES/BSD-3-Clause.txt"], "BSD text\n");
+        // A data licence with no standard text can't be archived.
+        let bare = BTreeMap::new();
+        assert!(
+            packs::build(&m, &words(), &bare, &opts)
+                .unwrap_err()
+                .contains("BSD-3-Clause.txt")
+        );
+        // `only` with an unknown locale is an error.
+        let unknown = packs::BuildOptions {
+            only: vec!["xx".into()],
+            ..opts.clone()
+        };
+        assert!(
+            packs::build(&m, &words(), &texts(), &unknown)
+                .unwrap_err()
+                .contains("no such locale")
+        );
         // A missing cache file fails without downloading.
         std::fs::remove_file(cache.join(&m.file[0].sha256)).unwrap();
         assert!(
-            packs::build(&m, &words(), &opts)
+            packs::build(&m, &words(), &texts(), &opts)
                 .unwrap_err()
                 .contains("not in")
         );
@@ -452,7 +585,7 @@ mod fixtures {
             ..opts
         };
         assert!(
-            packs::build(&m, &hidden, &only)
+            packs::build(&m, &hidden, &texts(), &only)
                 .unwrap_err()
                 .contains("not published")
         );

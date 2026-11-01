@@ -26,12 +26,15 @@ fn files(root: &Path, dir: &Path, out: &mut Vec<String>) {
     }
 }
 
-/// Our own files under `language-data/` (this repository's licence, no upstream): the README, the
-/// Language pack manifest and the pack check words (`tests/packs.rs` checks those).
+/// Files under `language-data/` that aren't upstream data (`tests/packs.rs` checks them): the
+/// README, the Language pack manifest and check words (this repository's licence), and the
+/// standard licence texts packs carry (`licences/<SPDX id>.txt`, from spdx/license-list-data; each
+/// licence permits verbatim copies of itself).
 fn ours(path: &str) -> bool {
     path == "language-data/README.md"
         || path == "language-data/manifest.toml"
         || (path.starts_with("language-data/checks/") && path.ends_with(".toml"))
+        || (path.starts_with("language-data/licences/") && path.ends_with(".txt"))
 }
 
 /// The problems with `files` (paths under `language-data/`) against `attribution`'s rows.

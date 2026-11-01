@@ -14,8 +14,47 @@ use sha2::{Digest, Sha256};
 /// The largest file an entry may name (`craft-proof` reads at most this much per dictionary file).
 pub const MAX_FILE: u64 = 64 << 20;
 
-/// The upstream hosts an entry's `url` may point at: pinned raw files only.
-const HOSTS: [&str; 1] = ["https://raw.githubusercontent.com/"];
+/// The host every entry's `url` is on: `<HOST><owner>/<repo>/<commit>/<path>`, a pinned raw file.
+const HOST: &str = "https://raw.githubusercontent.com/";
+
+/// Ok when `url` is `HOST<owner>/<repo>/<commit>/<path…>`: parsed by segment, no empty, `.` or
+/// `..` segment, no query or fragment.
+///
+/// # Errors
+///
+/// Returns what's wrong with the URL.
+pub fn check_pinned_url(url: &str, commit: &str) -> Result<(), String> {
+    let rest = url
+        .strip_prefix(HOST)
+        .ok_or_else(|| format!("url must be a pinned raw file on {HOST}"))?;
+    if rest.contains(['?', '#', '\\']) || rest.chars().any(char::is_whitespace) {
+        return Err("url has a query, fragment, backslash or space".into());
+    }
+    let parts: Vec<&str> = rest.split('/').collect();
+    if parts.len() < 4
+        || parts
+            .iter()
+            .any(|p| p.is_empty() || *p == "." || *p == "..")
+    {
+        return Err(
+            "url must be <owner>/<repo>/<commit>/<path> with no empty or dot segments".into(),
+        );
+    }
+    if parts.get(2) != Some(&commit) {
+        return Err(format!("url is not pinned to commit {commit}"));
+    }
+    Ok(())
+}
+
+/// Whether `name` is a usable file name in `LICENCES/`: `[A-Za-z0-9._-]`, not starting with `.`.
+#[must_use]
+pub fn safe_file_name(name: &str) -> bool {
+    !name.is_empty()
+        && !name.starts_with('.')
+        && name
+            .bytes()
+            .all(|b| b.is_ascii_alphanumeric() || matches!(b, b'.' | b'_' | b'-'))
+}
 
 /// A Licence class (ADR 0004), least restricted first.
 #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Deserialize, Serialize)]
@@ -62,6 +101,10 @@ pub struct Entry {
     pub class: Class,
     #[serde(default)]
     pub name: Option<String>,
+    /// The licence statements behind the recorded licence and class, quoted, when the evidence is
+    /// weak or contradictory (required when `class` is more restricted than `licence` allows).
+    #[serde(default)]
+    pub note: Option<String>,
 }
 
 impl Entry {
@@ -118,6 +161,31 @@ impl Manifest {
         self.entries(locale)
             .find_map(|e| e.name.as_deref())
             .unwrap_or(locale)
+    }
+
+    /// Where `locale`'s data comes from, for people: the upstream folder of its first data file
+    /// (`https://github.com/<owner>/<repo>/tree/<commit>/<dir>`).
+    #[must_use]
+    pub fn source(&self, locale: &str) -> Option<String> {
+        let e = self.entries(locale).find(|e| e.kind != Kind::Licence)?;
+        let rest = e.url.strip_prefix(HOST)?;
+        let mut parts: Vec<&str> = rest.split('/').collect();
+        if parts.len() < 4 {
+            return None;
+        }
+        parts.pop();
+        let (repo, path) = parts.split_at(3);
+        let [owner, name, commit] = repo else {
+            return None;
+        };
+        let dir = if path.is_empty() {
+            String::new()
+        } else {
+            format!("/{}", path.join("/"))
+        };
+        Some(format!(
+            "https://github.com/{owner}/{name}/tree/{commit}{dir}"
+        ))
     }
 
     /// The Licence class of `locale`'s pack: its most restricted entry's.
@@ -227,6 +295,7 @@ const LICENCES: &[(&str, Class)] = &[
     ("MPL-2.0", Class::Embeddable),
     ("Unicode-3.0", Class::Embeddable),
     ("Unlicense", Class::Embeddable),
+    ("CC-BY-NC-SA-4.0", Class::Excluded),
     // Licences with no SPDX id; their text is in each pack's LICENCES/.
     ("LicenseRef-BSD-Lebedev", Class::Embeddable),
     ("LicenseRef-hyph-bg", Class::Embeddable),
@@ -287,9 +356,40 @@ pub fn licence_class(expr: &str) -> Result<Class, String> {
     }
 }
 
-/// Every problem with the manifest and the checks files that needs no network.
+/// The licence ids an SPDX expression names (`MIT`, `LicenseRef-…`), each once.
+///
+/// # Errors
+///
+/// Returns an error when the expression doesn't parse.
+pub fn licence_ids(expr: &str) -> Result<BTreeSet<String>, String> {
+    let parsed = spdx::Expression::parse(expr).map_err(|e| format!("{expr:?}: {e}"))?;
+    Ok(parsed
+        .requirements()
+        .map(|r| r.req.license.to_string())
+        .collect())
+}
+
+/// The licence ids `locale`'s data files are used under, that its archive must carry a full text
+/// of: an SPDX id's standard text from `language-data/licences/`, a `LicenseRef-` id's from a
+/// `licence` entry that names it.
 #[must_use]
-pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<String> {
+pub fn data_licence_ids(manifest: &Manifest, locale: &str) -> BTreeSet<String> {
+    manifest
+        .entries(locale)
+        .filter(|e| e.kind != Kind::Licence)
+        .filter_map(|e| licence_ids(&e.licence).ok())
+        .flatten()
+        .collect()
+}
+
+/// Every problem with the manifest, the checks files and the standard licence texts (`texts`, by
+/// SPDX id) that needs no network.
+#[must_use]
+pub fn check(
+    manifest: &Manifest,
+    checks: &BTreeMap<String, Checks>,
+    texts: &BTreeMap<String, Vec<u8>>,
+) -> Vec<String> {
     let mut errors = Vec::new();
     let mut seen: BTreeSet<(String, String)> = BTreeSet::new();
     for (n, e) in manifest.file.iter().enumerate() {
@@ -300,14 +400,12 @@ pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<Stri
         if e.locale == "en" || e.locale.starts_with("en-") {
             errors.push(format!("{at}: English is embedded, not a pack"));
         }
-        if !HOSTS.iter().any(|h| e.url.starts_with(h)) {
-            errors.push(format!("{at}: url must be a pinned raw file on {HOSTS:?}"));
-        }
         let hex40 = e.commit.len() == 40 && e.commit.bytes().all(|b| b.is_ascii_hexdigit());
         if !hex40 {
             errors.push(format!("{at}: commit must be a full 40-digit sha"));
-        } else if !e.url.contains(&format!("/{}/", e.commit)) {
-            errors.push(format!("{at}: url is not pinned to commit {}", e.commit));
+        }
+        if let Err(err) = check_pinned_url(&e.url, &e.commit) {
+            errors.push(format!("{at}: {err}"));
         }
         let hex64 = e.sha256.len() == 64
             && e.sha256
@@ -329,6 +427,17 @@ pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<Stri
                     e.licence,
                     implied.as_str()
                 )),
+                Ok(implied)
+                    if e.class > implied
+                        && e.kind != Kind::Licence
+                        && e.note.as_deref().is_none_or(|n| n.trim().is_empty()) =>
+                {
+                    errors.push(format!(
+                        "{at}: class {} is more restricted than {} needs: quote the evidence in `note`",
+                        e.class.as_str(),
+                        e.licence
+                    ));
+                }
                 Ok(_) => {}
                 Err(err) => errors.push(format!("{at}: {err}")),
             }
@@ -340,8 +449,10 @@ pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<Stri
         if !seen.insert((e.locale.clone(), key.clone())) {
             errors.push(format!("{at}: duplicate {key} for {}", e.locale));
         }
-        if e.kind == Kind::Licence && (e.file_name().is_empty() || e.file_name().starts_with('.')) {
-            errors.push(format!("{at}: licence file has no usable name"));
+        if e.kind == Kind::Licence && !safe_file_name(e.file_name()) {
+            errors.push(format!(
+                "{at}: licence file name must be [A-Za-z0-9._-], not starting with '.'"
+            ));
         }
     }
     for locale in manifest.locales() {
@@ -352,10 +463,33 @@ pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<Stri
                 "{locale}: spelling needs both spelling-aff and spelling-dic"
             ));
         }
-        if spelling && !has(Kind::Licence) {
+        if !has(Kind::Licence) {
             errors.push(format!(
-                "{locale}: spelling files need a licence text entry"
+                "{locale}: needs a licence entry (the upstream notice)"
             ));
+        }
+        for id in data_licence_ids(manifest, locale) {
+            let covered = if id.starts_with("LicenseRef-") {
+                manifest.entries(locale).any(|e| {
+                    e.kind == Kind::Licence
+                        && licence_ids(&e.licence).is_ok_and(|ids| ids.contains(&id))
+                })
+            } else {
+                texts.contains_key(&id)
+            };
+            if !covered && manifest.class(locale) != Class::Excluded {
+                errors.push(format!(
+                    "{locale}: no full text of {id} (language-data/licences/{id}.txt, or a licence entry naming a LicenseRef)"
+                ));
+            }
+            let clash = manifest
+                .entries(locale)
+                .any(|e| e.kind == Kind::Licence && e.file_name() == format!("{id}.txt"));
+            if clash {
+                errors.push(format!(
+                    "{locale}: a licence entry is named {id}.txt, like the standard text"
+                ));
+            }
         }
         if !spelling && !has(Kind::Hyphenation) {
             errors.push(format!("{locale}: no spelling or hyphenation file"));
@@ -381,7 +515,24 @@ pub fn check(manifest: &Manifest, checks: &BTreeMap<String, Checks>) -> Vec<Stri
                     "{locale}: checks need at least 5 correct and 3 incorrect words"
                 ));
             }
+            Some(c)
+                if c.correct
+                    .iter()
+                    .chain(&c.incorrect)
+                    .any(|w| w.trim().is_empty() || w.trim() != w) =>
+            {
+                errors.push(format!(
+                    "{locale}: a check word is empty or has spaces around it"
+                ));
+            }
             _ => {}
+        }
+    }
+    for id in texts.keys() {
+        if !LICENCES.iter().any(|(l, _)| l == id) || id.starts_with("LicenseRef-") {
+            errors.push(format!(
+                "licences/{id}.txt: not an SPDX id in the allow-list"
+            ));
         }
     }
     for locale in checks.keys() {
@@ -495,6 +646,10 @@ struct PackToml<'a> {
     licence: String,
     class: &'static str,
     version: &'a str,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    upstream: Option<String>,
+    /// Standard licence texts in `LICENCES/` (`<SPDX id>.txt`).
+    licence_texts: Vec<String>,
     source: Vec<PackSource<'a>>,
 }
 
@@ -521,6 +676,9 @@ pub struct IndexPack {
     pub class: String,
     pub spelling: bool,
     pub hyphenation: bool,
+    /// Where the data comes from, for people (the upstream folder at its pinned commit).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub source: Option<String>,
 }
 
 /// `index.json`.
@@ -531,24 +689,42 @@ pub struct Index {
     pub packs: Vec<IndexPack>,
 }
 
-/// The `<locale>.tar.zst` of `locale`: `files` are its entries' bytes, in manifest order.
+/// The `<locale>.tar.zst` of `locale`: `files` are its entries' bytes, in manifest order, and
+/// `texts` the standard licence texts by SPDX id (the ones its data files use go in `LICENCES/`).
 /// Deterministic: sorted names, zero times and owners, mode 0644.
 ///
 /// # Errors
 ///
-/// Returns an error when writing the tar or compressing fails.
+/// Returns an error when a licence text is missing, two files share a name, or writing the tar or
+/// compressing fails.
 pub fn archive(
     manifest: &Manifest,
     locale: &str,
     files: &[(&Entry, Vec<u8>)],
+    texts: &BTreeMap<String, Vec<u8>>,
     version: &str,
 ) -> Result<Vec<u8>, String> {
+    let mut standard: Vec<(String, &[u8])> = Vec::new();
+    for id in data_licence_ids(manifest, locale) {
+        if id.starts_with("LicenseRef-") {
+            continue;
+        }
+        let text = texts
+            .get(&id)
+            .ok_or_else(|| format!("{locale}: no language-data/licences/{id}.txt"))?;
+        standard.push((format!("LICENCES/{id}.txt"), text.as_slice()));
+    }
     let pack = PackToml {
         locale,
         name: manifest.name(locale),
         licence: manifest.licence(locale),
         class: manifest.class(locale).as_str(),
         version,
+        upstream: manifest.source(locale),
+        licence_texts: standard
+            .iter()
+            .map(|(p, _)| p.trim_start_matches("LICENCES/").to_owned())
+            .collect(),
         source: files
             .iter()
             .map(|(e, _)| PackSource {
@@ -566,8 +742,16 @@ pub fn archive(
         .iter()
         .map(|(e, d)| (e.pack_path(), d.as_slice()))
         .collect();
+    items.extend(standard);
     items.push(("pack.toml".into(), pack_toml.as_bytes()));
     items.sort_by(|a, b| a.0.cmp(&b.0));
+    if let Some(w) = items
+        .windows(2)
+        .find(|w| w.first().map(|a| &a.0) == w.get(1).map(|b| &b.0))
+    {
+        let name = w.first().map_or("", |a| a.0.as_str());
+        return Err(format!("{locale}: two files named {name}"));
+    }
     let mut tar = tar::Builder::new(Vec::new());
     tar.mode(tar::HeaderMode::Deterministic);
     for (name, data) in items {
@@ -594,11 +778,16 @@ pub fn archive(
 pub fn build(
     manifest: &Manifest,
     checks: &BTreeMap<String, Checks>,
+    texts: &BTreeMap<String, Vec<u8>>,
     opts: &BuildOptions,
 ) -> Result<Index, String> {
+    let locales = manifest.locales();
+    if let Some(unknown) = opts.only.iter().find(|o| !locales.contains(o.as_str())) {
+        return Err(format!("{unknown}: no such locale in the manifest"));
+    }
     std::fs::create_dir_all(&opts.out).map_err(|e| format!("{}: {e}", opts.out.display()))?;
     let mut packs = Vec::new();
-    for locale in manifest.locales() {
+    for locale in locales {
         if !opts.only.is_empty() && !opts.only.iter().any(|o| o == locale) {
             continue;
         }
@@ -612,7 +801,7 @@ pub fn build(
         for e in manifest.entries(locale) {
             files.push((e, fetch(e, &opts.cache, opts.download)?));
         }
-        let data = archive(manifest, locale, &files, &opts.version)?;
+        let data = archive(manifest, locale, &files, texts, &opts.version)?;
         let file = format!("{locale}.tar.zst");
         let path = opts.out.join(&file);
         std::fs::write(&path, &data).map_err(|e| format!("{}: {e}", path.display()))?;
@@ -627,6 +816,7 @@ pub fn build(
             class: manifest.class(locale).as_str().to_owned(),
             spelling: files.iter().any(|(e, _)| e.kind == Kind::SpellingDic),
             hyphenation: files.iter().any(|(e, _)| e.kind == Kind::Hyphenation),
+            source: manifest.source(locale),
         });
     }
     let index = Index {
@@ -663,14 +853,47 @@ pub fn default_cache() -> PathBuf {
     )
 }
 
-/// The repository's manifest and checks.
+/// The standard licence texts in `dir`, by SPDX id (`<id>.txt`).
 ///
 /// # Errors
 ///
-/// Returns an error when either can't be read or parsed.
-pub fn load_repo() -> Result<(Manifest, BTreeMap<String, Checks>), String> {
+/// Returns an error when the folder can't be read or holds anything but `<id>.txt` files.
+pub fn load_licence_texts(dir: &Path) -> Result<BTreeMap<String, Vec<u8>>, String> {
+    let mut out = BTreeMap::new();
+    let list = std::fs::read_dir(dir).map_err(|e| format!("{}: {e}", dir.display()))?;
+    for entry in list {
+        let path = entry.map_err(|e| e.to_string())?.path();
+        let (Some(id), Some("txt")) = (
+            path.file_stem().and_then(|s| s.to_str()),
+            path.extension().and_then(|s| s.to_str()),
+        ) else {
+            return Err(format!("{}: not an <SPDX id>.txt file", path.display()));
+        };
+        out.insert(id.to_owned(), read_capped(&path)?);
+    }
+    Ok(out)
+}
+
+/// The repository's Language pack data: manifest, checks and standard licence texts.
+#[derive(Clone, Debug)]
+pub struct Repo {
+    pub manifest: Manifest,
+    pub checks: BTreeMap<String, Checks>,
+    pub texts: BTreeMap<String, Vec<u8>>,
+}
+
+/// The repository's manifest, checks and licence texts.
+///
+/// # Errors
+///
+/// Returns an error when any can't be read or parsed.
+pub fn load_repo() -> Result<Repo, String> {
     let root = crate::repo_root().join("language-data");
     let text = std::fs::read_to_string(root.join("manifest.toml"))
         .map_err(|e| format!("manifest.toml: {e}"))?;
-    Ok((Manifest::parse(&text)?, load_checks(&root.join("checks"))?))
+    Ok(Repo {
+        manifest: Manifest::parse(&text)?,
+        checks: load_checks(&root.join("checks"))?,
+        texts: load_licence_texts(&root.join("licences"))?,
+    })
 }

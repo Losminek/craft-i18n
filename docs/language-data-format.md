@@ -23,17 +23,29 @@ size = 12345                  # bytes
 licence = "BSD-3-Clause"      # SPDX expression
 class = "Embeddable"          # Embeddable | Download-only | Excluded
 name = "Nederlands"           # optional, first entry per locale wins: endonym
+note = "…"                    # optional: the licence statements, quoted, when evidence is weak
 ```
 
 - **A pack is every entry of one locale.** `spelling-aff`/`spelling-dic` are a Hunspell pair,
   `hyphenation` a TeX pattern file (an unmodified `hyph-*.tex` from tex-hyphen, compiled when
   loaded), `licence` a licence or README text that travels with the data.
 - **`licence`** is the licence the file is used under. When upstream offers several, the one in
-  the least restricted class is recorded (ADR 0004); when the evidence is weak or contradictory,
-  the whole statement is recorded and the class is Download-only. A `licence` entry carries the
-  licence and class of the data it describes. Hyphenation files carry their licence in their own
-  header, so they need no `licence` entry.
-- **`class`** may be more restricted than the licence allows (weak evidence), never less.
+  the least restricted class is recorded (ADR 0004). When the evidence is weak or contradictory,
+  `licence` lists every licence the statements offer, `class` is Download-only (or Excluded, if
+  any statement is non-commercial or no-derivatives) and **`note`** quotes the statements and
+  where they are (bg, hr, pt-pt, ta, uk, eu, ug). A `licence` entry carries the licence and class
+  of the data it describes.
+- **`class`** may be more restricted than the licence allows, never less; when it is, the data
+  entries need a `note`.
+- **Licence texts.** Every locale has at least one `licence` entry, the upstream notice (a
+  hyphenation file's own header counts: the `.tex` is listed again as a `licence` entry when its
+  licence has no SPDX id). On top of that, every licence id its data files name must have a full
+  text in the pack: an SPDX id's standard text is `language-data/licences/<id>.txt` (from
+  [spdx/license-list-data](https://github.com/spdx/license-list-data) at `31846481`, committed
+  here), added to the archive as `LICENCES/<id>.txt`; a `LicenseRef-` id's text is a `licence`
+  entry whose `licence` names it.
+- **Excluded** entries are recorded (so the decision and its evidence stay visible) and never
+  published.
 - Sources are pinned raw files: LibreOffice/dictionaries, tex-hyphen, and an upstream repository
   or wooorm/dictionaries where the audit names it the best source.
 
@@ -64,15 +76,19 @@ uses its language's (`es-mx` uses `es`). **`hidden = true`** keeps a pack out of
 
 Every CI run (`cargo test --workspace`, no network):
 
-- the manifest parses; every entry has a valid lowercase BCP 47 locale (no English), a pinned
-  `https://raw.githubusercontent.com/` URL containing its 40-digit `commit`, a 64-digit lowercase
-  `sha256`, a size of 1 byte to 64 MiB (`craft-proof`'s limit), a licence and a class;
+- the manifest parses; every entry has a valid lowercase BCP 47 locale (no English), a URL that
+  parses as `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` with its 40-digit
+  `commit` as the third segment (no empty or dot segments, query or fragment), a 64-digit
+  lowercase `sha256`, a size of 1 byte to 64 MiB (`craft-proof`'s limit), a licence and a class;
 - every licence parses as SPDX, uses only allow-listed ids, and its class is not less restricted
-  than the licence allows;
-- no duplicate (locale, kind), and no two licence texts with the same file name in a locale;
-- a locale with spelling has both `.aff` and `.dic` and a licence text; every locale has a name;
+  than the licence allows; a more restricted class has a `note`;
+- no duplicate (locale, kind); licence file names are `[A-Za-z0-9._-]`, not starting with `.`,
+  unique in a locale and never clash with a standard text's `<id>.txt`;
+- a locale with spelling has both `.aff` and `.dic`; every locale has a name and a licence
+  entry, and every data licence id has a full text (above); every file in
+  `language-data/licences/` is an allow-listed SPDX id;
 - every locale with spelling that isn't Excluded has check words (or is hidden with a reason),
-  and every checks file names a manifest locale;
+  none empty, and every checks file names a manifest locale;
 - no locale with an Excluded entry is published.
 
 With `CRAFT_I18N_FETCH=1` (the weekly and release workflow,
@@ -89,12 +105,16 @@ Files are cached by sha256 in `$CRAFT_I18N_CACHE` (default `target/language-data
 ## Release assets
 
 A craft-i18n GitHub release `language-packs-<n>` (pushed tag, or the workflow run by hand with a
-release name) holds:
+release name) holds the assets below. A release is never modified: the workflow refuses a name
+that already exists, creates the release as a draft, uploads every asset, then publishes it. A
+fix is a new `language-packs-<n+1>`.
 
 - **`<locale>.tar.zst`** per published pack (no Excluded entry, not hidden, checks passed). At
   the archive root: `spelling.aff`, `spelling.dic`, `hyphenation.pat` (any may be absent),
-  `LICENCES/<original file name>` and `pack.toml` (locale, name, licence, class, version, and a
-  `[[source]]` per file with its url, commit, sha256, licence and class). Deterministic: sorted
+  `LICENCES/<original file name>` for each `licence` entry, `LICENCES/<SPDX id>.txt` for each
+  standard text, and `pack.toml` (locale, name, licence, class, version, `upstream` (as `source`
+  below), `licence_texts`, and a `[[source]]` per file with its url, commit, sha256, licence and
+  class). Deterministic: sorted
   names, zero times and owners, mode 0644, zstd level 19.
 - **`index.json`**:
   ```json
@@ -103,9 +123,11 @@ release name) holds:
                  "url": "https://github.com/storytold/craft-i18n/releases/download/language-packs-1/nl.tar.zst",
                  "sha256": "<hex of archive>", "size": 123456,
                  "licence": "BSD-3-Clause", "class": "Embeddable",
-                 "spelling": true, "hyphenation": true } ] }
+                 "spelling": true, "hyphenation": true,
+                 "source": "https://github.com/LibreOffice/dictionaries/tree/<commit>/nl_NL" } ] }
   ```
-  A pack's `licence` is its files' distinct licences joined with `AND`; its `class` its most
+  `source` (optional, additive to format 1) is the upstream folder of the pack's first data file
+  at its pinned commit, for the app to show before install. A pack's `licence` is its files' distinct licences joined with `AND`; its `class` its most
   restricted file's.
 
 Apps pin the index by URL + sha256; packs have no update checks of their own.
@@ -120,7 +142,7 @@ cargo run --release --bin language-packs -- build --out DIR --release NAME --ver
 ```
 
 `--base-url` defaults to the release's download URL; `--only` builds just those locales (and
-fails on a hidden or Excluded one).
+fails on an unknown, hidden or Excluded one).
 
 ### Testing an index locally
 
