@@ -67,6 +67,8 @@
 	Accents	Akcenty
 	Accept	Zaakceptuj
 	Accept All Changes	Zaakceptuj wszystkie zmiany
+	Accept All Changes and Stop Tracking	Zaakceptuj wszystkie zmiany i zatrzymaj śledzenie
+	Accept and Move to Next	Zaakceptuj i przejdź do następnej
 	Accept This Change	Zaakceptuj tę zmianę
 	Accessed on	Data dostępu
 	Accessibility Pane	Okienko ułatwień dostępu
@@ -112,6 +114,7 @@
 	Address\nBlock	Blok\nadresu
 	Advanced Find	Wyszukiwanie zaawansowane
 	Advanced Find…	Wyszukiwanie zaawansowane…
+	Advanced Properties…	Właściwości zaawansowane…
 	After:	Po:
 	Agents	Agenci
 	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenci połączeni z WordCraftem mogą wyświetlać ci wiadomości przez asystenta. Gdy je wyciszysz, dowiedzą się, że ich nie chcesz.
@@ -290,6 +293,7 @@
 	Break Link	Przerwij łącze
 	Breaks	Podziały
 	Breve	Brewis
+	Bright Green	Jasnozielony
 	Browse in WordCraft…	Przeglądaj w programie WordCraft…
 	Building Block Gallery Content Control	Formant zawartości galerii bloków konstrukcyjnych
 	Built-In	Wbudowane
@@ -379,6 +383,7 @@
 	Check Box Content Control	Formant zawartości pola wyboru
 	Check Compatibility	Sprawdź zgodność
 	Check for Errors	Wyszukaj błędy
+	Check for\nUpdates…	Sprawdź dostępność\naktualizacji…
 	Check Spelling as You Type	Sprawdzaj pisownię podczas pisania
 	Check spelling as you type	Sprawdzaj pisownię podczas pisania
 	Check\nAccessibility	Sprawdź ułatwienia\ndostępu
@@ -414,6 +419,7 @@
 	Clipboard Contents	Zawartość schowka
 	Clipboard Items	Elementy schowka
 	Clipboard Pane	Okienko schowka
+	Close Document	Zamknij dokument
 	Close Equation	Zamknij równanie
 	Close Header and Footer	Zamknij nagłówek i stopkę
 	Close Outline View	Zamknij widok konspektu
@@ -494,6 +500,7 @@
 	Copy Styles	Kopiuj style
 	Copy to	Kopiuj do
 	Copyright Sign	Znak praw autorskich
+	Corporate Author	Autor zbiorowy
 	Correct accidental usage of cAPS LOCK key	Poprawiaj przypadkowe użycie klawisza cAPS LOCK
 	Correct TWo INitial CApitals	Poprawiaj DWie POczątkowe WIelkie litery
 	Corrections	Korekty
@@ -518,6 +525,29 @@
 	Croatian	Chorwacki
 	Cross-reference	Odsyłacz
 	Cross-reference:	Odsyłacz:
+	Dark Blue	Ciemnoniebieski
+	Dark Red	Ciemnoczerwony
+	Dark Yellow	Ciemnożółty
+	Dock Left	Zadokuj po lewej
+	Dock Right	Zadokuj po prawej
+	Float	Odłącz
+	Gray-25%	Szary 25%
+	Gray-50%	Szary 50%
+	Macro name:	Nazwa makra:
+	Move Pane: {title}	Przenieś okienko: {title}
+	Pane Options	Opcje okienka
+	Record…	Zarejestruj…
+	Reject All Changes and Stop Tracking	Odrzuć wszystkie zmiany i zatrzymaj śledzenie
+	Reject and Move to Next	Odrzuć i przejdź do następnej
+	Resize Pane	Zmień rozmiar okienka
+	Run	Uruchom
+	Scale Font Sizes	Skaluj rozmiary czcionek
+	Separate text with	Oddziel tekst za pomocą
+	Styles Pane Position	Położenie okienka stylów
+	Teal	Morski
+	There are no macros yet. Record one to add it here.	Nie ma jeszcze makr. Zarejestruj makro, aby dodać je tutaj.
+	Turquoise	Turkusowy
+	View and edit the document's custom properties.	Wyświetl i edytuj niestandardowe właściwości dokumentu.
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} zaczyna nową stronę. Dużo schludniej niż wciskanie Enter, aż w końcu się uda.
 	{key} finds and replaces text, formatting and special characters.	{key} znajduje i zamienia tekst, formatowanie i znaki specjalne.
 	{key} turns the selected text into a link.	{key} zamienia zaznaczony tekst w link.
