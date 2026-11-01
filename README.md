@@ -20,7 +20,7 @@ app picks it up. An app can still override a shared string, or add its own, in i
 | `GLOSSARY.md` | The words this project uses: source text, context, catalog, override… |
 | `ROADMAP.md` | Milestones and which apps have moved here. |
 | `ATTRIBUTION.md` | Translators, and where migrated catalogs came from. |
-| `AGENTS.md` | Instructions for coding agents, pointing at the shared craftrules standards. |
+| `AGENTS.md` | Instructions for coding agents. |
 | `crates/craft-i18n-tests` | The catalog checker CI runs. |
 
 ## How the apps use it

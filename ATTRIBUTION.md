@@ -8,16 +8,18 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 |---|---|---|
 | `ar` | WordCraft: Saleh Hassan Alnemari (@salehnemari-max) with Claude Code (Opus 5.5), AI-assisted; core terminology (62 terms) reviewed by the translator, a native speaker, and used in the running app on Windows; individual rows not yet reviewed line by line; PdfCraft: PdfCraft contributors; CADCraft: @hasan-sdaif | `wordcraft@0c5549d`, `pdfcraft@924c4da`, `cadcraft@b23d362` |
 | `bg` | WordCraft: Dimitar Klaturov (@bulgariamitko) with Claude Code; PdfCraft: PdfCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed, drafted with Gemini | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `vectorcraft@73f40e3` |
+| `bn` | Shared catalog, ArtCraft Launcher, and Crafting Apps (WordCraft, PdfCraft, PhotoCraft, VectorCraft, FilmCraft, CADCraft): AI-assisted, written from the English meaning; clean-room translation | — (written here) |
 | `bs` | Shared catalog, WordCraft, PdfCraft, PhotoCraft, VectorCraft, FilmCraft, CADCraft and ArtCraft Launcher: Nine (@nine-codes) with Claude Code (Opus 5.5), AI-translated from the English meaning; not yet reviewed by a native speaker | — (written here) |
 | `cs` | WordCraft: @DanielKnourek with Antigravity for VS Code (review suggestions by @Losminek); PdfCraft: PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed, drafted with Claude; CADCraft: @Losminek (AI-assisted); ArtCraft Launcher: AI-assisted, no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
 | `da` | WordCraft: @pechnikov2026-star (commits as sanches), not recorded as native-reviewed; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed | `wordcraft@67a0e72`, `vectorcraft@73f40e3` |
-| `de` | WordCraft: @arekown with Kimi; PdfCraft: PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed (German by `dwetscher`); FilmCraft: no individual credit recorded upstream; CADCraft: the CADCraft contributors; ArtCraft Launcher: no individual credit recorded upstream; DeckCraft: @filforce95 with Claude Code (Opus 5.5), AI-translated from the plain meaning of the English; skimmed by @filforce95, a native speaker, not reviewed line by line | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
+| `de` | WordCraft: @arekown with Kimi, @os-source (including wordcraft#3590) native speaker AI-assisted clean room; PdfCraft: PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed (German by `dwetscher`); FilmCraft: no individual credit recorded upstream; CADCraft: the CADCraft contributors; ArtCraft Launcher: no individual credit recorded upstream; DeckCraft: @filforce95 with Claude Code (Opus 5.5), AI-translated from the plain meaning of the English; skimmed by @filforce95, a native speaker, not reviewed line by line | `wordcraft@67a0e72`, `wordcraft#3590`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
 | `el` | PdfCraft: Camthalion77 and contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; ArtCraft Launcher: @mpratsaki with Claude Code (Opus 5.5), AI-assisted, written here from the plain meaning of the English strings of `craft-launcher@deccd0a`; reviewed in full by the translator, a native speaker; FilmCraft: @mpratsaki with Claude Code (Opus 5.5), AI-assisted, written here from the plain meaning of the English strings of `filmcraft@8d925e9`; reviewed in full by the translator, a native speaker | `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3` |
 | `es` | WordCraft: no individual credit recorded upstream; PdfCraft: PdfCraft contributors; PhotoCraft: @gorevyoneticisi; AI contributor: OpenAI Codex; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: no individual credit recorded upstream; CADCraft: @PedroGuille; ArtCraft Launcher: no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
 | `et` | WordCraft: @henno with Codex | `wordcraft@67a0e72` |
 | `fa` | WordCraft: @shahriar-hd with an AI agent (opencode), AI-assisted, written from the plain meaning of the English; reviewed by the translator, a native speaker, who skimmed the catalogs and corrected wording that mismatched or read poorly (not a line-by-line review) | `wordcraft@4095cc34` |
 | `fi` | VectorCraft: mostly agent-written (`bflatastic`), AI-assisted (Claude Code), checked by a native speaker in the running app, not proofread line by line | `vectorcraft@73f40e3` |
 | `fr` | WordCraft: @pechnikov2026-star; PdfCraft: PdfCraft contributors; PhotoCraft: no individual credit recorded upstream (some rows from PR #582 by neko233-com); PhotoCraft (2 additional rows): Erwan Paccard (@erwanpaccard) with Claude, AI-translated, partially human-reviewed; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @pechnikov2026-star; ArtCraft Launcher: no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@b23d362`, `craft-launcher@ad7f24a` |
+| `gl` | Shared catalog and Craft Launcher: Alberto Xosé Méndez Taboada (@B1NAR10, @galician-translators) with Antigravity, AI-assisted, written from the plain meaning of the English; reviewed by the translator, a native speaker | — (written here) |
 | `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`) |
 | `hr` | WordCraft: Andrej Škvorc (@andrejskvorc) with Claude Code (Sonnet 5.5); proofread with Gemini | `wordcraft@67a0e72` |
 | `hu` | WordCraft: @Skaywalker; PdfCraft: PdfCraft contributors; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; ArtCraft Launcher: no individual credit recorded upstream | `wordcraft@67a0e72`, `pdfcraft@924c4da`, `photocraft@8d2e615`, `vectorcraft@73f40e3`, `craft-launcher@ad7f24a` |
@@ -86,6 +88,38 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
 
+## WordCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
+with Claude Code (craft-sv-translate) and written from the English meaning. Terms follow the
+existing Swedish rows. No native-speaker review is recorded.
+
 ## WordCraft: Arabic rows for newer interface strings
 
-@tlomts-dev contributed 70 Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` for strings in current WordCraft code that had no row yet (recovery copies, update check, custom document properties, pane menu, spelling-dictionary messages, Print page choices, tracked-change shortcuts and similar), AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology already used by the file. No other product's localisation was consulted. No native-speaker review is recorded for these rows.
+@tlomts-dev contributed 70 Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` for strings in current WordCraft code that had no row yet (recovery copies, update check, custom document properties, pane menu, spelling-dictionary messages, Print page choices, tracked-change shortcuts and similar), AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology already used by the file. No other product's localisation was consulted. @salehnemari-max, the catalog's Arabic author and a native speaker, read all 70 rows line by line, asked for three wording changes (four rows, applied before the merge) and approved the PR. A follow-up wrote four rows for the macro dialog (`Macro name:`, `Record…`, `Stop Recording` and its empty-list message), moved the recovery rows to the term `استرداد`, reworded the Print scaling rows, and removed three update-check rows that WordCraft no longer uses; @salehnemari-max read these changes as a native speaker, approved them, and asked for one agreement fix (`ما زال` in the local-recovery row), which is applied.
+
+## WordCraft: Arabic number agreement
+
+Saleh Hassan Alnemari (@salehnemari-max), AI-assisted with Claude Code (Opus 5.5), reworded 12
+Arabic (`ar`) rows in `locales/ar/wordcraft.tsv` whose counted noun had one form for every number
+(the status bar read "4 من 4 كلمة"), so they read correctly for any count: the noun first as a
+label, or the partitive `{n} من …`. The translator, a native speaker, read the 12 reworded rows and approved them.
+
+## WordCraft: Romanian wording corrections
+
+Bogdan Claudiu Petanec (@multipointmaster-glitch) contributed ten Romanian wording corrections
+with OpenAI Codex (AI-assisted), written from the plain meaning of the English. The contributor
+approved the ten revised entries; this is not a review of the complete catalog. No in-app
+native-speaker review is recorded. The original translator credits above are unchanged.
+
+The same contributor also corrected the Romanian `Choose List Item` label in a follow-up,
+with OpenAI Codex assistance; that revised entry was explicitly approved by the contributor.
+
+## WordCraft: Arabic rows for picture, cross-reference and recovery strings
+
+37 Arabic (`ar`) rows for current WordCraft strings that had no Arabic row yet (Picture Format
+corrections, colour and border menus, Cross-reference "Insert reference to" choices, Recover
+documents, digit-shape choices, paragraph-spacing "Open", paper names and the Symbol subset Basic
+Latin), requested by Nasser (@nasserfq) and written with Claude Code (AI-assisted) from the plain
+meaning of the English, in the terminology already used by the file. No other product's
+localisation was consulted. No native-speaker review is recorded for these rows.
