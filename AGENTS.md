@@ -4,7 +4,7 @@ Shared translations for the Craft Apps: TSV catalogs in `locales/` and the check
 
 - **Data, not code.** The lookup code is the `craft-i18n` crate in craft-libs
   ([ADR 0002](docs/adr/0002-runtime-in-craft-libs-data-in-craft-i18n.md)). This repo holds only
-  the catalogs and the checker (`crates/craft-i18n-tests`).
+  data (the catalogs and Language data) and the checker (`crates/craft-i18n-tests`).
 - **Catalogs:** the format and every rule CI checks are in `docs/catalog-format.md`; the words in
   `GLOSSARY.md`. Shared rows in `common.tsv` only grow, except for a correction
   ([ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); an app changes one's wording with
