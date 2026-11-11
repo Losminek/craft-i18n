@@ -333,7 +333,7 @@
 	Match case	Rozlišovat malá a velká písmena
 	Maximize content (else ensure fit)	Maximalizovat obsah (jinak zajistit, aby se vešel)
 	Measurement units:	Jednotky měření:
-	Media position	Pozice v médiu
+	Media position	Pozice přehrávání
 	Merge Shapes	Sloučit tvary
 	Merge\nCells	Sloučit\nbuňky
 	Merge\nShapes	Sloučit\ntvary
@@ -557,8 +557,8 @@
 	Show Media Controls	Zobrazit ovládací prvky médií
 	Show smart guides	Zobrazit inteligentní vodítka
 	Show type	Typ promítání
-	Show without animation	Prezentovat bez animací
-	Show without narration	Prezentovat bez komentáře
+	Show without animation	Promítat bez animací
+	Show without narration	Promítat bez komentáře
 	Show/Hide	Zobrazit/skrýt
 	Show\nComments	Zobrazit\nkomentáře
 	Single	Jednoduché
@@ -659,7 +659,7 @@
 	Width (pixels):	Šířka (pixely):
 	Width ({abbr}):	Šířka ({abbr}):
 	Width: 	Šířka: 
-	Window title bar	Záhlaví okna
+	Window title bar	Titulkový pruh okna
 	With	Čím
 	With:	Čím:
 	Wrap text in shape	Zalomit text ve tvaru
