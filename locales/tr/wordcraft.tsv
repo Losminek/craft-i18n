@@ -177,6 +177,7 @@
 	Arch Down	Aşağı Kemer
 	Arch Up	Yukarı Kemer
 	Arrange	Yerleştir
+	Arrange All	Tümünü Düzenle
 	Arrange\nAll	Tümünü\nYerleştir
 	Article I.	Madde I.
 	Artistic Effects	Sanatsal Efektler
@@ -1361,6 +1362,7 @@
 	No items to show.	Gösterilecek öğe yok.
 	No Markup	İşaret Yok
 	No model credits were built into this copy.	Bu kopyaya model katkıları eklenmemiş.
+	No other WordCraft windows are open.	Başka açık WordCraft penceresi yok.
 	No Outline	Anahat Yok
 	No Paragraph Space	Paragraf Boşluğu Yok
 	No printers found. Configure a system printer or export a PDF.	Yazıcı bulunamadı. Sistemde bir yazıcı yapılandırın veya PDF olarak dışa aktarın.
@@ -1452,6 +1454,7 @@
 	only in Outline view	yalnızca Ana Hat görünümünde
 	Only in this document	Yalnızca bu belgede
 	Only the allowed styles can be applied.	Yalnızca izin verilen stiller uygulanabilir.
+	only the desktop app has several windows	birden çok pencere yalnızca masaüstü uygulamasında vardır
 	Only web (http, https) and email (mailto) links can be followed	Yalnızca web (http, https) ve e-posta (mailto) bağlantıları açılabilir
 	Open a document first	Önce bir belge açın
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Sistemin dosya iletişim kutusu açılmadığında dosyayı WordCraft'ın kendi dosya tarayıcısıyla açın.
@@ -2090,7 +2093,10 @@
 	Swap footnotes and endnotes	Dipnotları ve son notları değiştir
 	Swedish	İsveççe
 	Switch Modes	Mod Değiştir
+	Switch Windows	Pencere Değiştir
 	Switch\nModes	Mod\nDeğiştir
+	Switch\nWindows	Pencere\nDeğiştir
+	Synchronous Scrolling	Eşzamanlı Kaydırma
 	Synonyms	Eş Anlamlılar
 	Tab Character	Sekme Karakteri
 	Tab character	Sekme karakteri
@@ -2252,6 +2258,7 @@ preview	Title	Örnek
 	Trust Center	Güven Merkezi
 	Tue	Sal
 	Turkish	Türkçe
+	turn on View Side by Side first	önce Yan Yana Görüntüle'yi açın
 	Two	İki
 	Two-sided printing	Çift taraflı yazdırma
 	Two-sided: long edge	Çift taraflı: uzun kenar
@@ -2327,6 +2334,7 @@ preview	Title	Örnek
 	Vertical Dots	Dikey Üç Nokta
 	View Alt Text…	Alternatif Metni Görüntüle…
 	View Gridlines	Kılavuz Çizgilerini Göster
+	View Side by Side	Yan Yana Görüntüle
 	View State	Görünüm Durumu
 	View › Focus hides everything but your words. I'll wait outside.	Görünüm › Odak, sözcükleriniz dışında her şeyi gizler. Ben dışarıda beklerim.
 	Views	Görünümler
@@ -2545,3 +2553,17 @@ preview	Title	Örnek
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Güney Afrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diyagram
+	Insert Diagram	Diyagram Ekle
+	Diagram Design	Diyagram Tasarımı
+	Diagram Styles	Diyagram Stilleri
+	Decorative Text	Dekoratif Metin
+	Decorative Text Styles	Dekoratif Metin Stilleri
+	select a diagram first	önce bir diyagram seçin
+	this diagram was made in another program: WordCraft shows it but can't edit it	bu diyagram başka bir programda oluşturuldu: WordCraft onu gösterir ancak düzenleyemez
+	this diagram can't be edited	bu diyagram düzenlenemez
+@msg	a diagram holds at most {MAX_ITEMS} items	bir diyagram en fazla {MAX_ITEMS} öğe içerebilir
+@msg	unknown decorative text style `{id}`	bilinmeyen dekoratif metin stili `{id}`
+	select a shape or decorative text first	önce bir şekil veya dekoratif metin seçin

@@ -860,6 +860,7 @@ cameraRaw	Darks	Ciemne tony
 cameraData	Date Taken	Data wykonania
 	DateTime Original	Oryginalna data i godzina
 	Day For Night	Dzień za noc
+	DDS Import	Import DDS
 	DDS Options	Opcje DDS
 	De-Interlace…	Usuń przeplot…
 	Decontaminate	Dekontaminacja
@@ -1262,6 +1263,7 @@ cameraData	F-Stop	Przysłona
 	Flip Canvas Vertical	Odbij płótno w pionie
 	Flip Horizontal	Odbij w poziomie
 	Flip Vertical	Odbij w pionie
+	Flip vertically	Odwróć w pionie
 	Flip X	Odbij w osi X
 	Flip X Jitter	Rozrzut odbicia w osi X
 	Flip Y	Odbij w osi Y
@@ -1514,6 +1516,7 @@ cameraRaw	Hue	Odcień
 	Ignore exif profile tag	Ignoruj znacznik profilu EXIF
 	Image Assets	Zasoby obrazów
 	Image Balance	Balans obrazu
+	Image Compression	Kompresja obrazu
 	image file path	ścieżka pliku obrazu
 	Image interpolation	Interpolacja obrazu
 	Image Options	Opcje obrazu
@@ -1764,6 +1767,7 @@ cameraRaw	Lights	Jasne tony
 	Load settings from a Camera Raw .xmp file	Wczytaj ustawienia z pliku .xmp Camera Raw
 	Load Settings…	Wczytaj ustawienia…
 	Load the brush after each stroke	Napełniaj pędzel po każdym pociągnięciu
+	Load transparency as alpha channel	Wczytaj przezroczystość jako kanał alfa
 	Loaded contours from {file}	Wczytano kontury z {file}
 	Loaded RAW Develop settings from {file}	Wczytano ustawienia Wywoływanie RAW z pliku {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Wczytano ustawienia Wywoływanie RAW z pliku {file} (nieobsługiwane: {n})
@@ -1805,6 +1809,7 @@ cameraRaw	Luminance Detail	Szczegóły luminancji
 	Luminosity	Luminancja
 	Lut	LUT
 	LUT folder	Folder LUT
+	LZW	LZW
 	Mac Crisp	Mac wyraźne
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -1908,6 +1913,7 @@ fontWeight	Medium	Średni
 	Minimum Diameter	Minimalna średnica
 	Minimum Roundness	Minimalne zaokrąglenie
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmapy jako osobne warstwy
 	Mirror	Odbicie lustrzane
 	Missing delete command	Brak polecenia usuwania
 	Missing glyph protection	Ochrona przed brakującymi glifami
@@ -2100,10 +2106,12 @@ cameraData	Model	Model
 	Open As	Otwórz jako
 	Open as smart object	Otwieraj jako obiekt inteligentny
 	Open As…	Otwórz jako…
+	Open cancelled	Otwieranie anulowane
 	Open color-less EXR as ACEScg	Otwieraj EXR bez profilu koloru jako ACEScg
 	Open documents as tabs	Otwieraj dokumenty jako karty
 	Open Document…	Otwórz…
 	Open EXR Parts…	Otwórz części EXR…
+	Open failed: {error}	Otwieranie nie powiodło się: {error}
 	Open paths use centered strokes	Otwarte ścieżki używają wyśrodkowanych obrysów
 	open source	otwarte oprogramowanie
 	Open the release page to choose an installer for your system.	Otwórz stronę wydania, aby wybrać instalator dla swojego systemu.
@@ -2568,6 +2576,8 @@ fontWeight	Regular	Zwykły
 	Rotate Auto	Obrót automatyczny
 	Rotate Fixed	Obrót stały
 	Rotate View	Obróć widok
+	Rotate View Left	Obróć widok w lewo
+	Rotate View Right	Obróć widok w prawo
 	Rotate View Tool	Narzędzie Obróć widok
 	Rotate view with trackpad	Obracaj widok gładzikiem
 	Rotation Adaptation	Dopasowanie obrotu
@@ -2616,6 +2626,7 @@ cameraRaw	Roughness	Chropowatość
 	Save for Web (Legacy)…	Zapisz dla Internetu (starsza wersja)…
 	Save Full-Size Composite in .pcraft Files	Zapisuj obraz złożony w pełnym rozmiarze w plikach .pcraft
 	Save HTML and Images	Zapisz HTML i obrazy
+	Save Image Pyramid	Zapisz piramidę obrazu
 	Save in background	Zapisuj w tle
 	Save Pixel Aspect Ratio	Zapisz proporcje pikseli
 	Save Preset…	Zapisz ustawienie wstępne…
@@ -2627,6 +2638,7 @@ cameraRaw	Roughness	Chropowatość
 	Save these settings as a Camera Raw .xmp file	Zapisz te ustawienia jako plik .xmp Camera Raw
 	Save these shortcuts as a .kys file	Zapisz te skróty jako plik .kys
 	Save these shortcuts as a new set	Zapisz te skróty jako nowy zestaw
+	Save Transparency	Zapisz przezroczystość
 	Saved	Zapisano
 	Saved contours to {file}	Zapisano kontury w {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Zapisano dla Internetu: {n} plik|Zapisano dla Internetu: {n} pliki|Zapisano dla Internetu: {n} plików
@@ -3344,6 +3356,7 @@ cameraRaw	Yellow	Żółty
 	ZigZag	Zygzak
 	Zigzag	Zygzak
 	ZigZag…	Zygzak…
+	ZIP	ZIP
 	Zoom clicked point to center	Powiększaj kliknięty punkt do środka
 	Zoom resizes windows	Powiększenie zmienia rozmiar okien
 	Zoom Tool	Narzędzie Lupa
@@ -3357,6 +3370,7 @@ cameraRaw	Yellow	Żółty
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Kolor {mode} · {bits} bitów
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} nie może zachować wszystkiego z tego dokumentu
 	{name} options	Opcje: {name}
 	{name} Properties	Właściwości: {name}
@@ -3367,6 +3381,7 @@ cameraRaw	Yellow	Żółty
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Nie udało się wczytać {n} pliku: {errors}|Nie udało się wczytać {n} plików: {errors}|Nie udało się wczytać {n} plików: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Usunięto {n} warstwę zapisaną w tej kompozycji. Zaktualizuj kompozycję lub usuń ostrzeżenie.|Usunięto {n} warstwy zapisane w tej kompozycji. Zaktualizuj kompozycję lub usuń ostrzeżenie.|Usunięto {n} warstw zapisanych w tej kompozycji. Zaktualizuj kompozycję lub usuń ostrzeżenie.
 @plural	{n} layer|{n} layers	{n} warstwa|{n} warstwy|{n} warstw
+@plural	{n} mip level|{n} mip levels	{n} poziom mip|{n} poziomy mip|{n} poziomów mip
 	{n} of {max} sample points	{n} z {max} punktów próbkowania
 @plural	{n} plane|{n} planes	{n} płaszczyzna|{n} płaszczyzny|{n} płaszczyzn
 @plural	{n} preset|{n} presets	{n} ustawienie wstępne|{n} ustawienia wstępne|{n} ustawień wstępnych
@@ -3390,3 +3405,34 @@ cameraRaw	Yellow	Żółty
 	…and {n} more	…i {n} więcej
 	↑↓ navigate   {key} run   esc close	↑↓ nawigacja   {key} uruchom   esc zamknij
 	↑↓ navigate   ↵ run   esc close	↑↓ nawigacja   ↵ uruchom   esc zamknij
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Raport konwersji przy imporcie
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Wyniki z chwili importu. Edycja korzysta z natywnych reguł PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Zachowano raport w nowszym formacie. Nie można wyświetlić jego szczegółów.
+	No conversion report was recorded.	Nie zapisano raportu konwersji.
+	No entries on this page.	Brak wpisów na tej stronie.
+	Layer mask	Maska warstwy
+	Source item	Element źródłowy
+	{first}–{last} of {total}	{first}–{last} z {total}
+	Native equivalent	Natywny odpowiednik
+	Native approximation	Natywne przybliżenie
+	Retained, not applied	Zachowano, nie zastosowano
+	Nonessential data skipped	Pominięto nieistotne dane
+	Unknown outcome	Nieznany wynik
+	Native rules	Natywne reguły
+	Native capability limit	Ograniczenie natywnych funkcji
+	Conversion not implemented	Konwersja niezaimplementowana
+	Resource unavailable	Zasób niedostępny
+	Invalid optional data	Nieprawidłowe dane opcjonalne
+	Retention limit	Limit przechowywania
+	Precision conversion	Konwersja precyzji
+	Unknown reason	Nieznany powód
+	Native layer {id} (removed; historical reference)	Natywna warstwa {id} (usunięta; odwołanie historyczne)
+	Native layer: {name}	Natywna warstwa: {name}
+	Alpha Percentile	Percentyl alfa
+	Alpha Weighted	Ważone alfą
+	Color Percentile	Percentyl koloru
+	Connectivity	Spójność
+	Disc	Sąsiedztwo kołowe
+	Each	Każdy kanał

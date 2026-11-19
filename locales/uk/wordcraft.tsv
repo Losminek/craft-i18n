@@ -151,6 +151,7 @@
 	Arch Down	Арка вниз
 	Arch Up	Арка вгору
 	Area	Області
+	Arrange All	Упорядкувати все
 	Arrange\nAll	Упорядкувати\nвсі
 	Article I.	Стаття I.
 	Artistic Effects	Художні ефекти
@@ -1194,6 +1195,7 @@
 	No limit	Без обмеження
 	No Markup	Без позначок
 	No model credits were built into this copy.	Ця збірка не містить відомостей про моделі.
+	No other WordCraft windows are open.	Інших вікон WordCraft не відкрито.
 	No Outline	Без контуру
 	No Paragraph Space	Без інтервалу між абзацами
 	No printers found. Configure a system printer or export a PDF.	Принтерів не знайдено. Налаштуйте системний принтер або експортуйте PDF.
@@ -1848,7 +1850,10 @@
 	Swap footnotes and endnotes	Поміняти виноски й кінцеві виноски
 	Swedish	Шведська
 	Switch Modes	Перемкнути режими
+	Switch Windows	Перемкнути вікна
 	Switch\nModes	Перемкнути\nрежими
+	Switch\nWindows	Перемкнути\nвікна
+	Synchronous Scrolling	Синхронне прокручування
 	Synonyms	Синоніми
 	Tab Character	Символ табуляції
 	Tab character	Символ табуляції
@@ -2056,6 +2061,7 @@
 	View	Вигляд
 	View Alt Text…	Переглянути альтернативний текст…
 	View Gridlines	Показати лінії сітки
+	View Side by Side	Переглянути поруч
 	View State	Стан вигляду
 	View › Focus hides everything but your words. I'll wait outside.	Вигляд › Зосередження приховує все, крім ваших слів. Я почекаю за дверима.
 	Views	Вигляди
@@ -2269,3 +2275,17 @@
 	Uruguay	Уругвай
 	Venezuela	Венесуела
 	South Africa	Південна Африка
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Схема
+	Insert Diagram	Вставити схему
+	Diagram Design	Оформлення схеми
+	Diagram Styles	Стилі схеми
+	Decorative Text	Декоративний текст
+	Decorative Text Styles	Стилі декоративного тексту
+	select a diagram first	спочатку виберіть схему
+	this diagram was made in another program: WordCraft shows it but can't edit it	цю схему створено в іншій програмі: WordCraft показує її, але не може редагувати
+	this diagram can't be edited	цю схему не можна редагувати
+@msg	a diagram holds at most {MAX_ITEMS} items	схема може містити щонайбільше {MAX_ITEMS} елементів
+@msg	unknown decorative text style `{id}`	невідомий стиль декоративного тексту `{id}`
+	select a shape or decorative text first	спочатку виберіть фігуру або декоративний текст

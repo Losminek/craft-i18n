@@ -18,6 +18,7 @@
 	2D view only	عرض ثنائي الأبعاد فقط
 	32 bits (float)	32 بت (فاصلة عائمة)
 	3D mesh	مجسم ثلاثي الأبعاد
+	3D MESH	مجسم ثلاثي الأبعاد
 	3D meshes	مجسمات ثلاثية الأبعاد
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	رسم الخامات ثلاثية الأبعاد: طبقات، أقنعة، مواد ذكية، خبز خرائط المجسم والتصدير.
 	3D view only	عرض ثلاثي الأبعاد فقط
@@ -133,6 +134,7 @@
 	Brushes	الفرش
 	BSphere	كرة الإحاطة
 	Built-in (read-only): duplicate it to edit	مدمج (للقراءة فقط): انسخه لتعديله
+	Built-in mesh	مجسم مدمج
 	Built-in templates are read-only: duplicate one to edit it	القوالب المدمجة للقراءة فقط: انسخ قالباً لتعديله
 	Built-in: {mesh}	مدمج: {mesh}
 	By Mesh Name	حسب اسم المجسم
@@ -146,12 +148,15 @@
 	Cavities	التجاويف
 	Cell size (texels at 2K)	حجم الخلية (تكسل بدقة 2K)
 	Cells	خلايا
+	Change them in Texture Set Settings	غيّرها من إعدادات مجموعة الخامات
 	Channel	القناة
 	Channel source: uniform value, procedural, image or anchor	مصدر القناة: قيمة موحدة، إجرائي، صورة أو نقطة ارتكاز
 	Channels	القنوات
 	Check All	تحديد الكل
 	Check for Updates...	التحقق من وجود تحديثات...
 	Checker	رقعة شطرنج
+	Choose another mesh file for the project. It is read when you press OK.	اختر ملف مجسم آخر للمشروع. تتم قراءته عند الضغط على موافق.
+	Choosing or reimporting a mesh recomputes all channels.	يؤدي اختيار مجسم أو إعادة استيراده إلى إعادة حساب جميع القنوات.
 	Clamp	تقييد القيم
 	Clear mask	مسح القناع
 	Clear recent projects	مسح المشاريع الأخيرة
@@ -328,6 +333,7 @@
 	Field of view (deg)	مجال الرؤية (بالدرجات)
 	File ID	معرّف الملف
 	File name without extension; variables insert names	اسم الملف بدون الامتداد؛ تُدرج المتغيرات الأسماء
+	File not found	الملف غير موجود
 	File type	نوع الملف
 	Fill layer	طبقة تعبئة
 	Fill mode	وضع التعبئة
@@ -386,6 +392,7 @@
 	Gravity	الجاذبية
 	Gray + A	رمادي + A
 	Gray 50%	رمادي 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	اصطلاح القناة الخضراء لخرائط النواظم: OpenGL (Y+) أو DirectX (Y-). تتبعه خرائط النواظم المستوردة والمصدّرة.
 	Ground Plane	مستوى الأرض
 	Ground Plane Offset	إزاحة مستوى الأرض
 	Group layer(s)	تجميع الطبقة (الطبقات)
@@ -435,6 +442,7 @@
 	Import material...	استيراد خامة...
 	Import MaterialX material...	استيراد مادة MaterialX...
 	Import resources...	استيراد الموارد...
+	Import settings	إعدادات الاستيراد
 	Import...	استيراد...
 	Imported template "{name}"	تم استيراد القالب "{name}"
 	Imported {name}	تم استيراد {name}
@@ -568,6 +576,7 @@
 	No padding (passthrough)	بدون حشو (تمرير مباشر)
 	No Parameters	لا توجد معلمات
 	No recent projects yet	لا توجد مشاريع حديثة بعد
+	No UV tiles	لا توجد بلاطات UV
 	Noise amount	كمية الضوضاء
 	Noise scale	مقياس الضوضاء
 	None	بلا
@@ -627,6 +636,7 @@
 	Paint Skew Correction	رسم تصحيح الميل
 	Paint with the current tool	الرسم بالأداة الحالية
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	بكسلات الطبقات المرسومة {pixels} ميغابايت، القنوات المركبة {composites} ميغابايت، ذاكرة التخزين المؤقت للتركيب {cache} ميغابايت
+	Painted strokes follow the surface when the new mesh's UVs differ	تتبع الضربات المرسومة السطح عندما تختلف إحداثيات UV للمجسم الجديد
 	Painting	الرسم
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	الرسم متوقف مؤقتًا أثناء عرض عملية الخبز. ألغِ الخبز أو انتظر حتى ينتهي.
 	Pan	تحريك العرض (Pan)
@@ -662,13 +672,16 @@
 	Position gradient	تدرج الموضع
 	Position jitter	اضطراب الموضع
 	Posterize	تبسيط الألوان (Posterize)
+	Preserve stroke positions on mesh	الاحتفاظ بمواضع الضربات على المجسم
 	Preset	إعداد مسبق
 	Press a key...	اضغط على مفتاح...
 	Procedurals	إجرائيات
 	Project	المشروع
+	Project configuration	تكوين المشروع
 	Project Configuration...	تكوين المشروع...
 	Project Mesh (LP)	مجسم الإسقاط (LP)
 	Project opened	تم فتح المشروع
+	PROJECT SETTINGS	إعدادات المشروع
 	Project template	قالب المشروع
 	Projection	الإسقاط
 	Projects and meshes	المشاريع والمجسمات
@@ -683,6 +696,7 @@
 	Range	النطاق
 	Raw curvature	الانحناء الخام
 	Re-cook	إعادة الحساب
+	Read the mesh file again, keeping the layers and painted strokes	يعيد قراءة ملف المجسم مع الاحتفاظ بالطبقات والضربات المرسومة
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	يقرأ خريطة الانحناء كما خُبزت: تغيير الوضع أو أحد الأحجام يفعّل أحجام التفاصيل.
 	Rebind any menu item, tool or command	إعادة ربط أي عنصر قائمة، أو أداة أو أمر
 	Recent projects	المشاريع الأخيرة
@@ -693,6 +707,7 @@
 	Relative to Low Mesh	بالنسبة إلى المجسم منخفض التفاصيل
 	Relative to Min/Max	بالنسبة إلى الحد الأدنى والأقصى
 	Relative to Ray Distances	بالنسبة إلى مسافات الأشعة
+	Relative to the bounding box diagonal.	نسبة إلى قطر المربع المحيط.
 	Remove Cage	إزالة القفص
 	Remove channel	إزالة القناة
 	Remove effect	إزالة التأثير
@@ -876,9 +891,12 @@
 	The first stroke sets the offset from the source.	تحدد الضربة الأولى الإزاحة عن المصدر.
 	The GPU couldn't render this scene: {error}	تعذر على معالج الرسوميات (GPU) تصيير هذا المشهد: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	تقطع ألفا الصورة شكل الملصق؛ وتبقى الوجوه المتجهة بعيداً والأسطح التي تتجاوز عمقها واضحة.
+	The mesh file the project is built on. Hover the path to see it in full.	ملف المجسم الذي يقوم عليه المشروع. مرّر المؤشر فوق المسار لرؤيته كاملاً.
 	The next click in the 3D view moves the decal there	النقر التالي في العرض ثلاثي الأبعاد ينقل الملصق إلى هناك
 	The project changed while the dialog was open, so nothing was done	تغيّر المشروع أثناء فتح النافذة، لذا لم يُنفَّذ أي إجراء
 	The resize worker stopped	توقف عامل تغيير الحجم
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	بلاطات UV (UDIM) لكل مجموعة خامات، للاطلاع فقط. غيّرها من إعدادات مجموعة الخامات.
+	There is no mesh file to read again. Select one.	لا يوجد ملف مجسم لإعادة قراءته. حدّد ملفاً.
 	Thin areas	المناطق الرقيقة
 	Threshold	العتبة (Threshold)
 	Tile	تكرار (Tile)
@@ -917,6 +935,7 @@
 	UV island fill	تعبئة جزيرة UV
 	UV projection	إسقاط UV
 	UV Seams	فواصل UV
+	UV Tile settings (UDIMs)	إعدادات بلاطات UV (UDIM)
 	UV tile {tile} resolution	دقة بلاطة UV {tile}
 	UV tiles	بلاطات UV
 	UV tiles (UDIM)	بلاطات UV (UDIM)

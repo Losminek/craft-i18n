@@ -18,6 +18,7 @@
 	2D view only	Solo vista 2D
 	32 bits (float)	32 bit (float)
 	3D mesh	Mesh 3D
+	3D MESH	MESH 3D
 	3D meshes	Mesh 3D
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Pittura di texture 3D: livelli, maschere, materiali intelligenti, bake delle mappe mesh ed esportazione.
 	3D view only	Solo vista 3D
@@ -128,6 +129,7 @@
 	Brushed lines	Linee spazzolate
 	BSphere	Sfera di delimitazione
 	Built-in (read-only): duplicate it to edit	Integrato (sola lettura): duplicalo per modificarlo
+	Built-in mesh	Mesh integrata
 	Built-in templates are read-only: duplicate one to edit it	I modelli integrati sono di sola lettura: duplicane uno per modificarlo
 	Built-in: {mesh}	Integrata: {mesh}
 	By Mesh Name	Per nome della mesh
@@ -141,10 +143,13 @@
 	Cavities	Cavità
 	Cell size (texels at 2K)	Dimensione celle (texel a 2K)
 	Cells	Celle
+	Change them in Texture Set Settings	Modificali in Impostazioni set di texture
 	Channel source: uniform value, procedural, image or anchor	Sorgente del canale: valore uniforme, procedurale, immagine o ancoraggio
 	Check All	Seleziona tutto
 	Check for Updates...	Controlla aggiornamenti...
 	Checker	Scacchiera
+	Choose another mesh file for the project. It is read when you press OK.	Scegli un altro file mesh per il progetto. Viene letto quando premi OK.
+	Choosing or reimporting a mesh recomputes all channels.	Scegliere o reimportare una mesh ricalcola tutti i canali.
 	Clamp	Limita
 	Clear mask	Cancella maschera
 	Clear recent projects	Cancella progetti recenti
@@ -366,6 +371,7 @@
 	Gravity	Gravità
 	Gray + A	Grigio + A
 	Gray 50%	Grigio 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Convenzione del canale verde delle mappe normali: OpenGL (Y+) o DirectX (Y-). Le mappe normali importate ed esportate la seguono.
 	Ground Plane	Piano del terreno
 	Ground Plane Offset	Scostamento del terreno
 	Group layer(s)	Raggruppa livello/i
@@ -413,6 +419,7 @@
 	Import material...	Importa materiale...
 	Import MaterialX material...	Importa materiale MaterialX...
 	Import resources...	Importa risorse...
+	Import settings	Impostazioni di importazione
 	Import...	Importa...
 	Imported template "{name}"	Modello "{name}" importato
 	Imported {name}	{name} importato
@@ -533,6 +540,7 @@
 	No padding (passthrough)	Nessun padding (passthrough)
 	No Parameters	Nessun parametro
 	No recent projects yet	Ancora nessun progetto recente
+	No UV tiles	Nessun tile UV
 	Noise amount	Quantità rumore
 	Noise scale	Scala rumore
 	none	nessuna
@@ -587,6 +595,7 @@
 	Paint Skew Correction	Dipingi correzione dell'inclinazione
 	Paint with the current tool	Dipingi con lo strumento corrente
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Pixel dei livelli dipinti {pixels} MB, canali composti {composites} MB, cache di composizione {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	I tratti dipinti seguono la superficie quando le UV della nuova mesh sono diverse
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	La pittura è in pausa finché viene mostrato un bake. Annulla il bake o attendi che finisca.
 	Pan	Panoramica
 	Parallax occlusion (height channel)	Occlusione parallasse (canale altezza)
@@ -620,13 +629,16 @@
 	Pores	Pori
 	Position gradient	Sfumatura posizione
 	Position jitter	Variazione posizione
+	Preserve stroke positions on mesh	Mantieni la posizione dei tratti sulla mesh
 	Preset	Preset
 	Press a key...	Premi un tasto...
 	Procedurals	Procedurali
 	Project	Progetto
+	Project configuration	Configurazione progetto
 	Project Configuration...	Configurazione progetto...
 	Project Mesh (LP)	Mesh di proiezione (LP)
 	Project opened	Progetto aperto
+	PROJECT SETTINGS	IMPOSTAZIONI PROGETTO
 	Project template	Modello di progetto
 	Projection	Proiezione
 	Projects and meshes	Progetti e mesh
@@ -638,6 +650,7 @@
 	Radius (texels at 2K)	Raggio (texel a 2K)
 	Raw curvature	Curvatura grezza
 	Re-cook	Ricalcola
+	Read the mesh file again, keeping the layers and painted strokes	Rilegge il file della mesh mantenendo i livelli e i tratti dipinti
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Legge la mappa di curvatura così come è stata calcolata: cambiare la modalità o una dimensione attiva le dimensioni del dettaglio.
 	Rebind any menu item, tool or command	Riassegna qualsiasi voce di menu, strumento o comando
 	Recent projects	Progetti recenti
@@ -648,6 +661,7 @@
 	Relative to Low Mesh	Relativo alla mesh a bassa risoluzione
 	Relative to Min/Max	Relativo a minimo/massimo
 	Relative to Ray Distances	Relativo alle distanze dei raggi
+	Relative to the bounding box diagonal.	Relativa alla diagonale del bounding box.
 	Remove Cage	Rimuovi gabbia
 	Remove channel	Rimuovi canale
 	Remove effect	Rimuovi effetto
@@ -824,9 +838,12 @@
 	The first stroke sets the offset from the source.	Il primo tratto imposta l'offset dalla sorgente.
 	The GPU couldn't render this scene: {error}	La GPU non è riuscita a eseguire il rendering di questa scena: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	L'alpha dell'immagine ritaglia la forma della decal; le facce rivolte altrove e le superfici oltre la sua profondità restano libere.
+	The mesh file the project is built on. Hover the path to see it in full.	Il file mesh su cui si basa il progetto. Passa il mouse sul percorso per vederlo per intero.
 	The next click in the 3D view moves the decal there	Il prossimo clic nella vista 3D sposta lì la decal
 	The project changed while the dialog was open, so nothing was done	Il progetto è cambiato mentre la finestra di dialogo era aperta, quindi non è stato fatto nulla
 	The resize worker stopped	Il processo di ridimensionamento si è interrotto
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	I tile UV (UDIM) di ogni set di texture, solo per consultazione. Modificali in Impostazioni set di texture.
+	There is no mesh file to read again. Select one.	Non c'è nessun file mesh da rileggere. Selezionane uno.
 	Thin areas	Aree sottili
 	Tile	Ripeti
 	Tiles	Piastrelle
@@ -860,6 +877,7 @@
 	UV island fill	Riempimento isola UV
 	UV projection	Proiezione UV
 	UV Seams	Cuciture UV
+	UV Tile settings (UDIMs)	Impostazioni tile UV (UDIM)
 	UV tile {tile} resolution	Risoluzione del tile UV {tile}
 	UV tiles	Tile UV
 	UV tiles (UDIM)	Tile UV (UDIM)

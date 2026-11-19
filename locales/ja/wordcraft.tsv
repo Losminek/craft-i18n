@@ -156,6 +156,7 @@
 	Arch Up	上向きアーチ
 	Area	面
 	Arrange	配置
+	Arrange All	整列
 	Arrange\nAll	整列
 	Article I.	第 I 条
 	Artistic Effects	アート効果
@@ -1208,6 +1209,7 @@
 	No icons match your search.	検索に一致するアイコンはありません。
 	No Markup	変更履歴/コメントなし
 	No model credits were built into this copy.	このビルドにはモデルのクレジットが含まれていません。
+	No other WordCraft windows are open.	ほかに開いている WordCraft のウィンドウはありません。
 	No Outline	輪郭なし
 	No Paragraph Space	段落間隔なし
 	No printers found. Configure a system printer or export a PDF.	プリンターが見つかりません。システムにプリンターを設定するか、PDF をエクスポートしてください。
@@ -1873,8 +1875,11 @@
 	Swap footnotes and endnotes	脚注と文末脚注を入れ替え
 	Swedish	スウェーデン語
 	Switch Modes	モードの切り替え
+	Switch Windows	ウィンドウの切り替え
 	Switch\nModes	モードの切り替え
+	Switch\nWindows	ウィンドウの\n切り替え
 	Symbols	記号と特殊文字
+	Synchronous Scrolling	同時にスクロール
 	Synonyms	類義語
 	Tab Character	タブ文字
 	Tab character	タブ文字
@@ -2078,6 +2083,7 @@
 	Vertical alignment:	垂直方向の配置:
 	View Alt Text…	代替テキストを表示…
 	View Gridlines	グリッド線の表示
+	View Side by Side	並べて比較
 	View State	表示の状態
 	View › Focus hides everything but your words. I'll wait outside.	表示 › フォーカス で、文字以外はすべて隠れます。わたしは外で待ってますね。
 	Views	表示
@@ -2296,3 +2302,17 @@
 	Uruguay	ウルグアイ
 	Venezuela	ベネズエラ
 	South Africa	南アフリカ
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	図解
+	Insert Diagram	図解を挿入
+	Diagram Design	図解のデザイン
+	Diagram Styles	図解のスタイル
+	Decorative Text	装飾文字
+	Decorative Text Styles	装飾文字のスタイル
+	select a diagram first	先に図解を選択してください
+	this diagram was made in another program: WordCraft shows it but can't edit it	この図解は別のプログラムで作成されました。WordCraft では表示できますが編集できません
+	this diagram can't be edited	この図解は編集できません
+@msg	a diagram holds at most {MAX_ITEMS} items	図解には最大 {MAX_ITEMS} 個の項目を含められます
+@msg	unknown decorative text style `{id}`	不明な装飾文字のスタイル `{id}`
+	select a shape or decorative text first	先に図形または装飾文字を選択してください

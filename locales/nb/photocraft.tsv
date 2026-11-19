@@ -1677,6 +1677,7 @@ cameraRaw	Hue	Fargetone
 	Image Assets	Bilderessurser
 	Image Balance	Bildebalanse
 	Image compositor: {processor}	Bildekompositor: {processor}
+	Image Compression	Bildekomprimering
 	image file path	bildefilbane
 	Image interpolation	Bildeinterpolering
 	Image Options	Bildealternativer
@@ -2004,6 +2005,7 @@ cameraRaw	Luminance Detail	Luminansdetalj
 	Luminance Smoothness	Luminansjevnhet
 	Lut	LUT
 	LUT folder	LUT-mappe
+	LZW	LZW
 	Mac Crisp	Mac klar
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2925,6 +2927,7 @@ cameraRaw	Saturation	Metning
 	Save for Web (Legacy)…	Lagre for web (eldre)…
 	Save HTML and Images	Lagre HTML og bilder
 	Save Image	Lagre bilde
+	Save Image Pyramid	Lagre bildepyramide
 	Save in background	Lagre i bakgrunnen
 	Save Path	Lagre bane
 	Save Pixel Aspect Ratio	Lagre pikselforhold
@@ -2940,6 +2943,7 @@ cameraRaw	Save Settings…	Lagre innstillinger…
 cameraRaw	Save these settings as a Camera Raw .xmp file	Lagre disse innstillingene som en Camera Raw .xmp-fil
 	Save these shortcuts as a .kys file	Lagre disse hurtigtastene som en .kys-fil
 	Save these shortcuts as a new set	Lagre disse hurtigtastene som et nytt sett
+	Save Transparency	Lagre gjennomsiktighet
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Lagre arbeidet og start PhotoCraft på nytt for å prøve GPU-akselerasjon igjen. CPU-gjengivelse er fortsatt aktiv i denne økten.
 	Saved a copy as {path}	Lagret en kopi som {path}
 	Saved contours to {file}	Lagret konturer til {file}
@@ -3756,6 +3760,7 @@ cameraRaw	Yellow	Gul
 	ZigZag	Sikksakk
 	Zigzag	Sikksakk
 	ZigZag…	Sikksakk…
+	ZIP	ZIP
 navigator	Zoom	Zoom
 	Zoom clicked point to center	Zoom klikket punkt til midten
 	Zoom In (hold, drag to scrub)	Zoom inn (hold, dra for å skrubbe)
@@ -3814,3 +3819,34 @@ navigator	Zoom	Zoom
 	↑↓ navigate   ↵ run   esc close	↑↓ naviger   ↵ kjør   esc lukk
 	✓ Color Indicates Masked Areas	✓ Farge angir maskerte områder
 	✓ Color Indicates Selected Areas	✓ Farge angir valgte områder
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Rapport for importkonvertering
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Resultater ved import. Redigering følger PhotoCrafts innebygde regler.
+	A newer report format is retained. Its details cannot be displayed.	Et nyere rapportformat er beholdt. Detaljene kan ikke vises.
+	No conversion report was recorded.	Ingen konverteringsrapport ble registrert.
+	No entries on this page.	Ingen oppføringer på denne siden.
+	Layer mask	Lagmaske
+	Source item	Kildeelement
+	{first}–{last} of {total}	{first}–{last} av {total}
+	Native equivalent	Innebygd ekvivalent
+	Native approximation	Innebygd tilnærming
+	Retained, not applied	Beholdt, ikke anvendt
+	Nonessential data skipped	Ikke-vesentlige data ble hoppet over
+	Unknown outcome	Ukjent resultat
+	Native rules	Innebygde regler
+	Native capability limit	Begrensning i innebygd funksjon
+	Conversion not implemented	Konvertering ikke implementert
+	Resource unavailable	Ressursen er utilgjengelig
+	Invalid optional data	Ugyldige valgfrie data
+	Retention limit	Bevaringsgrense
+	Precision conversion	Presisjonskonvertering
+	Unknown reason	Ukjent årsak
+	Native layer {id} (removed; historical reference)	Innebygd lag {id} (fjernet; historisk referanse)
+	Native layer: {name}	Innebygd lag: {name}
+	Alpha Percentile	Alfapersentil
+	Alpha Weighted	Alfavektet
+	Color Percentile	Fargepersentil
+	Connectivity	Konnektivitet
+	Disc	Skive
+	Each	Hver

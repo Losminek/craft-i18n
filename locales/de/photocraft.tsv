@@ -729,6 +729,7 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Data Sets…	Datensätze…
 cameraData	Date Taken	Aufnahmedatum
 	Day For Night	Tag für Nacht
+	DDS Import	DDS-Import
 	DDS Options	DDS-Optionen
 	De-Interlace…	De-Interlace…
 	Decontaminate	Dekontaminieren
@@ -1067,6 +1068,7 @@ cameraData	F-Stop	Blende
 	Flatten Image	Bild auf eine Ebene reduzieren
 	Flip Canvas Horizontal	Zeichenfläche horizontal spiegeln
 	Flip Canvas Vertical	Zeichenfläche vertikal spiegeln
+	Flip vertically	Vertikal spiegeln
 	Flip X	X spiegeln
 	Flip X Jitter	X-Spiegel-Schwankung
 	Flip Y	Y spiegeln
@@ -1268,6 +1270,7 @@ cameraData	Focal Length (35 mm)	Brennweite (35 mm)
 	Ignore exif profile tag	EXIF-Profil-Tag ignorieren
 	Image Assets	Bild-Assets
 	Image compositor: {processor}	Bildkompositor: {processor}
+	Image Compression	Bildkomprimierung
 	image file path	Bilddateipfad
 	Image interpolation	Bildinterpolation
 	Image Options	Bildoptionen
@@ -1481,6 +1484,7 @@ fontWeight	Light	Leicht
 	Load settings from a Camera Raw .xmp file	Einstellungen aus einer Camera-Raw-.xmp-Datei laden
 	Load Settings…	Einstellungen laden…
 	Load the brush after each stroke	Pinsel nach jedem Strich laden
+	Load transparency as alpha channel	Transparenz als Alphakanal laden
 	Loaded contours from {file}	Konturen aus {file} geladen
 	Loaded RAW Develop settings from {file}	RAW-Entwicklung-Einstellungen aus {file} geladen
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-Entwicklung-Einstellungen aus {file} geladen ({n} nicht unterstützt)
@@ -1514,6 +1518,7 @@ fontWeight	Light	Leicht
 	Luminance Detail	Luminanzdetails
 	Lut	LUT
 	LUT folder	LUT-Ordner
+	LZW	LZW
 	Magenta  ·  Green	Magenta  ·  Grün
 	Magentas	Magentatöne
 	Magic Eraser Tool	Magischer-Radiergummi-Werkzeug
@@ -1601,6 +1606,7 @@ fontWeight	Medium	Medium
 	Minimum Diameter	Minimaler Durchmesser
 	Minimum Roundness	Minimale Rundung
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmaps als eigene Ebenen
 	Missing delete command	Löschbefehl fehlt
 	Missing glyph protection	Schutz vor fehlenden Glyphen
 	Miter	Gehrung
@@ -1763,10 +1769,12 @@ layerLabel	No Color	Keine Farbe
 	Open a document to use the timeline.	Öffne ein Dokument, um die Zeitleiste zu nutzen.
 	Open as smart object	Als Smart-Objekt öffnen
 	Open As…	Öffnen als…
+	Open cancelled	Öffnen abgebrochen
 	Open color-less EXR as ACEScg	Farbangabenloses EXR als ACEScg öffnen
 	Open documents as tabs	Dokumente als Registerkarten öffnen
 	Open Document…	Öffnen…
 	Open EXR Parts…	EXR-Teile öffnen…
+	Open failed: {error}	Öffnen fehlgeschlagen: {error}
 	Open paths use centered strokes	Offene Pfade verwenden zentrierte Konturen
 	open source	Open Source
 	Open the release page to choose an installer for your system.	Öffnen Sie die Versionsseite und wählen Sie ein Installationspaket für Ihr System.
@@ -2157,6 +2165,8 @@ fontWeight	Regular	Normal
 	Rotate 90° Clockwise	90° im Uhrzeigersinn drehen
 	Rotate 90° Counter Clockwise	90° gegen den Uhrzeigersinn drehen
 	Rotate View	Ansicht drehen
+	Rotate View Left	Ansicht nach links drehen
+	Rotate View Right	Ansicht nach rechts drehen
 	Rotate View Tool	Ansicht-drehen-Werkzeug
 	Rotate view with trackpad	Ansicht mit Trackpad drehen
 	Rotation Adaptation	Drehungsanpassung
@@ -2199,6 +2209,7 @@ fontWeight	Regular	Normal
 	Save for Web (Legacy)…	Für Web speichern (Legacy)…
 	Save Full-Size Composite in .pcraft Files	Kompositbild in voller Größe in .pcraft-Dateien speichern
 	Save HTML and Images	HTML und Bilder speichern
+	Save Image Pyramid	Bildpyramide speichern
 	Save in background	Im Hintergrund speichern
 	Save Pixel Aspect Ratio	Pixel-Seitenverhältnis speichern
 	Save selection as channel	Auswahl als Kanal speichern
@@ -2210,6 +2221,7 @@ fontWeight	Regular	Normal
 	Save these shortcuts as a .kys file	Diese Kurzbefehle als .kys-Datei speichern
 	Save these shortcuts as a new set	Diese Kurzbefehle als neuen Satz speichern
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Speichern Sie die geöffnete SVG-Datei. Jede gespeicherte Änderung wird in PhotoCraft zu einem Rückgängig-Schritt.
+	Save Transparency	Transparenz speichern
 	Saved contours to {file}	Konturen in {file} gespeichert
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Für Web gespeichert: {n} Datei|Für Web gespeichert: {n} Dateien
 	Saved RAW Develop settings to {file}	RAW-Entwicklung-Einstellungen in {file} gespeichert
@@ -2825,6 +2837,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	Dein Tastaturbefehlssatz {set} wird hier verwendet: {n} Tastaturbefehle weichen von den Standardwerten ab. Bearbeiten › Tastaturbefehle zeigt sie; Alles auf Standardwerte zurücksetzen macht es rückgängig.
 	Zigzag	Zickzack
 	ZigZag…	Zickzack…
+	ZIP	ZIP
 	Zoom clicked point to center	Angeklickten Punkt zentrieren
 	Zoom In (hold, drag to scrub)	Vergrößern (gedrückt halten, zum Zoomen ziehen)
 	Zoom Out (hold)	Verkleinern (gedrückt halten)
@@ -2840,6 +2853,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode}-Farbe · {bits} Bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} kann nicht alles in diesem Dokument erhalten
 	{name} options	{name} Optionen
 	{name} Properties	{name}-Eigenschaften
@@ -2850,6 +2864,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} Datei konnte nicht geladen werden: {errors}|{n} Dateien konnten nicht geladen werden: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} von dieser Komposition erfasste Ebene wurde gelöscht. Aktualisiere die Komposition oder lösche die Warnung.|{n} von dieser Komposition erfasste Ebenen wurden gelöscht. Aktualisiere die Komposition oder lösche die Warnung.
 @plural	{n} layer|{n} layers	{n} Ebene|{n} Ebenen
+@plural	{n} mip level|{n} mip levels	{n} Mip-Level|{n} Mip-Levels
 	{n} of {max} sample points	{n} von {max} Messpunkten
 @plural	{n} plane|{n} planes	{n} Fläche|{n} Flächen
 @plural	{n} preset|{n} presets	{n} Vorgabe|{n} Vorgaben
@@ -2871,3 +2886,34 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	“{name}” already exists. Replace it?	„{name}“ ist bereits vorhanden. Ersetzen?
 	…and {n} more	…und {n} weitere
 	↑↓ navigate   {key} run   esc close	↑↓ Navigieren   {key} Ausführen   Esc Schließen
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Import-Konvertierungsbericht
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Ergebnisse zum Importzeitpunkt. Die Bearbeitung folgt den nativen Regeln von PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Ein Bericht in einem neueren Format wurde aufbewahrt. Seine Details können nicht angezeigt werden.
+	No conversion report was recorded.	Es wurde kein Konvertierungsbericht aufgezeichnet.
+	No entries on this page.	Keine Einträge auf dieser Seite.
+	Layer mask	Ebenenmaske
+	Source item	Quellelement
+	{first}–{last} of {total}	{first}–{last} von {total}
+	Native equivalent	Natives Äquivalent
+	Native approximation	Native Annäherung
+	Retained, not applied	Aufbewahrt, nicht angewendet
+	Nonessential data skipped	Nicht notwendige Daten übersprungen
+	Unknown outcome	Unbekanntes Ergebnis
+	Native rules	Native Regeln
+	Native capability limit	Grenze der nativen Funktionen
+	Conversion not implemented	Konvertierung nicht implementiert
+	Resource unavailable	Ressource nicht verfügbar
+	Invalid optional data	Ungültige optionale Daten
+	Retention limit	Aufbewahrungsgrenze
+	Precision conversion	Präzisionskonvertierung
+	Unknown reason	Unbekannter Grund
+	Native layer {id} (removed; historical reference)	Native Ebene {id} (entfernt; historischer Verweis)
+	Native layer: {name}	Native Ebene: {name}
+	Alpha Percentile	Alpha-Perzentil
+	Alpha Weighted	Alpha-gewichtet
+	Color Percentile	Farbperzentil
+	Connectivity	Nachbarschaft
+	Disc	Kreisförmige Nachbarschaft
+	Each	Jeder Kanal

@@ -869,6 +869,7 @@ cameraRaw	Darks	Koyu Tonlar
 cameraData	Date Taken	Çekim Tarihi
 	DateTime Original	Orijinal Tarih/Saat
 	Day For Night	Gündüz Gece
+	DDS Import	DDS İçe Aktar
 	DDS Options	DDS Seçenekleri
 	De-Interlace…	Taramasızlaştırma…
 	Decontaminate	Dekontaminasyon
@@ -1284,6 +1285,7 @@ cameraData	F-Stop	Diyafram
 	Flatten Image	Görüntüyü Düzleştir
 	Flip Canvas Horizontal	Tuvali Yatay Çevir
 	Flip Canvas Vertical	Tuvali Dikey Çevir
+	Flip vertically	Dikey çevir
 	Flip X	X'i Çevir
 	Flip X Jitter	X Çevirme Titreşimi
 	Flip Y	Y'yi Çevir
@@ -1544,6 +1546,7 @@ cameraRaw	Hue	Ton
 	Ignore exif profile tag	Exif profil etiketini yoksay
 	Image Assets	Görüntü Varlıkları
 	Image Balance	Görüntü Dengesi
+	Image Compression	Görüntü Sıkıştırma
 	image file path	görüntü dosyası yolu
 	Image interpolation	Görüntü enterpolasyonu
 	Image Options	Görüntü Seçenekleri
@@ -1817,6 +1820,7 @@ cameraRaw	Lights	Açık Tonlar
 	Load settings from a Camera Raw .xmp file	Ayarları bir Camera Raw .xmp dosyasından yükle
 	Load Settings…	Ayarları Yükle…
 	Load the brush after each stroke	Her vuruştan sonra fırçayı yükle
+	Load transparency as alpha channel	Saydamlığı alfa kanalı olarak yükle
 	Loaded contours from {file}	Konturlar {file} dosyasından yüklendi
 	Loaded RAW Develop settings from {file}	RAW Geliştirme ayarları {file} dosyasından yüklendi
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW Geliştirme ayarları {file} dosyasından yüklendi ({n} desteklenmiyor)
@@ -1861,6 +1865,7 @@ cameraRaw	Luminance Detail	Lüminans Ayrıntısı
 	Luminance Smoothness	Lüminans Yumuşaklığı
 	Lut	Lut
 	LUT folder	LUT klasörü
+	LZW	LZW
 	Mac Crisp	Mac Net
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -1962,6 +1967,7 @@ fontWeight	Medium	Orta
 	Minimum Diameter	Minimum Çap
 	Minimum Roundness	Minimum Yuvarlaklık
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmap'leri ayrı katmanlar olarak
 	Missing delete command	Silme komutu eksik
 	Missing glyph protection	Eksik glif koruması
 	Missing Profiles: Ask When Opening	Eksik Profiller: Açarken Sor
@@ -2162,10 +2168,12 @@ layerLabel	No Color	Renk Yok
 	Open As	Farklı Aç
 	Open as smart object	Akıllı nesne olarak aç
 	Open As…	Farklı Aç…
+	Open cancelled	Açma iptal edildi
 	Open color-less EXR as ACEScg	Renk bilgisi olmayan EXR'yi ACEScg olarak aç
 	Open documents as tabs	Belgeleri sekmeler halinde aç
 	Open Document…	Aç…
 	Open EXR Parts…	EXR Parçalarını Aç…
+	Open failed: {error}	Açma başarısız: {error}
 	Open File	Dosyayı Aç
 	Open Folder	Klasörü Aç
 	Open Image	Görüntüyü Aç
@@ -2654,6 +2662,8 @@ fontWeight	Regular	Normal
 	Rotate Auto	Otomatik Döndür
 	Rotate Fixed	Sabit Döndür
 	Rotate View	Görünümü Döndür
+	Rotate View Left	Görünümü Sola Döndür
+	Rotate View Right	Görünümü Sağa Döndür
 	Rotate View Tool	Görünümü Döndürme Aracı
 	Rotate view with trackpad	Görünümü dokunmatik yüzeyle döndür
 	Rotation Adaptation	Döndürme Uyarlaması
@@ -2705,6 +2715,7 @@ cameraRaw	Roughness	Pürüzlülük
 	Save Full-Size Composite in .pcraft Files	.pcraft dosyalarına tam boyutlu bileşik görüntüyü kaydet
 	Save HTML and Images	HTML ve Görüntüleri Kaydet
 	Save Image	Görüntüyü Kaydet
+	Save Image Pyramid	Görüntü Piramidini Kaydet
 	Save in background	Arka planda kaydet
 	Save Pixel Aspect Ratio	Piksel En Boy Oranını Kaydet
 	Save selection as channel	Seçimi kanal olarak kaydet
@@ -2716,6 +2727,7 @@ cameraRaw	Roughness	Pürüzlülük
 	Save these shortcuts as a .kys file	Bu kısayolları .kys dosyası olarak kaydet
 	Save these shortcuts as a new set	Bu kısayolları yeni bir küme olarak kaydet
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Açılan SVG dosyasına kaydedin. Kaydedilen her değişiklik PhotoCraft'ta bir geri alma adımı olur.
+	Save Transparency	Saydamlığı Kaydet
 	Saved contours to {file}	Konturlar {file} dosyasına kaydedildi
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Web İçin Kaydedildi: {n} dosya|Web İçin Kaydedildi: {n} dosya
 	Saved Multichannel	Çok Kanallı Kaydedildi
@@ -3441,6 +3453,7 @@ cameraRaw	Yellow	Sarı
 	ZigZag	Zikzak
 	Zigzag	Zikzak
 	ZigZag…	Zikzak…
+	ZIP	ZIP
 	Zoom	Yakınlaştır
 	Zoom clicked point to center	Tıklanan noktayı merkeze yakınlaştır
 	Zoom resizes windows	Yakınlaştırma pencereleri yeniden boyutlandırır
@@ -3454,6 +3467,7 @@ cameraRaw	Yellow	Sarı
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} Renk · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} bu belgedeki her şeyi koruyamaz
 	{name} options	{name} seçenekleri
 	{name} Properties	{name} Özellikleri
@@ -3464,6 +3478,7 @@ cameraRaw	Yellow	Sarı
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} dosya yüklenemedi: {errors}|{n} dosya yüklenemedi: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Bu kompozisyonun kaydettiği {n} katman silindi. Kompozisyonu güncelleyin veya uyarıyı temizleyin.|Bu kompozisyonun kaydettiği {n} katman silindi. Kompozisyonu güncelleyin veya uyarıyı temizleyin.
 @plural	{n} layer|{n} layers	{n} katman|{n} katman
+@plural	{n} mip level|{n} mip levels	{n} mip seviyesi|{n} mip seviyesi
 	{n} of {max} sample points	{n} / {max} örnek nokta
 @plural	{n} plane|{n} planes	{n} düzlem|{n} düzlem
 @plural	{n} preset|{n} presets	{n} ön ayar|{n} ön ayar
@@ -3487,3 +3502,34 @@ cameraRaw	Yellow	Sarı
 	…and {n} more	…ve {n} daha
 	↑↓ navigate   {key} run   esc close	↑↓ gezin {key} çalıştır esc kapat
 	↑↓ navigate   ↵ run   esc close	↑↓ gezin ↵ çalıştır esc kapat
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	İçe Aktarma Dönüştürme Raporu
+	Import-time outcomes. Editing uses native PhotoCraft rules.	İçe aktarma sırasındaki sonuçlar. Düzenleme, PhotoCraft’ın yerel kurallarını kullanır.
+	A newer report format is retained. Its details cannot be displayed.	Daha yeni biçimde bir rapor saklanıyor. Ayrıntıları görüntülenemiyor.
+	No conversion report was recorded.	Dönüştürme raporu kaydedilmedi.
+	No entries on this page.	Bu sayfada kayıt yok.
+	Layer mask	Katman maskesi
+	Source item	Kaynak öğe
+	{first}–{last} of {total}	{total} kayıttan {first}–{last}
+	Native equivalent	Yerel eşdeğer
+	Native approximation	Yerel yaklaştırma
+	Retained, not applied	Saklandı, uygulanmadı
+	Nonessential data skipped	Gerekli olmayan veriler atlandı
+	Unknown outcome	Bilinmeyen sonuç
+	Native rules	Yerel kurallar
+	Native capability limit	Yerel özellik sınırı
+	Conversion not implemented	Dönüştürme uygulanmamış
+	Resource unavailable	Kaynak kullanılamıyor
+	Invalid optional data	Geçersiz isteğe bağlı veriler
+	Retention limit	Saklama sınırı
+	Precision conversion	Hassasiyet dönüştürme
+	Unknown reason	Bilinmeyen neden
+	Native layer {id} (removed; historical reference)	Yerel katman {id} (silindi; geçmiş başvurusu)
+	Native layer: {name}	Yerel katman: {name}
+	Alpha Percentile	Alfa yüzdelik dilimi
+	Alpha Weighted	Alfa ağırlıklı
+	Color Percentile	Renk yüzdelik dilimi
+	Connectivity	Bağlantılılık
+	Disc	Dairesel komşuluk
+	Each	Her kanal

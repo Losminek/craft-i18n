@@ -842,6 +842,7 @@ cameraRaw	Darks	Tmavé tóny
 	Data Sets…	Datové sady…
 cameraData	Date Taken	Datum pořízení
 	Day For Night	Americká noc
+	DDS Import	Import DDS
 	DDS Options	Možnosti DDS
 	De-Interlace…	Odstranit prokládání…
 	Decontaminate	Dekontaminovat
@@ -1245,6 +1246,7 @@ layers	Fill:	Krytí výplně:
 	Flip	Převrátit
 	Flip Canvas Horizontal	Převrátit plátno vodorovně
 	Flip Canvas Vertical	Převrátit plátno svisle
+	Flip vertically	Převrátit svisle
 	Flip X	Převrátit X
 	Flip X Jitter	Kolísání převrácení X
 	Flip Y	Převrátit Y
@@ -1490,6 +1492,7 @@ cameraRaw	Hue	Odstín
 	Image Assets	Obrazové podklady
 	Image Balance	Vyvážení obrazu
 	Image compositor: {processor}	Skládání obrazu: {processor}
+	Image Compression	Komprese obrazu
 	image file path	cesta k souboru obrázku
 	Image interpolation	Interpolace obrazu
 	Image Options	Možnosti obrazu
@@ -1738,6 +1741,7 @@ cameraRaw	Lights	Světlé tóny
 	Load settings from a Camera Raw .xmp file	Načíst nastavení ze souboru Camera Raw .xmp
 	Load Settings…	Načíst nastavení…
 	Load the brush after each stroke	Naplnit štětec po každém tahu
+	Load transparency as alpha channel	Načíst průhlednost jako alfa kanál
 	Loaded contours from {file}	Obrysy načteny ze souboru {file}
 	Loaded RAW Develop settings from {file}	Nastavení Vyvolání RAW načteno ze souboru {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Nastavení Vyvolání RAW načteno ze souboru {file} (nepodporováno: {n})
@@ -1774,6 +1778,7 @@ cameraRaw	Luminance	Jas
 cameraRaw	Luminance Detail	Detail jasu
 	Lut	LUT
 	LUT folder	Složka LUT
+	LZW	LZW
 cameraRaw	Magenta	Purpurové
 	Magenta  ·  Green	Purpurová  ·  zelená
 	Magentas	Purpurové
@@ -1877,6 +1882,7 @@ fontWeight	Medium	Střední
 	Minimum Diameter	Minimální průměr
 	Minimum Roundness	Minimální kulatost
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmapy jako samostatné vrstvy
 	Missing delete command	Chybí příkaz ke smazání
 	Missing glyph protection	Ochrana proti chybějícím glyfům
 	Miter	Ostrý
@@ -2069,10 +2075,12 @@ layerLabel	No Color	Žádná barva
 	Open As	Otevřít jako
 	Open as smart object	Otevřít jako chytrý objekt
 	Open As…	Otevřít jako…
+	Open cancelled	Otevření zrušeno
 	Open color-less EXR as ACEScg	Otevřít EXR bez údaje o barevném prostoru jako ACEScg
 	Open documents as tabs	Otevírat dokumenty jako záložky
 	Open Document…	Otevřít…
 	Open EXR Parts…	Otevřít části EXR…
+	Open failed: {error}	Otevření selhalo: {error}
 	Open File	Otevřít soubor
 	Open Folder	Otevřít složku
 	Open paths use centered strokes	Otevřené cesty používají vystředěné tahy
@@ -2547,6 +2555,8 @@ fontWeight	Regular	Normální
 	Rotate 90° Clockwise	Otočit o 90° doprava
 	Rotate 90° Counter Clockwise	Otočit o 90° doleva
 	Rotate View	Otočit zobrazení
+	Rotate View Left	Otočit zobrazení doleva
+	Rotate View Right	Otočit zobrazení doprava
 	Rotate View Tool	Nástroj otočení zobrazení
 	Rotate view with trackpad	Otáčet zobrazení trackpadem
 	Rotation Adaptation	Přizpůsobení otočení
@@ -2594,6 +2604,7 @@ cameraRaw	Roughness	Drsnost
 	Save for Web (Legacy)…	Uložit pro web (starší)…
 	Save Full-Size Composite in .pcraft Files	Ukládat složený obraz v plné velikosti do souborů .pcraft
 	Save HTML and Images	Uložit HTML a obrázky
+	Save Image Pyramid	Uložit pyramidu obrazu
 	Save in background	Ukládat na pozadí
 	Save Path	Uložit cestu
 	Save Pixel Aspect Ratio	Uložit poměr stran pixelu
@@ -2606,6 +2617,7 @@ cameraRaw	Roughness	Drsnost
 	Save these settings as a Camera Raw .xmp file	Uložit toto nastavení jako soubor Camera Raw .xmp
 	Save these shortcuts as a .kys file	Uložit tyto zkratky jako soubor .kys
 	Save these shortcuts as a new set	Uložit tyto zkratky jako novou sadu
+	Save Transparency	Uložit průhlednost
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Chcete-li znovu zkusit akceleraci GPU, uložte práci a restartujte PhotoCraft. V této relaci zůstane aktivní vykreslování pomocí CPU.
 	Saved a copy as {path}	Kopie uložena jako {path}
 	Saved contours to {file}	Obrysy uloženy do souboru {file}
@@ -3346,6 +3358,7 @@ cameraRaw	Yellow	Žluté
 	ZigZag	Cik-cak
 	Zigzag	Cik-cak
 	ZigZag…	Cik-cak…
+	ZIP	ZIP
 navigator	Zoom	Zvětšení
 	Zoom clicked point to center	Přiblížit kliknutý bod do středu
 	Zoom In (hold, drag to scrub)	Přiblížit (při podržení klávesy, tažením plynule měníte zvětšení)
@@ -3365,6 +3378,7 @@ navigator	Zoom	Zvětšení
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Barva {mode} · {bits} bitů
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} nedokáže uchovat vše z tohoto dokumentu
 	{name} options	Možnosti – {name}
 	{name} Properties	Vlastnosti – {name}
@@ -3375,6 +3389,7 @@ navigator	Zoom	Zvětšení
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} soubor nelze načíst: {errors}|{n} soubory nelze načíst: {errors}|{n} souborů nelze načíst: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} vrstva zaznamenaná v této kompozici byla odstraněna. Aktualizujte kompozici nebo zrušte upozornění.|{n} vrstvy zaznamenané v této kompozici byly odstraněny. Aktualizujte kompozici nebo zrušte upozornění.|{n} vrstev zaznamenaných v této kompozici bylo odstraněno. Aktualizujte kompozici nebo zrušte upozornění.
 @plural	{n} layer|{n} layers	{n} vrstva|{n} vrstvy|{n} vrstev
+@plural	{n} mip level|{n} mip levels	{n} mip úroveň|{n} mip úrovně|{n} mip úrovní
 	{n} of {max} sample points	{n} z {max} bodů měření
 @plural	{n} plane|{n} planes	{n} rovina|{n} roviny|{n} rovin
 @plural	{n} preset|{n} presets	{n} přednastavení|{n} přednastavení|{n} přednastavení
@@ -3401,3 +3416,34 @@ navigator	Zoom	Zvětšení
 	↑↓ navigate   {key} run   esc close	↑↓ pohyb   {key} spustit   esc zavřít
 	✓ Color Indicates Masked Areas	✓ Barva označuje maskované oblasti
 	✓ Color Indicates Selected Areas	✓ Barva označuje vybrané oblasti
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Zpráva o převodu při importu
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Výsledky v okamžiku importu. Úpravy používají nativní pravidla PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Byla zachována zpráva v novějším formátu. Její podrobnosti nelze zobrazit.
+	No conversion report was recorded.	Nebyla zaznamenána žádná zpráva o převodu.
+	No entries on this page.	Na této stránce nejsou žádné položky.
+	Layer mask	Maska vrstvy
+	Source item	Zdrojová položka
+	{first}–{last} of {total}	{first}–{last} z {total}
+	Native equivalent	Nativní ekvivalent
+	Native approximation	Nativní aproximace
+	Retained, not applied	Zachováno, nepoužito
+	Nonessential data skipped	Nepodstatná data přeskočena
+	Unknown outcome	Neznámý výsledek
+	Native rules	Nativní pravidla
+	Native capability limit	Omezení nativních funkcí
+	Conversion not implemented	Převod není implementován
+	Resource unavailable	Prostředek není dostupný
+	Invalid optional data	Neplatná volitelná data
+	Retention limit	Limit uchovávání
+	Precision conversion	Převod přesnosti
+	Unknown reason	Neznámý důvod
+	Native layer {id} (removed; historical reference)	Nativní vrstva {id} (odstraněna; historický odkaz)
+	Native layer: {name}	Nativní vrstva: {name}
+	Alpha Percentile	Percentil alfa
+	Alpha Weighted	Vážené alfou
+	Color Percentile	Barevný percentil
+	Connectivity	Sousednost
+	Disc	Kruhové okolí
+	Each	Každý kanál

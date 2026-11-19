@@ -160,6 +160,7 @@ cameraRaw	Curve	कर्व
 	Dab	थपका
 	Darks	डार्क्स
 cameraRaw	Darks	डार्क्स
+	DDS Import	DDS इम्पोर्ट
 	Decontaminate	Decontaminate
 	Decontaminate Colors	रंग शुद्ध करें
 	Decrease Brush Hardness	Decrease Brush Hardness
@@ -238,6 +239,7 @@ cameraRaw	Feather	फ़ेदर
 	Flatten Image	इमेज फ़्लैट करें
 	Flip Horizontal	क्षैतिज पलटें
 	Flip Vertical	लंबवत पलटें
+	Flip vertically	लंबवत पलटें
 	Floating point	फ़्लोटिंग पॉइंट
 	Flow	प्रवाह
 	Flow:	फ्लो:
@@ -290,6 +292,7 @@ cameraRaw	Highlights	हाइलाइट्स
 cameraRaw	Hue	ह्यू
 	Hue/Saturation…	ह्यू/सैचुरेशन…
 	Image	इमेज
+	Image Compression	इमेज संपीड़न
 	Image Rotation	इमेज रोटेशन
 	Image Size…	इमेज साइज़…
 	Import	इम्पोर्ट करें
@@ -335,6 +338,7 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Camera Raw .xmp फ़ाइ
 	Load Settings…	सेटिंग्स लोड करें…
 cameraRaw	Load Settings…	सेटिंग्स लोड करें…
 	Load the brush after each stroke	हर स्ट्रोक के बाद ब्रश लोड करें
+	Load transparency as alpha channel	पारदर्शिता को ऐल्फ़ा चैनल के रूप में लोड करें
 	Loaded RAW Develop settings from {file}	{file} से RAW डेवलप सेटिंग्स लोड की गईं
 cameraRaw	Loaded RAW Develop settings from {file}	{file} से RAW डेवलप सेटिंग्स लोड की गईं
 	Loaded RAW Develop settings from {file} ({n} not supported)	{file} से RAW डेवलप सेटिंग्स लोड की गईं ({n} समर्थित नहीं)
@@ -348,6 +352,7 @@ cameraRaw	Loaded RAW Develop settings from {file}	{file} से RAW डेवल
 cameraRaw	Luminance	लुमिनेंस
 	Luminance Detail	लुमिनेंस डिटेल
 cameraRaw	Luminance Detail	लुमिनेंस डिटेल
+	LZW	LZW
 	Magenta	मैजेंटा
 cameraRaw	Magenta	मैजेंटा
 	Magic Eraser Tool	मैजिक इरेज़र टूल
@@ -365,6 +370,7 @@ cameraRaw	Midpoint	मिडपॉइंट
 	Midtones	मिडटोन्स
 cameraRaw	Midtones	मिडटोन्स
 	Millimeters	मिलीमीटर
+	Mipmaps as separate layers	मिपमैप्स को अलग लेयर्स के रूप में
 	Missing delete command	हटाने का कमांड नहीं मिला
 	Mix	मिश्रण
 	Mixer Brush	मिक्सर ब्रश
@@ -406,7 +412,9 @@ cameraRaw	OK	ठीक है
 	Opacity:	ओपेसिटी:
 	Open	खोलें
 cameraRaw	Open	खोलें
+	Open cancelled	खोलना रद्द किया गया
 	Open Document…	खोलें…
+	Open failed: {error}	खोलने में विफल: {error}
 	Open Recent	हाल ही में खोले गए
 	Opened {name}	{name} खोला गया
 cameraRaw	Opened {name}	{name} खोला गया
@@ -518,11 +526,13 @@ cameraRaw	Saturation	सैचुरेशन
 	Save	सहेजें
 	Save a Copy…	एक प्रति सहेजें…
 	Save As…	इस रूप में सहेजें…
+	Save Image Pyramid	इमेज पिरामिड सहेजें
 	Save Selection…	चयन सहेजें…
 	Save Settings…	सेटिंग्स सहेजें…
 cameraRaw	Save Settings…	सेटिंग्स सहेजें…
 	Save these settings as a Camera Raw .xmp file	इन सेटिंग्स को Camera Raw .xmp फ़ाइल के रूप में सहेजें
 cameraRaw	Save these settings as a Camera Raw .xmp file	इन सेटिंग्स को Camera Raw .xmp फ़ाइल के रूप में सहेजें
+	Save Transparency	पारदर्शिता सहेजें
 	Saved RAW Develop settings to {file}	RAW डेवलप सेटिंग्स {file} में सहेजी गईं
 	Scale	आकार बदलें
 	Scope	दायरा
@@ -648,16 +658,61 @@ cameraRaw	Whites	व्हाइट्स
 	Yellow	पीला
 cameraRaw	Yellow	पीला
 	Yes	हाँ
+	ZIP	ZIP
 	Zoom In	ज़ूम इन
 	Zoom Out	ज़ूम आउट
 	Zoom Tool	ज़ूम टूल
 	{message} ({note})	{message} ({note})
+	{name} ({width} × {height})	{name} ({width} × {height})
 @plural	{n} action file loaded|{n} action files loaded	{n} एक्शन फ़ाइल लोड हुई|{n} एक्शन फ़ाइलें लोड हुईं
 @plural	{n} action|{n} actions	{n} एक्शन|{n} एक्शन
 @plural	{n} document|{n} documents	{n} दस्तावेज़|{n} दस्तावेज़
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} फ़ाइल लोड नहीं हो सकी: {errors}|{n} फ़ाइलें लोड नहीं हो सकीं: {errors}
 @plural	{n} item|{n} items	{n} आइटम|{n} आइटम्स
 @plural	{n} layer|{n} layers	{n} लेयर|{n} लेयर्स
+@plural	{n} mip level|{n} mip levels	{n} मिप स्तर|{n} मिप स्तर
 @plural	{n} pixel|{n} pixels	{n} पिक्सेल|{n} पिक्सेल्स
 @plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} चरण का अभी PhotoCraft में कोई समकक्ष नहीं है|{n} चरणों का अभी PhotoCraft में कोई समकक्ष नहीं है
 	{set} from {file} replaced the one from {earlier}	{file} के सेट {set} ने {earlier} वाले सेट की जगह ले ली
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	आयात रूपांतरण रिपोर्ट
+	Import-time outcomes. Editing uses native PhotoCraft rules.	आयात के समय के परिणाम। संपादन में PhotoCraft के मूल नियम लागू होते हैं।
+	A newer report format is retained. Its details cannot be displayed.	नए प्रारूप की रिपोर्ट सुरक्षित रखी गई है। उसका विवरण प्रदर्शित नहीं किया जा सकता।
+	No conversion report was recorded.	कोई रूपांतरण रिपोर्ट दर्ज नहीं की गई।
+	No entries on this page.	इस पृष्ठ पर कोई प्रविष्टि नहीं है।
+	Layer mask	परत मास्क
+	Next	अगला
+	Previous	पिछला
+	Source item	स्रोत आइटम
+	{first}–{last} of {total}	कुल {total} में से {first}–{last}
+	Native equivalent	मूल समकक्ष
+	Native approximation	मूल अनुमानित रूप
+	Retained, not applied	सुरक्षित रखा, लागू नहीं किया
+	Nonessential data skipped	गैरज़रूरी डेटा छोड़ा गया
+	Unknown outcome	अज्ञात परिणाम
+	Native rules	मूल नियम
+	Native capability limit	मूल क्षमताओं की सीमा
+	Conversion not implemented	रूपांतरण लागू नहीं किया गया है
+	Resource unavailable	संसाधन उपलब्ध नहीं है
+	Invalid optional data	अमान्य वैकल्पिक डेटा
+	Retention limit	संग्रह सीमा
+	Precision conversion	परिशुद्धता रूपांतरण
+	Unknown reason	अज्ञात कारण
+	Native layer {id} (removed; historical reference)	मूल परत {id} (हटाई गई; ऐतिहासिक संदर्भ)
+	Native layer: {name}	मूल परत: {name}
+	Alpha Percentile	अल्फ़ा प्रतिशतक
+	Alpha Weighted	अल्फ़ा से भारित
+	Color Percentile	रंग प्रतिशतक
+	Connectivity	संयोजकता
+	Disc	वृत्ताकार पड़ोस
+	Each	प्रत्येक चैनल
+	Value	मान
+	Square	वर्ग
+	Diamond	समचतुर्भुज
+	Gaussian	गॉसियन
+	Repeat	दोहराएँ
+	Wrap	लपेटें
+	Black	काला
+	White	सफ़ेद
+	Transparent	पारदर्शी

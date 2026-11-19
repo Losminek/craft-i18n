@@ -830,6 +830,7 @@ cameraRaw	Darks	Σκοτεινοί τόνοι
 cameraData	Date Taken	Ημερομηνία λήψης
 	DateTime Original	Αρχική ημερομηνία και ώρα
 	Day For Night	Ημέρα σαν νύχτα
+	DDS Import	Εισαγωγή DDS
 	DDS Options	Επιλογές DDS
 	De-Interlace…	Αποδιαπλοκή…
 	Decontaminate	Απομάκρυνση επιμόλυνσης
@@ -1232,6 +1233,7 @@ cameraData	F-Stop	Διάφραγμα
 	Flatten Image	Ισοπέδωση εικόνας
 	Flip Canvas Horizontal	Οριζόντια αναστροφή καμβά
 	Flip Canvas Vertical	Κατακόρυφη αναστροφή καμβά
+	Flip vertically	Αναστροφή κάθετα
 	Flip X	Αναστροφή X
 	Flip X Jitter	Διακύμανση αναστροφής X
 	Flip Y	Αναστροφή Y
@@ -1473,6 +1475,7 @@ cameraRaw	Hue	Απόχρωση
 	Ignore exif profile tag	Παράβλεψη ετικέτας προφίλ EXIF
 	Image Assets	Πόροι εικόνας
 	Image Balance	Ισορροπία εικόνας
+	Image Compression	Συμπίεση εικόνας
 	image file path	διαδρομή αρχείου εικόνας
 	Image interpolation	Παρεμβολή εικόνας
 	Image Options	Επιλογές εικόνας
@@ -1728,6 +1731,7 @@ cameraRaw	Lights	Φωτεινοί τόνοι
 	Load settings from a Camera Raw .xmp file	Φόρτωση ρυθμίσεων από αρχείο Camera Raw .xmp
 	Load Settings…	Φόρτωση ρυθμίσεων…
 	Load the brush after each stroke	Φόρτωση του πινέλου μετά από κάθε πινελιά
+	Load transparency as alpha channel	Φόρτωση διαφάνειας ως κανάλι άλφα
 	Loaded contours from {file}	Φορτώθηκαν περιγράμματα από {file}
 	Loaded RAW Develop settings from {file}	Φορτώθηκαν ρυθμίσεις Επεξεργασία RAW από το {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Φορτώθηκαν ρυθμίσεις Επεξεργασία RAW από το {file} ({n} δεν υποστηρίζονται)
@@ -1770,6 +1774,7 @@ cameraRaw	Luminance	Φωτεινότητα
 cameraRaw	Luminance Detail	Λεπτομέρεια φωτεινότητας
 	Luminance Smoothness	Εξομάλυνση φωτεινότητας
 	LUT folder	Φάκελος LUT
+	LZW	LZW
 cameraRaw	Magenta	Ματζέντα
 	Magenta  ·  Green	Ματζέντα · πράσινο
 	Magentas	Αποχρώσεις ματζέντα
@@ -1864,6 +1869,7 @@ fontWeight	Medium	Μεσαία
 	Minimum Diameter	Ελάχιστη διάμετρος
 	Minimum Roundness	Ελάχιστη στρογγυλότητα
 	Minimum…	Ελάχιστο…
+	Mipmaps as separate layers	Mipmap ως ξεχωριστά επίπεδα
 	Missing delete command	Λείπει η εντολή διαγραφής
 	Missing glyph protection	Προστασία από απόντες γλύφους
 	Missing Profiles: Ask When Opening	Απουσία προφίλ: ερώτηση κατά το άνοιγμα
@@ -2055,10 +2061,12 @@ cameraData	Model	Μοντέλο
 	Open As	Άνοιγμα ως
 	Open as smart object	Άνοιγμα ως έξυπνο αντικείμενο
 	Open As…	Άνοιγμα ως…
+	Open cancelled	Το άνοιγμα ακυρώθηκε
 	Open color-less EXR as ACEScg	Άνοιγμα EXR χωρίς χρωματική δήλωση ως ACEScg
 	Open documents as tabs	Άνοιγμα εγγράφων σε καρτέλες
 	Open Document…	Άνοιγμα…
 	Open EXR Parts…	Άνοιγμα τμημάτων EXR…
+	Open failed: {error}	Το άνοιγμα απέτυχε: {error}
 	Open File	Άνοιγμα αρχείου
 	Open Folder	Άνοιγμα φακέλου
 	Open Image	Άνοιγμα εικόνας
@@ -2517,6 +2525,8 @@ fontWeight	Regular	Κανονικά
 	Rotate Auto	Αυτόματη περιστροφή
 	Rotate Fixed	Σταθερή περιστροφή
 	Rotate View	Περιστροφή προβολής
+	Rotate View Left	Περιστροφή προβολής αριστερά
+	Rotate View Right	Περιστροφή προβολής δεξιά
 	Rotate View Tool	Εργαλείο περιστροφής προβολής
 	Rotate view with trackpad	Περιστροφή προβολής με επιφάνεια αφής
 	Rotation Adaptation	Προσαρμογή περιστροφής
@@ -2567,6 +2577,7 @@ cameraRaw	Roughness	Τραχύτητα
 	Save Full-Size Composite in .pcraft Files	Αποθήκευση σύνθετης εικόνας πλήρους μεγέθους στα αρχεία .pcraft
 	Save HTML and Images	Αποθήκευση HTML και εικόνων
 	Save Image	Αποθήκευση εικόνας
+	Save Image Pyramid	Αποθήκευση πυραμίδας εικόνας
 	Save in background	Αποθήκευση στο παρασκήνιο
 	Save Pixel Aspect Ratio	Διατήρηση αναλογίας εικονοστοιχείων
 	Save selection as channel	Αποθήκευση επιλογής ως καναλιού
@@ -2577,6 +2588,7 @@ cameraRaw	Roughness	Τραχύτητα
 	Save these settings as a Camera Raw .xmp file	Αποθήκευση αυτών των ρυθμίσεων ως αρχείο Camera Raw .xmp
 	Save these shortcuts as a .kys file	Αποθήκευση αυτών των συντομεύσεων ως αρχείου .kys
 	Save these shortcuts as a new set	Αποθήκευση αυτών των συντομεύσεων ως νέου συνόλου
+	Save Transparency	Αποθήκευση διαφάνειας
 	Saved contours to {file}	Τα περιγράμματα αποθηκεύτηκαν στο {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Αποθήκευση για Web: {n} αρχείο|Αποθήκευση για Web: {n} αρχεία
 	Saved Multichannel	Αποθηκευμένο πολυκάναλο
@@ -3271,6 +3283,7 @@ cameraRaw	Yellow	Κίτρινο
 	ZigZag	Ζιγκ ζαγκ
 	Zigzag	Ζιγκ ζαγκ
 	ZigZag…	Ζιγκ ζαγκ…
+	ZIP	ZIP
 	Zoom clicked point to center	Κεντράρισμα του σημείου κλικ κατά τη μεγέθυνση
 	Zoom resizes windows	Η μεγέθυνση αλλάζει μέγεθος παραθύρων
 	Zoom with scroll wheel	Μεγέθυνση με τον τροχό κύλισης
@@ -3283,6 +3296,7 @@ cameraRaw	Yellow	Κίτρινο
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Χρώμα {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	Το {name} δεν μπορεί να κρατήσει όλο το περιεχόμενο αυτού του εγγράφου
 	{name} options	Επιλογές: {name}
 	{name} Properties	Ιδιότητες: {name}
@@ -3293,6 +3307,7 @@ cameraRaw	Yellow	Κίτρινο
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Δεν ήταν δυνατή η φόρτωση {n} αρχείου: {errors}|Δεν ήταν δυνατή η φόρτωση {n} αρχείων: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Διαγράφηκε {n} επίπεδο που καταγράφει αυτή η σύνθεση. Ενημερώστε τη σύνθεση ή καταργήστε την προειδοποίηση.|Διαγράφηκαν {n} επίπεδα που καταγράφει αυτή η σύνθεση. Ενημερώστε τη σύνθεση ή καταργήστε την προειδοποίηση.
 @plural	{n} layer|{n} layers	{n} επίπεδο|{n} επίπεδα
+@plural	{n} mip level|{n} mip levels	{n} επίπεδο mip|{n} επίπεδα mip
 	{n} of {max} sample points	{n} από {max} σημεία δειγματοληψίας
 @plural	{n} plane|{n} planes	{n} επίπεδο προοπτικής|{n} επίπεδα προοπτικής
 @plural	{n} preset|{n} presets	{n} προεπιλογή|{n} προεπιλογές
@@ -3315,3 +3330,35 @@ cameraRaw	Yellow	Κίτρινο
 	…and {n} more	…και {n} ακόμη
 	↑↓ navigate   {key} run   esc close	↑↓ πλοήγηση   {key} εκτέλεση   Esc κλείσιμο
 	↑↓ navigate   ↵ run   esc close	↑↓ πλοήγηση   ↵ εκτέλεση   esc κλείσιμο
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Αναφορά μετατροπής εισαγωγής
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Αποτελέσματα κατά την εισαγωγή. Η επεξεργασία ακολουθεί τους εγγενείς κανόνες του PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Διατηρείται αναφορά σε νεότερη μορφή. Δεν είναι δυνατή η εμφάνιση των λεπτομερειών της.
+	No conversion report was recorded.	Δεν καταγράφηκε αναφορά μετατροπής.
+	No entries on this page.	Δεν υπάρχουν καταχωρίσεις σε αυτή τη σελίδα.
+	Layer mask	Μάσκα στρώσης
+	Source item	Στοιχείο προέλευσης
+	{first}–{last} of {total}	{first}–{last} από {total}
+	Native equivalent	Εγγενές ισοδύναμο
+	Native approximation	Εγγενής προσέγγιση
+	Retained, not applied	Διατηρήθηκε, δεν εφαρμόστηκε
+	Nonessential data skipped	Παραλείφθηκαν μη απαραίτητα δεδομένα
+	Unknown outcome	Άγνωστο αποτέλεσμα
+	Native rules	Εγγενείς κανόνες
+	Native capability limit	Περιορισμός εγγενών δυνατοτήτων
+	Conversion not implemented	Η μετατροπή δεν έχει υλοποιηθεί
+	Resource unavailable	Ο πόρος δεν είναι διαθέσιμος
+	Invalid optional data	Μη έγκυρα προαιρετικά δεδομένα
+	Retention limit	Όριο διατήρησης
+	Precision conversion	Μετατροπή ακρίβειας
+	Unknown reason	Άγνωστος λόγος
+	Native layer {id} (removed; historical reference)	Εγγενής στρώση {id} (διαγράφηκε· ιστορική αναφορά)
+	Native layer: {name}	Εγγενής στρώση: {name}
+	Alpha Percentile	Εκατοστημόριο άλφα
+	Alpha Weighted	Στάθμιση με άλφα
+	Color Percentile	Εκατοστημόριο χρώματος
+	Connectivity	Συνδεσιμότητα
+	Disc	Κυκλική γειτονιά
+	Each	Κάθε κανάλι
+	Value	Τιμή

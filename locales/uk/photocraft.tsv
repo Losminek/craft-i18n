@@ -863,6 +863,7 @@ cameraRaw	Darks	Темні тони
 cameraData	Date Taken	Дата зйомки
 	DateTime Original	Дата й час знімання
 	Day For Night	День замість ночі
+	DDS Import	Імпорт DDS
 	DDS Options	Параметри DDS
 	De-Interlace	Усунути черезрядковість
 	De-Interlace…	Усунути черезрядковість…
@@ -1269,6 +1270,7 @@ cameraData	F-Stop	Діафрагма
 	Flip	Віддзеркалення
 	Flip Canvas Horizontal	Віддзеркалити полотно горизонтально
 	Flip Canvas Vertical	Віддзеркалити полотно вертикально
+	Flip vertically	Відобразити вертикально
 	Flip X	Віддзеркалити X
 	Flip X Jitter	Випадкове віддзеркалення X
 	Flip Y	Віддзеркалити Y
@@ -1527,6 +1529,7 @@ cameraRaw	Hue	Тон
 	Ignore exif profile tag	Ігнорувати тег профілю EXIF
 	Image Assets	Ресурси зображення
 	Image Balance	Баланс зображення
+	Image Compression	Стиснення зображення
 	image file path	шлях до файлу зображення
 	Image interpolation	Інтерполяція зображення
 	Image Options	Параметри зображення
@@ -1786,6 +1789,7 @@ cameraRaw	Lights	Світлі тони
 	Load settings from a Camera Raw .xmp file	Завантажити налаштування з файлу Camera Raw .xmp
 	Load Settings…	Завантажити налаштування…
 	Load the brush after each stroke	Завантажувати пензель після кожного штриха
+	Load transparency as alpha channel	Завантажити прозорість як альфа-канал
 	Loaded contours from {file}	Контури завантажено з {file}
 	Loaded RAW Develop settings from {file}	Налаштування Обробка RAW завантажено з {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Налаштування Обробка RAW завантажено з {file} (не підтримується: {n})
@@ -1827,6 +1831,7 @@ cameraRaw	Luminance Detail	Деталі яскравості
 	Luminosity	Світність
 	Lut	LUT
 	LUT folder	Папка LUT
+	LZW	LZW
 	Mac Crisp	Mac: чітке
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -1928,6 +1933,7 @@ fontWeight	Medium	Середній
 	Minimum Diameter	Мінімальний діаметр
 	Minimum Roundness	Мінімальна округлість
 	Minimum…	Мінімум…
+	Mipmaps as separate layers	Міп-рівні окремими шарами
 	Mirror	Віддзеркалення
 	Missing delete command	Відсутня команда видалення
 	Missing glyph protection	Захист від відсутніх гліфів
@@ -2128,10 +2134,12 @@ layerLabel	No Color	Без кольору
 	Open As	Відкрити як
 	Open as smart object	Відкривати як смартоб'єкт
 	Open As…	Відкрити як…
+	Open cancelled	Відкриття скасовано
 	Open color-less EXR as ACEScg	Відкривати EXR без колірного профілю як ACEScg
 	Open documents as tabs	Відкривати документи у вкладках
 	Open Document…	Відкрити…
 	Open EXR Parts…	Відкрити частини EXR…
+	Open failed: {error}	Не вдалося відкрити: {error}
 	Open paths use centered strokes	Відкриті контури використовують обведення по центру
 	open source	відкритий код
 	Open the release page to choose an installer for your system.	Відкрийте сторінку випуску й виберіть інсталятор для своєї системи.
@@ -2591,6 +2599,8 @@ fontWeight	Regular	Звичайний
 	Rotate Auto	Автоматичне обертання
 	Rotate Fixed	Фіксоване обертання
 	Rotate View	Поворот перегляду
+	Rotate View Left	Повернути вигляд ліворуч
+	Rotate View Right	Повернути вигляд праворуч
 	Rotate View Tool	Інструмент «Поворот перегляду»
 	Rotate view with trackpad	Повертати перегляд трекпадом
 	Rotation	Обертання
@@ -2639,6 +2649,7 @@ cameraRaw	Roughness	Шорсткість
 	Save for Web (Legacy)…	Зберегти для вебу (застаріле)…
 	Save Full-Size Composite in .pcraft Files	Зберігати зведене зображення в повному розмірі у файлах .pcraft
 	Save HTML and Images	Зберегти HTML і зображення
+	Save Image Pyramid	Зберегти піраміду зображення
 	Save in background	Зберігати у фоні
 	Save Pixel Aspect Ratio	Зберегти співвідношення сторін пікселя
 	Save selection as channel	Зберегти виділення як канал
@@ -2649,6 +2660,7 @@ cameraRaw	Roughness	Шорсткість
 	Save these settings as a Camera Raw .xmp file	Зберегти ці налаштування у файл Camera Raw .xmp
 	Save these shortcuts as a .kys file	Зберегти ці клавіатурні скорочення як файл .kys
 	Save these shortcuts as a new set	Зберегти ці клавіатурні скорочення як новий набір
+	Save Transparency	Зберегти прозорість
 	Saved contours to {file}	Контури збережено в {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Збережено для вебу: {n} файл|Збережено для вебу: {n} файли|Збережено для вебу: {n} файлів
 	Saved Multichannel	Збережений багатоканальний
@@ -3373,6 +3385,7 @@ cameraRaw	Yellow	Жовтий
 	ZigZag	Зигзаг
 	Zigzag	Зигзаг
 	ZigZag…	Зигзаг…
+	ZIP	ZIP
 	Zoom clicked point to center	Масштабувати натиснуту точку до центру
 	Zoom resizes windows	Змінювати розміри вікон під час масштабування
 	Zoom with scroll wheel	Масштабувати коліщатком миші
@@ -3385,6 +3398,7 @@ cameraRaw	Yellow	Жовтий
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Колір {mode} · {bits} біт
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} не може зберегти весь вміст цього документа
 	{name} options	Параметри: {name}
 	{name} Properties	Властивості: {name}
@@ -3396,6 +3410,7 @@ cameraRaw	Yellow	Жовтий
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Видалено {n} шар, записаний у цій композиції. Оновіть композицію або скиньте попередження.|Видалено {n} шари, записані в цій композиції. Оновіть композицію або скиньте попередження.|Видалено {n} шарів, записаних у цій композиції. Оновіть композицію або скиньте попередження.
 @plural	{n} Layer|{n} Layers	{n} Шар|{n} Шари|{n} Шарів
 @plural	{n} layer|{n} layers	{n} шар|{n} шари|{n} шарів
+@plural	{n} mip level|{n} mip levels	{n} MIP-рівень|{n} MIP-рівня|{n} MIP-рівнів
 	{n} of {max} sample points	{n} з {max} точок вимірювання
 @plural	{n} plane|{n} planes	{n} площина|{n} площини|{n} площин
 @plural	{n} preset|{n} presets	{n} набір|{n} набори|{n} наборів
@@ -3419,3 +3434,34 @@ cameraRaw	Yellow	Жовтий
 	…and {n} more	…і ще {n}
 	↑↓ navigate   {key} run   esc close	↑↓ навігація   {key} виконати   esc закрити
 	↑↓ navigate   ↵ run   esc close	↑↓ навігація   ↵ виконати   esc закрити
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Звіт про перетворення під час імпорту
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Результати на момент імпорту. Редагування використовує власні правила PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Збережено звіт у новішому форматі. Його подробиці неможливо відобразити.
+	No conversion report was recorded.	Звіт про перетворення не було записано.
+	No entries on this page.	На цій сторінці немає записів.
+	Layer mask	Маска шару
+	Source item	Вихідний елемент
+	{first}–{last} of {total}	{first}–{last} із {total}
+	Native equivalent	Власний еквівалент
+	Native approximation	Наближене перетворення
+	Retained, not applied	Збережено, не застосовано
+	Nonessential data skipped	Необов’язкові дані пропущено
+	Unknown outcome	Невідомий результат
+	Native rules	Власні правила
+	Native capability limit	Обмеження власних можливостей
+	Conversion not implemented	Перетворення не реалізовано
+	Resource unavailable	Ресурс недоступний
+	Invalid optional data	Некоректні необов’язкові дані
+	Retention limit	Ліміт зберігання
+	Precision conversion	Перетворення точності
+	Unknown reason	Невідома причина
+	Native layer {id} (removed; historical reference)	Власний шар {id} (видалено; історичне посилання)
+	Native layer: {name}	Власний шар: {name}
+	Alpha Percentile	Перцентиль альфа
+	Alpha Weighted	Зважено за альфою
+	Color Percentile	Перцентиль кольору
+	Connectivity	Зв’язність
+	Disc	Круговий окіл
+	Each	Кожен канал

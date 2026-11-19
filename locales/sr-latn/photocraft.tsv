@@ -898,6 +898,7 @@ cameraRaw	Darks	Tamni tonovi
 cameraData	Date Taken	Datum snimanja
 	DateTime Original	Izvorni datum i vreme
 	Day For Night	Dan za noć
+	DDS Import	Uvoz DDS
 	DDS Options	DDS opcije
 	De-Interlace…	Uklanjanje preplitanja…
 	Decontaminate	Očisti boje
@@ -1328,6 +1329,7 @@ layers	Fill:	Popuna:
 	Flatten Image	Spljošti sliku
 	Flip Canvas Horizontal	Okreni platno horizontalno
 	Flip Canvas Vertical	Okreni platno vertikalno
+	Flip vertically	Obrni vertikalno
 	Flip X	Okreni po X
 	Flip X Jitter	Kolebanje okretanja po X
 	Flip Y	Okreni po Y
@@ -1588,6 +1590,7 @@ cameraRaw	Hue	Nijansa
 	Image Assets	Slikovni resursi
 	Image Balance	Balans slike
 	Image compositor: {processor}	Kompozitor slike: {processor}
+	Image Compression	Kompresija slike
 	image file path	putanja datoteke slike
 	Image interpolation	Interpolacija slike
 	Image Options	Opcije slike
@@ -1864,6 +1867,7 @@ cameraRaw	Lights	Svetli tonovi
 	Load settings from a Camera Raw .xmp file	Učitaj podešavanja iz Camera Raw .xmp datoteke
 	Load Settings…	Učitaj podešavanja…
 	Load the brush after each stroke	Napuni četkicu posle svakog poteza
+	Load transparency as alpha channel	Učitaj providnost kao alfa kanal
 	Loaded contours from {file}	Konture učitane iz {file}
 	Loaded RAW Develop settings from {file}	RAW obrada podešavanja su učitana iz {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW obrada podešavanja su učitana iz {file} (nije podržano: {n})
@@ -1907,6 +1911,7 @@ cameraRaw	Luminance Detail	Detalji luminanse
 	Luminance Smoothness	Glatkoća luminanse
 	Lut	LUT
 	LUT folder	Fascikla LUT
+	LZW	LZW
 	Mac Crisp	Mac jasno
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2014,6 +2019,7 @@ cameraRaw	Midtones	Srednji tonovi
 	Minimum Diameter	Minimalni prečnik
 	Minimum Roundness	Minimalna zaobljenost
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmape kao zasebni slojevi
 	Missing delete command	Nedostaje komanda za brisanje
 	Missing glyph protection	Zaštita od glifova koji nedostaju
 	Missing Profiles: Ask When Opening	Profili koji nedostaju: pitaj pri otvaranju
@@ -2225,10 +2231,12 @@ layerLabel	No Color	Bez boje
 	Open As	Otvori kao
 	Open as smart object	Otvori kao pametni objekat
 	Open As…	Otvori kao…
+	Open cancelled	Otvaranje otkazano
 	Open color-less EXR as ACEScg	Otvori EXR bez podatka o bojama kao ACEScg
 	Open documents as tabs	Otvaraj dokumente kao kartice
 	Open Document…	Otvori…
 	Open EXR Parts…	Otvori EXR delove…
+	Open failed: {error}	Otvaranje nije uspelo: {error}
 	Open File	Otvori datoteku
 	Open Folder	Otvori fasciklu
 	Open Image	Otvori sliku
@@ -2727,6 +2735,8 @@ fontWeight	Regular	Obično
 	Rotate Auto	Automatska rotacija
 	Rotate Fixed	Fiksna rotacija
 	Rotate View	Rotiraj prikaz
+	Rotate View Left	Rotiraj prikaz ulevo
+	Rotate View Right	Rotiraj prikaz udesno
 	Rotate View Tool	Alatka za rotiranje prikaza
 	Rotate view with trackpad	Rotiraj prikaz pomoću dodirne table
 	Rotation Adaptation	Prilagođavanje rotacije
@@ -2780,6 +2790,7 @@ cameraRaw	Saturation	Zasićenost
 	Save Full-Size Composite in .pcraft Files	Čuvaj složenu sliku u punoj veličini u .pcraft fajlovima
 	Save HTML and Images	Sačuvaj HTML i slike
 	Save Image	Sačuvaj sliku
+	Save Image Pyramid	Sačuvaj piramidu slike
 	Save in background	Čuvaj u pozadini
 	Save Path	Sačuvaj putanju
 	Save Pixel Aspect Ratio	Sačuvaj odnos stranica piksela
@@ -2792,6 +2803,7 @@ cameraRaw	Saturation	Zasićenost
 	Save these shortcuts as a .kys file	Sačuvaj ove prečice kao .kys datoteku
 	Save these shortcuts as a new set	Sačuvaj ove prečice kao novi skup
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Sačuvajte u otvorenu SVG datoteku. Svaka sačuvana izmena postaje jedan korak opoziva u PhotoCraft-u.
+	Save Transparency	Sačuvaj providnost
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Sačuvajte svoj rad i ponovo pokrenite PhotoCraft da biste ponovo pokušali GPU ubrzanje. Renderovanje procesorom ostaje aktivno do kraja ove sesije.
 	Saved a copy as {path}	Kopija je sačuvana kao {path}
 	Saved contours to {file}	Konture sačuvane u {file}
@@ -3544,6 +3556,7 @@ cameraRaw	Yellow	Žuta
 	ZigZag	Cik-cak
 	Zigzag	Cik-cak
 	ZigZag…	Cik-cak…
+	ZIP	ZIP
 	Zoom	Zum
 navigator	Zoom	Uvećanje
 	Zoom clicked point to center	Zumiraj tako da kliknuta tačka bude u centru
@@ -3561,6 +3574,7 @@ navigator	Zoom	Uvećanje
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} boje · {bits} bita
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} ne može da sačuva sve iz ovog dokumenta
 	{name} options	Opcije: {name}
 	{name} Properties	Svojstva: {name}
@@ -3571,6 +3585,7 @@ navigator	Zoom	Uvećanje
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Nije moguće učitati {n} datoteku: {errors}|Nije moguće učitati {n} datoteke: {errors}|Nije moguće učitati {n} datoteka: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} sloj zabeležen u ovoj kompoziciji je obrisan. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} sloja zabeležena u ovoj kompoziciji su obrisana. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} slojeva zabeleženih u ovoj kompoziciji je obrisano. Ažurirajte kompoziciju ili uklonite upozorenje.
 @plural	{n} layer|{n} layers	{n} sloj|{n} sloja|{n} slojeva
+@plural	{n} mip level|{n} mip levels	{n} mip nivo|{n} mip nivoa|{n} mip nivoa
 	{n} of {max} sample points	{n} od {max} tačaka uzorkovanja
 @plural	{n} plane|{n} planes	{n} ravan|{n} ravni|{n} ravni
 @plural	{n} preset|{n} presets	{n} šablon|{n} šablona|{n} šablona
@@ -3599,3 +3614,34 @@ navigator	Zoom	Uvećanje
 	↑↓ navigate   ↵ run   esc close	↑↓ kretanje   ↵ pokreni   esc zatvori
 	✓ Color Indicates Masked Areas	✓ Boja označava maskirane oblasti
 	✓ Color Indicates Selected Areas	✓ Boja označava izabrane oblasti
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Izveštaj o konverziji pri uvozu
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Rezultati u trenutku uvoza. Uređivanje prati izvorna pravila programa PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Sačuvan je izveštaj u novijem formatu. Njegovi detalji ne mogu da se prikažu.
+	No conversion report was recorded.	Nije zabeležen izveštaj o konverziji.
+	No entries on this page.	Na ovoj stranici nema stavki.
+	Layer mask	Maska sloja
+	Source item	Izvorna stavka
+	{first}–{last} of {total}	{first}–{last} od {total}
+	Native equivalent	Izvorni ekvivalent
+	Native approximation	Izvorna aproksimacija
+	Retained, not applied	Sačuvano, nije primenjeno
+	Nonessential data skipped	Nebitni podaci su preskočeni
+	Unknown outcome	Nepoznat rezultat
+	Native rules	Izvorna pravila
+	Native capability limit	Ograničenje izvornih mogućnosti
+	Conversion not implemented	Konverzija nije realizovana
+	Resource unavailable	Resurs nije dostupan
+	Invalid optional data	Neispravni opcioni podaci
+	Retention limit	Ograničenje čuvanja
+	Precision conversion	Konverzija preciznosti
+	Unknown reason	Nepoznat razlog
+	Native layer {id} (removed; historical reference)	Izvorni sloj {id} (uklonjen; istorijska referenca)
+	Native layer: {name}	Izvorni sloj: {name}
+	Alpha Percentile	Alfa percentil
+	Alpha Weighted	Ponderisano alfom
+	Color Percentile	Percentil boje
+	Connectivity	Povezanost
+	Disc	Kružno susedstvo
+	Each	Svaki kanal

@@ -873,7 +873,7 @@ numerals	Context	Kontekstuāli
 	File locations	Failu atrašanās vietas
 	File name:	Faila nosaukums:
 	File type	Faila veids
-	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Fails > Jauns šeit parāda .dotx un .dotm veidnes sadaļā Personīgās; Saglabāt kā Word veidni sākas šeit.
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Fails › Jauns šeit parāda .dotx un .dotm veidnes sadaļā Personīgās; Saglabāt kā Word veidni sākas šeit.
 	Fill color:	Aizpildījuma krāsa:
 	Filling in forms	Veidlapu aizpildīšana
 	Film	Filma
@@ -1598,7 +1598,7 @@ template	Letter	Vēstule
 	Offset: Top Right	Nobīde: augšā pa labi
 	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	Vecie izvēlnes taustiņi: Alt, {keys}. Turpiniet rakstīt vai nospiediet Esc, lai atceltu.
 	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	Ieslēgts: kursors slīd uz jauno vietu, rakstot vai izmantojot bulttaustiņus, un tā mirgošana izgaist. Izslēgts: tas lec un mirgo.
-	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Ieslēgts: WordCraft atveras sadaļā Fails > Sākums ar tukšu dokumentu, veidnēm un nesenajiem dokumentiem. Izslēgts: atveras tukšs dokuments.
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Ieslēgts: WordCraft atveras sadaļā Fails › Sākums ar tukšu dokumentu, veidnēm un nesenajiem dokumentiem. Izslēgts: atveras tukšs dokuments.
 	One	Viens
 	One half	Viena puse
 	One label per recipient	Viena etiķete katram adresātam
@@ -1621,7 +1621,7 @@ spacing	Open	Atvērts
 	OpenDocument Text (*.odt)	OpenDocument teksts (*.odt)
 	Opening print dialog…	Atver drukas dialoglodziņu…
 	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Turpmāk atver .docx, .doc, .rtf un .odt failus un Word veidnes ar WordCraft.
-	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Atver Iestatījumi > Noklusējuma lietotnes, kur izvēlaties WordCraft .docx un citiem dokumentu veidiem.
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Atver Iestatījumi › Noklusējuma lietotnes, kur izvēlaties WordCraft .docx un citiem dokumentu veidiem.
 	Operator	Operators
 	Operator Structures	Operatoru struktūras
 	Operators	Operatori
@@ -1976,7 +1976,7 @@ spacing	Open	Atvērts
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Saglabājiet dokumentu, lai ieslēgtu automātisko saglabāšanu (tikai atvērts fails netiek pārrakstīts, kamēr to nesaglabājat)
 	Save these pages as PDF…	Saglabāt šīs lapas kā PDF…
 	Saved. Saved again. Still saved. It's very saved.	Saglabāts. Atkal saglabāts. Joprojām saglabāts. Ļoti saglabāts.
-	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Saglabā .dotx veidni jūsu veidņu mapē. Tā parādās sadaļā Fails > Jauns zem Personīgās.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Saglabā .dotx veidni jūsu veidņu mapē. Tā parādās sadaļā Fails › Jauns zem Personīgās.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	{name} saglabāšana tika atcelta, tāpēc tas joprojām ir atvērts un nekas nav zaudēts.
 	Sayings	Teicieni
 	Sayings:	Teicieni:
@@ -2088,7 +2088,7 @@ spacing	Open	Atvērts
 	Show changes at:	Rādīt izmaiņas pie:
 	Show changes in:	Rādīt izmaiņas:
 	Show Comments	Rādīt komentārus
-	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	Rādīt dokumentus ar invertētām krāsām, kā Skats > Pārslēgt režīmus. Saglabāšana, drukāšana un PDF faili netiek mainīti.
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	Rādīt dokumentus ar invertētām krāsām, kā Skats › Pārslēgt režīmus. Saglabāšana, drukāšana un PDF faili netiek mainīti.
 	Show every bibliography field	Rādīt visus bibliogrāfijas laukus
 	Show First Line Only	Rādīt tikai pirmo rindu
 	Show in the Styles gallery	Rādīt stilu galerijā
@@ -2434,7 +2434,7 @@ preview	Title	Virsraksts
 	Title Bar	Virsraksta josla
 	Title from the document properties	Nosaukums no dokumenta rekvizītiem
 	Title:	Nosaukums:
-	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Lai pēc noklusējuma atvērtu Word dokumentus ar WordCraft: atlasiet vienu programmā Finder, izvēlieties File > Get Info, sadaļā Open with izvēlieties WordCraft un pēc tam noklikšķiniet uz Change All.
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Lai pēc noklusējuma atvērtu Word dokumentus ar WordCraft: atlasiet vienu programmā Finder, izvēlieties File › Get Info, sadaļā Open with izvēlieties WordCraft un pēc tam noklikšķiniet uz Change All.
 	To:	Līdz:
 	TOA Heading	Autoritāšu virsraksts
 	TOC Heading	Satura rādītāja virsraksts
@@ -2562,7 +2562,7 @@ preview	Title	Virsraksts
 	View and edit the document's custom properties.	Skatīt un rediģēt dokumenta pielāgotos rekvizītus.
 	View Gridlines	Skatīt režģa līnijas
 	View State	Skata stāvoklis
-	View › Focus hides everything but your words. I'll wait outside.	Skats > Fokuss paslēpj visu, izņemot jūsu vārdus. Es pagaidīšu ārā.
+	View › Focus hides everything but your words. I'll wait outside.	Skats › Fokuss paslēpj visu, izņemot jūsu vārdus. Es pagaidīšu ārā.
 	Viewing	Skatīšana
 	Viewing — view the file but make no changes	Skatīšana — skatīt failu, neko nemainot
 	Views	Skati

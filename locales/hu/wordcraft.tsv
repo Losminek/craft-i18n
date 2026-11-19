@@ -178,6 +178,7 @@
 	Arch Down	Ív lefelé
 	Arch Up	Ív felfelé
 	Arrange	Elhelyezés
+	Arrange All	Összes rendezése
 	Arrange\nAll	Ablakok\nrendezése
 	Article I.	I. cikk
 	Artistic Effects	Művészi effektusok
@@ -1392,6 +1393,7 @@
 	No items to show.	Nincs megjeleníthető elem.
 	No Markup	Nincs jelölés
 	No model credits were built into this copy.	Ebbe a példányba nem kerültek modell-közreműködői adatok.
+	No other WordCraft windows are open.	Nincs másik megnyitott WordCraft-ablak.
 	No Outline	Nincs körvonal
 	No Paragraph Space	Nincs bekezdéstérköz
 	No printers found. Configure a system printer or export a PDF.	Nem található nyomtató. Állítson be egy rendszernyomtatót, vagy exportáljon PDF-et.
@@ -1483,6 +1485,7 @@
 	only in Outline view	csak Vázlat nézetben
 	Only in this document	Csak ebben a dokumentumban
 	Only the allowed styles can be applied.	Csak az engedélyezett stílusok alkalmazhatók.
+	only the desktop app has several windows	csak az asztali alkalmazásban van több ablak
 	Only web (http, https) and email (mailto) links can be followed	Csak webes (http, https) és e-mail (mailto) link nyitható meg
 	Open a document first	Először nyisson meg egy dokumentumot
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Fájl megnyitása a WordCraft saját tallózójával, ha a rendszer fájlpárbeszédablaka nem jelenik meg.
@@ -2116,7 +2119,10 @@
 	Swap footnotes and endnotes	Láb- és végjegyzetek felcserélése
 	Swedish	Svéd
 	Switch Modes	Módváltás
+	Switch Windows	Ablakváltás
 	Switch\nModes	Módváltás
+	Switch\nWindows	Ablak-\nváltás
+	Synchronous Scrolling	Szinkron görgetés
 	Synonyms	Szinonimák
 	Tab Character	Tabulátor karakter
 	Tab character	Tabulátorkarakter
@@ -2279,6 +2285,7 @@
 	Tue	K
 	Turabian	Turabian
 	Turkish	Török
+	turn on View Side by Side first	előbb kapcsolja be az Egymás melletti nézetet
 	Two	Kettő
 	Two-sided printing	Kétoldalas nyomtatás
 	Two-sided: long edge	Kétoldalas: hosszú él
@@ -2355,6 +2362,7 @@
 	Vertical Dots	Függőleges pontok
 	View Alt Text…	Helyettesítő szöveg megtekintése…
 	View Gridlines	Rácsvonalak megjelenítése
+	View Side by Side	Egymás melletti nézet
 	View State	Nézet állapota
 	View › Focus hides everything but your words. I'll wait outside.	Nézet › Fókusz: minden eltűnik, csak a szavaid maradnak. Kint várok.
 	Views	Nézetek
@@ -2577,3 +2585,17 @@
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Dél-afrikai Köztársaság
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Diagram beszúrása
+	Diagram Design	Diagramtervezés
+	Diagram Styles	Diagramstílusok
+	Decorative Text	Díszítő szöveg
+	Decorative Text Styles	Díszítő szöveg stílusai
+	select a diagram first	először jelöljön ki egy diagramot
+	this diagram was made in another program: WordCraft shows it but can't edit it	ez a diagram másik programban készült: a WordCraft megjeleníti, de nem tudja szerkeszteni
+	this diagram can't be edited	ez a diagram nem szerkeszthető
+@msg	a diagram holds at most {MAX_ITEMS} items	egy diagram legfeljebb {MAX_ITEMS} elemet tartalmazhat
+@msg	unknown decorative text style `{id}`	ismeretlen díszítő szövegstílus: `{id}`
+	select a shape or decorative text first	először jelöljön ki egy alakzatot vagy díszítő szöveget

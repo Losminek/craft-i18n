@@ -190,6 +190,7 @@
 	Arch Up	Bue op
 	Area	Område
 	Arrange	Arranger
+	Arrange All	Arranger alle
 	Arrange\nAll	Arranger\nalle
 	Arrows	Pile
 	Artistic Effects	Kunstneriske effekter
@@ -1414,6 +1415,7 @@
 	No limit	Ingen grænse
 	No Markup	Ingen markeringer
 	No model credits were built into this copy.	Denne kopi indeholder ingen oplysninger om modeller.
+	No other WordCraft windows are open.	Der er ingen andre WordCraft-vinduer åbne.
 	No Outline	Ingen kontur
 	No Paragraph Space	Ingen afstand mellem afsnit
 	No printers found. Configure a system printer or export a PDF.	Der blev ikke fundet nogen printere. Konfigurér en systemprinter, eller eksportér en PDF.
@@ -2159,7 +2161,10 @@
 	Swap footnotes and endnotes	Byt fodnoter og slutnoter
 	Swedish	Svensk
 	Switch Modes	Skift tilstand
+	Switch Windows	Skift vindue
 	Switch\nModes	Skift\ntilstand
+	Switch\nWindows	Skift\nvindue
+	Synchronous Scrolling	Synkron rulning
 	Synonyms	Synonymer
 	System	System
 	Tab Character	Tabulator
@@ -2409,6 +2414,7 @@ preview	Title	Titel
 	View	Visning
 	View Alt Text…	Vis alternativ tekst…
 	View Gridlines	Vis gitterlinjer
+	View Side by Side	Vis side om side
 	View State	Visningstilstand
 	View › Focus hides everything but your words. I'll wait outside.	Visning › Fokus skjuler alt undtagen dine ord. Jeg venter udenfor.
 	Views	Visninger
@@ -2646,3 +2652,17 @@ preview	Title	Titel
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Sydafrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Indsæt diagram
+	Diagram Design	Diagramdesign
+	Diagram Styles	Diagramtypografier
+	Decorative Text	Dekorativ tekst
+	Decorative Text Styles	Typografier for dekorativ tekst
+	select a diagram first	vælg først et diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	dette diagram blev oprettet i et andet program: WordCraft viser det, men kan ikke redigere det
+	this diagram can't be edited	dette diagram kan ikke redigeres
+@msg	a diagram holds at most {MAX_ITEMS} items	et diagram kan højst indeholde {MAX_ITEMS} elementer
+@msg	unknown decorative text style `{id}`	ukendt typografi for dekorativ tekst `{id}`
+	select a shape or decorative text first	vælg først en figur eller dekorativ tekst

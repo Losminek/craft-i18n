@@ -781,6 +781,7 @@ cameraRaw	Darks	Nada Gelap
 	Data Sets…	Data Set…
 cameraData	Date Taken	Tanggal Diambil
 	DateTime Original	DateTime Original
+	DDS Import	Impor DDS
 	DDS Options	Opsi DDS
 	De-Interlace…	De-Interlace…
 	Decontaminate	Dekontaminasi
@@ -1149,6 +1150,7 @@ cameraData	F-Stop	Bukaan
 	Flip Canvas Vertical	Balik Kanvas Vertikal
 	Flip Horizontal	Balik Horizontal
 	Flip Vertical	Balik Vertikal
+	Flip vertically	Balik vertikal
 	Flip X	Balik X
 	Flip X Jitter	Jitter Balik X
 	Flip Y	Balik Y
@@ -1360,6 +1362,7 @@ cameraData	Focal Length (35 mm)	Panjang Fokal (35 mm)
 	If you continue, saving over the original may permanently discard unreadable data. Save a copy to keep the original.	Jika Anda melanjutkan, menyimpan di atas file asli dapat membuang data yang tidak terbaca secara permanen. Simpan salinan untuk mempertahankan file asli.
 	Ignore exif profile tag	Abaikan tag profil EXIF
 	Image Assets	Aset Gambar
+	Image Compression	Kompresi Gambar
 	image file path	path berkas gambar
 	Image interpolation	Interpolasi gambar
 	Image Options	Opsi Gambar
@@ -1586,6 +1589,7 @@ cameraRaw	Lights	Nada Terang
 	Load settings from a Camera Raw .xmp file	Muat pengaturan dari berkas .xmp Camera Raw
 	Load Settings…	Muat Pengaturan…
 	Load the brush after each stroke	Muat kuas setelah setiap goresan
+	Load transparency as alpha channel	Muat transparansi sebagai kanal alfa
 	Loaded contours from {file}	Kontur dimuat dari {file}
 	Loaded RAW Develop settings from {file}	Pengaturan Pengembangan RAW dimuat dari {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Pengaturan Pengembangan RAW dimuat dari {file} ({n} tidak didukung)
@@ -1624,6 +1628,7 @@ cameraRaw	Lights	Nada Terang
 	Luminance Smoothness	Kehalusan Luminansi
 	Luminosity	Luminosity
 	LUT folder	Folder LUT
+	LZW	LZW
 	Mac Crisp	Mac Crisp
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -1714,6 +1719,7 @@ fontWeight	Medium	Sedang
 	Minimum Diameter	Diameter Minimum
 	Minimum Roundness	Kebulatan Minimum
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmap sebagai lapisan terpisah
 	Missing delete command	Perintah hapus tidak tersedia
 	Missing glyph protection	Perlindungan glyph hilang
 	Missing Profiles: Ask When Opening	Profil Hilang: Tanya Saat Membuka
@@ -1895,10 +1901,12 @@ cameraData	Model	Model
 	Open a document to use the timeline.	Buka dokumen untuk memakai timeline.
 	Open as smart object	Buka sebagai smart object
 	Open As…	Buka Sebagai…
+	Open cancelled	Buka dibatalkan
 	Open color-less EXR as ACEScg	Buka EXR tanpa informasi warna sebagai ACEScg
 	Open documents as tabs	Buka dokumen sebagai tab
 	Open Document…	Buka…
 	Open EXR Parts…	Buka bagian EXR…
+	Open failed: {error}	Gagal membuka: {error}
 	Open paths use centered strokes	Jalur terbuka menggunakan goresan tengah
 	open source	sumber terbuka
 	Open the release page to choose an installer for your system.	Buka halaman rilis untuk memilih penginstal bagi sistem Anda.
@@ -2308,6 +2316,8 @@ fontWeight	Regular	Reguler
 	Rotate Auto	Rotasi Otomatis
 	Rotate Fixed	Rotasi Tetap
 	Rotate View	Putar Tampilan
+	Rotate View Left	Putar Tampilan ke Kiri
+	Rotate View Right	Putar Tampilan ke Kanan
 	Rotate View Tool	Alat Putar Tampilan
 	Rotate view with trackpad	Putar tampilan dengan trackpad
 	Rotation Adaptation	Adaptasi Rotasi
@@ -2351,6 +2361,7 @@ fontWeight	Regular	Reguler
 	Save for Web (Legacy)…	Simpan untuk Web (Lama)…
 	Save Full-Size Composite in .pcraft Files	Simpan gambar komposit ukuran penuh di file .pcraft
 	Save HTML and Images	Simpan HTML dan Gambar
+	Save Image Pyramid	Simpan Piramida Gambar
 	Save in background	Simpan di latar belakang
 	Save Pixel Aspect Ratio	Simpan Rasio Aspek Piksel
 	Save Selection	Simpan Seleksi
@@ -2363,6 +2374,7 @@ fontWeight	Regular	Reguler
 	Save these settings as a Camera Raw .xmp file	Simpan pengaturan ini sebagai berkas .xmp Camera Raw
 	Save these shortcuts as a .kys file	Simpan pintasan ini sebagai file .kys
 	Save these shortcuts as a new set	Simpan pintasan ini sebagai set baru
+	Save Transparency	Simpan Transparansi
 	Saved contours to {file}	Kontur disimpan ke {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Disimpan untuk Web: {n} file
 	Saved Multichannel	Multichannel Tersimpan
@@ -2970,6 +2982,7 @@ cameraRaw	Tint	Rona
 	Yellows	Kuning
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	Set pintasan keyboard Anda {set} dipakai di sini: {n} pintasan berbeda dari bawaan. Edit › Pintasan Keyboard menampilkannya; Setel Ulang Semua ke Bawaan membatalkannya.
 	ZigZag…	ZigZag…
+	ZIP	ZIP
 	Zoom clicked point to center	Zoom titik yang diklik ke tengah
 	Zoom resizes windows	Zoom mengubah ukuran jendela
 	Zoom with scroll wheel	Zoom dengan roda scroll
@@ -2982,6 +2995,7 @@ cameraRaw	Tint	Rona
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Warna {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} tidak dapat menyimpan semua isi dokumen ini
 	{name} options	Opsi {name}
 	{name} Properties	Properti {name}
@@ -2993,6 +3007,7 @@ cameraRaw	Tint	Rona
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} layer yang direkam oleh layer comp ini telah dihapus. Perbarui layer comp, atau hapus peringatannya.
 @plural	{n} Layer|{n} Layers	{n} Layer
 @plural	{n} layer|{n} layers	{n} layer
+@plural	{n} mip level|{n} mip levels	{n} level mip
 	{n} of {max} sample points	{n} dari {max} titik sampel
 @plural	{n} plane|{n} planes	{n} bidang
 @plural	{n} preset|{n} presets	{n} preset
@@ -3016,3 +3031,35 @@ cameraRaw	Tint	Rona
 	…and {n} more	…dan {n} lagi
 	↑↓ navigate   {key} run   esc close	↑↓ navigasi   {key} jalankan   esc tutup
 	↑↓ navigate   ↵ run   esc close	↑↓ navigasi   ↵ jalankan   esc tutup
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Laporan Konversi Impor
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Hasil pada saat impor. Pengeditan menggunakan aturan asli PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Laporan dalam format yang lebih baru disimpan. Detailnya tidak dapat ditampilkan.
+	No conversion report was recorded.	Tidak ada laporan konversi yang dicatat.
+	No entries on this page.	Tidak ada entri di halaman ini.
+	Layer mask	Masker lapisan
+	Source item	Item sumber
+	{first}–{last} of {total}	{first}–{last} dari {total}
+	Native equivalent	Padanan asli
+	Native approximation	Pendekatan asli
+	Retained, not applied	Disimpan, tidak diterapkan
+	Nonessential data skipped	Data tidak esensial dilewati
+	Unknown outcome	Hasil tidak diketahui
+	Native rules	Aturan asli
+	Native capability limit	Batas kemampuan asli
+	Conversion not implemented	Konversi belum diimplementasikan
+	Resource unavailable	Sumber daya tidak tersedia
+	Invalid optional data	Data opsional tidak valid
+	Retention limit	Batas penyimpanan
+	Precision conversion	Konversi presisi
+	Unknown reason	Alasan tidak diketahui
+	Native layer {id} (removed; historical reference)	Lapisan asli {id} (dihapus; referensi historis)
+	Native layer: {name}	Lapisan asli: {name}
+	Alpha Percentile	Persentil Alfa
+	Alpha Weighted	Berbobot Alfa
+	Color Percentile	Persentil Warna
+	Connectivity	Konektivitas
+	Disc	Lingkungan Melingkar
+	Each	Setiap Kanal
+	Wrap	Bungkus

@@ -177,6 +177,7 @@
 	Arabic	Arapski
 	Arch Down	Luk prema dolje
 	Arch Up	Luk prema gore
+	Arrange All	Posloži sve
 	Arrange\nAll	Rasporedi\nsve
 	Article I.	Članak I.
 	Artistic Effects	Umjetnički efekti
@@ -1376,6 +1377,7 @@ template	Letter	Pismo
 	No items to show.	Nema stavki za prikaz.
 	No Markup	Bez oznaka
 	No model credits were built into this copy.	U ovu kopiju nisu ugrađene zasluge modela.
+	No other WordCraft windows are open.	Nema drugih otvorenih WordCraft prozora.
 	No Outline	Bez obrisa
 	No Paragraph Space	Bez razmaka odlomaka
 	No printers found. Configure a system printer or export a PDF.	Nije pronađen nijedan pisač. Postavite sustavni pisač ili izvezite PDF.
@@ -1466,6 +1468,7 @@ template	Letter	Pismo
 	only in Outline view	samo u prikazu Struktura
 	Only in this document	Samo u ovom dokumentu
 	Only the allowed styles can be applied.	Mogu se primijeniti samo dopušteni stilovi.
+	only the desktop app has several windows	samo desktop aplikacija ima više prozora
 	Only web (http, https) and email (mailto) links can be followed	Mogu se otvarati samo web-poveznice (http, https) i poveznice e-pošte (mailto)
 	Open a document first	Prvo otvorite dokument
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Otvorite datoteku vlastitim preglednikom programa WordCraft kada se sustavni dijaloški okvir za datoteke ne pojavi.
@@ -2097,7 +2100,10 @@ template	Letter	Pismo
 	Swap footnotes and endnotes	Zamijeni fusnote i bilješke na kraju
 	Swedish	Švedski
 	Switch Modes	Promijeni način
+	Switch Windows	Promijeni prozor
 	Switch\nModes	Promijeni\nnačin
+	Switch\nWindows	Promijeni\nprozor
+	Synchronous Scrolling	Sinkrono pomicanje
 	Synonyms	Sinonimi
 	Tab Character	Znak tabulatora
 	Tab character	Znak tabulatora
@@ -2260,6 +2266,7 @@ preview	Title	Naslov
 	Tue	Uto
 	Turabian	Turabian
 	Turkish	Turski
+	turn on View Side by Side first	najprije uključite Prikaži jedan pored drugog
 	Two	Dva
 	Two-sided printing	Obostrani ispis
 	Two-sided: long edge	Obostrano: dulji rub
@@ -2337,6 +2344,7 @@ preview	Title	Naslov
 	Vertical Dots	Okomite točke
 	View Alt Text…	Prikaži alternativni tekst…
 	View Gridlines	Prikaži crte mreže
+	View Side by Side	Prikaži jedan pored drugog
 	View State	Stanje prikaza
 	View › Focus hides everything but your words. I'll wait outside.	Prikaz › Fokus skriva sve osim vaših riječi. Čekat ću vani.
 	Views	Prikazi
@@ -2558,3 +2566,17 @@ preview	Title	Naslov
 	Uruguay	Urugvaj
 	Venezuela	Venezuela
 	South Africa	Južnoafrička Republika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Dijagram
+	Insert Diagram	Umetni dijagram
+	Diagram Design	Dizajn dijagrama
+	Diagram Styles	Stilovi dijagrama
+	Decorative Text	Ukrasni tekst
+	Decorative Text Styles	Stilovi ukrasnog teksta
+	select a diagram first	najprije odaberite dijagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	ovaj je dijagram izrađen u drugom programu: WordCraft ga prikazuje, ali ga ne može uređivati
+	this diagram can't be edited	ovaj se dijagram ne može uređivati
+@msg	a diagram holds at most {MAX_ITEMS} items	dijagram može sadržavati najviše {MAX_ITEMS} stavki
+@msg	unknown decorative text style `{id}`	nepoznat stil ukrasnog teksta `{id}`
+	select a shape or decorative text first	najprije odaberite oblik ili ukrasni tekst

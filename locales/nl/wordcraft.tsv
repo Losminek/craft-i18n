@@ -191,6 +191,7 @@
 	Arch Down	Boog omlaag
 	Arch Up	Boog omhoog
 	Area	Gebied
+	Arrange All	Alles schikken
 	Arrange\nAll	Alles\nschikken
 	Arrows	Pijlen
 	Article I.	Artikel I.
@@ -1410,6 +1411,7 @@
 	No limit	Geen limiet
 	No Markup	Geen markeringen
 	No model credits were built into this copy.	Er zijn geen modelvermeldingen opgenomen in deze build.
+	No other WordCraft windows are open.	Er zijn geen andere WordCraft-vensters geopend.
 	No Outline	Geen omtrek
 	No Paragraph Space	Geen alineaafstand
 	No printers found. Configure a system printer or export a PDF.	Geen printers gevonden. Configureer een systeemprinter of exporteer een PDF.
@@ -2144,7 +2146,10 @@
 	Swap footnotes and endnotes	Voetnoten en eindnoten wisselen
 	Swedish	Zweeds
 	Switch Modes	Modi wisselen
+	Switch Windows	Venster wisselen
 	Switch\nModes	Modi\nwisselen
+	Switch\nWindows	Venster\nwisselen
+	Synchronous Scrolling	Synchroon schuiven
 	Synonyms	Synoniemen
 	Tab Character	Tabteken
 	Tab character	Tabteken
@@ -2395,6 +2400,7 @@ preview	Title	Titel
 	View	Weergave
 	View Alt Text…	Alternatieve tekst weergeven…
 	View Gridlines	Rasterlijnen weergeven
+	View Side by Side	Naast elkaar weergeven
 	View State	Weergavestatus
 	View › Focus hides everything but your words. I'll wait outside.	Weergave › Focus verbergt alles behalve je woorden. Ik wacht wel buiten.
 	Views	Weergaven
@@ -2635,3 +2641,17 @@ preview	Title	Titel
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Zuid-Afrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Diagram invoegen
+	Diagram Design	Diagramontwerp
+	Diagram Styles	Diagramstijlen
+	Decorative Text	Decoratieve tekst
+	Decorative Text Styles	Stijlen voor decoratieve tekst
+	select a diagram first	selecteer eerst een diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	dit diagram is in een ander programma gemaakt: WordCraft toont het, maar kan het niet bewerken
+	this diagram can't be edited	dit diagram kan niet worden bewerkt
+@msg	a diagram holds at most {MAX_ITEMS} items	een diagram kan maximaal {MAX_ITEMS} items bevatten
+@msg	unknown decorative text style `{id}`	onbekende stijl voor decoratieve tekst `{id}`
+	select a shape or decorative text first	selecteer eerst een vorm of decoratieve tekst

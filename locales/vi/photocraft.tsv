@@ -809,6 +809,7 @@ cameraRaw	Darks	Vùng tối vừa
 	Data Sets…	Tập dữ liệu…
 cameraData	Date Taken	Ngày chụp
 	Day For Night	Ngày đổi thành đêm
+	DDS Import	Nhập DDS
 	DDS Options	Tùy chọn DDS
 	De-Interlace…	Khử xen kẽ…
 	Decontaminate	Khử nhiễm màu
@@ -1189,6 +1190,7 @@ layers	Fill:	Độ tô:
 	Flatten Image	Làm phẳng ảnh
 	Flip Canvas Horizontal	Lật canvas ngang
 	Flip Canvas Vertical	Lật canvas dọc
+	Flip vertically	Lật dọc
 	Flip X	Lật X
 	Flip X Jitter	Dao động lật X
 	Flip Y	Lật Y
@@ -1430,6 +1432,7 @@ cameraRaw	Hue	Sắc màu
 	Ignore exif profile tag	Bỏ qua thẻ hồ sơ exif
 	Image Assets	Tài nguyên ảnh
 	Image Balance	Cân bằng ảnh
+	Image Compression	Nén hình ảnh
 	image file path	đường dẫn tệp ảnh
 	Image interpolation	Nội suy ảnh
 	Image Options	Tùy chọn hình ảnh
@@ -1673,6 +1676,7 @@ cameraRaw	Lights	Vùng sáng vừa
 	Load settings from a Camera Raw .xmp file	Tải cài đặt từ tệp .xmp Camera Raw
 	Load Settings…	Tải cài đặt…
 	Load the brush after each stroke	Nạp sơn cho cọ sau mỗi nét vẽ
+	Load transparency as alpha channel	Tải độ trong suốt thành kênh alpha
 	Loaded contours from {file}	Đã tải đường viền từ {file}
 	Loaded RAW Develop settings from {file}	Đã tải cài đặt Xử lý RAW từ {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Đã tải cài đặt Xử lý RAW từ {file} ({n} không được hỗ trợ)
@@ -1711,6 +1715,7 @@ cameraRaw	Luminance Detail	Chi tiết độ sáng
 	Luminosity	Độ sáng
 	Lut	LUT
 	LUT folder	Thư mục LUT
+	LZW	LZW
 	Magenta	Đỏ tía
 cameraRaw	Magenta	Đỏ tía
 	Magenta  ·  Green	Magenta  ·  Xanh lục
@@ -1811,6 +1816,7 @@ cameraRaw	Midtones	Tông trung gian
 	Minimum Diameter	Đường kính tối thiểu
 	Minimum Roundness	Độ tròn tối thiểu
 	Minimum…	Cực tiểu…
+	Mipmaps as separate layers	Mipmap thành các lớp riêng
 	Mirror	Phản chiếu
 	Missing delete command	Thiếu lệnh xóa
 	Missing glyph protection	Bảo vệ khi thiếu glyph
@@ -1990,10 +1996,12 @@ cameraData	Model	Kiểu máy
 	Open As	Mở bằng
 	Open as smart object	Mở dưới dạng đối tượng thông minh
 	Open As…	Mở dạng…
+	Open cancelled	Đã hủy mở
 	Open color-less EXR as ACEScg	Mở EXR không khai báo màu sắc dưới dạng ACEScg
 	Open documents as tabs	Mở tài liệu dưới dạng thẻ
 	Open Document…	Mở…
 	Open EXR Parts…	Mở các phần EXR…
+	Open failed: {error}	Mở thất bại: {error}
 	Open paths use centered strokes	Đường dẫn mở dùng nét căn giữa
 	open source	mã nguồn mở
 	Open the release page to choose an installer for your system.	Mở trang phát hành để chọn bộ cài đặt cho hệ thống của bạn.
@@ -2449,6 +2457,8 @@ fontWeight	Regular	Thường
 	Rotate 90° Clockwise	Xoay 90° theo chiều kim đồng hồ
 	Rotate 90° Counter Clockwise	Xoay 90° ngược chiều kim đồng hồ
 	Rotate View	Xoay khung nhìn
+	Rotate View Left	Xoay chế độ xem sang trái
+	Rotate View Right	Xoay chế độ xem sang phải
 	Rotate View Tool	Công cụ xoay khung nhìn
 	Rotate view with trackpad	Xoay khung nhìn bằng trackpad
 	Rotation Adaptation	Thích ứng xoay
@@ -2497,6 +2507,7 @@ cameraRaw	Saturation	Độ bão hòa
 	Save for Web (Legacy)…	Lưu cho Web (cũ)…
 	Save Full-Size Composite in .pcraft Files	Lưu ảnh tổng hợp kích thước đầy đủ trong tệp .pcraft
 	Save HTML and Images	Lưu HTML và hình ảnh
+	Save Image Pyramid	Lưu kim tự tháp hình ảnh
 	Save in background	Lưu ở nền
 	Save Path	Lưu đường dẫn
 	Save Pixel Aspect Ratio	Lưu tỉ lệ khung hình điểm ảnh
@@ -2509,6 +2520,7 @@ cameraRaw	Saturation	Độ bão hòa
 	Save these shortcuts as a .kys file	Lưu các phím tắt này thành tệp .kys
 	Save these shortcuts as a new set	Lưu các phím tắt này thành bộ mới
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Lưu vào tệp SVG đã mở. Mỗi lần lưu thay đổi tạo một bước hoàn tác trong PhotoCraft.
+	Save Transparency	Lưu độ trong suốt
 	Saved contours to {file}	Đã lưu đường viền vào {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Lưu cho web: {n} tệp
 	Saved RAW Develop settings to {file}	Đã lưu cài đặt Xử lý RAW vào {file}
@@ -3207,6 +3219,7 @@ cameraRaw	Yellow	Vàng
 	ZigZag	Zigzag
 	Zigzag	Zigzag
 	ZigZag…	Zigzag…
+	ZIP	ZIP
 	Zoom clicked point to center	Thu phóng điểm đã nhấp vào giữa
 	Zoom resizes windows	Thu phóng đổi kích thước cửa sổ
 	Zoom Tool	Công cụ Thu phóng
@@ -3220,6 +3233,7 @@ cameraRaw	Yellow	Vàng
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Màu {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} không thể giữ mọi thứ trong tài liệu này
 	{name} options	Tùy chọn {name}
 	{name} Properties	Thuộc tính {name}
@@ -3230,6 +3244,7 @@ cameraRaw	Yellow	Vàng
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Không thể nạp {n} tệp: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} lớp được ghi trong tổ hợp này đã bị xóa. Hãy cập nhật tổ hợp hoặc xóa cảnh báo.
 @plural	{n} layer|{n} layers	{n} lớp
+@plural	{n} mip level|{n} mip levels	{n} mức mip
 	{n} of {max} sample points	{n} trên {max} điểm lấy mẫu
 @plural	{n} plane|{n} planes	{n} mặt phẳng
 @plural	{n} preset|{n} presets	{n} thiết lập sẵn
@@ -3253,3 +3268,34 @@ cameraRaw	Yellow	Vàng
 	↑↓ navigate   {key} run   esc close	↑↓ điều hướng   {key} chạy   esc đóng
 	✓ Color Indicates Masked Areas	✓ Màu chỉ vùng bị che
 	✓ Color Indicates Selected Areas	✓ Màu chỉ vùng được chọn
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Báo cáo chuyển đổi khi nhập
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Kết quả tại thời điểm nhập. Việc chỉnh sửa dùng các quy tắc gốc của PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Một báo cáo ở định dạng mới hơn được giữ lại. Không thể hiển thị chi tiết của báo cáo đó.
+	No conversion report was recorded.	Không có báo cáo chuyển đổi nào được ghi lại.
+	No entries on this page.	Không có mục nào trên trang này.
+	Layer mask	Mặt nạ lớp
+	Source item	Mục nguồn
+	{first}–{last} of {total}	{first}–{last} trên {total}
+	Native equivalent	Biểu diễn gốc tương đương
+	Native approximation	Biểu diễn gốc gần đúng
+	Retained, not applied	Được giữ lại, chưa áp dụng
+	Nonessential data skipped	Đã bỏ qua dữ liệu không thiết yếu
+	Unknown outcome	Kết quả không xác định
+	Native rules	Quy tắc gốc
+	Native capability limit	Giới hạn khả năng gốc
+	Conversion not implemented	Chuyển đổi chưa được triển khai
+	Resource unavailable	Tài nguyên không khả dụng
+	Invalid optional data	Dữ liệu tùy chọn không hợp lệ
+	Retention limit	Giới hạn lưu giữ
+	Precision conversion	Chuyển đổi độ chính xác
+	Unknown reason	Lý do không xác định
+	Native layer {id} (removed; historical reference)	Lớp gốc {id} (đã xóa; tham chiếu lịch sử)
+	Native layer: {name}	Lớp gốc: {name}
+	Alpha Percentile	Phân vị alpha
+	Alpha Weighted	Có trọng số alpha
+	Color Percentile	Phân vị màu
+	Connectivity	Độ liên thông
+	Disc	Lân cận hình tròn
+	Each	Mỗi kênh

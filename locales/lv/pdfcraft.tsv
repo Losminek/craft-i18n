@@ -65,10 +65,10 @@
 	; 1 page skipped	; izlaista 1 lapa
 	; 1 signed file kept its images	; 1 parakstītā failā attēli nav mainīti
 	; cancelled — {n} files were not run	; atcelts — {n} faili netika apstrādāti
-	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; pārvērsts uz {level}, taču vēl ne viss atbilst prasībām ({first}); skatiet Lietot PDF standartus > Saglabāt kā PDF/A
+	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; pārvērsts uz {level}, taču vēl ne viss atbilst prasībām ({first}); skatiet Lietot PDF standartus ▸ Saglabāt kā PDF/A
 	; corrected {n} pages	; labotas {n} lapas
 	; failed: {list}	; neizdevās: {list}
-	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; vēl nav PDF/A: {list} (atveriet tos sadaļā Lietot PDF standartus > Saglabāt kā PDF/A)
+	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; vēl nav PDF/A: {list} (atveriet tos sadaļā Lietot PDF standartus ▸ Saglabāt kā PDF/A)
 	; not saved as {level}: {why}	; nav saglabāts kā {level}: {why}
 	; saved as {level}	; saglabāts kā {level}
 	; skipped: {n}	; izlaisti: {n}
@@ -1240,7 +1240,7 @@ key	Delete	Delete
 	Each page on its own sheet, named Page 1, Page 2…	Katra lapa savā lapā, nosaukta Lapa 1, Lapa 2…
 	Each page prints on the standard sheet it matches (A4, US Letter, …); pages of another size print on the paper above. Only with Size.	Katra lapa tiek drukāta uz atbilstošās standarta loksnes (A4, US Letter, …); cita izmēra lapas tiek drukātas uz augstāk norādītā papīra. Tikai ar Izmērs.
 	Each set is a text file in	Katrs komplekts ir teksta fails mapē
-	Each set is a text file in the guide-set folder (Preferences ▸ Units and guides ▸ Open folder). Edit it in any text editor, send it to others, or drop theirs into the folder, then click Reload. Distances are measured from the edge you name, so a set fits other page sizes.	Katrs komplekts ir teksta fails palīglīniju komplektu mapē (Iestatījumi > Vienības un palīglīnijas > Atvērt mapi). Rediģējiet to jebkurā teksta redaktorā, nosūtiet citiem vai ievietojiet viņu failus mapē un pēc tam noklikšķiniet uz Pārlādēt. Attālumi tiek mērīti no norādītās malas, tāpēc komplekts der arī citiem lapu izmēriem.
+	Each set is a text file in the guide-set folder (Preferences ▸ Units and guides ▸ Open folder). Edit it in any text editor, send it to others, or drop theirs into the folder, then click Reload. Distances are measured from the edge you name, so a set fits other page sizes.	Katrs komplekts ir teksta fails palīglīniju komplektu mapē (Iestatījumi ▸ Vienības un palīglīnijas ▸ Atvērt mapi). Rediģējiet to jebkurā teksta redaktorā, nosūtiet citiem vai ievietojiet viņu failus mapē un pēc tam noklikšķiniet uz Pārlādēt. Attālumi tiek mērīti no norādītās malas, tāpēc komplekts der arī citiem lapu izmēriem.
 	Earlier in calculation order	Agrāk aprēķinu secībā
 	Earlier in tab order	Agrāk tabulēšanas secībā
 	earlier saves are still waiting for the website	iepriekšējās saglabāšanas joprojām gaida tīmekļa vietni
@@ -1853,8 +1853,8 @@ calendar date	January	janvāris
 	JavaScript and actions	JavaScript un darbības
 	JavaScript Console	JavaScript konsole
 	JavaScript console…	JavaScript konsole…
-	JavaScript is turned off (Preferences → JavaScript).	JavaScript ir izslēgts (Iestatījumi > JavaScript).
-	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript ir izslēgts (Iestatījumi > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript ir izslēgts (Iestatījumi → JavaScript).
+	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript ir izslēgts (Iestatījumi ▸ JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript ir izslēdzis jūsu administrators.
 	JavaScript, e.g. getField("total").value	JavaScript, piem., getField("total").value
 	JBIG2 (lossless)	JBIG2 (bezzudumu)
@@ -2250,7 +2250,7 @@ calendar weekday	Mo	Pr
 	No release notes were provided.	Laidiena piezīmes netika sniegtas.
 	No saved measurements in this view.	Šajā skatā nav saglabātu mērījumu.
 	No saved sets yet	Vēl nav saglabātu komplektu
-	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	Vēl nav saglabātu komplektu. Noklikšķiniet ar peles labo pogu uz lineāla > Saglabāt palīglīnijas kā komplektu… vai ievietojiet komplekta failu mapē.
+	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	Vēl nav saglabātu komplektu. Noklikšķiniet ar peles labo pogu uz lineāla ▸ Saglabāt palīglīnijas kā komplektu… vai ievietojiet komplekta failu mapē.
 	No scanned pages were cleaned up.	Skenētās lapas netika notīrītas.
 	No scanner found	Skeneris nav atrasts
 	No scanner is connected.	Nav pievienots neviens skeneris.
@@ -2997,7 +2997,7 @@ review-suggestion	Replacement text	Aizstājošais teksts
 	Right Header Text	Galvenes teksts pa labi
 	Right to left (RTL)	No labās uz kreiso (RTL)
 	Right-click a guide for a colour, Properties… (colour, thickness, label, every page) and Delete. Double-click opens Properties too.	Ar peles labo pogu uz palīglīnijas: krāsa, Rekvizīti… (krāsa, biezums, etiķete, visas lapas) un Dzēst. Dubultklikšķis arī atver Rekvizīti.
-	Right-click a ruler ▸ Save guides as a set… keeps the guides, the unit and, if you like, the grid under a name and a shortcut. {first} … {last} shows and hides a set over any document; Edit in document turns it back into guides you can move.	Ar peles labo pogu uz lineāla > Saglabāt palīglīnijas kā komplektu… saglabā palīglīnijas, vienību un, ja vēlaties, režģi ar nosaukumu un saīsni. {first} … {last} rāda un paslēpj komplektu virs jebkura dokumenta; Rediģēt dokumentā tos atkal pārvērš par pārvietojamām palīglīnijām.
+	Right-click a ruler ▸ Save guides as a set… keeps the guides, the unit and, if you like, the grid under a name and a shortcut. {first} … {last} shows and hides a set over any document; Edit in document turns it back into guides you can move.	Ar peles labo pogu uz lineāla ▸ Saglabāt palīglīnijas kā komplektu… saglabā palīglīnijas, vienību un, ja vēlaties, režģi ar nosaukumu un saīsni. {first} … {last} rāda un paslēpj komplektu virs jebkura dokumenta; Rediģēt dokumentā tos atkal pārvērš par pārvietojamām palīglīnijām.
 	Right-to-left page order	Lapu secība no labās uz kreiso
 	Right-to-left page order in two-page view	Lapu secība no labās uz kreiso divu lapu skatā
 	Right-to-left text	Teksts no labās uz kreiso
@@ -3384,7 +3384,7 @@ key	Shift	Shift
 	Signatures and seals are not carried over or checked.	Paraksti un zīmogi netiek pārnesti vai pārbaudīti.
 	Signatures made under a trusted certificate are shown as valid. Trust only certificates from a source you trust, and compare each fingerprint with the one its authority publishes.	Paraksti, kas veikti ar uzticamu sertifikātu, tiek rādīti kā derīgi. Uzticieties tikai sertifikātiem no uzticama avota un salīdziniet katru ciparvirkni ar tās iestādes publicēto.
 	Signatures panel	Parakstu panelis
-	Signed after this signature, so what they signed includes it: {names}.	Parakstīts pēc šī paraksta, tāpēc to parakstītais to ietver: {names}.
+	Signed after this signature, so what they signed includes it: {names}.	Parakstīja pēc šī paraksta, tāpēc tas ir iekļauts viņu parakstītajā versijā: {names}.
 	Signed and all signatures are valid.	Parakstīts, un visi paraksti ir derīgi.
 	Signed and saved to {path}	Parakstīts un saglabāts: {path}
 	Signed and saved to {path}, without some revocation information: {problems}	Parakstīts un saglabāts: {path}, bez daļas atsaukšanas informācijas: {problems}
@@ -3455,7 +3455,7 @@ scroll speed	Slow	Lēni
 key	Space	Atstarpe
 	Space Audit	Vietas pārbaude
 	Spacing between copies	Atstatums starp kopijām
-	Spacing, offset, subdivisions, colour and thickness are in Preferences ▸ Units and guides.	Atstatums, nobīde, apakšiedaļas, krāsa un biezums ir sadaļā Iestatījumi > Vienības un palīglīnijas.
+	Spacing, offset, subdivisions, colour and thickness are in Preferences ▸ Units and guides.	Atstatums, nobīde, apakšiedaļas, krāsa un biezums ir sadaļā Iestatījumi ▸ Vienības un palīglīnijas.
 	spans two paragraphs	aizņem divas rindkopas
 	Speed:	Ātrums:
 	Spelling checks stay on this device.	Pareizrakstības pārbaude paliek šajā ierīcē.
@@ -4040,7 +4040,7 @@ calendar weekday	Th	Ce
 	This is the last PDF in its folder	Šis ir pēdējais PDF tā mapē
 	This is the last try before the token's PIN locks. A wrong PIN here may lock it permanently.	Šis ir pēdējais mēģinājums, pirms marķiera PIN tiek bloķēts. Nepareizs PIN to var bloķēt neatgriezeniski.
 	This key is used for “{what}” and can't be changed.	Šis taustiņš tiek izmantots darbībai „{what}” un nav maināms.
-	This key moves around the interface on its own. Add Ctrl to use it.	Šis taustiņš pats pārvieto pa saskarni. Pievienojiet Ctrl, lai to izmantotu.
+	This key moves around the interface on its own. Add Ctrl to use it.	Šis taustiņš pats pārvietojas pa saskarni. Pievienojiet Ctrl, lai to izmantotu.
 	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	Šis lielais fails tiek lasīts no diska, lai taupītu atmiņu, tāpēc to vēl nevar rediģēt, aizpildīt vai parakstīt.
 	This machine: {ram} GB RAM, {disk} GB free	Šis dators: {ram} GB RAM, {disk} GB brīvi
 	This measurement needs at least {n} points.	Šim mērījumam vajadzīgi vismaz {n} punkti.
@@ -4062,7 +4062,7 @@ calendar weekday	Th	Ce
 	This printer only prints one-sided.	Šis printeris drukā tikai vienpusēji.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	Šī printera draiveris nepieņem abpusējās drukas iestatījumus no citām programmām, tāpēc tiek lietots tā paša iestatījums. Mainiet to sadaļā Rekvizīti…
 	this signature can't be removed on its own	šo parakstu nevar noņemt atsevišķi
-	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	Šis paraksts izmanto RSA atslēgu, kas īsāka par 2048 bitiem un parakstiem vairs netiek uzskatīta par pietiekami stipru. Tas joprojām tiek validēts, bet uz to nevajadzētu paļauties.
+	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	Šis paraksts izmanto par 2048 bitiem īsāku RSA atslēgu, kas parakstiem vairs netiek uzskatīta par pietiekami stipru. Tas joprojām tiek validēts, bet uz to nevajadzētu paļauties.
 	This signature uses RIPEMD-160, a legacy 160-bit hash algorithm that is no longer recommended for signatures. It still validates, but it should not be relied on.	Šis paraksts izmanto RIPEMD-160, mantotu 160 bitu jaucējalgoritmu, kas parakstiem vairs netiek ieteikts. Tas joprojām tiek validēts, bet uz to nevajadzētu paļauties.
 	This signature uses SHA-1, a weak hash algorithm: collisions in it have been demonstrated. It still validates because many documents signed years ago use it, but it should not be relied on.	Šis paraksts izmanto SHA-1, vāju jaucējalgoritmu, kam ir pierādītas sadursmes. Tas joprojām tiek validēts, jo daudzi pirms gadiem parakstīti dokumenti to izmanto, bet uz to nevajadzētu paļauties.
 	this signing service can't be used: it needs OAuth sign-in in a browser, which PdfCraft doesn't support yet	šo parakstīšanas pakalpojumu nevar izmantot: tam vajadzīga OAuth pieteikšanās pārlūkā, ko PdfCraft vēl neatbalsta
@@ -4078,7 +4078,7 @@ calendar weekday	Th	Ce
 	Timed responses	Atbildes noteiktā laikā
 	Timestamp	Laikspiedols
 	Timestamp server	Laikspiedolu serveris
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Laikspiedoliem un atsaukšanas informācijai nepieciešama datora lietotne. Lai parakstītu šeit, izslēdziet tos sadaļā Iestatījumi > Paraksti.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Laikspiedoliem un atsaukšanas informācijai nepieciešama datora lietotne. Lai parakstītu šeit, izslēdziet tos sadaļā Iestatījumi ▸ Paraksti.
 	Tint Strength	Tonējuma stiprums
 	to	līdz
 	To change locked fields, also set Locked to No.	Lai mainītu bloķētus laukus, iestatiet arī Bloķēts uz Nē.
@@ -4282,9 +4282,9 @@ certificate	Version	Versija
 	View release page…	Skatīt laidiena lapu…
 	View revision {n}	Skatīt {n}. pārskatījumu
 	View signed version	Skatīt parakstīto versiju
-	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	Skats > Režģis ({grid}) zīmē režģi virs lapām; Skats > Piesaistīt režģim ({snap}) piesaista velkamu palīglīniju režģim.
-	View ▸ Guides ({guides}) hides and shows them; View ▸ Clear guides removes this document's guides. Guides are never saved in the PDF.	Skats > Palīglīnijas ({guides}) tās paslēpj un parāda; Skats > Notīrīt palīglīnijas noņem šī dokumenta palīglīnijas. Palīglīnijas nekad netiek saglabātas PDF failā.
-	View ▸ Rulers ({rulers}) shows a ruler above and beside the pages. Click the corner between them to step to the next unit, or right-click a ruler to choose one.	Skats > Lineāli ({rulers}) rāda lineālu virs lapām un blakus tām. Noklikšķiniet uz stūra starp tiem, lai pārslēgtu nākamo vienību, vai ar peles labo pogu uz lineāla, lai to izvēlētos.
+	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	Skats ▸ Režģis ({grid}) zīmē režģi virs lapām; Skats ▸ Piesaistīt režģim ({snap}) piesaista velkamu palīglīniju režģim.
+	View ▸ Guides ({guides}) hides and shows them; View ▸ Clear guides removes this document's guides. Guides are never saved in the PDF.	Skats ▸ Palīglīnijas ({guides}) tās paslēpj un parāda; Skats ▸ Notīrīt palīglīnijas noņem šī dokumenta palīglīnijas. Palīglīnijas nekad netiek saglabātas PDF failā.
+	View ▸ Rulers ({rulers}) shows a ruler above and beside the pages. Click the corner between them to step to the next unit, or right-click a ruler to choose one.	Skats ▸ Lineāli ({rulers}) rāda lineālu virs lapām un blakus tām. Noklikšķiniet uz stūra starp tiem, lai pārslēgtu nākamo vienību, vai ar peles labo pogu uz lineāla, lai to izvēlētos.
 	Viewing	Skatīšana
 	Viewport	Skatlauks
 	Viewport rectangle in page points (x, y, width, height)	Skatlauka taisnstūris lapas punktos (x, y, platums, augstums)
@@ -4529,3 +4529,5 @@ document scrollbar width	Wide	Plats
 	…or paste the raw text here; # headings, - bullets	…vai ielīmējiet RAW tekstu šeit; # virsraksti, - aizzīmes
 	− Page {p}	− {p}. lapa
 	−LOC	−LOC
+	This document's script is asking	Šī dokumenta skripts jautā
+	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Šis pieprasījums nāk no dokumenta, nevis no PdfCraft. Ievadiet paroli tikai tad, ja uzticaties šim dokumentam.

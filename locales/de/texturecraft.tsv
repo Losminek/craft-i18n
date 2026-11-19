@@ -18,6 +18,7 @@
 	2D view only	Nur 2D-Ansicht
 	32 bits (float)	32 Bit (Float)
 	3D mesh	3D-Mesh
+	3D MESH	3D-MESH
 	3D meshes	3D-Meshes
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D-Texturmalerei: Ebenen, Masken, Smart-Materialien, Backen von Mesh-Maps und Export.
 	3D view only	Nur 3D-Ansicht
@@ -128,6 +129,7 @@
 	Brushed lines	Gebürstete Linien
 	BSphere	Begrenzungskugel
 	Built-in (read-only): duplicate it to edit	Integriert (schreibgeschützt): zum Bearbeiten duplizieren
+	Built-in mesh	Integriertes Mesh
 	Built-in templates are read-only: duplicate one to edit it	Integrierte Vorlagen sind schreibgeschützt: zum Bearbeiten eine duplizieren
 	Built-in: {mesh}	Integriert: {mesh}
 	By Mesh Name	Nach Mesh-Name
@@ -141,10 +143,13 @@
 	Cavities	Vertiefungen
 	Cell size (texels at 2K)	Zellengröße (Texel bei 2K)
 	Cells	Zellen
+	Change them in Texture Set Settings	Ändern unter Texturset-Einstellungen
 	Channel source: uniform value, procedural, image or anchor	Kanalquelle: einheitlicher Wert, prozedural, Bild oder Anker
 	Check All	Alle auswählen
 	Check for Updates...	Nach Updates suchen...
 	Checker	Schachbrett
+	Choose another mesh file for the project. It is read when you press OK.	Eine andere Mesh-Datei für das Projekt wählen. Sie wird eingelesen, wenn Sie auf OK klicken.
+	Choosing or reimporting a mesh recomputes all channels.	Beim Wählen oder erneuten Importieren eines Meshs werden alle Kanäle neu berechnet.
 	Clamp	Begrenzen
 	Clear mask	Maske leeren
 	Clear recent projects	Letzte Projekte leeren
@@ -316,6 +321,7 @@
 	Field of view (deg)	Sichtfeld (Grad)
 	File ID	Datei-ID
 	File name without extension; variables insert names	Dateiname ohne Erweiterung; Variablen fügen Namen ein
+	File not found	Datei nicht gefunden
 	File type	Dateityp
 	Fill layer	Füllebene
 	Fill mode	Füllmodus
@@ -370,6 +376,7 @@
 	Gravity	Schwerkraft
 	Gray + A	Grau + A
 	Gray 50%	Grau 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Grünkanal-Konvention von Normal Maps: OpenGL (Y+) oder DirectX (Y-). Importierte und exportierte Normal Maps folgen ihr.
 	Ground Plane	Bodenebene
 	Ground Plane Offset	Bodenversatz
 	Group layer(s)	Ebene(n) gruppieren
@@ -416,6 +423,7 @@
 	Import material...	Material importieren...
 	Import MaterialX material...	MaterialX-Material importieren...
 	Import resources...	Ressourcen importieren...
+	Import settings	Importeinstellungen
 	Import...	Importieren...
 	Imported template "{name}"	Vorlage „{name}“ importiert
 	Imported {name}	{name} importiert
@@ -538,6 +546,7 @@
 	No padding (passthrough)	Kein Padding (unverändert)
 	No Parameters	Keine Parameter
 	No recent projects yet	Noch keine zuletzt geöffneten Projekte
+	No UV tiles	Keine UV-Kacheln
 	Noise amount	Rauschstärke
 	Noise scale	Rauschskalierung
 	none	keins
@@ -592,6 +601,7 @@
 	Paint Skew Correction	Verzerrungskorrektur malen
 	Paint with the current tool	Mit dem aktuellen Werkzeug malen
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Gemalte Ebenenpixel {pixels} MB, zusammengesetzte Kanäle {composites} MB, Compositing-Cache {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	Gemalte Striche folgen der Oberfläche, wenn sich die UVs des neuen Meshs unterscheiden
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Das Malen ist pausiert, solange ein Bake angezeigt wird. Brich den Bake ab oder warte, bis er fertig ist.
 	Pan	Schwenken
 	Parallax occlusion (height channel)	Parallax Occlusion (Höhenkanal)
@@ -626,12 +636,15 @@
 	Position gradient	Positionsverlauf
 	Position jitter	Positionsstreuung
 	Posterize	Tontrennung
+	Preserve stroke positions on mesh	Strichpositionen auf dem Mesh beibehalten
 	Press a key...	Taste drücken...
 	Procedurals	Prozedurale
 	Project	Projekt
+	Project configuration	Projektkonfiguration
 	Project Configuration...	Projektkonfiguration...
 	Project Mesh (LP)	Projektions-Mesh (LP)
 	Project opened	Projekt geöffnet
+	PROJECT SETTINGS	PROJEKTEINSTELLUNGEN
 	Project template	Projektvorlage
 	Projection	Projektion
 	Projects and meshes	Projekte und Meshes
@@ -644,6 +657,7 @@
 	Range	Bereich
 	Raw curvature	Rohe Krümmung
 	Re-cook	Neu berechnen
+	Read the mesh file again, keeping the layers and painted strokes	Die Mesh-Datei erneut einlesen und dabei Ebenen und gemalte Striche beibehalten
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Liest die Krümmungskarte wie gebacken: Eine Änderung des Modus oder einer Größe schaltet die Detailgrößen ein.
 	Rebind any menu item, tool or command	Beliebige Menüeinträge, Werkzeuge oder Befehle neu belegen
 	Recent projects	Letzte Projekte
@@ -654,6 +668,7 @@
 	Relative to Low Mesh	Relativ zum Low-Poly-Mesh
 	Relative to Min/Max	Relativ zu Min/Max
 	Relative to Ray Distances	Relativ zu Strahlabständen
+	Relative to the bounding box diagonal.	Relativ zur Diagonale des Begrenzungsrahmens.
 	Remove Cage	Käfig entfernen
 	Remove channel	Kanal entfernen
 	Remove effect	Effekt entfernen
@@ -830,9 +845,12 @@
 	The first stroke sets the offset from the source.	Der erste Strich legt den Versatz zur Quelle fest.
 	The GPU couldn't render this scene: {error}	Die GPU konnte diese Szene nicht rendern: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Der Alphakanal des Bildes schneidet die Form des Decals aus; abgewandte Flächen und Oberflächen jenseits seiner Tiefe bleiben frei.
+	The mesh file the project is built on. Hover the path to see it in full.	Die Mesh-Datei, auf der das Projekt aufbaut. Zeigen Sie auf den Pfad, um ihn vollständig zu sehen.
 	The next click in the 3D view moves the decal there	Der nächste Klick in der 3D-Ansicht verschiebt das Decal dorthin
 	The project changed while the dialog was open, so nothing was done	Das Projekt hat sich geändert, während der Dialog geöffnet war, daher wurde nichts ausgeführt
 	The resize worker stopped	Der Skalierungsprozess wurde beendet
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Die UV-Kacheln (UDIMs) jedes Textursets, nur zur Ansicht. Ändern unter Texturset-Einstellungen.
+	There is no mesh file to read again. Select one.	Es ist keine Mesh-Datei zum erneuten Einlesen vorhanden. Bitte eine Datei auswählen.
 	Thickness	Dicke
 	Thin areas	Dünne Bereiche
 	Tile	Kacheln
@@ -868,6 +886,7 @@
 	UV island fill	UV-Insel-Füllung
 	UV projection	UV-Projektion
 	UV Seams	UV-Nähte
+	UV Tile settings (UDIMs)	UV-Kachel-Einstellungen (UDIMs)
 	UV tile {tile} resolution	Auflösung der UV-Kachel {tile}
 	UV tiles	UV-Kacheln
 	UV tiles (UDIM)	UV-Kacheln (UDIM)

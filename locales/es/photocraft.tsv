@@ -890,6 +890,7 @@ cameraRaw	Darks	Oscuros
 cameraData	Date Taken	Fecha de captura
 	DateTime Original	Fecha y hora originales
 	Day For Night	Noche americana
+	DDS Import	Importar DDS
 	DDS Options	Opciones de DDS
 	De-Interlace…	Desentrelazar…
 	Decontaminate	Descontaminar
@@ -1317,6 +1318,7 @@ cameraData	F-Stop	Número f
 	Flip Canvas Vertical	Voltear el lienzo verticalmente
 	Flip Horizontal	Voltear horizontal
 	Flip Vertical	Voltear vertical
+	Flip vertically	Voltear verticalmente
 	Flip X	Voltear X
 	Flip X Jitter	Variación de volteo X
 	Flip Y	Voltear Y
@@ -1576,6 +1578,7 @@ cameraRaw	Hue	Tono
 	Image Assets	Recursos de imagen
 	Image Balance	Equilibrio de imagen
 	Image compositor: {processor}	Compositor de imágenes: {processor}
+	Image Compression	Compresión de imagen
 	image file path	ruta del archivo de imagen
 	Image interpolation	Interpolación de imagen
 	Image Options	Opciones de imagen
@@ -1843,6 +1846,7 @@ cameraRaw	Lights	Claros
 	Load settings from a Camera Raw .xmp file	Cargar ajustes desde un archivo .xmp de Camera Raw
 	Load Settings…	Cargar ajustes…
 	Load the brush after each stroke	Cargar el pincel después de cada trazo
+	Load transparency as alpha channel	Cargar transparencia como canal alfa
 	Loaded contours from {file}	Contornos cargados de {file}
 	Loaded RAW Develop settings from {file}	Ajustes de Revelado RAW cargados desde {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Ajustes de Revelado RAW cargados desde {file} ({n} no compatibles)
@@ -1886,6 +1890,7 @@ cameraRaw	Luminance Detail	Detalle de luminancia
 	Luminance Smoothness	Suavizado de luminancia
 	Lut	LUT
 	LUT folder	Carpeta de LUT
+	LZW	LZW
 	Mac Crisp	Definido de Mac
 	Mac LCD	LCD de Mac
 	Mac OS	Mac OS
@@ -1993,6 +1998,7 @@ fontWeight	Medium	Medio
 	Minimum Diameter	Diámetro mínimo
 	Minimum Roundness	Redondez mínima
 	Minimum…	Mínimo…
+	Mipmaps as separate layers	Mipmaps como capas independientes
 	Missing delete command	Falta el comando de eliminación
 	Missing glyph protection	Protección de glifos faltantes
 	Missing Profiles: Ask When Opening	Perfiles no disponibles: preguntar al abrir
@@ -2207,10 +2213,12 @@ layerLabel	No Color	Sin color
 	Open As	Abrir como
 	Open as smart object	Abrir como objeto inteligente
 	Open As…	Abrir como…
+	Open cancelled	Apertura cancelada
 	Open color-less EXR as ACEScg	Abrir EXR sin espacio de color como ACEScg
 	Open documents as tabs	Abrir los documentos como pestañas
 	Open Document…	Abrir…
 	Open EXR Parts…	Abrir partes EXR…
+	Open failed: {error}	Error al abrir: {error}
 	Open File	Abrir archivo
 	Open Folder	Abrir carpeta
 	Open Image	Abrir imagen
@@ -2706,6 +2714,8 @@ fontWeight	Regular	Normal
 	Rotate Auto	Rotación automática
 	Rotate Fixed	Rotación fija
 	Rotate View	Rotar vista
+	Rotate View Left	Girar vista a la izquierda
+	Rotate View Right	Girar vista a la derecha
 	Rotate View Tool	Herramienta Rotar vista
 	Rotate view with trackpad	Rotar la vista con el trackpad
 	Rotation	Rotación
@@ -2758,6 +2768,7 @@ cameraRaw	Roughness	Rugosidad
 	Save Full-Size Composite in .pcraft Files	Guardar la imagen compuesta a tamaño completo en los archivos .pcraft
 	Save HTML and Images	Guardar HTML e imágenes
 	Save Image	Guardar imagen
+	Save Image Pyramid	Guardar pirámide de imagen
 	Save in background	Guardar en segundo plano
 	Save Pixel Aspect Ratio	Guardar relación de aspecto de píxel
 	Save selection as channel	Guardar la selección como canal
@@ -2768,6 +2779,7 @@ cameraRaw	Roughness	Rugosidad
 	Save these settings as a Camera Raw .xmp file	Guardar estos ajustes como archivo .xmp de Camera Raw
 	Save these shortcuts as a .kys file	Guardar estos métodos abreviados como archivo .kys
 	Save these shortcuts as a new set	Guardar estos métodos abreviados como un conjunto nuevo
+	Save Transparency	Guardar transparencia
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Guarde su trabajo y reinicie PhotoCraft para volver a intentar la aceleración por GPU. La interpretación por CPU seguirá activa durante esta sesión.
 	Saved a copy as {path}	Se guardó una copia como {path}
 	Saved contours to {file}	Contornos guardados en {file}
@@ -3522,6 +3534,7 @@ cameraRaw	Yellow	Amarillos
 	ZigZag	Zigzag
 	Zigzag	Zigzag
 	ZigZag…	Zigzag…
+	ZIP	ZIP
 navigator	Zoom	Zoom
 	Zoom clicked point to center	Centrar el punto pulsado al hacer zoom
 	Zoom resizes windows	El zoom redimensiona las ventanas
@@ -3538,6 +3551,7 @@ navigator	Zoom	Zoom
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Color {mode} · {bits} bits
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} no puede conservar todo lo que tiene este documento
 	{name} options	Opciones de {name}
 	{name} Properties	Propiedades de {name}
@@ -3548,6 +3562,7 @@ navigator	Zoom	Zoom
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	No se pudo cargar {n} archivo: {errors}|No se pudieron cargar {n} archivos: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Se eliminó {n} capa registrada por esta composición. Actualice la composición o borre la advertencia.|Se eliminaron {n} capas registradas por esta composición. Actualice la composición o borre la advertencia.
 @plural	{n} layer|{n} layers	{n} capa|{n} capas
+@plural	{n} mip level|{n} mip levels	{n} nivel mip|{n} niveles mip
 	{n} of {max} sample points	{n} de {max} puntos de muestreo
 @plural	{n} plane|{n} planes	{n} plano|{n} planos
 @plural	{n} preset|{n} presets	{n} ajuste preestablecido|{n} ajustes preestablecidos
@@ -3576,3 +3591,34 @@ navigator	Zoom	Zoom
 	↑↓ navigate   ↵ run   esc close	↑↓ navegar   ↵ ejecutar   esc cerrar
 	✓ Color Indicates Masked Areas	✓ El color indica áreas enmascaradas
 	✓ Color Indicates Selected Areas	✓ El color indica áreas seleccionadas
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Informe de conversión de importación
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Resultados al importar. La edición utiliza las reglas nativas de PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Se conserva un informe en un formato más reciente. No se pueden mostrar sus detalles.
+	No conversion report was recorded.	No se registró ningún informe de conversión.
+	No entries on this page.	No hay entradas en esta página.
+	Layer mask	Máscara de capa
+	Source item	Elemento de origen
+	{first}–{last} of {total}	{first}–{last} de {total}
+	Native equivalent	Equivalente nativo
+	Native approximation	Aproximación nativa
+	Retained, not applied	Conservado, sin aplicar
+	Nonessential data skipped	Datos no esenciales omitidos
+	Unknown outcome	Resultado desconocido
+	Native rules	Reglas nativas
+	Native capability limit	Límite de las funciones nativas
+	Conversion not implemented	Conversión no implementada
+	Resource unavailable	Recurso no disponible
+	Invalid optional data	Datos opcionales no válidos
+	Retention limit	Límite de conservación
+	Precision conversion	Conversión de precisión
+	Unknown reason	Motivo desconocido
+	Native layer {id} (removed; historical reference)	Capa nativa {id} (eliminada; referencia histórica)
+	Native layer: {name}	Capa nativa: {name}
+	Alpha Percentile	Percentil de alfa
+	Alpha Weighted	Ponderado por alfa
+	Color Percentile	Percentil de color
+	Connectivity	Conectividad
+	Disc	Disco
+	Each	Cada uno

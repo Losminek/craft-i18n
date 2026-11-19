@@ -178,6 +178,7 @@
 	Arabic	Арабски
 	Arch Down	Дъга надолу
 	Arch Up	Дъга нагоре
+	Arrange All	Подреди всички
 	Arrange\nAll	Подреждане\nна всички
 	Article I.	Член I.
 	Artistic Effects	Художествени ефекти
@@ -1382,6 +1383,7 @@
 	No items to show.	Няма елементи за показване.
 	No Markup	Без маркировки
 	No model credits were built into this copy.	В това копие няма вградени сведения за моделите.
+	No other WordCraft windows are open.	Няма други отворени прозорци на WordCraft.
 	No Outline	Без контур
 	No Paragraph Space	Без разстояние между абзаците
 	No printers found. Configure a system printer or export a PDF.	Не са намерени принтери. Настройте системен принтер или експортирайте PDF.
@@ -1474,6 +1476,7 @@
 	only in Outline view	само в изгледа „Структура“
 	Only in this document	Само в този документ
 	Only the allowed styles can be applied.	Могат да се прилагат само разрешените стилове.
+	only the desktop app has several windows	няколко прозореца има само в настолното приложение
 	Only web (http, https) and email (mailto) links can be followed	Могат да се отварят само уеб (http, https) и имейл (mailto) връзки
 	Open a document first	Първо отворете документ
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Отваряне на файл чрез собствения браузър на WordCraft, когато системният диалогов прозорец за файлове не се появява.
@@ -2116,7 +2119,10 @@
 	Swap footnotes and endnotes	Размяна на бележките под линия и бележките в края
 	Swedish	Шведски
 	Switch Modes	Смяна на режима
+	Switch Windows	Превключване на прозорци
 	Switch\nModes	Смяна на\nрежима
+	Switch\nWindows	Превключване\nна прозорци
+	Synchronous Scrolling	Синхронно превъртане
 	Synonyms	Синоними
 	Tab	Tab
 	Tab Character	Знак за табулация
@@ -2278,6 +2284,7 @@
 	Tue	Вт
 	Turabian	Turabian
 	Turkish	Турски
+	turn on View Side by Side first	първо включете Преглед един до друг
 	Two	Две
 	Two-sided printing	Двустранен печат
 	Two-sided: long edge	Двустранен: дълъг ръб
@@ -2354,6 +2361,7 @@
 	Vertical Dots	Вертикални точки
 	View Alt Text…	Преглед на алтернативния текст…
 	View Gridlines	Показване на линиите на мрежата
+	View Side by Side	Преглед един до друг
 	View State	Състояние на изгледа
 	View › Focus hides everything but your words. I'll wait outside.	Изглед › Фокус скрива всичко освен думите ви. Ще чакам отвън.
 	Views	Изгледи
@@ -2573,3 +2581,17 @@
 	Uruguay	Уругвай
 	Venezuela	Венецуела
 	South Africa	Южна Африка
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Схема
+	Insert Diagram	Вмъкване на схема
+	Diagram Design	Проектиране на схема
+	Diagram Styles	Стилове на схема
+	Decorative Text	Декоративен текст
+	Decorative Text Styles	Стилове на декоративен текст
+	select a diagram first	първо изберете схема
+	this diagram was made in another program: WordCraft shows it but can't edit it	тази схема е създадена в друга програма: WordCraft я показва, но не може да я редактира
+	this diagram can't be edited	тази схема не може да се редактира
+@msg	a diagram holds at most {MAX_ITEMS} items	една схема съдържа най-много {MAX_ITEMS} елемента
+@msg	unknown decorative text style `{id}`	непознат стил на декоративен текст `{id}`
+	select a shape or decorative text first	първо изберете фигура или декоративен текст

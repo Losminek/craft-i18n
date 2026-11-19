@@ -192,6 +192,7 @@
 	Arch Up	Lok navzgor
 	Area	Ploščinski
 	Arrange	Razporedi
+	Arrange All	Razporedi vse
 	Arrange\nAll	Razporedi\nvse
 	Arrows	Puščice
 	Article I.	Article I.
@@ -1531,6 +1532,7 @@
 	No items to show.	No items to show.
 	No Markup	Brez oznak
 	No model credits were built into this copy.	V to kopijo ni vgrajenih podatkov o modelih.
+	No other WordCraft windows are open.	Ni odprtih drugih oken WordCraft.
 	No Outline	Brez obrisa
 	No Paragraph Space	Brez razmika med odstavki
 	No printers found. Configure a system printer or export a PDF.	Ni najdenih tiskalnikov. Nastavite sistemski tiskalnik ali izvozite PDF.
@@ -1626,6 +1628,7 @@
 	only in Outline view	samo v pogledu orisa
 	Only in this document	Samo v tem dokumentu
 	Only the allowed styles can be applied.	Uporabiti je mogoče samo dovoljene sloge.
+	only the desktop app has several windows	samo namizna aplikacija ima več oken
 	Only web (http, https) and email (mailto) links can be followed	Slediti je mogoče samo spletnim (http, https) in e-poštnim (mailto) povezavam
 	Open a document first	Najprej odprite dokument
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Odpri datoteko z WordCraftovim brskalnikom, kadar se sistemsko pogovorno okno ne prikaže.
@@ -2333,9 +2336,12 @@
 	Swap footnotes and endnotes	Zamenjaj sprotne in končne opombe
 	Swedish	Švedščina
 	Switch Modes	Preklopi način
+	Switch Windows	Preklopi okna
 	Switch\nModes	Preklopi\nnačin
+	Switch\nWindows	Preklopi\nokna
 	Symbol	Simbol
 	Symbols	Simboli
+	Synchronous Scrolling	Sinhrono pomikanje
 	Synonyms	Sopomenke
 	System	Sistem
 	Tab	Tabulator
@@ -2509,6 +2515,7 @@ preview	Title	Naslov
 	Tue	Tor
 	Turabian	Turabian
 	Turkish	Turščina
+	turn on View Side by Side first	najprej vklopi Ogled drug ob drugem
 	Two	Dva
 	Two-sided printing	Obojestransko tiskanje
 	Two-sided: long edge	Obojestransko: po daljšem robu
@@ -2594,6 +2601,7 @@ preview	Title	Naslov
 	Vertical Dots	Navpične pike
 	View Alt Text…	Pokaži nadomestno besedilo …
 	View Gridlines	Pokaži mrežne črte
+	View Side by Side	Ogled drug ob drugem
 	View State	Stanje pogleda
 	View › Focus hides everything but your words. I'll wait outside.	Pogled › Osredotočenje skrije vse razen vaših besed. Počakal bom zunaj.
 	Views	Pogledi
@@ -2831,3 +2839,17 @@ preview	Title	Naslov
 	Uruguay	Urugvaj
 	Venezuela	Venezuela
 	South Africa	Južna Afrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Vstavi diagram
+	Diagram Design	Oblikovanje diagrama
+	Diagram Styles	Slogi diagrama
+	Decorative Text	Okrasno besedilo
+	Decorative Text Styles	Slogi okrasnega besedila
+	select a diagram first	najprej izberite diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	ta diagram je bil ustvarjen v drugem programu: WordCraft ga prikaže, vendar ga ne more urejati
+	this diagram can't be edited	tega diagrama ni mogoče urejati
+@msg	a diagram holds at most {MAX_ITEMS} items	diagram lahko vsebuje največ {MAX_ITEMS} elementov
+@msg	unknown decorative text style `{id}`	neznan slog okrasnega besedila `{id}`
+	select a shape or decorative text first	najprej izberite obliko ali okrasno besedilo

@@ -229,6 +229,7 @@ numerals	Arabic	არაბული
 	Attach Template	შაბლონის მიმაგრება
 	Attach…	მიმაგრება…
 	Author	ავტორი
+	Corporate Author	კორპორაციული ავტორი
 	Auto	ავტომატური
 	Auto ({percent}%)	ავტომატური ({percent}%)
 	Auto orientation	ავტომატური ორიენტაცია
@@ -2983,7 +2984,7 @@ preview	Title	სათაური
 	{language} (default)	{language} (ნაგულისხმევი)
 	Built in	ჩაშენებული
 	Your own dictionary	თქვენი საკუთარი ლექსიკონი
-	System dictionary	სისტემური ლექსიკონი
+	System dictionary	სისტემის ლექსიკონი
 	Not available yet	ჯერ არ არის ხელმისაწვდომი
 	Grammar built in	გრამატიკა ჩაშენებულია
 	Install spelling ({size})	მართლწერის დაინსტალირება ({size})
@@ -3092,3 +3093,81 @@ preview	Title	სათაური
 	Uruguay	ურუგვაი
 	Venezuela	ვენესუელა
 	South Africa	სამხრეთ აფრიკა
+	*Bold* and _italic_ as real formatting	*მუქი* და _დახრილი_ ნამდვილი ფორმატირებით
+	Add a period with double-space	წერტილის დასმა ორმაგი შორისით
+	Built-in Heading styles	ჩაშენებული სათაურის სტილები
+	Custom Document Properties	დოკუმენტის მორგებული თვისებები
+	File type	ფაილის ტიპი
+	Folder path	საქაღალდის მისამართი
+	Install Language Pack	ენის პაკეტის დაინსტალირება
+	Language data	ენობრივი მონაცემები
+	Language Packs	ენის პაკეტები
+	Language packs	ენის პაკეტები
+	Macro name:	მაკროსის სახელი:
+	No matching commands	შესაბამისი ბრძანება ვერ მოიძებნა
+	Only text properties can be changed.	მხოლოდ ტექსტური თვისებების შეცვლა შეიძლება.
+spacing	Open	ფართო
+	Pages in the range	დიაპაზონის გვერდები
+	Property names are 1–{max} characters.	თვისების სახელი 1–{max} სიმბოლოსგან უნდა შედგებოდეს.
+	Property values are at most {max} bytes.	თვისების მნიშვნელობა {max} ბაიტს არ უნდა აღემატებოდეს.
+	Record…	ჩაწერა…
+	Remove Language Pack	ენის პაკეტის წაშლა
+	Run	გაშვება
+	Select a property to change.	აირჩიეთ შესაცვლელი თვისება.
+	Set left- and first-indent with tabs and backspaces	მარცხენა და პირველი სტრიქონის შეწევის დაყენება Tab-ითა და Backspace-ით
+	Stop Recording	ჩაწერის შეწყვეტა
+	Text properties only: Word's number, date and yes-no types aren't offered.	მხოლოდ ტექსტური თვისებები: Word-ის რიცხვის, თარიღისა და „დიახ/არა“ ტიპები არ არის შეთავაზებული.
+	Text Size	ტექსტის ზომა
+	There are no macros yet. Record one to add it here.	მაკროსები ჯერ არ არის. ჩაწერეთ მაკროსი და ის აქ დაემატება.
+	This document has no custom properties.	ამ დოკუმენტს მორგებული თვისებები არ აქვს.
+	Update check is not supported in the web browser.	განახლებების შემოწმება ვებბრაუზერში მხარდაჭერილი არ არის.
+	{field}, record {n}	{field}, ჩანაწერი {n}
+	East	აღმოსავლეთი
+	Black	შავი
+	Blue	ლურჯი
+	Turquoise	ფირუზისფერი
+	Bright Green	კაშკაშა მწვანე
+	Pink	ვარდისფერი
+	Red	წითელი
+	Yellow	ყვითელი
+	White	თეთრი
+	Dark Blue	მუქი ლურჯი
+	Teal	ზღვისფერი
+	Green	მწვანე
+	Violet	იისფერი
+	Dark Red	მუქი წითელი
+	Dark Yellow	მუქი ყვითელი
+	Gray-50%	ნაცრისფერი 50%
+	Gray-25%	ნაცრისფერი 25%
+	{n} MB	{n} MB
+	{n} KB	{n} KB
+	Couldn't get the list of languages: {error}	ენების სიის მიღება ვერ მოხერხდა: {error}
+	Couldn't install: {error}	დაინსტალირება ვერ მოხერხდა: {error}
+	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	ჩამოტვირთვის ჩართვა მხოლოდ თქვენ შეგიძლიათ: ღილაკს თავად დაწკაპეთ. ჩართვის შემდეგ აგენტებსაც შეეძლებათ დაინსტალირება.
+	Couldn't turn on downloading: {error}	ჩამოტვირთვის ჩართვა ვერ მოხერხდა: {error}
+	Couldn't remove: {error}	წაშლა ვერ მოხერხდა: {error}
+	{language} proofing isn't installed.	კორექტურა ({language}) დაინსტალირებული არ არის.
+	Installing… {percent}%	დაინსტალირება… {percent}%
+	Install ({size})	დაინსტალირება ({size})
+	Licence: {licence}. Source: {source}	ლიცენზია: {licence}. წყარო: {source}
+	Installing turns on downloading of fonts and Language packs from GitHub.	დაინსტალირება ჩართავს შრიფტებისა და ენის პაკეტების ჩამოტვირთვას GitHub-იდან.
+	Language packs come from a test source: {source}	ენის პაკეტები სატესტო წყაროდან მოდის: {source}
+	Language packs aren't available in the browser.	ბრაუზერში ენის პაკეტები მიუწვდომელია.
+	Language packs aren't available in the browser	ბრაუზერში ენის პაკეტები მიუწვდომელია
+	Language packs need the font store folder, and there is none on this computer.	ენის პაკეტებს შრიფტების საცავის საქაღალდე სჭირდება, ამ კომპიუტერზე კი ის არ არის.
+	Getting the list of languages…	ენების სიის მიღება…
+	Get the list of languages again	ენების სიის ხელახლა მიღება
+	Installed	დაინსტალირებულია
+	Install	დაინსტალირება
+	The spelling and hyphenation data WordCraft uses, and their licences.	მართლწერისა და დამარცვლის მონაცემები, რომლებსაც WordCraft იყენებს, და მათი ლიცენზიები.
+	Spelling dictionaries and hyphenation for more languages. English is built in.	მართლწერის ლექსიკონები და დამარცვლა სხვა ენებისთვის. ინგლისური ჩაშენებულია.
+	The document or selection changed. Check again to continue.	დოკუმენტი ან მონიშნული შეიცვალა. გასაგრძელებლად ხელახლა შეამოწმეთ.
+	Not in Dictionary	ლექსიკონში არ არის
+	Suggestions	შეთავაზებები
+	Change…	ჩანაცვლება…
+	Add to AutoCorrect	ავტოშესწორებაში დამატება
+	AutoCorrect Options…	ავტოშესწორების პარამეტრები…
+	More options	მეტი პარამეტრი
+	Change to:	ჩანაცვლება:
+	Ignore Once	ერთხელ გამოტოვება
+	{language} ({region})	{language} ({region})

@@ -180,6 +180,7 @@
 	Arch Down	Vòm xuống
 	Arch Up	Vòm lên
 	Area	Vùng
+	Arrange All	Sắp xếp tất cả
 	Arrange\nAll	Sắp xếp\ntất cả
 	Article I.	Điều I.
 	Artistic Effects	Hiệu ứng nghệ thuật
@@ -1436,6 +1437,7 @@ template	Letter	Thư
 	No items to show.	Không có mục nào để hiển thị.
 	No Markup	Không có đánh dấu
 	No model credits were built into this copy.	Bản sao này không tích hợp sẵn thông tin ghi công mô hình.
+	No other WordCraft windows are open.	Không có cửa sổ WordCraft nào khác đang mở.
 	No Outline	Không viền
 	No Paragraph Space	Không giãn cách đoạn
 	No printers found. Configure a system printer or export a PDF.	Không tìm thấy máy in. Hãy thiết lập máy in hệ thống hoặc xuất PDF.
@@ -1529,6 +1531,7 @@ template	Letter	Thư
 	only in Outline view	chỉ trong dạng xem Dàn ý
 	Only in this document	Chỉ trong tài liệu này
 	Only the allowed styles can be applied.	Chỉ có thể áp dụng các kiểu được cho phép.
+	only the desktop app has several windows	chỉ ứng dụng máy tính mới có nhiều cửa sổ
 	Only web (http, https) and email (mailto) links can be followed	Chỉ mở được liên kết web (http, https) và email (mailto)
 	Open a document first	Hãy mở một tài liệu trước
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Mở tệp bằng trình duyệt tệp của WordCraft khi hộp thoại tệp của hệ thống không xuất hiện.
@@ -2182,8 +2185,11 @@ template	Letter	Thư
 	Swap footnotes and endnotes	Đổi chỗ chú thích chân trang và chú thích cuối tài liệu
 	Swedish	Tiếng Thụy Điển
 	Switch Modes	Chuyển chế độ
+	Switch Windows	Chuyển cửa sổ
 	Switch\nModes	Chuyển\nchế độ
+	Switch\nWindows	Chuyển\ncửa sổ
 	Symbols	Các ký hiệu
+	Synchronous Scrolling	Cuộn đồng bộ
 	Synonyms	Từ đồng nghĩa
 	Tab Character	Ký tự tab
 	Tab character	Ký tự tab
@@ -2349,6 +2355,7 @@ template	Letter	Thư
 	Tue	T3
 	Turabian	Turabian
 	Turkish	Tiếng Thổ Nhĩ Kỳ
+	turn on View Side by Side first	hãy bật Xem song song trước
 	Two	Hai
 	Two-sided printing	In hai mặt
 	Two-sided: long edge	Hai mặt: cạnh dài
@@ -2429,6 +2436,7 @@ template	Letter	Thư
 	Vertical Dots	Dấu ba chấm dọc
 	View Alt Text…	Xem văn bản thay thế…
 	View Gridlines	Hiện đường lưới bảng
+	View Side by Side	Xem song song
 	View State	Trạng thái hiển thị
 	View › Focus hides everything but your words. I'll wait outside.	Xem › Tập trung ẩn mọi thứ trừ câu chữ của bạn. Tôi sẽ đợi bên ngoài.
 	Views	Các chế độ xem
@@ -2653,3 +2661,17 @@ template	Letter	Thư
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Nam Phi
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Sơ đồ
+	Insert Diagram	Chèn sơ đồ
+	Diagram Design	Thiết kế sơ đồ
+	Diagram Styles	Kiểu sơ đồ
+	Decorative Text	Chữ trang trí
+	Decorative Text Styles	Kiểu chữ trang trí
+	select a diagram first	hãy chọn một sơ đồ trước
+	this diagram was made in another program: WordCraft shows it but can't edit it	sơ đồ này được tạo trong chương trình khác: WordCraft hiển thị được nhưng không thể chỉnh sửa
+	this diagram can't be edited	không thể chỉnh sửa sơ đồ này
+@msg	a diagram holds at most {MAX_ITEMS} items	một sơ đồ chứa tối đa {MAX_ITEMS} mục
+@msg	unknown decorative text style `{id}`	kiểu chữ trang trí không xác định `{id}`
+	select a shape or decorative text first	hãy chọn một hình hoặc chữ trang trí trước

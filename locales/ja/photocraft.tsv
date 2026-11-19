@@ -860,6 +860,7 @@ cameraRaw	Color	カラー
 cameraData	Date Taken	撮影日時
 	DateTime Original	撮影日時
 	Day For Night	デイ・フォー・ナイト
+	DDS Import	DDS インポート
 	DDS Options	DDS オプション
 	De-Interlace…	インターレース解除…
 	Decontaminate	混入を除去
@@ -1256,6 +1257,7 @@ cameraData	F-Stop	絞り値
 	Flip Canvas Vertical	カンバスを垂直方向に反転
 	Flip Horizontal	水平方向に反転
 	Flip Vertical	垂直方向に反転
+	Flip vertically	垂直に反転
 	Flip X	X 反転
 	Flip X Jitter	X 反転のジッター
 	Flip Y	Y 反転
@@ -1511,6 +1513,7 @@ cameraData	Focal Length (35 mm)	焦点距離 (35 mm 換算)
 	Ignore exif profile tag	EXIF のプロファイルタグを無視
 	Image Assets	画像アセット
 	Image Balance	画像のバランス
+	Image Compression	画像圧縮
 	image file path	画像ファイルのパス
 	Image interpolation	画像の補間方法
 	Image Options	画像オプション
@@ -1770,6 +1773,7 @@ cameraRaw	Lights	明部
 	Load settings from a Camera Raw .xmp file	Camera Raw の .xmp ファイルから設定を読み込む
 	Load Settings…	設定を読み込み…
 	Load the brush after each stroke	ストロークごとにブラシに補充
+	Load transparency as alpha channel	透明部分をアルファチャンネルとして読み込む
 	Loaded contours from {file}	{file} からカーブを読み込みました
 	Loaded RAW Develop settings from {file}	{file} から RAW現像 の設定を読み込みました
 	Loaded RAW Develop settings from {file} ({n} not supported)	{file} から RAW現像 の設定を読み込みました（未対応: {n}）
@@ -1807,6 +1811,7 @@ cameraRaw	Lights	明部
 	Luminance Smoothness	輝度の滑らかさ
 	Lut	LUT
 	LUT folder	LUT フォルダー
+	LZW	LZW
 	Mac Crisp	Mac クリスプ
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -1909,6 +1914,7 @@ fontWeight	Medium	中間
 	Minimum Diameter	最小の直径
 	Minimum Roundness	最小の真円率
 	Minimum…	最小値…
+	Mipmaps as separate layers	ミップマップを個別のレイヤーとして
 	Missing delete command	削除コマンドがありません
 	Missing glyph protection	字形欠落の保護
 	Missing Profiles: Ask When Opening	プロファイルなし: 開くときに確認
@@ -2102,10 +2108,12 @@ cameraData	Model	モデル
 	Open As	形式を指定して開く
 	Open as smart object	スマートオブジェクトとして開く
 	Open As…	形式を指定して開く…
+	Open cancelled	開くのをキャンセルしました
 	Open color-less EXR as ACEScg	色空間のないEXRをACEScgとして開く
 	Open documents as tabs	ドキュメントをタブで開く
 	Open Document…	開く…
 	Open EXR Parts…	EXRパートを開く…
+	Open failed: {error}	開くのに失敗しました: {error}
 	Open paths use centered strokes	開いたパスの線は中央に配置されます
 	open source	オープンソース
 	Open the release page to choose an installer for your system.	リリースページでお使いのシステム用のインストーラーを選択してください。
@@ -2567,6 +2575,8 @@ fontWeight	Regular	標準
 	Rotate Auto	回転 (自動)
 	Rotate Fixed	回転 (固定)
 	Rotate View	表示を回転
+	Rotate View Left	表示を左に回転
+	Rotate View Right	表示を右に回転
 	Rotate View Tool	表示回転ツール
 	Rotate view with trackpad	トラックパッドでビューを回転
 	Rotation Adaptation	回転への適応
@@ -2614,6 +2624,7 @@ fontWeight	Regular	標準
 	Save for Web (Legacy)…	Web 用に保存 (従来方式)…
 	Save Full-Size Composite in .pcraft Files	.pcraftファイルにフルサイズの合成画像を保存
 	Save HTML and Images	HTML と画像を保存
+	Save Image Pyramid	画像ピラミッドを保存
 	Save in background	バックグラウンドで保存
 	Save Path	パスを保存
 	Save Pixel Aspect Ratio	ピクセル縦横比を保存
@@ -2625,6 +2636,7 @@ fontWeight	Regular	標準
 	Save these settings as a Camera Raw .xmp file	この設定を Camera Raw の .xmp ファイルとして保存
 	Save these shortcuts as a .kys file	これらのショートカットを .kys ファイルとして保存
 	Save these shortcuts as a new set	これらのショートカットを新規セットとして保存
+	Save Transparency	透明部分を保存
 	Saved contours to {file}	カーブを {file} に保存しました
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Web 用に保存: {n} ファイル
 	Saved Multichannel	保存済みマルチチャンネル
@@ -3345,6 +3357,7 @@ fontWeight	Thin	極細
 	ZigZag	ジグザグ
 	Zigzag	ジグザグ
 	ZigZag…	ジグザグ…
+	ZIP	ZIP
 	Zoom clicked point to center	クリックした位置を中央にズーム
 	Zoom In	拡大
 	Zoom Out	縮小
@@ -3359,6 +3372,7 @@ fontWeight	Thin	極細
 	{message} ({note})	{message}（{note}）
 	{mode} Color · {bits} bit	{mode} カラー · {bits} ビット
 	{name} (Photoshop)	{name}（Photoshop）
+	{name} ({width} × {height})	{name}（{width} × {height}）
 	{name} can't keep everything in this document	{name} にはこのドキュメントの内容をすべて保存できません
 	{name} options	{name} のオプション
 	{name} Properties	{name} のプロパティ
@@ -3370,6 +3384,7 @@ fontWeight	Thin	極細
 @plural	{n} item|{n} items	{n} 件
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	このカンプに記録されたレイヤー {n} 個が削除されました。カンプを更新するか、警告を消去してください。
 @plural	{n} layer|{n} layers	{n} レイヤー
+@plural	{n} mip level|{n} mip levels	{n} MIPレベル
 	{n} of {max} sample points	{max} 個中 {n} 個のサンプルポイント
 @plural	{n} plane|{n} planes	{n} 個の平面
 @plural	{n} preset|{n} presets	{n} 個のプリセット
@@ -3393,3 +3408,34 @@ fontWeight	Thin	極細
 	…and {n} more	…ほか {n} 件
 	↑↓ navigate   {key} run   esc close	↑↓ 移動   {key} 実行   esc 閉じる
 	↑↓ navigate   ↵ run   esc close	↑↓ 移動   ↵ 実行   esc 閉じる
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	インポート変換レポート
+	Import-time outcomes. Editing uses native PhotoCraft rules.	インポート時の処理結果です。編集にはPhotoCraft標準のルールを使用します。
+	A newer report format is retained. Its details cannot be displayed.	新しい形式のレポートが保持されています。詳細は表示できません。
+	No conversion report was recorded.	変換レポートは記録されていません。
+	No entries on this page.	このページに項目はありません。
+	Layer mask	レイヤーマスク
+	Source item	元の項目
+	{first}–{last} of {total}	{total}件中 {first}–{last}件
+	Native equivalent	ネイティブの同等表現
+	Native approximation	ネイティブによる近似
+	Retained, not applied	保持済み・未適用
+	Nonessential data skipped	必須でないデータを省略
+	Unknown outcome	不明な処理結果
+	Native rules	ネイティブのルール
+	Native capability limit	ネイティブ機能の制限
+	Conversion not implemented	変換は未実装
+	Resource unavailable	リソースを利用できません
+	Invalid optional data	任意データが不正です
+	Retention limit	保持容量の上限
+	Precision conversion	精度変換
+	Unknown reason	不明な理由
+	Native layer {id} (removed; historical reference)	ネイティブレイヤー {id}（削除済み・過去の参照）
+	Native layer: {name}	ネイティブレイヤー: {name}
+	Alpha Percentile	アルファのパーセンタイル
+	Alpha Weighted	アルファで重み付け
+	Color Percentile	色のパーセンタイル
+	Connectivity	連結性
+	Disc	円形近傍
+	Each	各チャンネル

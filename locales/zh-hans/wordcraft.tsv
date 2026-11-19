@@ -153,6 +153,7 @@
 	Arch Down	下弯弧
 	Arch Up	上弯弧
 	Area	面积图
+	Arrange All	全部重排
 	Arrange\nAll	全部重排
 	Article I.	第 I 条
 	Artistic Effects	艺术效果
@@ -1178,6 +1179,7 @@
 	No icons match your search.	没有与搜索匹配的图标。
 	No Markup	无标记
 	No model credits were built into this copy.	此版本未内置模型致谢信息。
+	No other WordCraft windows are open.	没有其他打开的 WordCraft 窗口。
 	No Outline	无轮廓
 	No Paragraph Space	无段落间距
 	No printers found. Configure a system printer or export a PDF.	未找到打印机。请在系统中配置打印机或导出 PDF。
@@ -1835,7 +1837,10 @@
 	Swap footnotes and endnotes	脚注和尾注互换
 	Swedish	瑞典语
 	Switch Modes	切换模式
+	Switch Windows	切换窗口
 	Switch\nModes	切换模式
+	Switch\nWindows	切换\n窗口
+	Synchronous Scrolling	同步滚动
 	Synonyms	同义词
 	Tab	制表符
 	Tab Character	制表符字符
@@ -2044,6 +2049,7 @@
 	Vertical alignment:	垂直对齐方式：
 	View Alt Text…	查看替代文字…
 	View Gridlines	查看网格线
+	View Side by Side	并排查看
 	View State	视图状态
 	View › Focus hides everything but your words. I'll wait outside.	视图 › 专注 会隐藏文字以外的一切。我去外面等你。
 	Views	视图
@@ -2262,3 +2268,17 @@
 	Uruguay	乌拉圭
 	Venezuela	委内瑞拉
 	South Africa	南非
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	图示
+	Insert Diagram	插入图示
+	Diagram Design	图示设计
+	Diagram Styles	图示样式
+	Decorative Text	装饰文字
+	Decorative Text Styles	装饰文字样式
+	select a diagram first	请先选择一个图示
+	this diagram was made in another program: WordCraft shows it but can't edit it	此图示由其他程序创建：WordCraft 可以显示，但无法编辑
+	this diagram can't be edited	无法编辑此图示
+@msg	a diagram holds at most {MAX_ITEMS} items	一个图示最多包含 {MAX_ITEMS} 个项目
+@msg	unknown decorative text style `{id}`	未知的装饰文字样式 `{id}`
+	select a shape or decorative text first	请先选择一个形状或装饰文字

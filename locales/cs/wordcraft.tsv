@@ -180,6 +180,7 @@
 	Arch Down	Oblouk dolů
 	Arch Up	Oblouk nahoru
 	Area	Plošný
+	Arrange All	Uspořádat vše
 	Arrange\nAll	Uspořádat\nvše
 	Article I.	Článek I.
 	Artistic Effects	Umělecké efekty
@@ -1412,6 +1413,7 @@
 	No Markup	Bez revizí
 	No model credits were built into this copy.	Tato kopie neobsahuje uvedení modelů.
 	No new sources in that file	V tom souboru nejsou žádné nové prameny
+	No other WordCraft windows are open.	Nejsou otevřena žádná další okna WordCraft.
 	No Outline	Bez obrysu
 	No Paragraph Space	Bez mezer mezi odstavci
 	No printers found. Configure a system printer or export a PDF.	Nebyly nalezeny žádné tiskárny. Nastavte systémovou tiskárnu nebo exportujte PDF.
@@ -1505,6 +1507,7 @@
 	Only in this document	Pouze v tomto dokumentu
 	Only label and number	Pouze popisek a číslo
 	Only the allowed styles can be applied.	Lze použít pouze povolené styly.
+	only the desktop app has several windows	více oken má jen desktopová aplikace
 	Only web (http, https) and email (mailto) links can be followed	Otevřít lze pouze webové (http, https) a e-mailové (mailto) odkazy
 	Open a document first	Nejprve otevřete dokument
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Otevřít soubor pomocí vlastního prohlížeče souborů WordCraftu, když se systémový dialog pro práci se soubory nezobrazí.
@@ -2156,7 +2159,10 @@
 	Swap footnotes and endnotes	Zaměnit poznámky pod čarou a vysvětlivky
 	Swedish	Švédština
 	Switch Modes	Přepnout režimy
+	Switch Windows	Přepnout okna
 	Switch\nModes	Přepnout\nrežimy
+	Switch\nWindows	Přepnout\nokna
+	Synchronous Scrolling	Synchronní posouvání
 	Synonyms	Synonyma
 	Tab Character	Znak tabulátoru
 	Tab character	Znak tabulátoru
@@ -2325,6 +2331,7 @@ preview	Title	Ukázka
 	Tue	Út
 	Turabian	Turabian
 	Turkish	Turečtina
+	turn on View Side by Side first	nejdřív zapněte Zobrazit vedle sebe
 	Two	Dva
 	Two-sided printing	Oboustranný tisk
 	Two-sided: long edge	Oboustranný: dlouhý okraj
@@ -2402,6 +2409,7 @@ preview	Title	Ukázka
 	Vertical Dots	Svislé tečky
 	View Alt Text…	Zobrazit alternativní text…
 	View Gridlines	Zobrazit mřížku
+	View Side by Side	Zobrazit vedle sebe
 	View State	Stav zobrazení
 	View › Focus hides everything but your words. I'll wait outside.	Zobrazení › Soustředění skryje všechno kromě vašich slov. Počkám venku.
 	Views	Zobrazení
@@ -2630,3 +2638,17 @@ preview	Title	Ukázka
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Jihoafrická republika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Vložit diagram
+	Diagram Design	Návrh diagramu
+	Diagram Styles	Styly diagramu
+	Decorative Text	Ozdobný text
+	Decorative Text Styles	Styly ozdobného textu
+	select a diagram first	nejprve vyberte diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	tento diagram byl vytvořen v jiném programu: WordCraft jej zobrazí, ale nemůže jej upravovat
+	this diagram can't be edited	tento diagram nelze upravovat
+@msg	a diagram holds at most {MAX_ITEMS} items	diagram obsahuje nejvýše {MAX_ITEMS} položek
+@msg	unknown decorative text style `{id}`	neznámý styl ozdobného textu `{id}`
+	select a shape or decorative text first	nejprve vyberte obrazec nebo ozdobný text

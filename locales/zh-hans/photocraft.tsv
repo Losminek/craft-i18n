@@ -683,6 +683,7 @@ cameraRaw	Darks	暗调
 	Data Sets as Files…	将数据组导出为文件…
 	Data Sets…	数据组…
 cameraData	Date Taken	拍摄日期
+	DDS Import	DDS 导入
 	DDS Options	DDS 选项
 	De-Interlace…	去交错…
 	Decontaminate	净化
@@ -991,6 +992,7 @@ cameraData	F-Stop	光圈值
 	Flatten Image	拼合图像
 	Flip Canvas Horizontal	水平翻转画布
 	Flip Canvas Vertical	垂直翻转画布
+	Flip vertically	垂直翻转
 	Flip X	翻转 X
 	Flip X Jitter	翻转 X 抖动
 	Flip Y	翻转 Y
@@ -1169,6 +1171,7 @@ cameraData	Focal Length (35 mm)	焦距（35 毫米等效）
 	If you continue, saving over the original may permanently discard unreadable data. Save a copy to keep the original.	如果继续，覆盖保存原始文件可能会永久丢弃无法读取的数据。请保存副本以保留原始文件。
 	Ignore exif profile tag	忽略 EXIF 配置文件标签
 	Image Assets	图像资源
+	Image Compression	图像压缩
 	image file path	图像文件路径
 	Image interpolation	图像插值
 	Image Options	图像选项
@@ -1368,6 +1371,7 @@ cameraRaw	Lights	亮调
 	Load settings from a Camera Raw .xmp file	从 Camera Raw .xmp 文件载入设置
 	Load Settings…	载入设置…
 	Load the brush after each stroke	每次描边后载入画笔
+	Load transparency as alpha channel	将透明度载入为 Alpha 通道
 	Loaded contours from {file}	已从 {file} 载入等高线
 	Loaded RAW Develop settings from {file}	已从 {file} 载入 RAW 显影 设置
 	Loaded RAW Develop settings from {file} ({n} not supported)	已从 {file} 载入 RAW 显影 设置（{n} 项不支持）
@@ -1398,6 +1402,7 @@ cameraRaw	Lights	亮调
 	Luminance Detail	亮度细节
 	Luminosity	明度
 	LUT folder	LUT 文件夹
+	LZW	LZW
 	Magenta  ·  Green	洋红  ·  绿色
 	Magentas	洋红色
 	Magic Eraser Tool	魔术橡皮擦工具
@@ -1476,6 +1481,7 @@ fontWeight	Medium	中等
 	Minimum Diameter	最小直径
 	Minimum Roundness	最小圆度
 	Minimum…	最小值…
+	Mipmaps as separate layers	Mipmap 作为单独图层
 	Missing delete command	缺少删除命令
 	Missing glyph protection	缺失字形保护
 	Miter	斜接
@@ -1626,10 +1632,12 @@ cameraData	Model	型号
 	Open a document to use the timeline.	打开文档以使用时间轴。
 	Open as smart object	作为智能对象打开
 	Open As…	打开为…
+	Open cancelled	已取消打开
 	Open color-less EXR as ACEScg	将无色彩空间信息的 EXR 以 ACEScg 打开
 	Open documents as tabs	以标签页打开文档
 	Open Document…	打开…
 	Open EXR Parts…	打开 EXR 分段…
+	Open failed: {error}	打开失败：{error}
 	Open paths use centered strokes	开放路径使用居中描边
 	open source	开源
 	Open the release page to choose an installer for your system.	打开发布页，选择适合您系统的安装包。
@@ -1988,6 +1996,8 @@ fontWeight	Regular	常规
 	Rotate 90° Clockwise	顺时针旋转 90°
 	Rotate 90° Counter Clockwise	逆时针旋转 90°
 	Rotate View	旋转视图
+	Rotate View Left	向左旋转视图
+	Rotate View Right	向右旋转视图
 	Rotate View Tool	旋转视图工具
 	Rotate view with trackpad	使用触控板旋转视图
 	Rotation Adaptation	旋转适应
@@ -2029,6 +2039,7 @@ fontWeight	Regular	常规
 	Save for Web (Legacy)…	存储为 Web 所用格式（旧版）…
 	Save Full-Size Composite in .pcraft Files	在 .pcraft 文件中存储全尺寸合成图像
 	Save HTML and Images	保存 HTML 和图像
+	Save Image Pyramid	存储图像金字塔
 	Save in background	后台保存
 	Save Pixel Aspect Ratio	保存像素长宽比
 	Save selection as channel	将选区存储为通道
@@ -2039,6 +2050,7 @@ fontWeight	Regular	常规
 	Save these settings as a Camera Raw .xmp file	将这些设置存储为 Camera Raw .xmp 文件
 	Save these shortcuts as a .kys file	将这些快捷键存储为 .kys 文件
 	Save these shortcuts as a new set	将这些快捷键存储为新组
+	Save Transparency	存储透明区域
 	Saved contours to {file}	已将等高线存储到 {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	已存储为 Web 所用格式：{n} 个文件
 	Saved RAW Develop settings to {file}	已将 RAW 显影 设置保存到 {file}
@@ -2576,6 +2588,7 @@ cameraRaw	Tint	色偏
 	Yellows	黄色
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	此处正在使用你的键盘快捷键集 {set}：{n} 个快捷键与默认值不同。可在“编辑 › 键盘快捷键”中查看；“全部重置为默认值”可撤销。
 	ZigZag…	水波…
+	ZIP	ZIP
 	Zoom clicked point to center	将单击点缩放到中心
 	Zoom resizes windows	缩放时调整窗口大小
 	Zoom with scroll wheel	使用滚轮缩放
@@ -2588,6 +2601,7 @@ cameraRaw	Tint	色偏
 	{message} ({note})	{message}（{note}）
 	{mode} Color · {bits} bit	{mode} 颜色 · {bits} 位
 	{name} (Photoshop)	{name}（Photoshop）
+	{name} ({width} × {height})	{name}（{width} × {height}）
 	{name} can't keep everything in this document	{name} 无法保留此文档中的所有内容
 	{name} options	{name} 选项
 	{name} Properties	{name} 属性
@@ -2599,6 +2613,7 @@ cameraRaw	Tint	色偏
 @plural	{n} item|{n} items	{n} 项
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	此图层复合记录的 {n} 个图层已被删除。请更新图层复合，或清除警告。
 @plural	{n} layer|{n} layers	{n} 个图层
+@plural	{n} mip level|{n} mip levels	{n} 个 Mip 层级
 	{n} of {max} sample points	{max} 个取样点中的 {n} 个
 @plural	{n} plane|{n} planes	{n} 个平面
 @plural	{n} preset|{n} presets	{n} 个预设
@@ -2621,3 +2636,35 @@ cameraRaw	Tint	色偏
 	…and {n} more	…以及另外 {n} 项
 	↑↓ navigate   {key} run   esc close	↑↓ 导航   {key} 运行   esc 关闭
 	↑↓ navigate   ↵ run   esc close	↑↓ 导航   ↵ 运行   esc 关闭
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	导入转换报告
+	Import-time outcomes. Editing uses native PhotoCraft rules.	导入时的处理结果。编辑使用 PhotoCraft 自身的规则。
+	A newer report format is retained. Its details cannot be displayed.	已保留较新格式的报告，无法显示其详细信息。
+	No conversion report was recorded.	未记录转换报告。
+	No entries on this page.	此页没有条目。
+	Layer mask	图层蒙版
+	Source item	源项目
+	{first}–{last} of {total}	第 {first}–{last} 项，共 {total} 项
+	Native equivalent	原生等效表示
+	Native approximation	原生近似表示
+	Retained, not applied	已保留，未应用
+	Nonessential data skipped	已跳过非必要数据
+	Unknown outcome	未知结果
+	Native rules	原生规则
+	Native capability limit	原生功能限制
+	Conversion not implemented	尚未实现转换
+	Resource unavailable	资源不可用
+	Invalid optional data	可选数据无效
+	Retention limit	保留容量限制
+	Precision conversion	精度转换
+	Unknown reason	未知原因
+	Native layer {id} (removed; historical reference)	原生图层 {id}（已删除；历史引用）
+	Native layer: {name}	原生图层：{name}
+	Alpha Percentile	Alpha 百分位数
+	Alpha Weighted	按 Alpha 加权
+	Color Percentile	颜色百分位数
+	Connectivity	连通性
+	Disc	圆形邻域
+	Each	每个通道
+	Wrap	环绕

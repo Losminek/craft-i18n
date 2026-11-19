@@ -18,6 +18,7 @@
 	2D view only	Vue 2D seule
 	32 bits (float)	32 bits (flottant)
 	3D mesh	Maillage 3D
+	3D MESH	MAILLAGE 3D
 	3D meshes	Maillages 3D
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Peinture de textures 3D : calques, masques, matériaux intelligents, précalcul des cartes de maillage et export.
 	3D view only	Vue 3D seule
@@ -129,6 +130,7 @@
 	Brushes	Pinceaux
 	BSphere	Sphère englobante
 	Built-in (read-only): duplicate it to edit	Intégré (lecture seule) : dupliquez-le pour le modifier
+	Built-in mesh	Maillage intégré
 	Built-in templates are read-only: duplicate one to edit it	Les modèles intégrés sont en lecture seule : dupliquez-en un pour le modifier
 	Built-in: {mesh}	Intégré : {mesh}
 	By Mesh Name	Par nom de maillage
@@ -142,10 +144,13 @@
 	Cavities	Cavités
 	Cell size (texels at 2K)	Taille des cellules (texels en 2K)
 	Cells	Cellules
+	Change them in Texture Set Settings	Modifiez-les dans les paramètres de l'ensemble de textures
 	Channel source: uniform value, procedural, image or anchor	Source du canal : valeur uniforme, procédural, image ou ancrage
 	Check All	Tout cocher
 	Check for Updates...	Rechercher des mises à jour...
 	Checker	Damier
+	Choose another mesh file for the project. It is read when you press OK.	Choisissez un autre fichier de maillage pour le projet. Il est lu lorsque vous cliquez sur OK.
+	Choosing or reimporting a mesh recomputes all channels.	Choisir ou réimporter un maillage recalcule tous les canaux.
 	Clamp	Limiter
 	Clear mask	Effacer le masque
 	Clear recent projects	Effacer les projets récents
@@ -367,6 +372,7 @@
 	Gravity	Gravité
 	Gray + A	Gris + A
 	Gray 50%	Gris 50 %
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Convention du canal vert des cartes de normales : OpenGL (Y+) ou DirectX (Y-). Les cartes de normales importées et exportées la suivent.
 	Ground Plane	Plan du sol
 	Ground Plane Offset	Décalage du sol
 	Group layer(s)	Grouper le(s) calque(s)
@@ -412,6 +418,7 @@
 	Import material...	Importer un matériau...
 	Import MaterialX material...	Importer un matériau MaterialX...
 	Import resources...	Importer des ressources...
+	Import settings	Paramètres d'importation
 	Import...	Importer...
 	Imported template "{name}"	Modèle « {name} » importé
 	Imported {name}	{name} importé
@@ -532,6 +539,7 @@
 	No padding (passthrough)	Sans marge (transfert direct)
 	No Parameters	Aucun paramètre
 	No recent projects yet	Aucun projet récent pour l'instant
+	No UV tiles	Aucune tuile UV
 	Noise amount	Quantité de bruit
 	Noise scale	Échelle du bruit
 	none	aucun
@@ -586,6 +594,7 @@
 	Paint Skew Correction	Peindre la correction d'inclinaison
 	Paint with the current tool	Peindre avec l'outil actuel
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Pixels des calques peints {pixels} Mo, canaux composités {composites} Mo, cache de composition {cache} Mo
+	Painted strokes follow the surface when the new mesh's UVs differ	Les traits peints suivent la surface lorsque les UV du nouveau maillage diffèrent
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	La peinture est suspendue tant qu'une cuisson est affichée. Annulez la cuisson ou attendez qu'elle se termine.
 	Pan	Panoramique
 	Parallax occlusion (height channel)	Occlusion parallaxe (canal de hauteur)
@@ -619,12 +628,15 @@
 	Position gradient	Dégradé de position
 	Position jitter	Variation de position
 	Posterize	Postérisation
+	Preserve stroke positions on mesh	Conserver la position des traits sur le maillage
 	Press a key...	Appuyez sur une touche...
 	Procedurals	Procéduraux
 	Project	Projet
+	Project configuration	Configuration du projet
 	Project Configuration...	Configuration du projet...
 	Project Mesh (LP)	Maillage de projection (LP)
 	Project opened	Projet ouvert
+	PROJECT SETTINGS	PARAMÈTRES DU PROJET
 	Project template	Modèle de projet
 	Projection	Projection
 	Projects and meshes	Projets et maillages
@@ -636,6 +648,7 @@
 	Radius (texels at 2K)	Rayon (texels en 2K)
 	Raw curvature	Courbure brute
 	Re-cook	Recalculer
+	Read the mesh file again, keeping the layers and painted strokes	Relit le fichier de maillage en conservant les calques et les traits peints
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Lit la carte de courbure telle que calculée : changer le mode ou une taille active les tailles de détail.
 	Rebind any menu item, tool or command	Réattribuer n'importe quel élément de menu, outil ou commande
 	Recent projects	Projets récents
@@ -646,6 +659,7 @@
 	Relative to Low Mesh	Relatif au maillage basse définition
 	Relative to Min/Max	Relatif au minimum/maximum
 	Relative to Ray Distances	Relatif aux distances des rayons
+	Relative to the bounding box diagonal.	Relatif à la diagonale de la boîte englobante.
 	Remove	Supprimer
 	Remove Cage	Supprimer la cage
 	Remove channel	Supprimer le canal
@@ -824,9 +838,12 @@
 	The first stroke sets the offset from the source.	Le premier trait définit le décalage par rapport à la source.
 	The GPU couldn't render this scene: {error}	Le GPU n'a pas pu rendre cette scène : {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	L'alpha de l'image découpe la forme du décalque ; les faces orientées à l'opposé et les surfaces au-delà de sa profondeur restent intactes.
+	The mesh file the project is built on. Hover the path to see it in full.	Le fichier de maillage sur lequel repose le projet. Survolez le chemin pour le voir en entier.
 	The next click in the 3D view moves the decal there	Le prochain clic dans la vue 3D y déplace le décalque
 	The project changed while the dialog was open, so nothing was done	Le projet a changé pendant que la boîte de dialogue était ouverte ; rien n'a été fait
 	The resize worker stopped	Le processus de redimensionnement s'est arrêté
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Les tuiles UV (UDIM) de chaque ensemble de textures, affichées à titre indicatif. Modifiez-les dans les paramètres de l'ensemble de textures.
+	There is no mesh file to read again. Select one.	Il n'y a aucun fichier de maillage à relire. Sélectionnez-en un.
 	Thin areas	Zones fines
 	Tile	Répéter
 	Tiles	Carreaux
@@ -861,6 +878,7 @@
 	UV island fill	Remplissage d'îlots UV
 	UV projection	Projection UV
 	UV Seams	Coutures UV
+	UV Tile settings (UDIMs)	Paramètres des tuiles UV (UDIM)
 	UV tile {tile} resolution	Résolution de la tuile UV {tile}
 	UV tiles	Tuiles UV
 	UV tiles (UDIM)	Tuiles UV (UDIM)

@@ -935,6 +935,7 @@ cameraRaw	Darks	Тёмные тона
 cameraData	Date Taken	Дата съёмки
 	DateTime Original	Дата и время съёмки
 	Day For Night	День как ночь
+	DDS Import	Импорт DDS
 	DDS Options	Параметры DDS
 	De-Interlace…	Устранить чересстрочность…
 	Decontaminate	Очистить
@@ -1394,6 +1395,7 @@ layers	Fill:	Заливка:
 	Flip Canvas Vertical	Отразить холст по вертикали
 	Flip Horizontal	Отразить по горизонтали
 	Flip Vertical	Отразить по вертикали
+	Flip vertically	Отразить по вертикали
 	Flip X	Отразить по X
 	Flip X Jitter	Колебание отражения по X
 	Flip Y	Отразить по Y
@@ -1678,6 +1680,7 @@ cameraRaw	Hue	Тон
 	Image Assets	Ресурсы изображений
 	Image Balance	Баланс изображения
 	Image compositor: {processor}	Компоновщик изображения: {processor}
+	Image Compression	Сжатие изображения
 	image file path	путь к файлу изображения
 	Image interpolation	Интерполяция изображения
 	Image Options	Параметры изображения
@@ -1969,6 +1972,7 @@ cameraRaw	Lights	Светлые тона
 	Load settings from a Camera Raw .xmp file	Загрузить настройки из файла Camera Raw .xmp
 	Load Settings…	Загрузить настройки…
 	Load the brush after each stroke	Загружать кисть после каждого штриха
+	Load transparency as alpha channel	Загрузить прозрачность как альфа-канал
 	Loaded contours from {file}	Контуры загружены из {file}
 	Loaded RAW Develop settings from {file}	Настройки Обработка RAW загружены из {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Настройки Обработка RAW загружены из {file} (не поддерживается: {n})
@@ -2015,6 +2019,7 @@ cameraRaw	Luminance Detail	Детализация яркости
 	Luminance Smoothness	Световая сглаженность
 	Lut	LUT
 	LUT folder	Папка LUT
+	LZW	LZW
 	Mac Crisp	Mac чёткий
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2130,6 +2135,7 @@ cameraRaw	Midtones	Средние тона
 	Minimum Diameter	Минимальный диаметр
 	Minimum Roundness	Минимальная круглость
 	Minimum…	Минимум…
+	Mipmaps as separate layers	Мип-уровни отдельными слоями
 	Mirror	Отражение
 	Missing delete command	Отсутствует команда удаления
 	Missing glyph protection	Защита от отсутствующих глифов
@@ -2351,10 +2357,12 @@ layerLabel	No Color	Без цвета
 	Open As	Открыть как
 	Open as smart object	Открывать как смарт-объект
 	Open As…	Открыть как…
+	Open cancelled	Открытие отменено
 	Open color-less EXR as ACEScg	Открывать EXR без цветового профиля как ACEScg
 	Open documents as tabs	Открывать документы во вкладках
 	Open Document…	Открыть…
 	Open EXR Parts…	Открыть части EXR…
+	Open failed: {error}	Не удалось открыть: {error}
 	Open File	Открыть файл
 	Open Folder	Открыть папку
 	Open Image	Открыть изображение
@@ -2882,6 +2890,8 @@ fontWeight	Regular	Обычный
 	Rotate Auto	Автоповорот
 	Rotate Fixed	Фиксированный поворот
 	Rotate View	Поворот обзора
+	Rotate View Left	Повернуть вид влево
+	Rotate View Right	Повернуть вид вправо
 	Rotate View Tool	Инструмент поворота вида
 	Rotate view with trackpad	Поворот обзора трекпадом
 	Rotation Adaptation	Адаптация поворота
@@ -2937,6 +2947,7 @@ cameraRaw	Saturation	Насыщенность
 	Save Full-Size Composite in .pcraft Files	Сохранять сведённое изображение в полном размере в файлах .pcraft
 	Save HTML and Images	Сохранить HTML и изображения
 	Save Image	Сохранить изображение
+	Save Image Pyramid	Сохранить пирамиду изображения
 	Save in background	Сохранять в фоне
 	Save Path	Сохранить контур
 	Save Pixel Aspect Ratio	Сохранить соотношение сторон пикселя
@@ -2949,6 +2960,7 @@ cameraRaw	Saturation	Насыщенность
 	Save these settings as a Camera Raw .xmp file	Сохранить эти настройки в файл Camera Raw .xmp
 	Save these shortcuts as a .kys file	Сохранить эти комбинации как файл .kys
 	Save these shortcuts as a new set	Сохранить эти комбинации как новый набор
+	Save Transparency	Сохранить прозрачность
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Сохраните работу и перезапустите PhotoCraft, чтобы повторить попытку ускорения GPU. Отрисовка на CPU остаётся активной в этом сеансе.
 	Saved a copy as {path}	Копия сохранена как {path}
 	Saved contours to {file}	Контуры сохранены в {file}
@@ -3753,6 +3765,7 @@ cameraRaw	Yellow	Жёлтые
 	ZigZag	Зигзаг
 	Zigzag	Зигзаг
 	ZigZag…	Зигзаг…
+	ZIP	ZIP
 navigator	Zoom	Масштаб
 	Zoom clicked point to center	Точка клика в центр при масштабировании
 	Zoom In (hold, drag to scrub)	Увеличение (удерживайте, перетащите для прокрутки)
@@ -3772,6 +3785,7 @@ navigator	Zoom	Масштаб
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode}, {bits} бит
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} не может сохранить все содержимое этого документа
 	{name} options	Параметры: {name}
 	{name} Properties	Свойства: {name}
@@ -3782,6 +3796,7 @@ navigator	Zoom	Масштаб
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Не удалось загрузить {n} файл: {errors}|Не удалось загрузить {n} файла: {errors}|Не удалось загрузить {n} файлов: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Удалён {n} слой, записанный в этом варианте. Обновите вариант или сбросьте предупреждение.|Удалены {n} слоя, записанных в этом варианте. Обновите вариант или сбросьте предупреждение.|Удалено {n} слоёв, записанных в этом варианте. Обновите вариант или сбросьте предупреждение.
 @plural	{n} layer|{n} layers	{n} слой|{n} слоя|{n} слоёв
+@plural	{n} mip level|{n} mip levels	{n} MIP-уровень|{n} MIP-уровня|{n} MIP-уровней
 	{n} of {max} sample points	{n} из {max} точек замера
 @plural	{n} plane|{n} planes	{n} плоскость|{n} плоскости|{n} плоскостей
 @plural	{n} preset|{n} presets	{n} набор|{n} набора|{n} наборов
@@ -3810,3 +3825,34 @@ navigator	Zoom	Масштаб
 	↑↓ navigate   ↵ run   esc close	↑↓ навигация   ↵ выполнить   esc закрыть
 	✓ Color Indicates Masked Areas	✓ Цветом обозначены маскированные области
 	✓ Color Indicates Selected Areas	✓ Цветом обозначены выделенные области
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Отчёт о преобразовании при импорте
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Результаты на момент импорта. Редактирование следует собственным правилам PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Сохранён отчёт в более новом формате. Его подробности нельзя отобразить.
+	No conversion report was recorded.	Отчёт о преобразовании не был записан.
+	No entries on this page.	На этой странице нет записей.
+	Layer mask	Маска слоя
+	Source item	Исходный элемент
+	{first}–{last} of {total}	{first}–{last} из {total}
+	Native equivalent	Собственный эквивалент
+	Native approximation	Приближённое преобразование
+	Retained, not applied	Сохранено, не применено
+	Nonessential data skipped	Необязательные данные пропущены
+	Unknown outcome	Неизвестный результат
+	Native rules	Собственные правила
+	Native capability limit	Ограничение собственных возможностей
+	Conversion not implemented	Преобразование не реализовано
+	Resource unavailable	Ресурс недоступен
+	Invalid optional data	Некорректные необязательные данные
+	Retention limit	Лимит хранения
+	Precision conversion	Преобразование точности
+	Unknown reason	Неизвестная причина
+	Native layer {id} (removed; historical reference)	Собственный слой {id} (удалён; историческая ссылка)
+	Native layer: {name}	Собственный слой: {name}
+	Alpha Percentile	Процентиль альфа-канала
+	Alpha Weighted	С учётом альфа-канала
+	Color Percentile	Процентиль цвета
+	Connectivity	Связность
+	Disc	Диск
+	Each	Каждый

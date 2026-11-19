@@ -833,6 +833,7 @@ cameraRaw	Darks	어두운 영역
 	Data Sets…	데이터 세트…
 cameraData	Date Taken	촬영 날짜
 	Day For Night	주간을 야간으로
+	DDS Import	DDS 가져오기
 	DDS Options	DDS 옵션
 	De-Interlace	인터레이스 제거
 	De-Interlace…	인터레이스 제거…
@@ -1234,6 +1235,7 @@ layers	Fill:	칠:
 	Flatten Image	이미지 병합
 	Flip Canvas Horizontal	캔버스 가로로 뒤집기
 	Flip Canvas Vertical	캔버스 세로로 뒤집기
+	Flip vertically	세로로 뒤집기
 	Flip X	X축 뒤집기
 	Flip X Jitter	X축 뒤집기 지터
 	Flip Y	Y축 뒤집기
@@ -1483,6 +1485,7 @@ cameraRaw	Hue	색조
 	Image Assets	이미지 에셋
 	Image Balance	이미지 균형
 	Image compositor: {processor}	이미지 합성 처리기: {processor}
+	Image Compression	이미지 압축
 	image file path	이미지 파일 경로
 	Image interpolation	이미지 보간
 	Image Options	이미지 옵션
@@ -1734,6 +1737,7 @@ cameraRaw	Lights	밝은 중간 영역
 	Load settings from a Camera Raw .xmp file	Camera Raw .xmp 파일에서 설정 불러오기
 	Load Settings…	설정 불러오기…
 	Load the brush after each stroke	획마다 브러시 채우기
+	Load transparency as alpha channel	투명도를 알파 채널로 불러오기
 	Loaded contours from {file}	{file}에서 윤곽선을 불러왔습니다
 	Loaded RAW Develop settings from {file}	{file}에서 RAW 현상 설정을 불러왔습니다
 	Loaded RAW Develop settings from {file} ({n} not supported)	{file}에서 RAW 현상 설정을 불러왔습니다 (미지원 {n}개)
@@ -1772,6 +1776,7 @@ cameraRaw	Luminance	휘도
 cameraRaw	Luminance Detail	휘도 세부 정보
 	Lut	색상 검색표
 	LUT folder	LUT 폴더
+	LZW	LZW
 cameraRaw	Magenta	자홍
 layerLabel	Magenta	자홍
 	Magenta  ·  Green	마젠타 · 초록
@@ -1877,6 +1882,7 @@ cameraRaw	Midtones	중간톤
 	Minimum Diameter	최소 직경
 	Minimum Roundness	최소 원형률
 	Minimum…	최소값…
+	Mipmaps as separate layers	밉맵을 개별 레이어로
 	Missing delete command	삭제 명령이 없습니다
 	Missing glyph protection	누락된 글리프 보호
 	Miter	마이터
@@ -2063,10 +2069,12 @@ layerLabel	No Color	색상 없음
 	Open As	형식을 지정하여 열기
 	Open as smart object	스마트 오브젝트로 열기
 	Open As…	형식을 지정하여 열기…
+	Open cancelled	열기 취소됨
 	Open color-less EXR as ACEScg	색 공간 정보 없는 EXR을 ACEScg로 열기
 	Open documents as tabs	문서를 탭으로 열기
 	Open Document…	열기…
 	Open EXR Parts…	EXR 파트 열기…
+	Open failed: {error}	열기 실패: {error}
 	Open paths use centered strokes	열린 패스는 가운데 획을 사용합니다
 	Open Recent	최근 파일 열기
 	Open Recent is unavailable on the web	웹에서는 최근 파일 열기를 사용할 수 없습니다.
@@ -2531,6 +2539,8 @@ fontWeight	Regular	보통
 	Rotate 90° Clockwise	시계 방향으로 90° 회전
 	Rotate 90° Counter Clockwise	시계 반대 방향으로 90° 회전
 	Rotate View	보기 회전
+	Rotate View Left	보기를 왼쪽으로 회전
+	Rotate View Right	보기를 오른쪽으로 회전
 	Rotate View Tool	보기 회전 도구
 	Rotate view with trackpad	트랙패드로 보기 회전
 	Rotation Adaptation	회전 적응
@@ -2578,6 +2588,7 @@ cameraRaw	Saturation	채도
 	Save for Web (Legacy)…	웹용으로 저장(기존 방식)…
 	Save Full-Size Composite in .pcraft Files	.pcraft 파일에 전체 크기 합성 이미지 저장
 	Save HTML and Images	HTML 및 이미지 저장
+	Save Image Pyramid	이미지 피라미드 저장
 	Save in background	백그라운드에서 저장
 	Save Path	패스 저장
 	Save Pixel Aspect Ratio	픽셀 종횡비 저장
@@ -2589,6 +2600,7 @@ cameraRaw	Saturation	채도
 	Save these settings as a Camera Raw .xmp file	이 설정을 Camera Raw .xmp 파일로 저장
 	Save these shortcuts as a .kys file	이 단축키를 .kys 파일로 저장
 	Save these shortcuts as a new set	이 단축키를 새 세트로 저장
+	Save Transparency	투명도 저장
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	작업을 저장하고 PhotoCraft를 다시 시작하면 GPU 가속을 다시 시도합니다. 현재 세션에서는 CPU 렌더링을 계속 사용합니다.
 	Saved a copy as {path}	사본을 {path}(으)로 저장했습니다.
 	Saved contours to {file}	윤곽선을 {file}에 저장했습니다
@@ -3317,6 +3329,7 @@ cameraRaw	Yellow	노랑
 	ZigZag	지그재그
 	Zigzag	지그재그
 	ZigZag…	지그재그…
+	ZIP	ZIP
 navigator	Zoom	확대/축소
 	Zoom clicked point to center	클릭한 지점을 중앙으로 확대
 	Zoom In (hold, drag to scrub)	확대(누르고 유지, 드래그로 조절)
@@ -3336,6 +3349,7 @@ navigator	Zoom	확대/축소
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} 색상 · {bits}비트
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name}({width} × {height})
 	{name} can't keep everything in this document	{name}에는 이 문서의 모든 내용을 저장할 수 없습니다
 	{name} options	{name} 옵션
 	{name} Properties	{name} 속성
@@ -3346,6 +3360,7 @@ navigator	Zoom	확대/축소
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	파일 {n}개를 불러오지 못했습니다: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	이 레이어 구성 요소에 기록된 레이어 {n}개가 삭제되었습니다. 레이어 구성 요소를 업데이트하거나 경고를 지우세요.
 @plural	{n} layer|{n} layers	레이어 {n}개
+@plural	{n} mip level|{n} mip levels	밉맵 레벨 {n}개
 	{n} of {max} sample points	{max}개 중 {n}개의 샘플 지점
 @plural	{n} plane|{n} planes	평면 {n}개
 @plural	{n} preset|{n} presets	사전 설정 {n}개
@@ -3370,3 +3385,34 @@ navigator	Zoom	확대/축소
 	“{name}” already exists. Replace it?	“{name}”이(가) 이미 있습니다. 대치하시겠습니까?
 	…and {n} more	…외 {n}개
 	↑↓ navigate   {key} run   esc close	↑↓ 이동   {key} 실행   esc 닫기
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	가져오기 변환 보고서
+	Import-time outcomes. Editing uses native PhotoCraft rules.	가져올 때의 처리 결과입니다. 편집에는 PhotoCraft의 기본 규칙이 적용됩니다.
+	A newer report format is retained. Its details cannot be displayed.	더 새로운 형식의 보고서가 보존되어 있습니다. 세부 정보는 표시할 수 없습니다.
+	No conversion report was recorded.	기록된 변환 보고서가 없습니다.
+	No entries on this page.	이 페이지에는 항목이 없습니다.
+	Layer mask	레이어 마스크
+	Source item	원본 항목
+	{first}–{last} of {total}	전체 {total}개 중 {first}–{last}
+	Native equivalent	네이티브 동등 표현
+	Native approximation	네이티브 근사 표현
+	Retained, not applied	보존됨, 적용되지 않음
+	Nonessential data skipped	필수가 아닌 데이터 생략
+	Unknown outcome	알 수 없는 결과
+	Native rules	네이티브 규칙
+	Native capability limit	네이티브 기능 제한
+	Conversion not implemented	변환 미구현
+	Resource unavailable	리소스를 사용할 수 없음
+	Invalid optional data	잘못된 선택적 데이터
+	Retention limit	보존 용량 제한
+	Precision conversion	정밀도 변환
+	Unknown reason	알 수 없는 이유
+	Native layer {id} (removed; historical reference)	네이티브 레이어 {id} (삭제됨, 과거 참조)
+	Native layer: {name}	네이티브 레이어: {name}
+	Alpha Percentile	알파 백분위수
+	Alpha Weighted	알파 가중
+	Color Percentile	색상 백분위수
+	Connectivity	연결성
+	Disc	원형
+	Each	각각

@@ -149,6 +149,7 @@
 	Arch Up	Luk nagore
 	Area	Površinski
 	Arrange	Ređanje
+	Arrange All	Rasporedi sve
 	Arrange\nAll	Rasporedi\nsve
 	Article I.	Član I.
 	Artistic Effects	Umetnički efekti
@@ -1148,6 +1149,7 @@
 	No icons match your search.	Nijedna ikonica ne odgovara pretrazi.
 	No Markup	Bez izmena
 	No model credits were built into this copy.	Ova verzija ne sadrži zasluge za AI modele.
+	No other WordCraft windows are open.	Nema drugih otvorenih WordCraft prozora.
 	No Outline	Bez konture
 	No Paragraph Space	Bez razmaka pasusa
 	No printers found. Configure a system printer or export a PDF.	Nisu pronađeni štampači. Podesite sistemski štampač ili izvezite PDF.
@@ -1789,7 +1791,10 @@
 	Swap footnotes and endnotes	Zameni fusnote i endnote
 	Swedish	Švedski
 	Switch Modes	Promeni režim
+	Switch Windows	Promeni prozor
 	Switch\nModes	Promeni\nrežim
+	Switch\nWindows	Promeni\nprozor
+	Synchronous Scrolling	Sinhrono pomeranje
 	Synonyms	Sinonimi
 	Tab Character	Znak tabulatora
 	Tab character	Znak tabulatora
@@ -1990,6 +1995,7 @@
 	Vertical alignment:	Vertikalno poravnanje:
 	View Alt Text…	Prikaži alternativni tekst…
 	View Gridlines	Prikaži linije mreže
+	View Side by Side	Prikaži uporedo
 	View State	Stanje prikaza
 	View › Focus hides everything but your words. I'll wait outside.	Prikaz › Fokus skriva sve osim vaših reči. Čekaću napolju.
 	Views	Prikazi
@@ -2204,3 +2210,17 @@
 	Uruguay	Urugvaj
 	Venezuela	Venecuela
 	South Africa	Južnoafrička Republika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Dijagram
+	Insert Diagram	Umetni dijagram
+	Diagram Design	Dizajn dijagrama
+	Diagram Styles	Stilovi dijagrama
+	Decorative Text	Ukrasni tekst
+	Decorative Text Styles	Stilovi ukrasnog teksta
+	select a diagram first	prvo izaberite dijagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	ovaj dijagram je napravljen u drugom programu: WordCraft ga prikazuje, ali ne može da ga uređuje
+	this diagram can't be edited	ovaj dijagram ne može da se uređuje
+@msg	a diagram holds at most {MAX_ITEMS} items	dijagram može da sadrži najviše {MAX_ITEMS} stavki
+@msg	unknown decorative text style `{id}`	nepoznat stil ukrasnog teksta `{id}`
+	select a shape or decorative text first	prvo izaberite oblik ili ukrasni tekst

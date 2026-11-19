@@ -1785,6 +1785,7 @@ cameraRaw	Hue	Sävy
 	Image Assets	Kuvaresurssit
 	Image Balance	Kuvan tasapaino
 	Image compositor: {processor}	Kuvan koostin: {processor}
+	Image Compression	Kuvan pakkaus
 	image file path	kuvatiedoston polku
 	Image interpolation	Kuvan interpolointi
 	Image Options	Kuva-asetukset
@@ -2131,6 +2132,7 @@ cameraRaw	Luminance Detail	Luminanssin yksityiskohdat
 	Luminance Smoothness	Luminanssin tasaisuus
 	Lut	LUT
 	LUT folder	LUT-kansio
+	LZW	LZW
 	Mac Crisp	Mac selkeä
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -3104,6 +3106,7 @@ cameraRaw	Saturation	Värikylläisyys
 	Save for Web (Legacy)…	Tallenna verkkoa varten (vanha)…
 	Save HTML and Images	Tallenna HTML ja kuvat
 	Save Image	Tallenna kuva
+	Save Image Pyramid	Tallenna kuvapyramidi
 	Save in background	Tallenna taustalla
 	Save Path	Tallenna polku
 	Save Pixel Aspect Ratio	Tallenna pikselin kuvasuhde
@@ -3116,6 +3119,7 @@ cameraRaw	Save Settings…	Tallenna asetukset…
 cameraRaw	Save these settings as a Camera Raw .xmp file	Tallenna nämä asetukset Camera Raw .xmp -tiedostona
 	Save these shortcuts as a .kys file	Tallenna nämä pikanäppäimet .kys-tiedostona
 	Save these shortcuts as a new set	Tallenna nämä pikanäppäimet uutena sarjana
+	Save Transparency	Tallenna läpinäkyvyys
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Tallenna työsi ja käynnistä PhotoCraft uudelleen, niin GPU-kiihdytystä yritetään uudelleen. CPU-renderöinti pysyy käytössä tämän istunnon ajan.
 	Saved a copy as {path}	Kopio tallennettu nimellä {path}
 	Saved contours to {file}	Kontuurit tallennettu tiedostoon {file}
@@ -3975,6 +3979,7 @@ cameraRaw	Yellow	Keltainen
 	ZigZag	Siksak
 	Zigzag	Siksak
 	ZigZag…	Siksak…
+	ZIP	ZIP
 	Zoom	Zoomaus
 navigator	Zoom	Zoomaus
 	Zoom clicked point to center	Keskitä napsautettu piste zoomattaessa
@@ -4036,3 +4041,35 @@ navigator	Zoom	Zoomaus
 	↑↓ navigate   ↵ run   esc close	↑↓ siirry   ↵ suorita   esc sulje
 	✓ Color Indicates Masked Areas	✓ Väri osoittaa maskatut alueet
 	✓ Color Indicates Selected Areas	✓ Väri osoittaa valitut alueet
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Tuonnin muunnosraportti
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Tuonnin tulokset. Muokkaus noudattaa PhotoCraftin natiiveja sääntöjä.
+	A newer report format is retained. Its details cannot be displayed.	Uudempimuotoinen raportti on säilytetty. Sen tietoja ei voida näyttää.
+	No conversion report was recorded.	Muunnosraporttia ei tallennettu.
+	No entries on this page.	Tällä sivulla ei ole merkintöjä.
+	Layer mask	Tasomaski
+	Source item	Lähdekohde
+	{first}–{last} of {total}	{first}–{last} / {total}
+	Native equivalent	Natiivi vastine
+	Native approximation	Likimääräinen natiivivastine
+	Retained, not applied	Säilytetty, ei käytössä
+	Nonessential data skipped	Epäolennaiset tiedot ohitettu
+	Unknown outcome	Tuntematon tulos
+	Native rules	Natiivit säännöt
+	Native capability limit	Natiivitoiminnon rajoitus
+	Conversion not implemented	Muunnosta ei ole toteutettu
+	Resource unavailable	Resurssi ei ole käytettävissä
+	Invalid optional data	Virheelliset valinnaiset tiedot
+	Retention limit	Säilytysraja
+	Precision conversion	Esitystarkkuuden muunnos
+	Unknown reason	Tuntematon syy
+	Native layer {id} (removed; historical reference)	Natiivi taso {id} (poistettu; historiallinen viite)
+	Native layer: {name}	Natiivi taso: {name}
+	Alpha Percentile	Alfaprosentiili
+	Alpha Weighted	Alfapainotettu
+	Color Percentile	Väriprosentiili
+	Connectivity	Yhdistyvyys
+	Disc	Kiekko
+	Each	Jokainen
+	Value	Arvo

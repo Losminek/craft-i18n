@@ -18,6 +18,7 @@
 	2D view only	Apenas vista 2D
 	32 bits (float)	32 bits (float)
 	3D mesh	Malha 3D
+	3D MESH	MALHA 3D
 	3D meshes	Malhas 3D
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Pintura de texturas 3D: camadas, máscaras, materiais inteligentes, bake de mapas de malha e exportação.
 	3D view only	Apenas vista 3D
@@ -129,6 +130,7 @@
 	Brushed lines	Linhas escovadas
 	BSphere	Esfera delimitadora
 	Built-in (read-only): duplicate it to edit	Embutido (somente leitura): duplique-o para editar
+	Built-in mesh	Malha embutida
 	Built-in templates are read-only: duplicate one to edit it	Os modelos embutidos são somente leitura: duplique um para editá-lo
 	Built-in: {mesh}	Embutida: {mesh}
 	By Mesh Name	Por nome da malha
@@ -142,10 +144,13 @@
 	Cavities	Cavidades
 	Cell size (texels at 2K)	Tamanho da célula (texels em 2K)
 	Cells	Células
+	Change them in Texture Set Settings	Altere-os em Configurações do conjunto de texturas
 	Channel source: uniform value, procedural, image or anchor	Origem do canal: valor uniforme, procedural, imagem ou âncora
 	Check All	Marcar todos
 	Check for Updates...	Verificar atualizações...
 	Checker	Xadrez
+	Choose another mesh file for the project. It is read when you press OK.	Escolha outro arquivo de malha para o projeto. Ele é lido quando você clica em OK.
+	Choosing or reimporting a mesh recomputes all channels.	Escolher ou reimportar uma malha recalcula todos os canais.
 	Clamp	Limitar
 	Clear mask	Limpar máscara
 	Clear recent projects	Limpar projetos recentes
@@ -368,6 +373,7 @@
 	Gray + A	Cinza + A
 	Gray 50%	Cinza 50%
 	Grayscale	Escala de cinza
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Convenção do canal verde dos mapas normais: OpenGL (Y+) ou DirectX (Y-). Os mapas normais importados e exportados a seguem.
 	Ground Plane	Plano do solo
 	Ground Plane Offset	Deslocamento do solo
 	Group layer(s)	Agrupar camada(s)
@@ -413,6 +419,7 @@
 	Import material...	Importar material...
 	Import MaterialX material...	Importar material MaterialX...
 	Import resources...	Importar recursos...
+	Import settings	Configurações de importação
 	Import...	Importar...
 	Imported template "{name}"	Modelo "{name}" importado
 	Imported {name}	{name} importado
@@ -534,6 +541,7 @@
 	No padding (passthrough)	Sem margem (passagem direta)
 	No Parameters	Sem parâmetros
 	No recent projects yet	Nenhum projeto recente ainda
+	No UV tiles	Sem tiles UV
 	Noise amount	Quantidade de ruído
 	Noise scale	Escala do ruído
 	none	nenhum
@@ -589,6 +597,7 @@
 	Paint Skew Correction	Pintar correção de inclinação
 	Paint with the current tool	Pintar com a ferramenta atual
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Pixels das camadas pintadas {pixels} MB, canais compostos {composites} MB, cache de composição {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	Os traços pintados acompanham a superfície quando as UVs da nova malha são diferentes
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	A pintura fica em pausa enquanto um bake é exibido. Cancele o bake ou espere ele terminar.
 	Pan	Deslocar
 	Parallax occlusion (height channel)	Oclusão de paralaxe (canal de altura)
@@ -621,12 +630,15 @@
 	Pores	Poros
 	Position gradient	Gradiente de posição
 	Position jitter	Variação de posição
+	Preserve stroke positions on mesh	Preservar a posição dos traços na malha
 	Press a key...	Pressione uma tecla...
 	Procedurals	Procedurais
 	Project	Projeto
+	Project configuration	Configuração do projeto
 	Project Configuration...	Configuração do projeto...
 	Project Mesh (LP)	Malha de projeção (LP)
 	Project opened	Projeto aberto
+	PROJECT SETTINGS	CONFIGURAÇÕES DO PROJETO
 	Project template	Modelo de projeto
 	Projection	Projeção
 	Projects and meshes	Projetos e malhas
@@ -638,6 +650,7 @@
 	Radius (texels at 2K)	Raio (texels em 2K)
 	Raw curvature	Curvatura bruta
 	Re-cook	Recalcular
+	Read the mesh file again, keeping the layers and painted strokes	Lê o arquivo da malha novamente, mantendo as camadas e os traços pintados
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Lê o mapa de curvatura como foi assado: mudar o modo ou um tamanho ativa os tamanhos de detalhe.
 	Rebind any menu item, tool or command	Reatribuir qualquer item de menu, ferramenta ou comando
 	Recent projects	Projetos recentes
@@ -648,6 +661,7 @@
 	Relative to Low Mesh	Relativo à malha de baixa resolução
 	Relative to Min/Max	Relativo ao mínimo/máximo
 	Relative to Ray Distances	Relativo às distâncias dos raios
+	Relative to the bounding box diagonal.	Relativo à diagonal da caixa delimitadora.
 	Remove Cage	Remover gaiola
 	Remove channel	Remover canal
 	Remove effect	Remover efeito
@@ -823,9 +837,12 @@
 	The first stroke sets the offset from the source.	O primeiro traço define o deslocamento em relação à origem.
 	The GPU couldn't render this scene: {error}	A GPU não conseguiu renderizar esta cena: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	O alpha da imagem recorta a forma do decalque; faces voltadas para trás e superfícies além da sua profundidade ficam intactas.
+	The mesh file the project is built on. Hover the path to see it in full.	O arquivo de malha em que o projeto se baseia. Passe o mouse sobre o caminho para vê-lo por inteiro.
 	The next click in the 3D view moves the decal there	O próximo clique na vista 3D move o decalque para lá
 	The project changed while the dialog was open, so nothing was done	O projeto mudou enquanto a caixa de diálogo estava aberta, então nada foi feito
 	The resize worker stopped	O processo de redimensionamento parou
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Os tiles UV (UDIM) de cada conjunto de texturas, apenas para consulta. Altere-os em Configurações do conjunto de texturas.
+	There is no mesh file to read again. Select one.	Não há nenhum arquivo de malha para ler novamente. Selecione um.
 	Thin areas	Áreas finas
 	Tile	Repetir
 	Tiles	Ladrilhos
@@ -860,6 +877,7 @@
 	UV island fill	Preenchimento de ilhas UV
 	UV projection	Projeção UV
 	UV Seams	Costuras UV
+	UV Tile settings (UDIMs)	Configurações de tiles UV (UDIM)
 	UV tile {tile} resolution	Resolução do tile UV {tile}
 	UV tiles	Tiles UV
 	UV tiles (UDIM)	Tiles UV (UDIM)

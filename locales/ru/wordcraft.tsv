@@ -178,6 +178,7 @@
 	Arch Down	Арка вниз
 	Arch Up	Арка вверх
 	Area	С областями
+	Arrange All	Упорядочить все
 	Arrange\nAll	Упорядочить\nвсе
 	Article I.	Статья I.
 	Artistic Effects	Художественные эффекты
@@ -1384,6 +1385,7 @@
 	No items to show.	Нет элементов для показа.
 	No Markup	Без исправлений
 	No model credits were built into this copy.	В эту сборку не включены сведения о моделях.
+	No other WordCraft windows are open.	Других открытых окон WordCraft нет.
 	No Outline	Нет контура
 	No Paragraph Space	Без интервала между абзацами
 	No printers found. Configure a system printer or export a PDF.	Принтеры не найдены. Настройте системный принтер или экспортируйте PDF.
@@ -1475,6 +1477,7 @@
 	only in Outline view	только в режиме структуры
 	Only in this document	Только в этом документе
 	Only the allowed styles can be applied.	Можно применять только разрешённые стили.
+	only the desktop app has several windows	несколько окон есть только в настольном приложении
 	Only web (http, https) and email (mailto) links can be followed	Переходить можно только по веб-ссылкам (http, https) и ссылкам на электронную почту (mailto)
 	Open a document first	Сначала откройте документ
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Открыть файл во встроенном обозревателе WordCraft, если системное диалоговое окно выбора файлов не появляется.
@@ -2116,7 +2119,10 @@
 	Swap footnotes and endnotes	Поменять сноски и концевые сноски
 	Swedish	Шведский
 	Switch Modes	Сменить режим
+	Switch Windows	Перейти в другое окно
 	Switch\nModes	Сменить\nрежим
+	Switch\nWindows	Перейти в\nдругое окно
+	Synchronous Scrolling	Синхронная прокрутка
 	Synonyms	Синонимы
 	Tab	Tab
 	Tab Character	Знак табуляции
@@ -2282,6 +2288,7 @@ preview	Title	Пример
 	Trust Center	Центр управления безопасностью
 	Tue	Вт
 	Turkish	Турецкий
+	turn on View Side by Side first	сначала включите «Рядом»
 	Two	Две
 	Two-sided printing	Двусторонняя печать
 	Two-sided: long edge	Двусторонняя: длинный край
@@ -2361,6 +2368,7 @@ preview	Title	Пример
 	Vertical Dots	Вертикальное многоточие
 	View Alt Text…	Показать замещающий текст…
 	View Gridlines	Показать сетку
+	View Side by Side	Рядом
 	View State	Состояние вида
 	View › Focus hides everything but your words. I'll wait outside.	Вид › Фокус скрывает всё, кроме ваших слов. Я подожду снаружи.
 	Views	Режимы просмотра
@@ -2581,3 +2589,17 @@ preview	Title	Пример
 	Uruguay	Уругвай
 	Venezuela	Венесуэла
 	South Africa	Южная Африка
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Схема
+	Insert Diagram	Вставить схему
+	Diagram Design	Оформление схемы
+	Diagram Styles	Стили схемы
+	Decorative Text	Декоративный текст
+	Decorative Text Styles	Стили декоративного текста
+	select a diagram first	сначала выберите схему
+	this diagram was made in another program: WordCraft shows it but can't edit it	эта схема создана в другой программе: WordCraft показывает её, но не может редактировать
+	this diagram can't be edited	эту схему нельзя редактировать
+@msg	a diagram holds at most {MAX_ITEMS} items	схема может содержать не более {MAX_ITEMS} элементов
+@msg	unknown decorative text style `{id}`	неизвестный стиль декоративного текста `{id}`
+	select a shape or decorative text first	сначала выберите фигуру или декоративный текст

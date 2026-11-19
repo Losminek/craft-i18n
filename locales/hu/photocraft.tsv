@@ -905,6 +905,7 @@ cameraRaw	Darks	Sötét tónusok
 cameraData	Date Taken	Készítés ideje
 	DateTime Original	Eredeti dátum és idő
 	Day For Night	Nappali éjszaka
+	DDS Import	DDS importálása
 	DDS Options	DDS-beállítások
 	De-Interlace	Váltott soros megjelenítés megszüntetése
 	De-Interlace…	Váltott soros megjelenítés megszüntetése…
@@ -1331,6 +1332,7 @@ cameraData	F-Stop	Rekesz
 	Flatten Image	Kép egybesimítása
 	Flip Canvas Horizontal	Vászon vízszintes tükrözése
 	Flip Canvas Vertical	Vászon függőleges tükrözése
+	Flip vertically	Függőleges tükrözés
 	Flip X	X-tükrözés
 	Flip X Jitter	X-tükrözés ingadozása
 	Flip Y	Y-tükrözés
@@ -1596,6 +1598,7 @@ cameraRaw	Hue	Színárnyalat
 	Image Assets	Képelemek
 	Image Balance	Képegyensúly
 	Image compositor: {processor}	Képösszeállító: {processor}
+	Image Compression	Képtömörítés
 	image file path	képfájl elérési útja
 	Image interpolation	Képinterpoláció
 	Image Options	Képbeállítások
@@ -1863,6 +1866,7 @@ cameraRaw	Lights	Világos tónusok
 	Load settings from a Camera Raw .xmp file	Beállítások betöltése Camera Raw .xmp-fájlból
 	Load Settings…	Beállítások betöltése…
 	Load the brush after each stroke	Az ecset feltöltése minden ecsetvonás után
+	Load transparency as alpha channel	Átlátszóság betöltése alfacsatornaként
 	Loaded contours from {file}	Kontúrok betöltve: {file}
 	Loaded RAW Develop settings from {file}	RAW-előhívás-beállítások betöltve innen: {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-előhívás-beállítások betöltve innen: {file} ({n} nem támogatott)
@@ -1907,6 +1911,7 @@ cameraRaw	Luminance Detail	Luminancia-részletesség
 	Luminosity	Fényesség
 	Lut	LUT
 	LUT folder	LUT-mappa
+	LZW	LZW
 	Mac Crisp	Mac tiszta
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2014,6 +2019,7 @@ fontWeight	Medium	Közepes
 	Minimum Diameter	Minimális átmérő
 	Minimum Roundness	Minimális kerekség
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmap-ek külön rétegekként
 	Mirror	Tükrözés
 	Missing delete command	Hiányzó törlési parancs
 	Missing glyph protection	Hiányzó glifák elleni védelem
@@ -2228,10 +2234,12 @@ layerLabel	No Color	Nincs szín
 	Open As	Megnyitás mint
 	Open as smart object	Megnyitás intelligens objektumként
 	Open As…	Megnyitás mint…
+	Open cancelled	Megnyitás megszakítva
 	Open color-less EXR as ACEScg	Színinformáció nélküli EXR megnyitása ACEScg-ként
 	Open documents as tabs	Dokumentumok megnyitása lapfülként
 	Open Document…	Megnyitás…
 	Open EXR Parts…	EXR-részek megnyitása…
+	Open failed: {error}	A megnyitás sikertelen: {error}
 	Open File	Fájl megnyitása
 	Open Folder	Mappa megnyitása
 	Open Image	Kép megnyitása
@@ -2736,6 +2744,8 @@ fontWeight	Regular	Normál
 	Rotate Auto	Forgatás: automatikus
 	Rotate Fixed	Forgatás: rögzített
 	Rotate View	Nézetforgatás
+	Rotate View Left	Nézet forgatása balra
+	Rotate View Right	Nézet forgatása jobbra
 	Rotate View Tool	Nézetforgatás
 	Rotate view with trackpad	Nézetforgatás érintőpárnával
 	Rotation Adaptation	Elforgatás-adaptáció
@@ -2787,6 +2797,7 @@ cameraRaw	Roughness	Érdesség
 	Save Full-Size Composite in .pcraft Files	Teljes méretű kompozit kép mentése a .pcraft fájlokba
 	Save HTML and Images	HTML és képek mentése
 	Save Image	Kép mentése
+	Save Image Pyramid	Képgúla mentése
 	Save in background	Mentés a háttérben
 	Save Pixel Aspect Ratio	Pixelarány mentése
 	Save selection as channel	Kijelölés mentése csatornaként
@@ -2798,6 +2809,7 @@ cameraRaw	Roughness	Érdesség
 	Save these shortcuts as a .kys file	A billentyűparancsok mentése .kys fájlként
 	Save these shortcuts as a new set	A billentyűparancsok mentése új készletként
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Mentse a megnyitott SVG-fájlba. Minden mentett módosítás külön visszavonási lépés lesz a PhotoCraftban.
+	Save Transparency	Átlátszóság mentése
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	A GPU-gyorsítás újrapróbálásához mentsd a munkádat, majd indítsd újra a PhotoCraftot. Ebben a munkamenetben a CPU-s megjelenítés marad aktív.
 	Saved a copy as {path}	Másolat mentve: {path}
 	Saved contours to {file}	Kontúrok mentve: {file}
@@ -3560,6 +3572,7 @@ cameraRaw	Yellow	Sárga
 	ZigZag	Cikcakk
 	Zigzag	Cikcakk
 	ZigZag…	Cikcakk…
+	ZIP	ZIP
 	Zoom	Nagyító
 navigator	Zoom	Nagyítás mértéke
 	Zoom clicked point to center	Kattintott pont nagyítása középre
@@ -3577,6 +3590,7 @@ navigator	Zoom	Nagyítás mértéke
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Színmód: {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	Nem őrizhető meg minden a dokumentumból ebben a formátumban: {name}
 	{name} options	{name}: beállítások
 	{name} Properties	Tulajdonságok: {name}
@@ -3587,6 +3601,7 @@ navigator	Zoom	Nagyítás mértéke
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} fájlt nem sikerült betölteni: {errors}|{n} fájlt nem sikerült betölteni: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	A rétegkompozícióban rögzített rétegek közül {n} törlődött. Frissítsd a rétegkompozíciót, vagy töröld a figyelmeztetést.|A rétegkompozícióban rögzített rétegek közül {n} törlődött. Frissítsd a rétegkompozíciót, vagy töröld a figyelmeztetést.
 @plural	{n} layer|{n} layers	{n} réteg|{n} réteg
+@plural	{n} mip level|{n} mip levels	{n} mip-szint|{n} mip-szint
 	{n} of {max} sample points	{n} / {max} mintavételi pont
 @plural	{n} plane|{n} planes	{n} sík|{n} sík
 @plural	{n} preset|{n} presets	{n} előbeállítás|{n} előbeállítás
@@ -3613,3 +3628,34 @@ navigator	Zoom	Nagyítás mértéke
 	…and {n} more	…és még {n}
 	↑↓ navigate   {key} run   esc close	↑↓ navigálás   {key} futtatás   esc bezárás
 	↑↓ navigate   ↵ run   esc close	↑↓ léptetés   ↵ futtatás   esc bezárás
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Importálási átalakítási jelentés
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Az importáláskor kapott eredmények. A szerkesztés a PhotoCraft natív szabályait követi.
+	A newer report format is retained. Its details cannot be displayed.	Egy újabb formátumú jelentés megőrzésre került. A részletei nem jeleníthetők meg.
+	No conversion report was recorded.	Nem készült átalakítási jelentés.
+	No entries on this page.	Ezen az oldalon nincsenek bejegyzések.
+	Layer mask	Rétegmaszk
+	Source item	Forráselem
+	{first}–{last} of {total}	{first}–{last} / {total}
+	Native equivalent	Natív megfelelő
+	Native approximation	Natív közelítés
+	Retained, not applied	Megőrizve, nincs alkalmazva
+	Nonessential data skipped	Nem alapvető adatok kihagyva
+	Unknown outcome	Ismeretlen eredmény
+	Native rules	Natív szabályok
+	Native capability limit	A natív képességek korlátja
+	Conversion not implemented	Az átalakítás nincs megvalósítva
+	Resource unavailable	Az erőforrás nem érhető el
+	Invalid optional data	Érvénytelen opcionális adatok
+	Retention limit	Megőrzési korlát
+	Precision conversion	Pontosságátalakítás
+	Unknown reason	Ismeretlen ok
+	Native layer {id} (removed; historical reference)	Natív réteg {id} (eltávolítva; korábbi hivatkozás)
+	Native layer: {name}	Natív réteg: {name}
+	Alpha Percentile	Alfa-percentilis
+	Alpha Weighted	Alfával súlyozott
+	Color Percentile	Színpercentilis
+	Connectivity	Szomszédság
+	Disc	Kör alakú környezet
+	Each	Csatornánként

@@ -177,6 +177,7 @@
 	Arch Up	위쪽 아치
 	Area	영역형
 	Arrange	정렬
+	Arrange All	모두 정렬
 	Arrange\nAll	모두\n정렬
 	Article I.	제 I 조
 	Artistic Effects	예술 효과
@@ -1342,6 +1343,7 @@
 	No icons match your search.	검색 조건에 맞는 아이콘이 없습니다.
 	No Markup	변경 내용 표시 안 함
 	No model credits were built into this copy.	이 빌드에는 모델 크레딧이 포함되지 않았습니다.
+	No other WordCraft windows are open.	열려 있는 다른 WordCraft 창이 없습니다.
 	No Outline	윤곽선 없음
 	No Paragraph Space	단락 간격 없음
 	No printers found. Configure a system printer or export a PDF.	프린터를 찾을 수 없습니다. 시스템 프린터를 설정하거나 PDF로 내보내세요.
@@ -2046,8 +2048,11 @@
 	Swap footnotes and endnotes	각주와 미주 바꾸기
 	Swedish	스웨덴어
 	Switch Modes	모드 전환
+	Switch Windows	창 전환
 	Switch\nModes	모드\n전환
+	Switch\nWindows	창\n전환
 	Symbols	기호
+	Synchronous Scrolling	동기 스크롤
 	Synonyms	유의어
 	Tab Character	탭 문자
 	Tab character	탭 문자
@@ -2276,6 +2281,7 @@ preview	Title	제목
 	Vertical Dots	세로 점
 	View Alt Text…	대체 텍스트 보기…
 	View Gridlines	눈금선 표시
+	View Side by Side	나란히 보기
 	View State	보기 상태
 	View › Focus hides everything but your words. I'll wait outside.	보기 › 집중을 사용하면 글자 외에는 모두 숨겨집니다. 저는 밖에서 기다릴게요.
 	Views	보기
@@ -2577,3 +2583,17 @@ preview	Title	제목
 	Uruguay	우루과이
 	Venezuela	베네수엘라
 	South Africa	남아프리카 공화국
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	다이어그램
+	Insert Diagram	다이어그램 삽입
+	Diagram Design	다이어그램 디자인
+	Diagram Styles	다이어그램 스타일
+	Decorative Text	장식 텍스트
+	Decorative Text Styles	장식 텍스트 스타일
+	select a diagram first	먼저 다이어그램을 선택하세요
+	this diagram was made in another program: WordCraft shows it but can't edit it	이 다이어그램은 다른 프로그램에서 만들어졌습니다. WordCraft에서 표시할 수 있지만 편집할 수는 없습니다
+	this diagram can't be edited	이 다이어그램은 편집할 수 없습니다
+@msg	a diagram holds at most {MAX_ITEMS} items	다이어그램에는 최대 {MAX_ITEMS}개의 항목을 넣을 수 있습니다
+@msg	unknown decorative text style `{id}`	알 수 없는 장식 텍스트 스타일 `{id}`
+	select a shape or decorative text first	먼저 도형이나 장식 텍스트를 선택하세요
