@@ -1,0 +1,1035 @@
+# Čeština (cs) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Translation: AI-assisted, clean room; not yet reviewed line by line by a native speaker.
+# Czech @plural forms, when used: one|few|other.
+
+	$pos	$pos
+	$size	$size
+	(checker)	(šachovnice)
+	.mcmat export isn't available yet (#190)	Export .mcmat zatím není k dispozici (#190)
+	1024 px	1024 px
+	16 bits	16 bitů
+	16 bits per channel	16 bitů na kanál
+	16 bits per channel float (HDR)	16 bitů na kanál s plovoucí řádovou čárkou (HDR)
+	2048 px	2048 px
+	256 px	256 px
+	2D View	2D pohled
+	32 bits float	32 bitů s plovoucí řádovou čárkou
+	32 bits per channel float (HDR)	32 bitů na kanál s plovoucí řádovou čárkou (HDR)
+	3D pan limit (mesh radii)	Mez posunu ve 3D (v poloměrech modelu)
+	3D pan speed	Rychlost posunu ve 3D
+	3D View	3D pohled
+	512 px	512 px
+	8 bits	8 bitů
+	8 bits per channel	8 bitů na kanál
+	A folder: material.mtlx, material.json, resources/ and the optional preview.png	Složka: material.mtlx, material.json, resources/ a volitelný preview.png
+	About MaterialCraft	O aplikaci MaterialCraft
+	About MaterialCraft...	O aplikaci MaterialCraft...
+	Accent color	Barva zvýraznění
+	Actual pixels	Skutečná velikost v pixelech
+	Add Comment	Přidat komentář
+	Add comment	Přidat komentář
+	Add Dot node	Přidat přesměrovací bod
+	Add Frame	Přidat rámeček
+	Add frame around selection	Přidat rámeček kolem výběru
+	Add frame around the selection	Přidat rámeček kolem výběru
+	Add Navigation pin	Přidat navigační značku
+	Add navigation pin	Přidat navigační značku
+	Add node	Přidat uzel
+	Add Output nodes with usages (base color, normal, ...) to see the material	Materiál zobrazíte přidáním výstupních uzlů s určeným využitím (základní barva, normála apod.)
+	Align centers horizontally	Zarovnat středy vodorovně
+	Align centers vertically	Zarovnat středy svisle
+	Align top	Zarovnat nahoru
+	All nodes	Všechny uzly
+	Amber	Jantarová
+	An open-source Crafting App by the ArtCraft team and community.	Aplikace z rodiny Crafting Apps s otevřeným zdrojovým kódem od týmu a komunity ArtCraft.
+	And	A
+	Arc tangent 2	Arkus tangens (atan2)
+	ArtCraft website...	Web ArtCraft...
+	As JSON	Jako JSON
+	Atomic nodes	Základní uzly
+	Attributes	Atributy
+	Automatic (16 bits for normal and height)	Automaticky (16 bitů pro normálu a výšku)
+	Automatic export when outputs change	Automaticky exportovat při změně výstupů
+	Autosave every (minutes, 0 = off)	Automaticky ukládat každých (minuty, 0 = vypnuto)
+	Bad function	Neplatná funkce
+	Bake every control	Zapéct všechny řízené hodnoty
+	Base parameters	Základní parametry
+	Bind to input	Navázat na vstup
+	Bit depth	Bitová hloubka
+	Blends	Prolnutí
+	Boolean	Logická hodnota
+	Brick wall	Cihlová zeď
+	Build tileable materials from noises, patterns and filters, see them live in 2D and 3D, and export the maps for any engine.	Vytvářejte bezešvé materiály ze šumů, vzorů a filtrů, sledujte je průběžně ve 2D i 3D a exportujte mapy pro libovolný engine.
+	Cache	Mezipaměť
+	Camera	Kamera
+	Cast	Přetypování
+	Ceil	Zaokrouhlit nahoru
+	Check at least one output to export	Zaškrtněte alespoň jeden výstup k exportu
+	Check for updates...	Zkontrolovat aktualizace...
+	Choose a folder to export to	Vyberte složku pro export
+	Choose...	Vybrat...
+	Clamp	Omezit do rozsahu
+	Clear cache	Vymazat mezipaměť
+	Clear recent packages	Vymazat nedávné balíčky
+	Close all	Zavřít vše
+	color space	barevný prostor
+	Community (Discord)	Komunita (Discord)
+	Compute graph	Vypočítat graf
+	Computing...	Probíhá výpočet...
+	Console	Konzole
+	Constant	Konstanta
+	Control	Řízení toku
+	Copper	Měď
+	Copy selection	Kopírovat výběr
+	Coral	Korálová
+	Cosine	Kosinus
+	Couldn't export	Nelze exportovat
+	Couldn't import	Nelze importovat
+	Couldn't load	Nelze načíst
+	Couldn't open	Nelze otevřít
+	Couldn't save	Nelze uložit
+	Create graph from selection	Vytvořit graf z výběru
+	Create graph in	Vytvořit graf v
+	Cube	Krychle
+	Cylinder	Válec
+	Delete and relink	Odstranit a znovu propojit
+	Delete input	Odstranit vstup
+	Delete preset	Odstranit přednastavení
+	Delete selection	Odstranit výběr
+	DirectX (Y-)	DirectX (Y-)
+	Disable selection	Deaktivovat výběr
+	Displacement scale	Míra posunu povrchu
+	Distribute horizontally	Rozmístit vodorovně
+	Distribute vertically	Rozmístit svisle
+	Division	Dělení
+	Documentation	Dokumentace
+	Documentation...	Dokumentace...
+	Dot Product	Skalární součin
+	Double-click a node to show it here	Dvojitým kliknutím na uzel jej zde zobrazíte
+	Downloaded	Staženo
+	Duplicate selection	Duplikovat výběr
+	Duplicate selection without link	Duplikovat výběr bez propojení
+	Edit function graph...	Upravit funkční graf...
+	Empty	Prázdný
+	Empty package	Prázdný balíček
+	Engine	Výpočetní jádro
+	Environment	Prostředí
+	Environment background	Prostředí na pozadí
+	Equal	Rovná se
+	Explorer	Průzkumník
+	Exponential	Exponenciální funkce
+	Export material...	Exportovat materiál...
+	Export outputs	Exportovat výstupy
+	Export outputs...	Exportovat výstupy...
+	Export outputs... (Ctrl+Shift+E)	Exportovat výstupy... (Ctrl+Shift+E)
+	Export settings saved	Nastavení exportu bylo uloženo
+	Exported	Exportováno
+	Exported color space	Barevný prostor exportu
+	Expose as graph input	Zpřístupnit jako vstup grafu
+	Exposed parameters	Zpřístupněné parametry
+	File names	Názvy souborů
+	files	souborů
+	Filters	Filtry
+	Float	Float
+	Float2	Float2
+	Float3	Float3
+	Float4	Float4
+	Flood fill	Vyplnění oblastí
+	Floor	Zaokrouhlit dolů
+	Fractional part	Desetinná část
+	Frame all	Zobrazit vše
+	Frame all (F)	Zobrazit vše (F)
+	Frame all / the selection	Zobrazit vše / výběr
+	From graph	Z grafu
+	Front	Zepředu
+	Full size	Plná velikost
+	full size	plná velikost
+	Function	Funkce
+	function	funkce
+	Function graph	Funkční graf
+	function nodes	funkční uzly
+	Function of	Funkce pro
+	Get variable	Načíst proměnnou
+	Go to pin	Přejít na navigační značku
+	Graph	Graf
+	Graph instance	Instance grafu
+	Graph items	Prvky grafu
+	Graph name	Název grafu
+	Graph's size	Velikost grafu
+	Graph...	Graf...
+	Graphs in this package	Grafy v tomto balíčku
+	Greater	Větší než
+	Greater or equal	Větší nebo rovno
+	Height (parallax) depth	Hloubka výškového efektu (paralaxa)
+	Home screen...	Úvodní obrazovka...
+	Icons	Ikony
+	If...Else	Pokud... jinak
+	Import bitmap...	Importovat bitmapu...
+	Imported	Importováno
+	Include preview.png	Zahrnout preview.png
+	Input parameters	Vstupní parametry
+	Input previews	Náhledy vstupů
+	Instance parameters	Parametry instance
+	Integer	Celé číslo
+	Interface scale	Měřítko rozhraní
+	Join the community (Discord)...	Připojit se ke komunitě (Discord)...
+	Keep supported controls	Zachovat podporované vazby
+	Key at	Bod na pozici
+	Last compute	Poslední výpočet
+	Lava rock	Lávový kámen
+	Linear interpolation	Lineární interpolace
+	Link width and height	Propojit šířku a výšku
+	Load mesh...	Načíst model...
+	Logarithm	Logaritmus
+	Logical	Logické operace
+	Lower	Menší než
+	Lower or equal	Menší nebo rovno
+	Mat ball	Koule pro náhled materiálu
+	Material filters	Materiálové filtry
+	MaterialX export isn't available yet (#190)	Export MaterialX zatím není k dispozici (#190)
+	Maximum	Maximum
+	Medium dark	Středně tmavý
+	Medium light	Středně světlý
+	Minimum	Minimum
+	Modulo	Zbytek po dělení
+	Mossy ground	Mechem porostlá zem
+	Multiplication	Násobení
+	Negation	Změna znaménka
+	New graph	Nový graf
+	New graph...	Nový graf...
+	New graph... (Ctrl+N)	Nový graf... (Ctrl+N)
+	New random seed	Nové semínko
+	Night	Noc
+	No font on this system can show this language	Žádné písmo v tomto systému nedokáže zobrazit tento jazyk
+	No graph is open	Není otevřen žádný graf
+	No graph with outputs	Žádný graf s výstupy
+	No matching node	Žádný odpovídající uzel
+	No presets yet	Zatím žádná přednastavení
+	No recent packages	Žádné nedávné balíčky
+	Node search (over the graph)	Hledání uzlů (nad grafem)
+	Node-based procedural materials, built in pure Rust.	Procedurální materiály tvořené pomocí uzlů. Napsáno čistě v Rustu.
+	Noises	Šumy
+	Normal	Normála
+	Normal orientation	Orientace normály
+	Normalize	Normalizovat
+	Not	Logická negace
+	not available yet	zatím není k dispozici
+	Not equal	Nerovná se
+	Nothing matches	Nic neodpovídá hledání
+	One .mcmat archive: material.mtlx, material.json, resources/ and the optional preview.png	Jeden archiv .mcmat: material.mtlx, material.json, resources/ a volitelný preview.png
+	Open graph	Otevřít graf
+	Open package...	Otevřít balíček...
+	Open package... (Ctrl+O)	Otevřít balíček... (Ctrl+O)
+	Open...	Otevřít...
+	Opened	Otevřeno
+	OpenGL (Y+)	OpenGL (Y+)
+	Operator	Operátor
+	Ops	Operace
+	Or	Nebo
+	Output format	Výstupní formát
+	Output size	Výstupní velikost
+	Output's format	Formát výstupu
+	Outputs	Výstupy
+	Overcast	Zataženo
+	Painted metal plates	Lakované kovové desky
+	Pan the camera	Posouvat kameru
+	Pan the graph	Posouvat graf
+	Parent size:	Velikost nadřazeného grafu:
+	Patterns	Vzory
+	PBR material (outputs only)	Materiál PBR (pouze výstupy)
+	Perlin noise	Perlinův šum
+	Pick an image file (a mesh map baked in TextureCraft)	Vyberte soubor obrázku (mapu modelu zapečenou v TextureCraftu)
+	Plane	Rovina
+	Polished marble	Leštěný mramor
+	Power	Mocnina
+	Preferences...	Předvolby...
+	Preset name	Název přednastavení
+	Preview size	Velikost náhledu
+	Preview size while editing	Velikost náhledu při úpravách
+	Publishing arrives with the new .mcmat format (#190); these options are kept for it	Publikování bude dostupné s novým formátem .mcmat (#190); tyto možnosti jsou pro něj připraveny
+	Random seed	Semínko
+	Recent packages	Nedávné balíčky
+	Redo (Ctrl+Y)	Znovu (Ctrl+Y)
+	Relative to input	Relativně ke vstupu
+	Relative to parent	Relativně k nadřazenému grafu
+	Reload resources	Znovu načíst zdroje
+	Remove function	Odstranit funkci
+	Render time	Doba vykreslení
+	Renderer	Vykreslovací modul
+	Report a bug...	Nahlásit chybu...
+	Reset layout	Obnovit rozložení
+	Reset parameters	Obnovit parametry
+	Reset scene	Obnovit scénu
+	Reset to default	Obnovit výchozí hodnotu
+	Resources	Zdroje
+	Right-click a node parameter > Expose as graph input	Klikněte pravým tlačítkem na parametr uzlu > Zpřístupnit jako vstup grafu
+	Right-click or Space to add operations; drag from an output dot to an input; the starred node is the result.	Operace přidáte pravým tlačítkem nebo mezerníkem; propojte výstupní bod se vstupem tažením; uzel s hvězdičkou je výsledkem.
+	Rounded cube	Zaoblená krychle
+	Rusty metal	Rezavý kov
+	Sample Color	Vzorkovat barvu
+	Sample Gray	Vzorkovat stupně šedi
+	Samplers	Vzorkovače
+	Samples	Vzorky
+	Save (Ctrl+S)	Uložit (Ctrl+S)
+	Save as...	Uložit jako...
+	Save image...	Uložit obrázek...
+	Save package	Uložit balíček
+	Save preset	Uložit přednastavení
+	Save settings	Uložit nastavení
+	Saved	Uloženo
+	Scene	Scéna
+	Search nodes...	Hledat uzly...
+	Select all	Vybrat vše
+	Select downstream nodes	Vybrat navazující uzly
+	Select upstream nodes	Vybrat předcházející uzly
+	Send to TextureCraft	Odeslat do TextureCraftu
+	Sent to TextureCraft: find it on the shelf under My smart materials	Odesláno do TextureCraftu: najdete ho na poličce v části Moje chytré materiály
+	Set function...	Nastavit funkci...
+	Shortcuts list...	Seznam klávesových zkratek...
+	Show at startup	Zobrazit při spuštění
+	Show in the 2D view	Zobrazit ve 2D pohledu
+	Show node thumbnails	Zobrazovat miniatury uzlů
+	Showing	Zobrazeno
+	Side	Z boku
+	Sine	Sinus
+	Specific parameters	Specifické parametry
+	Sphere	Koule
+	Square root	Druhá odmocnina
+	Start export	Spustit export
+	Stone tiles	Kamenná dlažba
+	Subtraction	Odčítání
+	Sunset	Západ slunce
+	SVG	SVG
+	Swizzle	Přeskupení složek
+# Tangent: also the tangent vector in Mesh Info (Tečna); the tan function node needs Tangens. Needs a separate key upstream.
+	Tangent	Tangens
+	Texture generators	Generátory textur
+	Textures	Textury
+	The instanced graph is missing	Graf použitý v instanci chybí
+	This graph exposes no inputs	Tento graf nemá zpřístupněné vstupy
+	This graph has no outputs	Tento graf nemá výstupy
+	This package	Tento balíček
+	threads	vláken
+	Tile 3x3	Dlaždice 3×3
+	Tiling	Dlaždicování
+	Tiling (H and V)	Dlaždicování (vodorovně i svisle)
+	To Float	Převést na Float
+	To Integer	Převést na Integer
+	Torus	Anuloid
+	Transforms	Transformace
+	Turn the environment	Otáčet prostředím
+	Unbind	Zrušit vazbu
+	Undo (Ctrl+Z)	Zpět (Ctrl+Z)
+	Use as result	Použít jako výsledek
+	Vector	Vektor
+	Vector Float2	Vektor Float2
+	Vector Float3	Vektor Float3
+	Vector Float4	Vektor Float4
+	View in 2D view	Zobrazit ve 2D pohledu
+	Weathering	Zvětrávání
+	Welcome to MaterialCraft	Vítejte v MaterialCraftu
+	Wicker weave	Proutěný výplet
+	Windows	Okna
+	Wood planks	Dřevěná prkna
+	Woven fabric	Tkaná látka
+	Zoom the graph and the views	Přibližovat graf a pohledy
+	{format} export isn't available yet	Export {format} zatím není k dispozici
+	1-click	Jedním kliknutím
+	16 bit floating point	16bitové číslo s plovoucí řádovou čárkou
+	2Pow	Mocnina se základem 2
+	32 bit floating point	32bitové číslo s plovoucí řádovou čárkou
+	3D view	3D pohled
+	3D view state	Stav 3D pohledu
+	3D view/HDRI environments	3D pohled/Prostředí HDRI
+	3D view/HDRI tools	3D pohled/Nástroje HDRI
+	9 spp	9 vzorků na pixel
+	A graph's name is unique in its package; a taken name gets a number	Název grafu musí být v balíčku jedinečný; k již použitému názvu se přidá číslo
+	A material export is running	Probíhá export materiálu
+	A saved default is in use	Používá se uložené výchozí nastavení
+	A small graph of atomic nodes working together	Malý graf spolupracujících základních uzlů
+	ACES sRGB (default)	ACES sRGB (výchozí)
+	Abbe number	Abbeovo číslo
+	Absorption color	Barva absorpce
+	Absorption distance	Vzdálenost absorpce
+	Add (Linear dodge)	Přičíst (lineárně zesvětlit)
+	Add Sub	Přičíst a odečíst
+	Add to Favorites	Přidat do oblíbených
+	Add to graph	Přidat do grafu
+	All Craft apps	Všechny aplikace Craft
+	All Craft apps...	Všechny aplikace Craft...
+	All templates	Všechny šablony
+	Alpha blending	Prolnutí podle alfy
+	Alpha channel	Alfa kanál
+	Alpha interpretation	Interpretace alfy
+	Alpha weight	Váha alfy
+	Ambient	Okolní složka
+	Ambient Light	Okolní světlo
+	Ambient occlusion	Ambientní okluze
+	Ambient occlusion rays	Paprsky ambientní okluze
+	An empty function graph: a value computed from function nodes	Prázdný funkční graf: hodnota vypočítaná pomocí funkčních uzlů
+	An empty material graph	Prázdný materiálový graf
+	An input already uses this identifier.	Tento identifikátor již používá jiný vstup.
+	Anisotropy	Anizotropie
+	Anisotropy angle	Úhel anizotropie
+	Anisotropy level	Míra anizotropie
+	Assign an image with View in 3D view, or connect Output nodes with material usages	Přiřaďte obrázek příkazem Zobrazit ve 3D pohledu nebo připojte výstupní uzly s určeným využitím materiálu
+	Atomic sample	Ukázka základních uzlů
+	Author URL	URL autora
+	Auto backup	Automatické zálohování
+	Automatic (16-bit data, 8-bit color)	Automaticky (16bitová data, 8bitové barvy)
+	Automatic Clip Planes	Automatické ořezové roviny
+	Automation documentation...	Dokumentace automatizace...
+	Axis	Osa
+	Back	Zezadu
+	Back to the selection's properties	Zpět na vlastnosti výběru
+	Backface culling	Vyřazování zadních ploch
+	Background Type	Typ pozadí
+	Background color	Barva pozadí
+	Background image...	Obrázek na pozadí...
+	Base	Základ
+	Base color	Základní barva
+	Base color, normal, roughness, metallic, height and ambient occlusion outputs with inputs already connected	Výstupy základní barvy, normály, drsnosti, kovovosti, výšky a ambientní okluze s již připojenými vstupy
+	Bilinear	Bilineární
+	Binormal	Binormála
+	Bitmap resource	Bitmapový zdroj
+	Blend	Prolnutí
+	Blending	Prolnutí
+	Blending mask	Maska prolnutí
+	Blending mode	Režim prolnutí
+	Blinn	Blinn
+	Blue weight	Váha modré
+	Blurs	Rozostření
+	Bounding box	Ohraničující kvádr
+	Branch offset	Posun větve
+	Bricks	Cihly
+	Browse...	Procházet...
+	Bump	Nerovnosti
+	CPU ray tracer	Sledování paprsků na CPU
+	Camera: drag to orbit, pan and zoom (C)	Kamera: tažením otáčejte, posouvejte a přibližujte pohled (C)
+	Cancel rendering	Zrušit vykreslování
+	Cartesian	Kartézské souřadnice
+	Change Preview size while editing in Edit > Preferences. Exports use each node's configured output size.	Velikost náhledu při úpravách změníte v nabídce Úpravy > Předvolby. Při exportu se použije nastavená výstupní velikost každého uzlu.
+	Changes take effect when the graph input is created.	Změny se projeví při vytvoření vstupu grafu.
+	Channels shown	Zobrazené kanály
+	Channels shuffle	Přeskupení kanálů
+	Choose a package	Vyberte balíček
+	Choose a root graph	Vyberte kořenový graf
+	Choose an export destination	Vyberte cíl exportu
+	Choose an output of the expected type and connect it to a value source, such as a constant or variable input	Vyberte výstup očekávaného typu a připojte jej ke zdroji hodnoty, například ke konstantě nebo vstupu proměnné
+	Choose variable	Vybrat proměnnou
+	Clear material assignments	Vymazat přiřazení materiálů
+	Clear nodes thumbnails	Vymazat miniatury uzlů
+	Click a node to show it here	Kliknutím na uzel jej zde zobrazíte
+	Clip planes	Ořezové roviny
+	Close expose parameter	Zavřít zpřístupnění parametru
+	Close package	Zavřít balíček
+	Close the Histogram panel	Zavřít panel Histogram
+	Close the Information panel	Zavřít panel Informace
+	Cloth	Látka
+	Coat	Lak
+	Coat color	Barva laku
+	Coat index of refraction	Index lomu laku
+	Coat normal	Normála laku
+	Coat opacity	Krytí laku
+	Coat roughness	Drsnost laku
+	Coat specular level	Míra zrcadlového odrazu laku
+	Color / luminosity	Barva / svítivost
+	Color burn	Ztmavit barvy
+	Color dodge	Zesvětlit barvy
+	Color output	Barevný výstup
+	Color sampler: click the image to place it	Vzorkovač barvy: umístěte jej kliknutím do obrázku
+	Color space	Barevný prostor
+	Combine distance with source	Kombinovat vzdálenost se zdrojem
+	Common	Společné
+	Community (Discord)...	Komunita (Discord)...
+	Component Usage	Využití komponenty
+	Compute nodes thumbnails	Vypočítat miniatury uzlů
+	Compute outputs	Vypočítat výstupy
+	Computed {count} graph(s) in {ms} ms	Počet vypočítaných grafů: {count}, čas: {ms} ms
+	Concrete	Beton
+	Connect an input to see its histogram	Histogram zobrazíte připojením vstupu
+	Constant value	Konstantní hodnota
+	Conversion	Převody
+	Cooker	Výpočetní modul
+	Copy Render to Clipboard	Kopírovat vykreslený obrázek do schránky
+	Copy image to the clipboard	Kopírovat obrázek do schránky
+	Copy info to clipboard	Kopírovat informace do schránky
+	Could not show the package file	Soubor balíčku nelze zobrazit
+	Create nodes by dropping a wire on empty canvas	Vytvářet uzly puštěním spoje na prázdné plátno
+	Cut selection	Vyjmout výběr
+	Darkening	Ztmavení
+	Default 3D view	Výchozí 3D pohled
+	Default color	Výchozí barva
+	Default environment	Výchozí prostředí
+	Default lighting state	Výchozí stav osvětlení
+	Default value	Výchozí hodnota
+	Delete link	Odstranit spoj
+	Delete selected links	Odstranit vybrané spoje
+	Dependency manager...	Správce závislostí...
+	Diffuse	Difuzní složka
+	Diffuse roughness	Drsnost difuzní složky
+	Directional blur	Směrové rozostření
+	Directional warp	Směrová deformace
+	Disk limit (MiB, 0 = off)	Limit na disku (MiB, 0 = vypnuto)
+	Dispersion scale	Míra disperze
+	Displacement	Posun povrchu
+	Display UVs in 2D View	Zobrazit UV souřadnice ve 2D pohledu
+	Display settings	Nastavení zobrazení
+	Dot	Přesměrovací bod
+	Dot product	Skalární součin
+	Downloads the SBS and resources together in a ZIP.	Stáhne SBS a zdroje společně v archivu ZIP.
+	Drag to connect; Alt-click to disconnect	Tažením propojte; kliknutím s klávesou Alt odpojte
+	Draw the UV layout of the 3D view's mesh over the image	Zobrazit UV rozložení modelu ze 3D pohledu přes obrázek
+	Drop down list	Rozevírací seznam
+	Drop to apply graph outputs	Puštěním použijete výstupy grafu
+	Easings	Průběhy přechodů
+	Edit exposed input	Upravit zpřístupněný vstup
+	Edit function	Upravit funkci
+	Edit node graph	Upravit graf uzlu
+	Edit properties	Upravit vlastnosti
+	Edit settings	Upravit nastavení
+	Emission	Emise
+	Emissive	Emise
+	Empty function	Prázdná funkce
+	Enable physical size from graph	Použít fyzické rozměry z grafu
+	Enabled	Zapnuto
+	Engine suspended: choose Suspend engine in the Tools menu again (Shift+Escape) to resume	Výpočetní jádro je pozastaveno: pokračujte opětovným výběrem Pozastavit výpočetní jádro v nabídce Nástroje (Shift+Escape)
+	Environment image	Obrázek prostředí
+	Environment shown behind the mesh by default	Prostředí zobrazované ve výchozím stavu za modelem
+	Expected output	Očekávaný výstup
+	Export Tessellated Geometry...	Exportovat teselovanou geometrii...
+	Export log...	Exportovat protokol...
+	Export with dependencies...	Exportovat se závislostmi...
+	Exported without shader connections	Exportováno bez propojení shaderů
+	Exporting material	Probíhá export materiálu
+	Expose Parameter	Zpřístupnit parametr
+	Expose as new graph input	Zpřístupnit jako nový vstup grafu
+	FPS	FPS
+	FX-Map	FX-Map
+	FX-Map graph	Graf FX-Map
+	Fabric	Tkanina
+	False	Nepravda
+	Far Clip Plane	Vzdálená ořezová rovina
+	Filtering	Filtrování
+	Filters/Adjustments	Filtry/Korekce
+	Filters/Blending	Filtry/Prolnutí
+	Filters/Blurs	Filtry/Rozostření
+	Filters/Channels	Filtry/Kanály
+	Filters/Effects	Filtry/Efekty
+	Filters/Normal map	Filtry/Normálová mapa
+	Filters/Tiling	Filtry/Dlaždicování
+	Filters/Transforms	Filtry/Transformace
+	Flatten alpha	Sloučit průhlednost s pozadím
+	Flip normal map Y (DirectX)	Obrátit osu Y normálové mapy (DirectX)
+	Focal Length (mm)	Ohnisková vzdálenost (mm)
+	Font reference	Odkaz na písmo
+	For the material graph: press the keys over the graph to add the node under the pointer	V materiálovém grafu stiskněte klávesy nad grafem a přidejte uzel pod ukazatelem
+	Foreground	Popředí
+# Frame: also Camera > Frame (fit the view) in the 3D menu; annotation frames need Rámeček. Needs a separate key upstream.
+	Frame	Rámeček
+	Frame Color	Barva rámečku
+	Frames per second	Snímky za sekundu
+	Function Graph	Funkční graf
+	Function instance	Instance funkce
+	Function nodes	Funkční uzly
+	Function nodes/Cast	Funkční uzly/Přetypování
+	Function nodes/Comparison	Funkční uzly/Porovnání
+	Function nodes/Constant	Funkční uzly/Konstanta
+	Function nodes/Control	Funkční uzly/Řízení toku
+	Function nodes/Function	Funkční uzly/Funkce
+	Function nodes/Logical	Funkční uzly/Logické operace
+	Function nodes/Operator	Funkční uzly/Operátor
+	Function nodes/Samplers	Funkční uzly/Vzorkovače
+	Function nodes/Variables	Funkční uzly/Proměnné
+	Function nodes/Vector	Funkční uzly/Vektor
+	Functions/Color	Funkce/Barva
+	Functions/Comparison	Funkce/Porovnání
+	Functions/Constant	Funkce/Konstanta
+	Functions/Conversion	Funkce/Převody
+	Functions/Easings	Funkce/Průběhy přechodů
+	Functions/Maths	Funkce/Matematika
+	Functions/Parity	Funkce/Parita
+	Functions/Random	Funkce/Náhodný
+	Functions/Transformation	Funkce/Transformace
+	Functions/Various	Funkce/Různé
+	Fuzz	Chmýří
+	FxMap nodes	Uzly FX-Map
+	Get Boolean	Načíst Boolean
+	Get Float	Načíst Float
+	Get Float2	Načíst Float2
+	Get Float3	Načíst Float3
+	Get Float4	Načíst Float4
+	Get Integer	Načíst Integer
+	Get Integer2	Načíst Integer2
+	Get Integer3	Načíst Integer3
+	Get Integer4	Načíst Integer4
+	Get String	Načíst String
+	Give feedback...	Odeslat zpětnou vazbu...
+	Glossiness	Lesklost
+	Gradient (Dynamic)	Přechod (dynamický)
+	Gradient input	Vstup přechodu
+	Gradient map	Mapa přechodu
+	Graph output	Výstup grafu
+	Grayscale conversion	Převod na stupně šedi
+	Grayscale input	Vstup ve stupních šedi
+	Green weight	Váha zelené
+	Ground	Zemina
+	Group	Skupina
+	H and V tiling	Vodorovné i svislé dlaždicování
+	HDRI environments	Prostředí HDRI
+	HDRI tools	Nástroje HDRI
+	HSL	HSL
+	Hard light	Tvrdé světlo
+	Height in alpha	Výška v alfa kanálu
+	Height level	Referenční výška
+	Height scale	Měřítko výšky
+	Height technique	Metoda zobrazení výšky
+	Hello {name}	Dobrý den, {name}
+	High (16 spp)	Vysoká (16 vzorků na pixel)
+	Highlight color	Barva světel
+	Hollow box	Dutá krabice
+	Horizontal tiling	Vodorovné dlaždicování
+	IOR	IOR
+	Identifier	Identifikátor
+	Ignore alpha	Ignorovat alfu
+	Image copied to the clipboard	Obrázek byl zkopírován do schránky
+	Image filtering	Filtrování obrázku
+	Image information	Informace o obrázku
+	Image input	Obrazový vstup
+	Import vector graphics...	Importovat vektorovou grafiku...
+	Index of refraction	Index lomu
+	Information	Informace
+	Inherit random seed	Zdědit semínko
+	Inner box	Vnitřek krabice
+	Input	Vstup
+	Input 1	Vstup 1
+	Input 1 alpha	Vstup 1 – alfa
+	Input 1 blue	Vstup 1 – modrá
+	Input 1 green	Vstup 1 – zelená
+	Input 1 red	Vstup 1 – červená
+	Input 2	Vstup 2
+	Input 2 alpha	Vstup 2 – alfa
+	Input 2 blue	Vstup 2 – modrá
+	Input 2 green	Vstup 2 – zelená
+	Input 2 red	Vstup 2 – červená
+	Input color	Barevný vstup
+	Input field	Vstupní pole
+	Input grayscale	Vstup ve stupních šedi
+	Input image 0	Vstupní obrázek 0
+	Input value	Vstup hodnoty
+	Insert reroute dot	Vložit přesměrovací bod
+	Install...	Nainstalovat...
+	Integer2	Integer2
+	Integer3	Integer3
+	Integer4	Integer4
+	Intensity input	Vstup intenzity
+	Invert zoom in views	Obrátit směr přibližování v pohledech
+	Is defined	Je definováno
+	Iterate	Iterovat
+	Iterations	Počet iterací
+	Keep the width and height the same	Zachovat stejnou šířku a výšku
+	Keep the zoom when the image size changes; off keeps the image's size on screen	Při změně velikosti obrázku zachovat přiblížení; při vypnutí se zachová velikost obrázku na obrazovce
+	Keep up to	Uchovávat nejvýše
+	Lambert	Lambert
+	Learn	Výuka
+	Level in high	Vstupní bílý bod
+	Level in low	Vstupní černý bod
+	Level in mid	Vstupní střední tón
+	Level out high	Výstupní bílý bod
+	Level out low	Výstupní černý bod
+	Library preview cache	Mezipaměť náhledů knihovny
+# Light: also the Light theme name (theme.rs); the 3D light-helper toggle reads better as Světlo. Needs a separate key upstream.
+	Light	Světlo
+	Light angle	Úhel světla
+	Light: drag to move the first point light, which switches it on (L)	Světlo: tažením přesuňte první bodové světlo; tím se zapne (L)
+	Lights	Světla
+	Limit values to Min and Max	Omezit hodnoty na minimum a maximum
+	Load State File With Mesh...	Načíst soubor stavu včetně modelu...
+	Load State File...	Načíst soubor stavu...
+	Loaded	Načteno
+	Logarithm base 2	Logaritmus o základu 2
+	Low (1 spp)	Nízká (1 vzorek na pixel)
+	MCF functions	Funkce MCF
+	MCF functions/Operators	Funkce MCF/Operátory
+	MCF functions/Primitives	Funkce MCF/Základní tělesa
+	MCF functions/Transforms	Funkce MCF/Transformace
+	MCMAT	MCMAT
+	MISSING	CHYBÍ
+	Main toolbar	Hlavní panel nástrojů
+	Manage parameters	Spravovat parametry
+	Mask generators	Generátory masek
+	Mask input	Vstup masky
+	Material	Materiál
+	Material exported	Materiál byl exportován
+	Material filters/1-click	Materiálové filtry/Jedním kliknutím
+	Material filters/Blending	Materiálové filtry/Prolnutí
+	Material filters/Effects	Materiálové filtry/Efekty
+	Material filters/PBR utilities	Materiálové filtry/Pomůcky PBR
+	Material filters/Scan processing	Materiálové filtry/Zpracování skenů
+	Material filters/Transforms	Materiálové filtry/Transformace
+	Material graph	Materiálový graf
+	Material outputs	Materiálové výstupy
+	MaterialCraft Project (*.mcraft)	Projekt MaterialCraft (*.mcraft)
+	MaterialX	MaterialX
+	Materials	Materiály
+	Maths	Matematika
+	Matte color	Barva výplně
+	Matte level	Úroveň šedi pozadí
+	Max	Maximum
+	Max (Lighten)	Maximum (zesvětlit)
+	Maximum distance	Maximální vzdálenost
+	Maximum stored previews	Nejvyšší počet uložených náhledů
+	Medium (4 spp)	Střední (4 vzorky na pixel)
+	Mesh Info	Informace o modelu
+	Mesh-based generators	Generátory založené na modelu
+	Mesh-based generators/Mask generators	Generátory založené na modelu/Generátory masek
+	Mesh-based generators/Utilities	Generátory založené na modelu/Pomůcky
+	Mesh-based generators/Weathering	Generátory založené na modelu/Zvětrávání
+	Meshes	Modely
+	Metal	Kov
+	Metallic	Kovovost
+	Metallic Roughness	Kovovost a drsnost
+	Metallic Roughness - Coated	Kovovost a drsnost – s lakem
+	Metallic Roughness - SSS	Kovovost a drsnost – SSS
+	Metalness	Kovovost
+	Meters per scene unit	Metrů na jednotku scény
+	Min	Minimum
+	Min (Darken)	Minimum (ztmavit)
+	Min must not exceed Max.	Minimum nesmí být větší než maximum.
+	Misc	Různé
+	Missing function operation	Chybějící funkční operace
+	Move the pointer over the image to read its pixels	Hodnoty pixelů odečtete přesunutím ukazatele nad obrázek
+	Name	Název
+	Navigation Pin	Navigační značka
+	Near Clip Plane	Blízká ořezová rovina
+	Nearest	Nejbližší soused
+	New function graph	Nový funkční graf
+	New package	Nový balíček
+	New {node} node	Nový uzel: {node}
+	Next pin	Další navigační značka
+	No plugins are installed. MaterialCraft does not load plugins yet.	Nejsou nainstalovány žádné zásuvné moduly. MaterialCraft je zatím nenačítá.
+	No suggested variables	Žádné navrhované proměnné
+	No tiling	Bez dlaždicování
+	Node creation shortcuts	Zkratky pro vytváření uzlů
+	Normal map	Normálová mapa
+	Not applied: the active graph or package changed while the file dialog was open	Nepoužito: během otevřeného souborového dialogu se změnil aktivní graf nebo balíček
+	Not available yet	Zatím není k dispozici
+	Not saved:	Neuloženo:
+	Nothing in this category yet	V této kategorii zatím nic není
+	Offset	Posun
+	Open a function graph or a processor's function to add this	Pro přidání otevřete funkční graf nebo funkci procesoru
+	Open a graph to add this	Pro přidání otevřete graf
+	Open an FX-Map to add this	Pro přidání otevřete FX-Map
+	Open dependencies	Otevřít závislosti
+	Open reference	Otevřít odkaz
+	OpenGL normals	Normály OpenGL
+	OpenPBR	OpenPBR
+	Opened with	Otevřeno, počet varování:
+	Operators	Operátory
+	Orthographic	Ortografická
+	Output node	Výstupní uzel
+	Override Render Resolution	Použít vlastní rozlišení vykreslení
+	PBR materials	Materiály PBR
+	PBR materials/Bricks	Materiály PBR/Cihly
+	PBR materials/Concrete	Materiály PBR/Beton
+	PBR materials/Fabric	Materiály PBR/Tkanina
+	PBR materials/Ground	Materiály PBR/Zemina
+	PBR materials/Metal	Materiály PBR/Kov
+	PBR materials/Paper	Materiály PBR/Papír
+	PBR materials/Pavement	Materiály PBR/Dlažba
+	PBR materials/Stone	Materiály PBR/Kámen
+	PBR materials/Tiles	Materiály PBR/Dlaždice
+	PBR materials/Wood	Materiály PBR/Dřevo
+	PBR utilities	Pomůcky PBR
+	Parallax Occlusion	Paralaxní okluze
+	Parameters	Parametry
+	Parent graph	Nadřazený graf
+	Parent height	Výška nadřazeného grafu
+	Parent size	Velikost nadřazeného grafu
+	Parent width	Šířka nadřazeného grafu
+	Parity	Parita
+	Paste without link	Vložit bez propojení
+	Path tools	Nástroje pro cesty
+	Pattern	Vzor
+	Pattern offset	Posun vzoru
+	Pattern rotation	Natočení vzoru
+	Pattern size	Velikost vzoru
+	Pattern variation	Variace vzoru
+	Pavement	Dlažba
+	Per pixel function	Funkce pro každý pixel
+	Phong tessellation	Phongova teselace
+	Phong tessellation factor	Faktor Phongovy teselace
+	Pixel processor	Pixelový procesor
+	Pixel ratio	Poměr stran pixelů
+	Pixel size	Velikost pixelu
+	Plane (hi-res)	Rovina (vysoké rozlišení)
+	Plot the square root of the counts, so small counts stay visible	Zobrazit odmocninu z počtů, aby byly viditelné i malé hodnoty
+	Plugin Manager	Správce zásuvných modulů
+	Plugin Manager...	Správce zásuvných modulů...
+	Plugins	Zásuvné moduly
+	Plugins are not supported yet	Zásuvné moduly zatím nejsou podporovány
+	Point Light 1	Bodové světlo 1
+	Point Light 2	Bodové světlo 2
+	Pow	Mocnina
+	Premultiplied	Přednásobená
+	Premultiplied image	Obrázek s přednásobenou alfou
+	Press keys, Backspace to clear, Esc to cancel	Stiskněte klávesy; Backspace vymaže zkratku, Esc zruší zadávání
+	Preview limit	Limit náhledu
+	Preview resolution	Rozlišení náhledu
+	Previews rebuild as they come into view.	Náhledy se znovu vytvářejí při zobrazení.
+	Previous pin	Předchozí navigační značka
+	Primitives	Základní tělesa
+	Projection	Projekce
+	Projects	Projekty
+	Quadrant	Kvadrant
+	Radius scale	Měřítko poloměru
+	Raise the mesh by the height output	Zvednout povrch modelu podle výškového výstupu
+	Raw	Nezpracované
+	Rebuild thumbnails	Znovu vytvořit miniatury
+	Recent documents	Nedávné dokumenty
+	Recent packages list contains	Seznam nedávných balíčků obsahuje
+	Red weight	Váha červené
+	Reflection	Odraz
+	Release notes...	Poznámky k vydání...
+	Reload library	Znovu načíst knihovnu
+	Remove every node creation shortcut	Odstranit všechny zkratky pro vytváření uzlů
+	Remove from Favorites	Odebrat z oblíbených
+	Remove the background image	Odebrat obrázek na pozadí
+	Remove the color sampler	Odebrat vzorkovač barvy
+	Render copied to the clipboard	Vykreslený obrázek byl zkopírován do schránky
+	Render height	Výška vykreslení
+	Render region	Oblast vykreslení
+	Render resolution	Rozlišení vykreslení
+	Render resolution scale	Měřítko rozlišení vykreslení
+	Render width	Šířka vykreslení
+	Renderer settings	Nastavení vykreslovacího modulu
+	Repeat the image to check its tiling	Opakovat obrázek pro kontrolu návaznosti dlaždic
+	Report a bug	Nahlásit chybu
+	Reset Common Parameters	Obnovit společné parametry
+	Reset Environment	Obnovit prostředí
+	Reset Lights	Obnovit světla
+	Reset Material	Obnovit materiál
+	Reset Position	Obnovit pozici
+	Reset Scene	Obnovit scénu
+	Reset Selected	Obnovit vybrané
+	Reset and view in 3D view	Obnovit a zobrazit ve 3D pohledu
+	Reset and view outputs in 3D view	Obnovit a zobrazit výstupy ve 3D pohledu
+	Return to parent graph	Vrátit se do nadřazeného grafu
+	Right branch	Pravá větev
+	Root graph	Kořenový graf
+	Root node	Kořenový uzel
+	Rotation Angle	Úhel natočení
+	Roughness	Drsnost
+	Rounded cylinder	Zaoblený válec
+	SBS XML Package (*.sbs)	Balíček SBS XML (*.sbs)
+	SVG resource	Zdroj SVG
+	Sample color	Vzorkovat barvu
+	Sample count	Počet vzorků
+	Sample gray	Vzorkovat stupně šedi
+	Samples per pixel side	Vzorky na stranu pixelu
+	Save Current State As Default	Uložit aktuální stav jako výchozí
+	Save Current State As Default, in the 3D view's Scene menu, saves the whole view here	Příkaz Uložit aktuální stav jako výchozí v nabídce Scéna ve 3D pohledu sem uloží celý pohled
+	Save Current State...	Uložit aktuální stav...
+	Save Render...	Uložit vykreslený obrázek...
+	Save a copy as...	Uložit kopii jako...
+	Save all	Uložit vše
+	Save changes to	Uložit změny v
+	Saved as the default 3D view	Uloženo jako výchozí 3D pohled
+	Saving a render needs the desktop app; copy it to the clipboard instead	Uložení vykresleného obrázku vyžaduje desktopovou aplikaci; zde jej můžete zkopírovat do schránky
+	Scalar multiplication	Násobení skalárem
+	Scan processing	Zpracování skenů
+	Scattering	Rozptyl
+	Scattering color	Barva rozptylu
+	Scattering distance	Vzdálenost rozptylu
+	Scattering distance scale	Měřítko vzdálenosti rozptylu
+	Scene browser	Průzkumník scény
+	Scene stats	Statistiky scény
+	Search FX-Map nodes	Hledat uzly FX-Map
+	Search by shortcut	Hledat podle zkratky
+	Search functions	Hledat funkce
+	Search functions...	Hledat funkce...
+	Select a node	Vyberte uzel
+	Select a node to edit its parameters	Parametry uzlu upravíte jeho výběrem
+	Select an entry and click the star to add it to Favorites	Vyberte položku a kliknutím na hvězdičku ji přidejte do oblíbených
+	Select output	Vybrat výstup
+	Select: click the mesh (Shift+click with any tool)	Výběr: klikněte na model (Shift+kliknutí s libovolným nástrojem)
+	Selected	Vybrané
+	Selected max	Maximum výběru
+	Selected pixels	Vybrané pixely
+	Selected range	Rozsah výběru
+	Send to	Odeslat do
+	Sequence	Posloupnost
+	Set a node as the root	Nastavit uzel jako kořenový
+	Set as output node	Nastavit jako výstupní uzel
+	Set as root	Nastavit jako kořen
+	Shader	Shader
+	Shadow color	Barva stínů
+	Sheen color	Barva saténového odlesku
+	Sheen opacity	Krytí saténového odlesku
+	Sheen roughness	Drsnost saténového odlesku
+	Show a checkerboard behind transparent pixels	Zobrazit šachovnici za průhlednými pixely
+	Show all assigned	Zobrazit všechna přiřazení
+	Show in folder...	Zobrazit ve složce...
+	Show nodes for other graph types	Zobrazit uzly pro jiné typy grafů
+	Show nodes not in MaterialCraft yet	Zobrazit uzly, které MaterialCraft zatím nepodporuje
+	Show the environment behind the mesh	Zobrazit prostředí za modelem
+	Show the image in the proportions of the graph's physical size	Zobrazit obrázek v poměru fyzických rozměrů grafu
+	Show the library as a list	Zobrazit knihovnu jako seznam
+	Shown on the mesh	Zobrazeno na modelu
+	Slider	Posuvník
+	Snap to grid	Přichytávat k mřížce
+	Soft light	Měkké světlo
+	Source alpha	Alfa zdroje
+	Source input	Zdrojový vstup
+	Source normals	Normály zdroje
+	Specular	Zrcadlová složka
+	Specular Glossiness	Zrcadlová složka a lesklost
+	Specular edge color	Barva zrcadlového odrazu na okrajích
+	Specular level	Míra zrcadlového odrazu
+	Sphere 2 tiles	Koule se dvěma dlaždicemi
+	Spline & Path tools	Nástroje pro křivky a cesty
+	Spline & Path tools/Path tools	Nástroje pro křivky a cesty/Nástroje pro cesty
+	Spline & Path tools/Spline tools	Nástroje pro křivky a cesty/Nástroje pro křivky
+	Spline tools	Nástroje pro křivky
+	Sqrt	Druhá odmocnina
+	Start from a template	Začít ze šablony
+	Step	Krok
+	Step must be greater than zero.	Krok musí být větší než nula.
+	Stone	Kámen
+	Stored with the state; this renderer does not show it	Ukládá se se stavem; tento vykreslovací modul parametr nezobrazuje
+	Straight	Nepřednásobená
+	String	Řetězec
+	Studio Backdrop	Studiové pozadí
+	Subsurface	Podpovrchový rozptyl
+	Suspend engine	Pozastavit výpočetní jádro
+	Swap links	Prohodit spoje
+	Switch	Přepínač
+	Swizzle Float1	Přeskupení složek Float1
+	Swizzle Float2	Přeskupení složek Float2
+	Swizzle Float3	Přeskupení složek Float3
+	Swizzle Float4	Přeskupení složek Float4
+	Swizzle Integer1	Přeskupení složek Integer1
+	Swizzle Integer2	Přeskupení složek Integer2
+	Swizzle Integer3	Přeskupení složek Integer3
+	Swizzle Integer4	Přeskupení složek Integer4
+	Tab key shows the node search	Klávesa Tab zobrazí hledání uzlů
+	Tags	Tagy
+	Technical requirements...	Technické požadavky...
+	Tessellation	Teselace
+	Tessellation + Displacement	Teselace a posun povrchu
+	Texture generators/Noises	Generátory textur/Šumy
+	Texture generators/Patterns	Generátory textur/Vzory
+	TextureCraft	TextureCraft
+	The 3D view has not drawn a mesh yet	Ve 3D pohledu zatím nebyl vykreslen žádný model
+	The background image could not be shown	Obrázek na pozadí nelze zobrazit
+	The built-in default is in use	Používá se vestavěné výchozí nastavení
+	The colors are already multiplied by their alpha	Barvy jsou již vynásobeny svou alfou
+	The copies are numbered files in	Kopie jsou číslované soubory ve složce
+	The export package changed. Reopen the Export window	Balíček pro export se změnil. Otevřete znovu okno Export
+	The file dialog could not be shown	Souborový dialog nelze zobrazit
+	The log could not be saved	Protokol nelze uložit
+	The pixel under the color sampler	Pixel pod vzorkovačem barvy
+	The pixel under the pointer	Pixel pod ukazatelem
+	The point lights cast shadows	Bodová světla vrhají stíny
+	The values are sRGB encoded; off shows them as linear light	Hodnoty jsou kódovány v sRGB; po vypnutí se zobrazí jako lineární světlo
+	Thin walled	Tenkostěnný
+	Thin-film	Tenká vrstva
+	This function can't use this node	V této funkci nelze použít tento uzel
+	This shader has no parameters	Tento shader nemá parametry
+	Tiles	Dlaždice
+	Tiling mode	Režim dlaždicování
+	Tiling region	Oblast dlaždicování
+	Title Visible	Zobrazit název
+	To Float2	Převést na Float2
+	To Float3	Převést na Float3
+	To Float4	Převést na Float4
+	To Integer2	Převést na Integer2
+	To Integer3	Převést na Integer3
+	To Integer4	Převést na Integer4
+	Toggle	Přepínač
+	Transform matrix	Transformační matice
+	Transformation	Transformace
+	Transformation 2D	2D transformace
+	Translucency	Průsvitnost
+	Transmission	Propustnost
+	Transmissive	Propustnost světla
+	Transparency (alpha)	Průhlednost (alfa)
+	Triangles	Trojúhelníky
+	Troubleshooting...	Řešení problémů...
+	True	Pravda
+	Tutorials	Návody
+	Tutorials...	Návody...
+	Type / Editor	Typ / editor
+	UV	UV
+	UV Tile	UV dlaždice
+	UV scale U	Měřítko UV v ose U
+	UV scale V	Měřítko UV v ose V
+	UVs	UV souřadnice
+	Undo history (steps)	Historie vracení změn (kroky)
+	Uniform Color	Jednotná barva
+	Uniform color	Jednotná barva
+	Unknown untranslated string 1234	Neznámý nepřeložený řetězec 1234
+	Unlit	Bez osvětlení
+	Use Save as for:	Použijte Uložit jako pro:
+	Use letters, digits and underscores for the identifier.	V identifikátoru používejte písmena, číslice a podtržítka.
+	Use the built-in default	Použít vestavěné výchozí nastavení
+	Use this parameter; off reads as if the material had none	Použít tento parametr; při vypnutí se materiál chová, jako by parametr neměl
+	Use viewport resolution	Použít rozlišení zobrazovací oblasti
+	Used range	Použitý rozsah
+	User 0	Uživatelský kanál 0
+	User 1	Uživatelský kanál 1
+	User 2	Uživatelský kanál 2
+	User 3	Uživatelský kanál 3
+	User 4	Uživatelský kanál 4
+	User 5	Uživatelský kanál 5
+	User 6	Uživatelský kanál 6
+	User 7	Uživatelský kanál 7
+	User Data	Uživatelská data
+	Utilities	Pomůcky
+	Value processor	Procesor hodnot
+	Values	Hodnoty
+	Values/Constant	Hodnoty/Konstanta
+	Variable name	Název proměnné
+	Various	Různé
+	Vector Integer2	Vektor Integer2
+	Vector Integer3	Vektor Integer3
+	Vector Integer4	Vektor Integer4
+	Vector graphics	Vektorová grafika
+	Vertex Color	Barva vrcholu
+	Vertex tangent space	Tečný prostor vrcholu
+	Vertical tiling	Svislé dlaždicování
+	Vertices	Vrcholy
+	View in 3D view	Zobrazit ve 3D pohledu
+	View output in 2D view	Zobrazit výstup ve 2D pohledu
+	View outputs in 3D view	Zobrazit výstupy ve 3D pohledu
+	View outputs in 3D view when opening a graph	Při otevření grafu zobrazit výstupy ve 3D pohledu
+	Viewpoint	Úhel pohledu
+	Views	Pohledy
+	Warp angle	Úhel deformace
+	Weight	Váha
+	What's new	Co je nového
+	What's new...	Novinky...
+	While loop	Cyklus while
+	Wireframe	Drátový model
+	Wood	Dřevo
+	bits	bitů
+	is already the shortcut of	je již přiřazena příkazu
+	packages	balíčků
+	packages saved	uložených balíčků
+	placeholder node(s) stand in for nodes MaterialCraft doesn't have yet (see the warnings above)	zástupných uzlů nahrazuje uzly, které MaterialCraft zatím nepodporuje (viz varování výše)
+	sRGB	sRGB
+	versions	verzí
+	warnings: see the Console	– podrobnosti v Konzoli
+	{count} node(s) failed: see the graph	Počet uzlů s chybou: {count}; viz graf
+	{name}: {count} entries	{name}: počet položek: {count}
