@@ -1,0 +1,919 @@
+# Čeština (cs) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+#
+# AI-assisted translation from English, including a previously unpublished Czech draft.
+# Not yet reviewed line by line by a native speaker.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	Vrstva „{layer}“ se nedá vyplnit: vyberte vrstvu malby nebo masku vrstvy
+	"{layer}" has no paint yet: the filter changes what you paint on it.	„{layer}“ zatím neobsahuje malbu: filtr mění to, co na ni namalujete.
+	0 turns autosave off. Copies go to {folder}	0 vypne automatické ukládání. Kopie se ukládají do {folder}
+	1 effect	1 efekt
+	2D view only	Pouze 2D pohled
+	32 bits (float)	32 bitů (plovoucí čárka)
+	3D mesh	3D model
+	3D MESH	3D MODEL
+	3D meshes	3D modely
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Malování 3D textur: vrstvy, masky, chytré materiály, zapékání map modelu a export.
+	3D view only	Pouze 3D pohled
+	3D/2D views	3D/2D pohledy
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Kliknutí vyplní oblast pod kurzorem; při tažení obdélníku se průběžně vyplňuje to, co obdélník vybírá
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Složka prolíná své podřízené vrstvy (průchozí režim). Krytí jednotlivých kanálů nastavíte v řádcích vrstev.
+	a missing layer	chybějící vrstva
+	About TextureCraft	O aplikaci TextureCraft
+	About TextureCraft...	O aplikaci TextureCraft...
+	Accent color	Barva zvýraznění
+	ACES filmic	Filmové ACES
+	Add an anchor point to a layer below to use its stack as a mask.	Přidejte kotevní bod k níže položené vrstvě, aby bylo možné použít její zásobník jako masku.
+	Add anchor point	Přidat kotevní bod
+	Add as decal (view center)	Přidat jako obtisk (střed pohledu)
+	Add black mask	Přidat černou masku
+	Add channel	Přidat kanál
+	Add color	Přidat barvu
+	Add compare mask	Přidat porovnávací masku
+	Add effect	Přidat efekt
+	Add fill	Přidat výplň
+	Add fill layer	Přidat vrstvu výplně
+	Add filter	Přidat filtr
+	Add folder	Přidat složku
+	Add generator	Přidat generátor
+	Add High-Poly Meshes	Přidat detailní modely
+	Add levels	Přidat úrovně
+	Add mask	Přidat masku
+	Add mask with color selection	Přidat masku s výběrem podle barvy
+	Add output	Přidat výstup
+	Add paint	Přidat malbu
+	Add paint layer	Přidat vrstvu malby
+	Add smart material from the shelf	Přidat chytrý materiál z poličky
+	Add to the layer content	Přidat do obsahu vrstvy
+	Add to the mask	Přidat do masky
+	Add white mask	Přidat bílou masku
+	Add...	Přidat...
+	Advanced settings	Pokročilá nastavení
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Zarovnané: posun určený prvním tahem se zachová. V + kliknutí nastaví nový zdroj.
+	Alignment and culling	Zarovnání a vyřazování ploch
+	All layers	Všechny vrstvy
+	Alphas	Alfy štětce
+	Also bound to {item} ({menu})	Stejnou zkratku má také: {item} ({menu})
+	Alt + LMB drag	Alt + tažení LMB
+	Amber	Jantarová
+	Ambient	Okolní světlo
+	Ambient Occlusion	Ambientní okluze
+	Ambient occlusion	Ambientní okluze
+	Anchor point	Kotevní bod
+	Anchor: {name}	Kotva: {name}
+	Anchor: {name} ({channel})	Kotva: {name} ({channel})
+	Angle (degrees)	Úhel (stupně)
+	Angle fade from	Úhlový útlum od
+	Angle fade to	Úhlový útlum do
+	Angle jitter	Náhodná změna úhlu
+	Angle span	Úhlový rozsah
+	aniso	anizo
+	aniso angle	úhel anizo
+	Anisotropy angle	Úhel anizotropie
+	Anisotropy level	Míra anizotropie
+	Antialiasing	Vyhlazování hran
+	ao	AO
+	AO intensity	Intenzita AO
+	Aperture	Clona
+	Apply Diffusion	Použít difuzi
+	ArtCraft website...	Web ArtCraft...
+	Assets	Zdroje
+	Attenuation	Útlum
+	Auto Tonemapping	Automatické mapování tónů
+	Automatic (from the mesh UVs)	Automaticky (z UV modelu)
+	Autosave every	Interval automatického ukládání
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	Automatické zálohy, chytré materiály, předvolby, šablony a rozložení UI se ukládají do datové složky. Nová složka se použije po restartu; již uložené soubory zůstanou na původním místě.
+	Average Normals	Průměrovat normály
+	Axis	Osa
+	Axis position	Poloha osy
+	Back to painting	Zpět k malování
+	Backface culling	Vyřazování zadních ploch
+	Bake an ID map (F8) to pick colors from the mesh.	Pro výběr barev z modelu zapečte mapu ID (F8).
+	Bake Mesh Maps	Zapéct mapy modelu
+	Bake mesh maps	Zapéct mapy modelu
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	Zapečte mapy modelu (F8) pro generátory založené na zakřivení, AO a tloušťce.
+	Bake Selected Textures ({n})	Zapéct vybrané textury ({n})
+	Baked Lighting	Zapečené osvětlení
+	Baked maps imported: {count}	Počet importovaných zapečených map: {count}
+	Baking	Zapékání
+	Baking Visualization	Zobrazení při zapékání
+	Baking {map} ({n}/{total})	Zapékání mapy {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	Zapékání mapy {map} ({n}/{total}), sada textur {set} z {sets}
+	Base color	Základní barva
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	Základní barva je difuzní barva, zrcadlová barva je barva F0 a lesklost je 1 - drsnost (tyto kanály přidejte v nastavení sady textur).
+	Base color, Metallic, Roughness and Specular level.	Základní barva, kovovost, drsnost a míra zrcadlového odrazu.
+	Based on each texture set's size	Podle velikosti každé sady textur
+	Basic settings	Základní nastavení
+	BBox	Ohraničující kvádr
+	Bent Normals	Odkloněné normály
+	Bevel	Zkosení
+	Blending	Prolnutí
+	Blending mode of the displayed channel	Režim prolnutí zobrazeného kanálu
+	Blur and sharpen	Rozostření a zostření
+	Blur Directional	Směrové rozostření
+	Bounces	Odrazy
+	Bricks	Cihly
+	Brush	Štětec
+	Brush name	Název štětce
+	Brush size	Velikost štětce
+	Brush size down / up	Zmenšit / zvětšit štětec
+	Brushed lines	Kartáčované linie
+	BSphere	Ohraničující koule
+	Built-in (read-only): duplicate it to edit	Vestavěná šablona (pouze ke čtení): pro úpravy vytvořte kopii
+	Built-in mesh	Vestavěný model
+	Built-in templates are read-only: duplicate one to edit it	Vestavěné šablony jsou pouze ke čtení: pro úpravy vytvořte kopii
+	Built-in: {mesh}	Vestavěný model: {mesh}
+	By Mesh Name	Podle názvu modelu
+	Cage	Klec
+	Cage Scene	Scéna klece
+	Cage Type	Typ klece
+	Cage: {name}	Klec: {name}
+	Camera	Kamera
+	Camera settings	Nastavení kamery
+	Cancel the stroke	Zrušit tah
+	Cavities	Prohlubně
+	Cell size (texels at 2K)	Velikost buňky (texely při 2K)
+	Cells	Buňky
+	Change them in Texture Set Settings	Změníte je v Nastavení sady textur
+	Channel source: uniform value, procedural, image or anchor	Zdroj kanálu: konstantní hodnota, procedurální zdroj, obrázek nebo kotva
+	Check All	Zaškrtnout vše
+	Check for Updates...	Zkontrolovat aktualizace...
+	Checker	Šachovnice
+	Choose another mesh file for the project. It is read when you press OK.	Vyberte jiný soubor modelu pro tento projekt. Načte se po stisknutí OK.
+	Choosing or reimporting a mesh recomputes all channels.	Výběr nebo opětovný import modelu přepočítá všechny kanály.
+	Clamp	Omezit
+	Clear mask	Vymazat masku
+	Clear recent projects	Vymazat nedávné projekty
+	Click a mesh part to show or hide the selected layer on it.	Kliknutím na část modelu na ní zobrazíte nebo skryjete vybranou vrstvu.
+	Click the mesh to pick its material into the brush	Kliknutím na model převezmete jeho materiál do štětce
+	Click the mesh to place the decal	Kliknutím na model umístíte obtisk
+	Click, then press the new shortcut (Esc cancels)	Klikněte a stiskněte novou zkratku (Esc zruší změnu)
+	Click: turn this channel on or off. Alt+click: this channel only	Kliknutí: zapnout nebo vypnout tento kanál. Alt+kliknutí: pouze tento kanál
+	Closed path	Uzavřená cesta
+	Cloud	Mrak
+	Clouds	Mraky
+	coat	lak
+	Coat normal	Normála laku
+	coat nrm	norm. laku
+	coat rough	drsn. laku
+	Coat roughness	Drsnost laku
+	Coat weight	Podíl laku
+	color	barva
+	Color burn	Ztmavit barvy
+	Color dodge	Zesvětlit barvy
+	Color Generator	Generátor barev
+	Color of the light that travels under the surface (each channel goes as far as its value)	Barva světla, které proniká pod povrch (dosah každého kanálu odpovídá jeho hodnotě)
+	Color picker	Kapátko
+	Color selection	Výběr podle barvy
+	Color Source	Zdroj barev
+	Color space	Barevný prostor
+	Color to replace	Barva k nahrazení
+	Colors near the first shift towards the second, keeping their shading.	Barvy blízké první barvě se posunou k druhé, přičemž si zachovají stínování.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	Barvy se převádějí na odstíny šedi. Výsledek upravíte přidáním efektu Úrovně nebo Rozostření nad tento efekt.
+	Combine with the layer's height	Kombinovat s výškou vrstvy
+	Common Parameters	Společné parametry
+	Common Settings	Společná nastavení
+	Compare mask	Porovnávací maska
+	Compositing	Skládání
+	Constant	Konstantní hodnota
+	Constants	Konstanty
+	Contained center: fill polygons whose center is in the rectangle	Střed uvnitř: vyplnit polygony, jejichž střed leží v obdélníku
+	Content effects	Efekty obsahu
+	Continue with the sample project	Pokračovat s ukázkovým projektem
+	Contrast/Luminosity	Kontrast/jas
+	Converted maps	Převedené mapy
+	Cooked at {size} px	Vygenerováno v rozlišení {size} px
+	Copper	Měděná
+	Copy effect	Kopírovat efekt
+	Copy from	Kopírovat z
+	Copy layer(s)	Kopírovat vrstvy
+	Copy RGB values	Kopírovat hodnoty RGB
+	Copy the selected layer alone (its empty parts copy nothing)	Kopírovat pouze vybranou vrstvu (její prázdné části nic nekopírují)
+	Copy to all texture sets	Kopírovat do všech sad textur
+	Copy what the texture set shows	Kopírovat zobrazený obsah sady textur
+	Coral	Korálová
+	Cores kept for the UI	Jádra vyhrazená pro UI
+	Cosine	Kosinové
+	Couldn't encode the render	Nepodařilo se zakódovat vykreslený obrázek
+	Couldn't export textures: {error}	Nepodařilo se exportovat textury: {error}
+	Couldn't export the mesh: {error}	Nepodařilo se exportovat model: {error}
+	Couldn't export the template: {error}	Nepodařilo se exportovat šablonu: {error}
+	Couldn't import {name}: {error}	Nepodařilo se importovat {name}: {error}
+	Couldn't open {name}: {error}	Nepodařilo se otevřít {name}: {error}
+	Couldn't read the render back from the GPU	Nepodařilo se přečíst vykreslený obrázek z GPU
+	Couldn't save the render: {error}	Nepodařilo se uložit vykreslený obrázek: {error}
+	Couldn't save {name}: {error}	Nepodařilo se uložit {name}: {error}
+	Count	Počet
+	Count per stamp	Počet na otisk
+	Crate	Bedna
+	Create smart material	Vytvořit chytrý materiál
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+tažení pravým tlačítkem v pohledu nastaví velikost a tvrdost, Ctrl+tažení levým tlačítkem tok a úhel.
+	Cube	Krychle
+	Current layer	Aktuální vrstva
+	Custom File	Vlastní soubor
+	Cut effect	Vyjmout efekt
+	Cut layer(s)	Vyjmout vrstvy
+	Cyan / red	Azurová / červená
+	Cylinder	Válec
+	Cylindrical projection	Válcová projekce
+	Dark to light: the content's luminance picks a color along these stops.	Od tmavé ke světlé: jas obsahu vybírá barvu mezi těmito zarážkami.
+	Darken (Min)	Ztmavit (minimum)
+	Data folder	Datová složka
+	Decal	Obtisk
+	Decal projection	Projekce obtisku
+	Default camera	Výchozí kamera
+	Delete the selected template	Smazat vybranou šablonu
+	Delete this camera	Smazat tuto kameru
+	Deleted template "{name}"	Šablona „{name}“ smazána
+	Denoise	Odstranit šum
+	Depth of field	Hloubka ostrosti
+	Depth of field (viewport and Rendering mode)	Hloubka ostrosti (pohled a režim vykreslování)
+	Depth of the sharp plane along the view (0: the orbit center)	Vzdálenost roviny ostrosti ve směru pohledu (0: střed otáčení)
+	Detail sizes	Velikosti detailů
+	Details saved to {file}	Podrobnosti uloženy do {file}
+	Dilation + default background color	Rozšíření okrajů + výchozí barva pozadí
+	Dilation + transparent	Rozšíření okrajů + průhlednost
+	Dilation infinite	Neomezené rozšíření okrajů
+	Dilation Width	Šířka rozšíření okrajů
+	DirectX normal map	Normálová mapa DirectX
+	Dirt	Nečistoty
+	Disable	Vypnuto
+	Dismiss	Zavřít oznámení
+	Displacement (height channel)	Posun povrchu (kanál výšky)
+	Display material	Zobrazit materiál
+	Display next channel	Zobrazit další kanál
+	Display next mesh map	Zobrazit další mapu modelu
+	Display previous channel	Zobrazit předchozí kanál
+	Display previous mesh map	Zobrazit předchozí mapu modelu
+	Display Settings	Nastavení zobrazení
+	Distance-Based	Podle vzdálenosti
+	Distribution	Rozložení
+	Document resolution	Rozlišení dokumentu
+	Documentation...	Dokumentace...
+	Don't save	Neukládat
+	Done on CPU: {n} / {max} samples, {s} s	Dokončeno na CPU: vzorky {n} / {max}, {s} s
+	Done on GPU: {n} / {max} samples, {s} s	Dokončeno na GPU: vzorky {n} / {max}, {s} s
+	Double-click or press Enter to edit	Upravíte dvojitým kliknutím nebo stisknutím Enter
+	Double-click to rename	Dvojitým kliknutím přejmenujete
+	Download as	Stáhnout jako
+	Downloaded {name}	Staženo: {name}
+	Drag onto an output channel	Přetáhněte na výstupní kanál
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Tažením rámečku obtisk přesunete, tažením rohu změníte velikost, kulatým úchytem jej otočíte
+	Drags the layer stack's values along the stroke into the selected layer.	Roztírá hodnoty zásobníku vrstev podél tahu do vybrané vrstvy.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Vykresluje {name} ze sady textur „{set}“. Úpravy zdroje se projeví ve všech instancích.
+	Drop an image from the Assets panel here to use it as this mesh map	Přetáhněte sem obrázek z panelu Zdroje a použijte jej jako tuto mapu modelu
+	Dry streaks	Suché šmouhy
+	Duplicate effect	Duplikovat efekt
+	Duplicate layer(s)	Duplikovat vrstvy
+	Duplicate the selected template	Duplikovat vybranou šablonu
+	Edge Contrast	Kontrast hran
+	Edge Detect	Detekce hran
+	Edge Distance	Vzdálenost od hran
+	Edge Protection	Ochrana hran
+	Edges	Hrany
+	Edges and cavities	Hrany a prohlubně
+	Edit keyboard shortcuts...	Upravit klávesové zkratky...
+	Edit quick mask	Upravit rychlou masku
+	Editing quick mask: paint where painting is allowed (U to finish)	Úprava rychlé masky: malujte tam, kde je malování povoleno (U pro dokončení)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Úprava rychlé masky: výplně vyznačují, kde je malování povoleno. Stisknutím U dokončíte úpravy.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	Úprava rychlé masky: tahy vyznačují, kde je malování povoleno. Stisknutím U dokončíte úpravy.
+	emiss	emise
+	Emissive	Emise
+	Enable or disable the effect	Povolit nebo zakázat efekt
+	Enable quick mask	Povolit rychlou masku
+	Enable Seams	Zapnout švy
+	Enter a finite number	Zadejte konečné číslo
+	Environment blur	Rozostření prostředí
+	Environment exposure (EV)	Expozice prostředí (EV)
+	Environment map	Mapa prostředí
+	Environment opacity	Krytí prostředí
+	Environment rotation	Otočení prostředí
+	Environment settings	Nastavení prostředí
+	Environment: {name}	Prostředí: {name}
+	Environments	Prostředí
+	Expand or collapse the folder	Rozbalit nebo sbalit složku
+	Export mesh	Exportovat model
+	Export Mesh...	Exportovat model...
+	Export template	Šablona exportu
+	Export templates	Šablony exportu
+	Export textures	Exportovat textury
+	Export Textures...	Exportovat textury...
+	Export the selected template (.json)	Exportovat vybranou šablonu (.json)
+	Exported mesh to {path}	Model exportován do {path}
+	Exported template "{name}" to {path}	Šablona „{name}“ exportována do {path}
+	Exported {n} textures to {folder}	Export textur: {n}, cílová složka: {folder}
+	F0 from specular level	F0 z míry zrcadlového odrazu
+	Fabric weave	Vazba tkaniny
+	Face Normals Based	Podle normál ploch
+	Field of view (deg)	Zorné pole (stupně)
+	File ID	ID souboru
+	File name without extension; variables insert names	Název souboru bez přípony; proměnné vkládají názvy
+	File not found	Soubor nenalezen
+	File type	Typ souboru
+	Fill layer	Vrstva výplně
+	Fill mode	Režim výplně
+	Fill only polygons the camera sees (3D view)	Vyplnit jen polygony viditelné kamerou (3D pohled)
+	Fill the closed path (lasso)	Vyplnit uzavřenou cestu (laso)
+	Fill the path (close it first)	Vyplnit cestu (nejprve ji uzavřete)
+	Filter the remaining noise while keeping edges and texture detail	Odstranit zbývající šum se zachováním hran a detailů textury
+	Filters	Filtry
+	Fine noise	Jemný šum
+	Fingerprints	Otisky prstů
+	Fit the input range to the histogram	Přizpůsobit vstupní rozsah histogramu
+	Flatten layer	Sloučit obsah vrstvy
+	Flips the image's green channel, for normal maps made with Y pointing down	Obrátí zelený kanál obrázku u normálových map s osou Y směřující dolů
+	Flow	Tok
+	Flow and opacity	Tok a krytí
+	Flow jitter	Náhodná změna toku
+	Focus distance	Zaostřovací vzdálenost
+	Focus: show only the active texture set	Zaměření: zobrazit pouze aktivní sadu textur
+	Fold or unfold these effects	Sbalit nebo rozbalit tyto efekty
+	Folders	Složky
+	Follow Newest Map	Zobrazovat nejnovější mapu
+	Follow path	Podél cesty
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	Pro celý projekt: jak se čtou obrázky normálových map nastavené jako mapy modelu (po změně je nastavte znovu) a výchozí nastavení exportu
+	Free and open source (MIT OR Apache-2.0), written in Rust.	Svobodný software s otevřeným kódem (MIT OR Apache-2.0), napsaný v Rustu.
+	From template	Ze šablony
+	From template / project	Ze šablony / projektu
+	Full Scene	Celá scéna
+	General export parameters	Obecné parametry exportu
+	General properties	Obecné vlastnosti
+	Generate from Mesh	Generovat z modelu
+	Generate from Normal Map	Generovat z normálové mapy
+	Generator	Generátor
+	Geometry and UVs only	Pouze geometrie a UV
+	Geometry mask	Maska geometrie
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	Zrcadlový odraz GGX s výškově korelovanou Smithovou viditelností, Lambertův difuzní odraz, osvětlení z obrazové mapy metodou split-sum s ozářením pomocí sférických harmonických funkcí a útlumem u horizontu.
+	gloss	leskl.
+	Glossiness	Lesklost
+	Glossiness from roughness	Lesklost z drsnosti
+	glTF binary with textures	Binární glTF s texturami
+	Go to camera 1	Přejít na kameru 1
+	Go to camera 2	Přejít na kameru 2
+	Go to camera 3	Přejít na kameru 3
+	Go to camera 4	Přejít na kameru 4
+	Go to camera 5	Přejít na kameru 5
+	Go to camera 6	Přejít na kameru 6
+	Go to camera 7	Přejít na kameru 7
+	Go to camera 8	Přejít na kameru 8
+	Go to camera 9	Přejít na kameru 9
+	GPU error: {error}	Chyba GPU: {error}
+	Gradient Map	Mapa přechodu
+	Gravity	Gravitace
+	Gray + A	Šedá + A
+	Gray 50%	50% šedá
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Konvence zeleného kanálu normálových map: OpenGL (Y+) nebo DirectX (Y-). Platí pro importované i exportované normálové mapy.
+	Ground Plane	Podkladová rovina
+	Ground Plane Offset	Posun podkladové roviny
+	Group layer(s)	Seskupit vrstvy
+	Grunge	Zašlý povrch
+	Half	Poloviční
+	Hammered	Tepaný povrch
+	Hard light	Tvrdé světlo
+	Hardness	Tvrdost
+	HDR environments	Prostředí HDR
+	height	výška
+	Height offset	Posun výšky
+	Height to normal strength	Síla převodu výšky na normálu
+	Hide all	Skrýt vše
+	Hide UI	Skrýt UI
+	Hide while painting	Skrýt během malování
+	High Definition Mesh (HP)	Detailní model (HP)
+	High Poly Mesh Suffix	Přípona názvu detailního modelu
+	High Poly Scene	Scéna detailních modelů
+	High poly: {name}	Detailní model: {name}
+	High-Poly Parameters	Parametry detailních modelů
+	Histogram Range	Rozsah histogramu
+	Histogram Scan	Práh histogramu
+	Histogram Shift	Posun histogramu
+	Hit-test	Test zásahu
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	Podržte S: tažení levým tlačítkem otáčí, pravým mění velikost a prostředním posouvá šablonu.
+	Hold V and click the mesh to set the clone source	Podržte V a kliknutím na model nastavte zdroj klonování
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Podržte V a kliknutím na model nastavte zdroj, pak malováním jinde kopírujte.
+	How a rectangle selects polygons	Jak obdélník vybírá polygony
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	Dosah světla pod povrchem jako podíl velikosti modelu (tam, kde je namalován kanál podílu rozptylu)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	Jak silně propustné povrchy lámou světlo (tam, kde je namalován kanál propustnosti): voda 1,33, sklo 1,5, diamant 2,42
+	HSL Perceptive	Percepční HSL
+	Hue shift (degrees)	Posun odstínu (stupně)
+	ID	Mapa ID
+	Ignore Backface	Ignorovat zadní plochy
+	Ignore Backface Suffix	Přípona názvu pro ignorování zadních ploch
+	Image: {name}	Obrázek: {name}
+	Import a template (.json)	Importovat šablonu (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	Importujte obrázek (Soubor > Importovat zdroje), aby jej bylo možné promítnout na model.
+	Import baked maps	Importovat zapečené mapy
+	Import HDR...	Importovat HDR...
+	Import images to use them in fills and masks	Importujte obrázky pro použití ve výplních a maskách
+	Import material...	Importovat materiál...
+	Import MaterialX material...	Importovat materiál MaterialX...
+	Import resources...	Importovat zdroje...
+	Import settings	Nastavení importu
+	Import...	Importovat...
+	Imported template "{name}"	Šablona „{name}“ importována
+	Imported {name}	Importováno: {name}
+	Include in Bake	Zahrnout do zapékání
+	Index of refraction	Index lomu
+	Input high	Horní vstupní mez
+	Input low	Dolní vstupní mez
+	Input maps	Vstupní mapy
+	Insert a variable	Vložit proměnnou
+	Instance	Instance vrstvy
+	Instantiate across texture sets	Vytvořit instance napříč sadami textur
+	Intensity (texels at 2K)	Intenzita (texely při 2K)
+	Interface scale	Měřítko rozhraní
+	Intersection: fill polygons the rectangle touches	Průnik: vyplnit polygony, kterých se obdélník dotýká
+	Inverse divide	Obráceně dělit
+	Inverse Subtract	Obráceně odečíst
+	Invert mask	Invertovat masku
+	Invert mask background	Invertovat pozadí masky
+	Invert mask value	Invertovat hodnotu masky
+	Invert quick mask	Invertovat rychlou masku
+	Invert show/hide	Invertovat viditelnost
+	Jitters	Náhodné změny
+	Join the ArtCraft community on Discord	Připojte se ke komunitě ArtCraft na Discordu
+	Join the community (Discord)...	Připojit se ke komunitě (Discord)...
+	Key light (shadow-casting light, direct only)	Hlavní světlo (vrhá stíny, pouze přímé osvětlení)
+	Keyboard	Klávesnice
+	Keyboard shortcuts	Klávesové zkratky
+	Layer mask	Maska vrstvy
+	Layer memory: {mb} MB	Paměť vrstev: {mb} MB
+	Lazy mouse	Vyhlazování tahu
+	Lazy mouse distance	Vzdálenost vyhlazování tahu
+	Leather grain	Zrnitost kůže
+	Lens size: how quickly things blur away from the focus distance	Velikost čočky: jak rychle se objekty rozostřují mimo zaostřovací vzdálenost
+	Lifetime (steps)	Životnost (kroky)
+	Light / direction	Světlo / směr
+	Light azimuth (degrees)	Azimut světla (stupně)
+	Light elevation (degrees)	Výška světla nad obzorem (stupně)
+	Light intensity	Intenzita světla
+	Lighten (Max)	Zesvětlit (maximum)
+	Linear burn	Lineárně ztmavit
+	Linear dodge (Add)	Lineárně zesvětlit (sečíst)
+	Linear light	Lineární světlo
+	List of exports	Seznam exportů
+	LMB	LMB
+	Load Cage	Načíst klec
+	Load UI Layout	Načíst rozložení UI
+	Loaded UI layout {path}	Načteno rozložení UI {path}
+	Lock Output Size	Zamknout výstupní velikost
+	Log	Protokol
+	Low Poly Mesh Suffix	Přípona názvu zjednodušeného modelu
+	Made by the ArtCraft team and community.	Vytvořeno týmem ArtCraft a komunitou.
+	Magenta / green	Purpurová / zelená
+	Main shader	Hlavní shader
+	Manipulator size	Velikost manipulátoru
+	Manual	Ručně
+	Marble veins	Mramorové žíly
+	Mask Editor: Edge wear	Editor masky: opotřebení hran
+	Mask effects	Efekty masky
+	Mask value (gray)	Hodnota masky (šedá)
+	Mask with height	Maskovat výškou
+	Match	Párování
+	Material	Materiál
+	Material ball	Materiálová koule
+	Material Color	Barva materiálu
+	Material finish	Povrchová úprava
+	MaterialCraft material	Materiál MaterialCraft
+	Materials	Materiály
+	MaterialX materials	Materiály MaterialX
+	MatFinish Grind	Povrchová úprava: broušení
+	MatFinish Hammered	Povrchová úprava: tepání
+	MatFinish Raw	Povrchová úprava: surový povrch
+	MatFinish Sanded	Povrchová úprava: smirkování
+	Max Frontal Distance	Maximální vzdálenost před povrchem
+	Max Occluder Distance	Maximální vzdálenost stínícího objektu
+	Max project size on open	Maximální velikost otevíraného projektu
+	Max RAM while saving	Maximální využití RAM při ukládání
+	Max Rear Distance	Maximální vzdálenost za povrchem
+	Maximum	Nejvyšší hodnota
+	Maximum decompressed project data. Increase this limit to open larger projects.	Maximální objem rozbalených dat projektu. Pro otevření větších projektů tento limit zvyšte.
+	Medium dark	Středně tmavé
+	Medium light	Středně světlé
+	Mesh fill	Výplň modelu
+	Mesh ID	ID modelu
+	Mesh Map Bakers	Nástroje pro zapékání map modelu
+	Mesh Map Settings	Nastavení map modelu
+	Mesh map: {map}	Mapa modelu: {map}
+	Mesh maps	Mapy modelu
+	Mesh maps baked	Mapy modelu zapečeny
+	Mesh Normals Based	Podle normál modelu
+	Meshes	Modely
+	metal	kovov.
+	Metallic	Kovovost
+	min	min
+	Min Occluder Distance	Minimální vzdálenost stínícího objektu
+	Minimum size (%)	Minimální velikost (%)
+	Mirror symmetry	Zrcadlová symetrie
+	missing	chybí
+	Missing (bake to create)	Chybí (vytvořte zapékáním)
+	missing source	chybějící zdroj
+	Mixed AO	Kombinovaná AO
+	MMB drag / Alt + MMB	Tažení MMB / Alt + MMB
+	More in Assets > Alphas: click one, or drag it here	Další najdete v části Zdroje > Alfy štětce: klikněte na některou nebo ji přetáhněte sem
+	Move down	Posunout dolů
+	Move up	Posunout nahoru
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Posouvá povrch podle kanálu výšky na jemnější kopii modelu silou převodu výšky na normálu (pouze v pohledu: malování sleduje základní povrch)
+	My brushes	Moje štětce
+	My smart materials	Moje chytré materiály
+	Name each file after its texture set, like Body_normal.png	Každý soubor pojmenujte podle jeho sady textur, například Body_normal.png
+	New project	Nový projekt
+	New project...	Nový projekt...
+	New template	Nová šablona
+	No font on this system can show this language	Žádné písmo v tomto systému nedokáže zobrazit tento jazyk
+	no GPU	bez GPU
+	No GPU renderer available	Vykreslování na GPU není dostupné
+	No High-Poly Meshes	Žádné detailní modely
+	No outputs yet: add one above, then drag input maps onto its channels.	Zatím žádné výstupy: přidejte výstup výše a pak na jeho kanály přetáhněte vstupní mapy.
+	No padding (passthrough)	Bez rozšíření okrajů (beze změny)
+	No Parameters	Žádné parametry
+	No recent projects yet	Zatím žádné nedávné projekty
+	No UV tiles	Žádné UV dlaždice
+	Noise amount	Míra šumu
+	Noise scale	Měřítko šumu
+	none	žádné
+	Normal	Normála
+	Normal DirectX	Normála DirectX
+	Normal from height	Normála z výšky
+	Normal Invert	Invertovat normálu
+	Normal map combine	Kombinace normálových map
+	Normal map detail	Detail normálové mapy
+	Normal map format	Formát normálové mapy
+	Normal map inverse detail	Obrácený detail normálové mapy
+	Normal OpenGL	Normála OpenGL
+	Normal: painting uses the flat normal	Normála: malování používá normálu rovného povrchu
+	Normalization	Normalizace
+	Normalization Scale	Měřítko normalizace
+	Normalization Type	Typ normalizace
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	Nedostatek paměti GPU pro plné zobrazení sady textur „{name}“: v Nastavení snižte rozlišení textur v pohledu. Malování ani export to neovlivní.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	Nedostatek paměti GPU pro plné zobrazení sad textur (počet: {count}, názvy: {names}): v Nastavení snižte rozlišení textur v pohledu. Malování ani export to neovlivní.
+	Not exported: no source in this texture set	Neexportováno: v této sadě textur chybí zdroj
+	Not imported: {files}	Neimportováno: {files}
+	Not saved: {error}	Neuloženo: {error}
+	nrm	norm.
+	off	vyp.
+	Offset right	Posun doprava
+	Offset up	Posun nahoru
+	Offset {axis}	Posun {axis}
+	Offsets the textures by the height channel, at the height to normal strength	Posouvá textury podle kanálu výšky silou převodu výšky na normálu
+	Only Same Mesh Name	Jen shodný název modelu
+	op	krytí
+	Open in MaterialCraft	Otevřít v MaterialCraft
+	Open sample project...	Otevřít ukázkový projekt...
+	Open...	Otevřít...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	Otevřeno v MaterialCraft: změny přenesete zpět volbou Soubor > Odeslat do TextureCraft v této aplikaci
+	Opened {name}	Otevřeno: {name}
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Volitelné kanály přidávají lak (podíl laku, drsnost laku, normála laku), saténový odlesk (podíl, barva, drsnost), anizotropii (míra, úhel), podpovrchový rozptyl (podíl rozptylu) a propustnost (propustnost).
+	Orbit	Otáčet kolem středu
+	Orthographic	Ortografický
+	Output directory	Výstupní složka
+	Output high	Horní výstupní mez
+	Output low	Dolní výstupní mez
+	Output Size	Výstupní velikost
+	Output template	Výstupní šablona
+	Output templates	Výstupní šablony
+	Overlay opacity	Krytí překryvu
+	Padding	Rozšíření okrajů
+	Paint	Malba
+	Paint Cage	Malovat klec
+	Paint chips	Odloupaná barva
+	Paint layer	Vrstva malby
+	Paint on the mesh to edit the layer content.	Malováním na model upravíte obsah vrstvy.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Malováním na model upravíte tuto masku. Odstín šedi nastavíte hodnotou masky na kartě Materiál.
+	Paint Skew Correction	Malovat korekci zešikmení
+	Paint with the current tool	Malovat aktuálním nástrojem
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Namalované pixely vrstev {pixels} MB, složené kanály {composites} MB, mezipaměť skládání {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	Namalované tahy sledují povrch, i když se UV nového modelu liší
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Během zobrazení zapékání je malování pozastaveno. Zrušte zapékání nebo počkejte na jeho dokončení.
+	Pan	Posouvat pohled
+	Parallax occlusion (height channel)	Paralaxní okluze (kanál výšky)
+	Parameters change in the desktop app, with MaterialCraft installed	Parametry lze měnit v desktopové aplikaci s nainstalovaným MaterialCraft
+	Partial mask values follow the layer's height: high parts show first	Částečné hodnoty masky sledují výšku vrstvy: vyvýšené části se zobrazí jako první
+	Particle brush (slides down the surface)	Částicový štětec (stéká po povrchu)
+	Particle brush: particles slide down the surface	Částicový štětec: částice stékají po povrchu
+	Particles	Částice
+	Passthrough	Průchod
+	Paste as instance	Vložit jako instanci
+	Paste effect	Vložit efekt
+	Paste layer(s)	Vložit vrstvy
+	Path trace on the processor instead of the graphics card (slower)	Sledovat paprsky na procesoru místo grafické karty (pomalejší)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Cesta: kliknutí přidá bod, kliknutí na křivku vloží bod, tažení jej přesune, Enter použije, Esc zruší
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Cesty zůstávají upravitelné: vyberte cestu a přesuňte její body nebo změňte štětec a materiál. Podvrstva se ihned překreslí. Cesty přidáte nástrojem Cesta.
+	Pattern scale	Měřítko vzoru
+	PBR - Metallic Roughness (TextureCraft)	PBR - kovovost a drsnost (TextureCraft)
+	Per Material	Podle materiálu
+	Perlin noise	Perlinův šum
+	Pick color	Vybrat barvu
+	Pick focus in the viewport	Vybrat bod zaostření v pohledu
+	Pin light	Bodové světlo
+	Place as decal	Umístit jako obtisk
+	Place on the surface	Umístit na povrch
+	Place path points on the mesh	Umístit body cesty na model
+	Planar projection	Rovinná projekce
+	Plane	Rovina
+	PNG image	Obrázek PNG
+	Polygon fill	Výplň polygonů
+	Pores	Póry
+	Position gradient	Polohový přechod
+	Position jitter	Náhodná změna polohy
+	Preserve stroke positions on mesh	Zachovat polohy tahů na modelu
+	Press a key...	Stiskněte klávesu...
+	Procedurals	Procedurální zdroje
+	Project	Projekt
+	Project configuration	Konfigurace projektu
+	Project Configuration...	Konfigurace projektu...
+	Project Mesh (LP)	Model projektu (LP)
+	Project opened	Projekt otevřen
+	PROJECT SETTINGS	NASTAVENÍ PROJEKTU
+	Project template	Šablona projektu
+	Projection	Projekce
+	Projects and meshes	Projekty a modely
+	Quarter	Čtvrtinové
+	Quick mask	Rychlá maska
+	Quit	Ukončit
+	Radial settings	Nastavení radiální symetrie
+	Radial symmetry	Radiální symetrie
+	Radius (texels at 2K)	Poloměr (texely při 2K)
+	Raw curvature	Neupravené zakřivení
+	Re-cook	Znovu vygenerovat
+	Read the mesh file again, keeping the layers and painted strokes	Znovu načíst soubor modelu a zachovat vrstvy i namalované tahy
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Čte mapu zakřivení v zapečené podobě: změna režimu nebo některé velikosti zapne velikosti detailů.
+	Rebind any menu item, tool or command	Změnit zkratku libovolné položky nabídky, nástroje nebo příkazu
+	Recent projects	Nedávné projekty
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	Zaznamenává zásobník až po tuto vrstvu. Efekty výplně v maskách (a vrstvy výplně) výše jej mohou číst jako zdroj.
+	Rectangle fill	Obdélníková výplň
+	Reimport mesh	Znovu importovat model
+	Relative to Bounding Box	Vzhledem k ohraničujícímu kvádru
+	Relative to Low Mesh	Vzhledem ke zjednodušenému modelu
+	Relative to Min/Max	Vzhledem k minimu a maximu
+	Relative to Ray Distances	Vzhledem k délkám paprsků
+	Relative to the bounding box diagonal.	Vzhledem k úhlopříčce ohraničujícího kvádru.
+	Remove Cage	Odebrat klec
+	Remove channel	Odebrat kanál
+	Remove effect	Odebrat efekt
+	Remove last	Odebrat poslední
+	Remove layer	Odebrat vrstvu
+	Remove layer(s)	Odebrat vrstvy
+	Remove mask	Odebrat masku
+	Remove point	Odebrat bod
+	Remove resolution override	Odebrat individuální nastavení rozlišení
+	Remove resource	Odebrat zdroj
+	Remove Skew Correction	Odebrat korekci zešikmení
+	Remove skew correction	Odebrat korekci zešikmení
+	Remove the shortcut	Odebrat zkratku
+	Remove this output	Odebrat tento výstup
+	Remove unused resources...	Odebrat nepoužívané zdroje...
+	Rename the selected template	Přejmenovat vybranou šablonu
+	Render on the CPU	Vykreslit na CPU
+	RENDERING	VYKRESLOVÁNÍ
+	Rendering	Vykreslování
+	Rendering (path traced)	Vykreslování (sledování paprsků)
+	Rendering on CPU: {n} / {max} samples, {s} s	Vykreslování na CPU: vzorky {n} / {max}, {s} s
+	Rendering on GPU: {n} / {max} samples, {s} s	Vykreslování na GPU: vzorky {n} / {max}, {s} s
+	Rendering, path traced	Vykreslování, sledování paprsků
+	Replace Color	Nahradit barvu
+	Replacement color	Náhradní barva
+	Report a bug...	Nahlásit chybu...
+	Rescan the library folder	Znovu prohledat složku knihovny
+	Reset all	Obnovit vše
+	Reset Painted Cage	Obnovit výchozí stav malované klece
+	Reset to defaults	Obnovit výchozí nastavení
+	Reset to {shortcut}	Vrátit výchozí: {shortcut}
+	Reset UI	Obnovit výchozí UI
+	Resizing	Změna velikosti
+	Restore Defaults	Obnovit výchozí nastavení
+	Restore every default shortcut	Obnovit všechny výchozí zkratky
+	Return to Painting Mode	Vrátit se do režimu malování
+	Return to this step	Vrátit se k tomuto kroku
+	Right-click a layer > Create smart material	Pravým tlačítkem na vrstvu > Vytvořit chytrý materiál
+	Rotation (degrees)	Otočení (stupně)
+	rough	drsn.
+	Roughness	Drsnost
+	Roughness from glossiness	Drsnost z lesklosti
+	Round	Kruh
+	Rounded cube	Zaoblená krychle
+	Samples	Vzorky
+	Sampling Radius	Poloměr vzorkování
+	Save a copy...	Uložit kopii...
+	Save as...	Uložit jako...
+	Save current brush	Uložit aktuální štětec
+	Save current layout...	Uložit aktuální rozložení...
+	Save current project as template	Uložit aktuální projekt jako šablonu
+	Save render...	Uložit vykreslený obrázek...
+	Save the changes to {name} before closing?	Uložit změny v {name} před zavřením?
+	Save the changes to {name} first?	Nejprve uložit změny v {name}?
+	Save UI Layout	Uložit rozložení UI
+	Save view as camera	Uložit pohled jako kameru
+	Saved UI layout {path}	Rozložení UI uloženo: {path}
+	Saved {path}	Uloženo: {path}
+	Saving UI layouts to files is available in the desktop app	Ukládání rozložení UI do souborů je dostupné v desktopové aplikaci
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	Ukládání využívá ostatní jádra a nejvýše tento podíl volné RAM. Vždy pracuje alespoň jedno jádro.
+	Scale / tiling	Měřítko / opakování
+	Scaling Divisor	Dělitel měřítka
+	scatter	rozptyl
+	Scatter color	Barva rozptylu
+	Scatter radius	Poloměr rozptylu
+	Scattering weight	Podíl rozptylu
+	Scratches	Škrábance
+	Screenshot of the viewport	Snímek pohledu
+	Seams Intensity	Intenzita švů
+	Search all assets	Hledat ve všech zdrojích
+	Search commands or keys	Hledat příkazy nebo klávesy
+	Secondary Rays	Sekundární paprsky
+	Seed	Semínko
+	Select a layer	Vybrat vrstvu
+	Select a paint layer or a layer's mask to fill	Pro vyplnění vyberte vrstvu malby nebo masku vrstvy
+	Select an output template	Vybrat výstupní šablonu
+	Select source	Vybrat zdroj
+	Select the layer content	Vybrat obsah vrstvy
+	Select the mask (Alt+click: show it in the viewport)	Vybrat masku (Alt+kliknutí: zobrazit v pohledu)
+	Select...	Vybrat...
+	Selection mode	Režim výběru
+	Self Intersection	Samoprotínání
+	Self Occlusion	Samozastínění
+	Settings...	Nastavení...
+	Shader instance	Instance shaderu
+	Shader Settings	Nastavení shaderu
+	sheen	satén
+	Sheen color	Barva saténového odlesku
+	sheen color	barva saténu
+	Sheen color × weight	Barva saténového odlesku × podíl
+	sheen rough	drsn. saténu
+	Sheen roughness	Drsnost saténového odlesku
+	Sheen weight	Podíl saténového odlesku
+	Shift + wheel	Shift + kolečko
+	Shortcuts list...	Seznam zkratek...
+	Show all	Zobrazit vše
+	Show at startup	Zobrazit při spuštění
+	Show axis	Zobrazit osu
+	Show axis position manipulator	Zobrazit manipulátor polohy osy
+	Show cursor	Zobrazit kurzor
+	Show entire mesh	Zobrazit celý model
+	Show for Selected Texture Set Only	Zobrazit jen pro vybranou sadu textur
+	Show intersection	Zobrazit průnik
+	Show log...	Zobrazit protokol...
+	Show on all parts	Zobrazit na všech částech
+	Show or hide texture sets	Zobrazit nebo skrýt sady textur
+	Show or hide the layer	Zobrazit nebo skrýt vrstvu
+	Show or hide the texture set	Zobrazit nebo skrýt sadu textur
+	Show plane	Zobrazit rovinu
+	Show UV wireframe in the 2D view	Zobrazit UV drátový model ve 2D pohledu
+	Show wireframe in the 3D view	Zobrazit drátový model ve 3D pohledu
+	Signed addition (AddSub)	Sčítání se znaménkem (AddSub)
+	Size in screen space	Velikost v prostoru obrazovky
+	Size jitter	Náhodná změna velikosti
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	Velikost textur zobrazovaných v pohledu: nižší hodnota šetří paměť GPU u velkých sad textur. Malování i export zachovávají plné rozlišení.
+	Skew Correction	Korekce zešikmení
+	Skew Correction Method	Metoda korekce zešikmení
+	Slope Blur	Rozostření podle sklonu
+	Slope scale	Měřítko sklonu
+	Smart masks	Chytré masky
+	Smart material saved to {path}	Chytrý materiál uložen do {path}
+	Smart materials	Chytré materiály
+	Smooth	Plynulý
+	Smudge	Rozmazat
+	Soft light	Měkké světlo
+	Source  U {u}  V {v}	Zdroj  U {u}  V {v}
+	spec	míra odr.
+	Specular	Zrcadlová barva
+	specular	zrcadl.
+	Specular level	Míra zrcadlového odrazu
+	Sphere	Koule
+	Spherical projection	Kulová projekce
+	Spray	Sprej
+	Spread Angle	Úhel rozptylu
+	Stamp depth	Hloubka otisku
+	Start window	Úvodní okno
+	Starting render...	Spouštění vykreslování...
+	Stencil	Šablona
+	Steps	Kroky
+	Streaks	Šmouhy
+	Stripes	Pruhy
+	Stroke opacity	Krytí tahu
+	Submesh	Dílčí model
+	Subsampling 2x2	Podvzorkování 2x2
+	Subsampling 4x4	Podvzorkování 4x4
+	Subsampling 8x8	Podvzorkování 8x8
+	Subsurface scattering	Podpovrchový rozptyl
+	Symmetry	Symetrie
+	Symmetry color display	Barevné zobrazení symetrie
+	Symmetry settings	Nastavení symetrie
+	System title bar (applies on restart)	Systémové záhlaví okna (použije se po restartu)
+	Tangent | Wrap	Tečně | Podle povrchu
+	Template name	Název šablony
+	Temporal anti-aliasing (refines the 3D view while it is still)	Časové vyhlazování hran (zpřesňuje 3D pohled, když se nepohybuje)
+	Texture resolution	Rozlišení textur
+	Texture set channels	Kanály sady textur
+	Texture set resolution	Rozlišení sady textur
+	Texture Set Settings	Nastavení sady textur
+	Texture Sets	Sady textur
+	Texture sets	Sady textur
+	TextureCraft had to close:	TextureCraft se musel ukončit:
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - kovovost a drsnost
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - zrcadlová barva a lesklost
+	TextureCraft project	Projekt TextureCraft
+	TextureCraft project or mesh	Projekt TextureCraft nebo model
+	Textures	Textury
+	Textures embedded; for game engines and most viewers	Vložené textury; pro herní enginy a většinu prohlížečů
+	Textures packaged; for USD tools and AR Quick Look	Zabalené textury; pro nástroje USD a AR Quick Look
+	The bake worker stopped	Proces zapékání se zastavil
+	The eraser removes paint from the enabled channels.	Guma odstraňuje malbu z povolených kanálů.
+	The file dialog couldn't be shown: {error}	Nepodařilo se zobrazit dialog pro výběr souboru: {error}
+	The first stroke sets the offset from the source.	První tah nastaví posun vůči zdroji.
+	The GPU couldn't render this scene: {error}	Na GPU se nepodařilo vykreslit tuto scénu: {error}
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Alfa obrázku ořízne tvar obtisku; odvrácené plochy a povrchy mimo jeho hloubku zůstanou nedotčené.
+	The mesh file the project is built on. Hover the path to see it in full.	Soubor modelu, ze kterého projekt vychází. Celou cestu zobrazíte najetím kurzoru.
+	The next click in the 3D view moves the decal there	Další kliknutí ve 3D pohledu přesune obtisk na dané místo
+	The project changed while the dialog was open, so nothing was done	Během otevření dialogu se projekt změnil, proto se akce neprovedla
+	The resize worker stopped	Proces změny velikosti se zastavil
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	UV dlaždice (UDIM) jednotlivých sad textur, zobrazené pro orientaci. Změníte je v Nastavení sady textur.
+	There is no mesh file to read again. Select one.	Není vybrán žádný soubor modelu k opětovnému načtení. Vyberte jej.
+	Thin areas	Tenké oblasti
+	Tile	Opakovat
+	Tiles	Dlaždice
+	Tint	Zabarvení
+	Title bar	Záhlaví okna
+	Toggle mask	Zapnout/vypnout masku
+	Tone mapping	Mapování tónů
+	Torus	Prstenec
+	transm	propust.
+	Transmission	Propustnost
+	Tri-planar projection	Triplanární projekce
+	Triangle fill	Výplň trojúhelníků
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Trojúhelník vyplní jednotlivé trojúhelníky, Polygon celé čtyřúhelníky a n-úhelníky, Model souvislou geometrii a UV ostrov jednotlivé UV ostrovy
+	Twill weave	Keprová vazba
+	UDIM plane	Rovina UDIM
+	UDIM tiles painted by this texture set, each at the set's size	Dlaždice UDIM malované touto sadou textur, každá o velikosti dané sady
+	UI layout	Rozložení UI
+	UI layout: {error}	Rozložení UI: {error}
+	UI layouts	Rozložení UI
+	UI {ms} ms	UI {ms} ms
+	Uniform value	Konstantní hodnota
+	USD binary, textures alongside	Binární USD, textury vedle souboru
+	USD text, textures alongside	Textový USD, textury vedle souboru
+	USDZ with textures	USDZ s texturami
+	Use an equirectangular .hdr or .exr image as the environment	Použít ekvirektangulární obrázek .hdr nebo .exr jako prostředí
+	Use as brush alpha	Použít jako alfu štětce
+	Use Low Poly Mesh as High Poly Mesh	Použít zjednodušený model jako detailní model
+	Use the control channel or `texturecraft-cli render` for screenshots	Pro snímky použijte řídicí kanál nebo `texturecraft-cli render`
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	Použít rámeček a tlačítka okna operačního systému místo vlastního záhlaví TextureCraft
+	Use this brush (keeps its size)	Použít tento štětec (zachová jeho velikost)
+	UV checker	UV šachovnice
+	UV island fill	Výplň UV ostrova
+	UV projection	UV projekce
+	UV Seams	UV švy
+	UV Tile settings (UDIMs)	Nastavení UV dlaždic (UDIM)
+	UV tile {tile} resolution	Rozlišení UV dlaždice {tile}
+	UV tiles	UV dlaždice
+	UV tiles (UDIM)	UV dlaždice (UDIM)
+	UV transformations	UV transformace
+	Value Bounds Max	Horní mez hodnot
+	Value Bounds Min	Dolní mez hodnot
+	Version: {version} ({gpu})	Verze: {version} ({gpu})
+	Vertex Color	Barva vrcholů
+	View through this camera	Dívat se touto kamerou
+	Viewer settings	Nastavení zobrazení
+	Viewport	Pohled
+	Viewport and brush (fixed)	Pohled a štětec (pevné)
+	Views	Pohledy
+	Visible polygons only	Pouze viditelné polygony
+	Vivid light	Jasné světlo
+	Voronoi	Voroného diagram
+	Warp	Deformace
+	Warp Directional	Směrová deformace
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ s MTL, textury vedle souboru
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU není v tomto prohlížeči dostupné, proto TextureCraft běží na WebGL2: režim vykreslování sleduje paprsky na CPU (pomalejší) a velké sady textur se zobrazují v nižším rozlišení. Aktuální Chrome, Edge nebo Safari podporuje WebGPU.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Co 3D pohled zobrazuje během zapékání: nejnovější dokončenou mapu, jednu dokončenou mapu nebo materiál. Dosud nezapečené mapy zobrazují neutrální hodnotu.
+	Wheel / Alt + RMB drag	Kolečko / Alt + tažení RMB
+	Width (texels at 2K)	Šířka (texely při 2K)
+	Wood grain	Kresba dřeva
+	Works in texture space, like the blur: it does not cross UV seams.	Pracuje v prostoru textury jako rozostření: nepřechází přes UV švy.
+	World Space Normal	Normála ve světovém prostoru
+	Yellow / blue	Žlutá / modrá
+	Zoom	Přibližovat a oddalovat
+	{action} (undone)	{action} (vráceno zpět)
+	{count} effects	Počet efektů: {count}
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: přidat nad vybranou vrstvu (nebo přetáhnout do zásobníku vrstev či do pohledu)
+	{name} copy	{name} – kopie
+	{n} bits	{n} bitů
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	Počet řídicích bodů: {n}. Kliknutím na model (nebo do 2D pohledu) přidáte body a tažením je upravíte; kliknutím na první bod cestu uzavřete. Enter ji namaluje štětcem (uzavřená vyplněná cesta vyplní svůj vnitřek), Esc zruší.
+	{n} items share a shortcut; the first one listed wins.	Počet položek se stejnou zkratkou: {n}; přednost má první v seznamu.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (měřítko {scale}, semínko {seed})
+	Alpha	Alfa štětce
+	Full	Plné
+	High	Horní
+	Low	Dolní
+	Luminosity	Jas
+	Minimum	Nejnižší hodnota
+	Offset	Posun
+	Painting	Malování
+	Uniform	Rovnoměrné
